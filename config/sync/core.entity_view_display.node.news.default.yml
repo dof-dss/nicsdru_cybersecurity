@@ -6,8 +6,7 @@ dependencies:
     - field.field.node.news.body
     - field.field.node.news.field_photo
     - field.field.node.news.field_published_date
-    - field.field.node.news.field_summary
-    - field.field.node.news.field_teaser
+    - field.field.node.news.field_title
     - node.type.news
   module:
     - datetime
@@ -25,6 +24,11 @@ content:
     label: hidden
     type: text_default
     weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  content_moderation_control:
+    weight: -20
     settings: {  }
     third_party_settings: {  }
     region: content
@@ -46,20 +50,12 @@ content:
     third_party_settings: {  }
     type: datetime_default
     region: content
-  field_summary:
-    weight: 105
+  field_title:
+    weight: 106
     label: above
     settings: {  }
     third_party_settings: {  }
     type: text_default
-    region: content
-  field_teaser:
-    weight: 104
-    label: above
-    settings:
-      link_to_entity: false
-    third_party_settings: {  }
-    type: string
     region: content
   links:
     weight: 100

@@ -7,8 +7,7 @@ dependencies:
     - field.field.node.news.body
     - field.field.node.news.field_photo
     - field.field.node.news.field_published_date
-    - field.field.node.news.field_summary
-    - field.field.node.news.field_teaser
+    - field.field.node.news.field_title
     - node.type.news
   module:
     - text
@@ -28,6 +27,11 @@ content:
       trim_length: 600
     third_party_settings: {  }
     region: content
+  content_moderation_control:
+    weight: -20
+    settings: {  }
+    third_party_settings: {  }
+    region: content
   links:
     weight: 100
     settings: {  }
@@ -36,5 +40,4 @@ content:
 hidden:
   field_photo: true
   field_published_date: true
-  field_summary: true
-  field_teaser: true
+  field_title: true
