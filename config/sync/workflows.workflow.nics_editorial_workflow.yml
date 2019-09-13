@@ -3,7 +3,6 @@ langcode: en
 status: true
 dependencies:
   config:
-    - node.type.article
     - node.type.news
     - node.type.publication
   module:
@@ -69,7 +68,6 @@ type_settings:
       weight: 2
   entity_types:
     node:
-      - article
       - news
       - publication
   default_moderation_state: draft
