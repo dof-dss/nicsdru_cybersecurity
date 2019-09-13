@@ -1,18 +1,15 @@
-uuid: abf5635a-db32-4a4d-9d80-1b3c6ade0eae
+uuid: f32d8d7f-39d1-489e-af0a-4d7699e326f0
 langcode: en
 status: true
 dependencies:
   module:
-    - link
     - node
-_core:
-  default_config_hash: lqDhhmTov2BlhsT0oBucyyt-o0pvbGopO_CNHybYj7M
-id: node.field_link
-field_name: field_link
+id: node.field_checkbox
+field_name: field_checkbox
 entity_type: node
-type: link
+type: boolean
 settings: {  }
-module: link
+module: core
 locked: false
 cardinality: 1
 translatable: true
