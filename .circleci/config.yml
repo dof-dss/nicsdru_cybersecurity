@@ -20,36 +20,29 @@ jobs:
           name: Add GitHub access token for composer
           command: echo 'composer config -g github-oauth.github.com $GITHUB_TOKEN' >> $BASH_ENV
       - run:
-          name: SSH hack for github/composer issues
-          command: |
-            mkdir -p /home/circleci/.ssh
-            touch /home/circleci/.ssh/known_hosts
-            ssh-keyscan github.com >> /home/circleci/.ssh/known_hosts
-      - run:
             name: Add OS and PHP extensions
             command: |
               sudo apt-get update
               sudo apt-get install -y libpng-dev
               sudo docker-php-ext-install gd
               composer global require hirak/prestissimo
-#      - restore_cache:
-#          keys:
-#          - composer-{{ checksum "composer.lock" }}
+      - restore_cache:
+          keys:
+          - composer-{{ checksum "composer.lock" }}
       - run:
           name: Fetch dependencies with composer
           command: |
             composer install --no-interaction --optimize-autoloader
             composer drupal:scaffold
             composer run-script post-install-cmd
-#      - save_cache:
-#          key: composer-{{ checksum "composer.lock" }}
-#          paths:
-#            - $HOME/.composer/cache
+      - save_cache:
+          key: composer-{{ checksum "composer.lock" }}
+          paths:
+            - $HOME/.composer/cache
       - run:
           name: Update any projects on dev branches
           command: |
             REPOS=(
-              modules/custom
               modules/origins
               profiles/custom/origins
             )
