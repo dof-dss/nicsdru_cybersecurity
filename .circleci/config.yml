@@ -11,7 +11,7 @@ jobs:
     steps:
       - add_ssh_keys:
           fingerprints:
-            - "89:cc:6e:61:6a:0e:13:ab:47:0b:25:d6:bc:90:d4:d2"
+            - "f0:33:18:e6:c8:6c:76:6c:07:1f:76:af:c9:8f:4a:66"
       - checkout
       - run:
           name: Validate composer.json and composer.lock file for consistency
@@ -75,7 +75,7 @@ jobs:
     steps:
       - add_ssh_keys:
           fingerprints:
-            - "89:cc:6e:61:6a:0e:13:ab:47:0b:25:d6:bc:90:d4:d2"
+            - "f0:33:18:e6:c8:6c:76:6c:07:1f:76:af:c9:8f:4a:66"
       - attach_workspace:
           at: ./
       - run:
