@@ -1,0 +1,29 @@
+uuid: fd89068c-5db5-40a4-9702-b7178d0a6cf9
+langcode: en
+status: true
+dependencies:
+  config:
+    - facets.facet.published_date
+  module:
+    - facets
+    - system
+  theme:
+    - stark
+id: publisheddate
+theme: stark
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'facet_block:published_date'
+settings:
+  id: 'facet_block:published_date'
+  label: 'Published date'
+  provider: facets
+  label_display: visible
+  block_id: publisheddate
+visibility:
+  request_path:
+    id: request_path
+    pages: /news
+    negate: false
+    context_mapping: {  }
