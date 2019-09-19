@@ -1,0 +1,8 @@
+uuid: bbd50b3b-0b4a-4aa8-8f1f-7537704a7388
+langcode: en
+status: true
+dependencies: {  }
+id: basic_block
+label: 'Basic Block'
+revision: 1
+description: 'This is a basic block which consists of a title and a body field.'
