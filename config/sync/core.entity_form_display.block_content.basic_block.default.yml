@@ -7,6 +7,7 @@ dependencies:
     - field.field.block_content.basic_block.body
     - field.field.block_content.basic_block.field_button
   module:
+    - link
     - text
 id: block_content.basic_block.default
 targetEntityType: block_content
@@ -25,10 +26,10 @@ content:
   field_button:
     weight: 27
     settings:
-      size: 60
-      placeholder: ''
+      placeholder_url: ''
+      placeholder_title: ''
     third_party_settings: {  }
-    type: text_textfield
+    type: link_default
     region: content
   info:
     type: string_textfield
