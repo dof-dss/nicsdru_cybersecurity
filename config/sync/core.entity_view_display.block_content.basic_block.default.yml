@@ -5,7 +5,7 @@ dependencies:
   config:
     - block_content.type.basic_block
     - field.field.block_content.basic_block.body
-    - field.field.block_content.basic_block.field_button
+    - field.field.block_content.basic_block.field_link_button
   module:
     - link
     - text
@@ -17,13 +17,13 @@ content:
   body:
     label: hidden
     type: text_default
-    weight: 0
+    weight: 1
     settings: {  }
     third_party_settings: {  }
     region: content
-  field_button:
-    weight: 1
-    label: hidden
+  field_link_button:
+    weight: 2
+    label: above
     settings:
       trim_length: 80
       url_only: false

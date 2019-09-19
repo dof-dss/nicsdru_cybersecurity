@@ -1,12 +1,12 @@
-uuid: 7ba7f7ed-769d-4d7a-9082-daf15ad5a4d1
+uuid: 6cb37763-20fc-40ef-8687-7a56244c1858
 langcode: en
 status: true
 dependencies:
   module:
     - block_content
     - link
-id: block_content.field_button
-field_name: field_button
+id: block_content.field_link_button
+field_name: field_link_button
 entity_type: block_content
 type: link
 settings: {  }

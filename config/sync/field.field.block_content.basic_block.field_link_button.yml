@@ -1,17 +1,17 @@
-uuid: d5ae22d3-1638-4d3a-9115-af3fb07c200b
+uuid: 88757413-4726-4dc0-b183-f25c3cc7236a
 langcode: en
 status: true
 dependencies:
   config:
     - block_content.type.basic_block
-    - field.storage.block_content.field_button
+    - field.storage.block_content.field_link_button
   module:
     - link
-id: block_content.basic_block.field_button
-field_name: field_button
+id: block_content.basic_block.field_link_button
+field_name: field_link_button
 entity_type: block_content
 bundle: basic_block
-label: Button
+label: 'Link Button'
 description: ''
 required: false
 translatable: false
