@@ -1,5 +1,7 @@
 # Origins Drupal
 
+[![CircleCI](https://circleci.com/gh/dof-dss/nicsdru_cybersecurity.svg?style=svg)](https://circleci.com/gh/dof-dss/nicsdru_cybersecurity)
+
 Base Drupal install for Origins sites.
 
 When installing site run 
