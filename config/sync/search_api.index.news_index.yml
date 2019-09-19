@@ -1,0 +1,43 @@
+uuid: 3d224f82-4295-422f-9cdb-8c7068f5f12e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_published_date
+    - search_api.server.server
+  module:
+    - search_api
+    - node
+id: news_index
+name: 'News Index'
+description: ''
+read_only: false
+field_settings:
+  field_published_date:
+    label: 'Published date'
+    datasource_id: 'entity:node'
+    property_path: field_published_date
+    type: date
+    dependencies:
+      config:
+        - field.storage.node.field_published_date
+datasource_settings:
+  'entity:node':
+    bundles:
+      default: false
+      selected:
+        - news
+    languages:
+      default: true
+      selected: {  }
+processor_settings:
+  add_url: {  }
+  aggregated_field: {  }
+  rendered_item: {  }
+tracker_settings:
+  default:
+    indexing_order: fifo
+options:
+  index_directly: true
+  cron_limit: 50
+server: server

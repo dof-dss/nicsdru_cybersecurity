@@ -35,8 +35,9 @@
         "drupal/core": "^8.7.0",
         "drupal/facets": "^1.4",
         "drupal/honeypot": "^1.29",
+        "drupal/pathauto": "^1.4",
         "drupal/search_api": "^1.14",
-        "drupal/webforms": "0.x-dev",
+        "drupal/webform": "^5.4",
         "drush/drush": "^9.0.0",
         "vlucas/phpdotenv": "^2.4",
         "webflo/drupal-finder": "^1.0.0",
@@ -44,6 +45,8 @@
         "zaporylie/composer-drupal-optimizations": "^1.0"
     },
     "require-dev": {
+        "drupal/coder": "~8.0",
+        "mglaman/drupal-check": "^1.0",
         "webflo/drupal-core-require-dev": "^8.7.0"
     },
     "conflict": {
