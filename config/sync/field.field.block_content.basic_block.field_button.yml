@@ -1,0 +1,24 @@
+uuid: 25586548-3003-4397-8c28-92706d38250c
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.basic_block
+    - field.storage.block_content.field_button
+  module:
+    - text
+id: block_content.basic_block.field_button
+field_name: field_button
+entity_type: block_content
+bundle: basic_block
+label: Button
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: '<a href="" class="btn">Read more</a>'
+    format: basic_html
+default_value_callback: ''
+settings: {  }
+field_type: text
