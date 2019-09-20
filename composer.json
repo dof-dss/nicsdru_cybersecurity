@@ -37,6 +37,7 @@
         "drupal/honeypot": "^1.29",
         "drupal/pathauto": "^1.4",
         "drupal/search_api": "^1.14",
+        "drupal/structure_sync": "^1.16",
         "drupal/webform": "^5.4",
         "drush/drush": "^9.0.0",
         "vlucas/phpdotenv": "^2.4",

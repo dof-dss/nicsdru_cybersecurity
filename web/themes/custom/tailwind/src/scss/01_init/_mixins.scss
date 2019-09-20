@@ -1,0 +1,9 @@
+// Media Query Declarations
+
+@mixin breakpoint($size) {
+  @media only screen and (min-width: $size) {
+    @content;
+  }
+}
+
+

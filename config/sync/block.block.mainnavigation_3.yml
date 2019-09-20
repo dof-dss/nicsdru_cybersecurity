@@ -1,0 +1,25 @@
+uuid: 12c726dc-a278-4b7b-8fd5-b81df0875db6
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - tailwind
+id: mainnavigation_3
+theme: tailwind
+region: footer_second
+weight: 0
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 1
+  expand_all_items: false
+visibility: {  }

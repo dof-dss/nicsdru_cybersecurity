@@ -39,3 +39,4 @@ content:
 hidden:
   field_attachment: true
   field_published_date: true
+  search_api_excerpt: true

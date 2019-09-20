@@ -1,0 +1,29 @@
+name: NICS Tailwind
+description: A theme for Drupal 8 and Tailwind CSS.
+# core: 8.x
+type: theme
+base theme: stable
+libraries:
+  - tailwind/global-styling
+
+# Information added by Drupal.org packaging script on 2019-06-18
+version: '8.x-0.1page.html.twig
+                 page--front.html.twig'
+core: '8.x'
+project: 'tailwindcss'
+datestamp: 1560861196lando
+
+regions:
+  header: 'Header'
+  primary_menu: 'Primary Menu'
+  secondary_menu: 'Secondary Menu'
+  highlighted: 'Highlighted'
+  hero: 'Hero'
+  breadcrumb: 'Breadcrumb'
+  content: 'Content'
+  footer_first: 'Footer First'
+  footer_second: 'Footer Second'
+  footer_third: 'Footer Third'
+  sidebar_left: 'Sidebar Left'
+  sidebar_right: 'Sidebar Right'
+  help: 'Help'

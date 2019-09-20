@@ -1,17 +1,18 @@
-uuid: fd89068c-5db5-40a4-9702-b7178d0a6cf9
+uuid: f1608cf3-9f31-44ac-b0b7-56409d24d560
 langcode: en
 status: true
 dependencies:
   config:
     - facets.facet.published_date
   module:
+    - ctools
     - facets
-    - system
+    - node
   theme:
-    - stark
+    - tailwind
 id: publisheddate
-theme: stark
-region: sidebar_first
+theme: tailwind
+region: sidebar_left
 weight: 0
 provider: null
 plugin: 'facet_block:published_date'
@@ -22,8 +23,17 @@ settings:
   label_display: visible
   block_id: publisheddate
 visibility:
-  request_path:
-    id: request_path
-    pages: /news
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      news: news
     negate: false
-    context_mapping: {  }
+    context_mapping:
+      node: '@node.node_route_context:node'
+  node_type:
+    id: node_type
+    bundles:
+      news: news
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

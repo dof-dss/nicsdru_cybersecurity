@@ -1,4 +1,4 @@
-uuid: f5058451-bef6-4fe4-b331-a559e66f5f6c
+uuid: be1719d5-0fa6-4ab3-9f8c-348fa33702fc
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,9 @@ dependencies:
   module:
     - system
   theme:
-    - stark
+    - tailwind
 id: mainnavigation
-theme: stark
+theme: tailwind
 region: primary_menu
 weight: 0
 provider: null
@@ -20,6 +20,6 @@ settings:
   provider: system
   label_display: '0'
   level: 1
-  depth: 2
+  depth: 1
   expand_all_items: false
 visibility: {  }

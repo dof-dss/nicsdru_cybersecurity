@@ -1,15 +1,15 @@
-uuid: cb59a746-ccbc-43f1-a7d4-a23ee957e387
+uuid: a3247099-c357-4624-b327-31c4382b1bfb
 langcode: en
 status: true
 dependencies:
   module:
     - system
   theme:
-    - stark
+    - tailwind
 id: mainpagecontent
-theme: stark
+theme: tailwind
 region: content
-weight: 1
+weight: -5
 provider: null
 plugin: system_main_block
 settings:

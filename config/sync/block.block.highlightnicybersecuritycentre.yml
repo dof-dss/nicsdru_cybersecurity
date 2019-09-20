@@ -1,0 +1,41 @@
+uuid: b67a628e-68c0-4e09-84e9-9cb574b3079b
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic_block:d70f2992-7762-459f-8a0a-fed8d23e87d2'
+  module:
+    - block_content
+    - ctools
+    - node
+  theme:
+    - tailwind
+id: highlightnicybersecuritycentre
+theme: tailwind
+region: highlighted
+weight: 0
+provider: null
+plugin: 'block_content:d70f2992-7762-459f-8a0a-fed8d23e87d2'
+settings:
+  id: 'block_content:d70f2992-7762-459f-8a0a-fed8d23e87d2'
+  label: 'Highlight - NI Cyber Security Centre'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      layout_page: layout_page
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+  node_type:
+    id: node_type
+    bundles:
+      layout_page: layout_page
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
