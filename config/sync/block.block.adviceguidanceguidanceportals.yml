@@ -1,0 +1,41 @@
+uuid: f54c10ce-6436-46a5-a683-db138c87ba0e
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic_block:d0893477-7cce-4dc1-b7f1-78b0eefcc400'
+  module:
+    - block_content
+    - ctools
+    - node
+  theme:
+    - cybersecurity
+id: adviceguidanceguidanceportals
+theme: cybersecurity
+region: content
+weight: -3
+provider: null
+plugin: 'block_content:d0893477-7cce-4dc1-b7f1-78b0eefcc400'
+settings:
+  id: 'block_content:d0893477-7cce-4dc1-b7f1-78b0eefcc400'
+  label: 'Advice & Guidance - Guidance portals'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      layout_page: layout_page
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+  node_type:
+    id: node_type
+    bundles:
+      layout_page: layout_page
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

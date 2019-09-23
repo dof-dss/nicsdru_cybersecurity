@@ -1,0 +1,21 @@
+/**
+ * Background styling.
+ */
+
+.bg {
+  // Loops through color variables to set a background color class for each one.
+  @each $color, $code in $colors {
+    &--#{$color} {
+      background-color: $code;
+
+      // Loops through integers from 1 to 9 and sets a class with that value e.g .bg--$color_2 will set the background
+      // to opacity 0.2.
+      @for $opacity from 1 through 9 {
+        &_#{$opacity} {
+          background-color: rgba($code, calc(#{$opacity}/10));
+        }
+      }
+    }
+
+  }
+}

@@ -1,0 +1,48 @@
+// Screen Breakpoints
+
+$xs: 440px;
+$sm: 640px;
+$md: 765px;
+$lg: 960px;
+
+$breakpoints: (
+  xs: $xs,
+  sm: $sm,
+  md: $md,
+  lg: $lg,
+);
+
+
+
+// Colors
+
+$primary: #361c82;
+$secondary: #020354;
+$heading: #010247;
+$mid-heading: #010247;
+$sidebar-left-parent: #0a165c;
+$sidebar-left: #163772;
+$sidebar-left-separator: #2451a2;
+$sidebar-left-selected: #85b3e1;
+$link: #0066ff;
+$light: #5787c7;
+$highlight: #e5e5ec;
+$white: #fff;
+$text: #333;
+
+$colors: (
+  primary: $primary,
+  secondary: $secondary,
+  heading: $heading,
+  mid-heading: $mid-heading,
+  sidebar-left-parent: $sidebar-left-parent,
+  sidebar-left: $sidebar-left,
+  sidebar-left-separator: $sidebar-left-separator,
+  sidebar-left-selected: $sidebar-left-selected,
+  link: $link,
+  light: $light,
+  highlight: $highlight,
+  white: $white,
+  text: $text,
+);
+

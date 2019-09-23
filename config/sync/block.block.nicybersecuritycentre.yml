@@ -2,6 +2,10 @@ uuid: 6f4ad9e5-b0e8-4842-86a2-122c01aa15a3
 langcode: en
 status: true
 dependencies:
+  content:
+    - 'block_content:basic_block:d70f2992-7762-459f-8a0a-fed8d23e87d2'
+  module:
+    - block_content
   theme:
     - stark
 id: nicybersecuritycentre

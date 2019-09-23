@@ -1,0 +1,25 @@
+uuid: 1ce15eeb-9798-41c7-bb24-cd44d935686a
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - cybersecurity
+id: mainnavigation_3
+theme: cybersecurity
+region: footer_second
+weight: 0
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 1
+  expand_all_items: false
+visibility: {  }

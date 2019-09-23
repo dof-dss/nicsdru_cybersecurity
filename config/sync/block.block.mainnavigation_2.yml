@@ -1,4 +1,4 @@
-uuid: d7986370-7aca-46bb-8994-101a90b082db
+uuid: c1ccc117-36dd-42fa-9e56-96d093b10a52
 langcode: en
 status: true
 dependencies:
@@ -9,11 +9,11 @@ dependencies:
     - node
     - system
   theme:
-    - stark
+    - cybersecurity
 id: mainnavigation_2
-theme: stark
-region: sidebar_first
-weight: -2
+theme: cybersecurity
+region: sidebar_left
+weight: 0
 provider: null
 plugin: 'system_menu_block:main'
 settings:
@@ -22,7 +22,7 @@ settings:
   provider: system
   label_display: '0'
   level: 2
-  depth: 0
+  depth: 3
   expand_all_items: false
 visibility:
   'entity_bundle:node':

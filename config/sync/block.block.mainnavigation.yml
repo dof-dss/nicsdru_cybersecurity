@@ -1,4 +1,4 @@
-uuid: f5058451-bef6-4fe4-b331-a559e66f5f6c
+uuid: ff89e638-d396-4981-9040-3d590bd79acb
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,9 @@ dependencies:
   module:
     - system
   theme:
-    - stark
+    - cybersecurity
 id: mainnavigation
-theme: stark
+theme: cybersecurity
 region: primary_menu
 weight: 0
 provider: null
@@ -20,6 +20,6 @@ settings:
   provider: system
   label_display: '0'
   level: 1
-  depth: 2
+  depth: 1
   expand_all_items: false
 visibility: {  }

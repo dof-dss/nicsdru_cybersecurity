@@ -1,13 +1,15 @@
-uuid: ddc05a80-bff4-4f34-aa52-e791f2ed4174
+uuid: 20c9ff76-5ded-4fe6-b95e-cb85d9b0e81e
 langcode: en
 status: true
 dependencies:
   module:
+    - ctools
+    - node
     - system
   theme:
-    - stark
+    - cybersecurity
 id: breadcrumbs
-theme: stark
+theme: cybersecurity
 region: breadcrumb
 weight: 0
 provider: null
@@ -16,10 +18,19 @@ settings:
   id: system_breadcrumb_block
   label: Breadcrumbs
   provider: system
-  label_display: visible
+  label_display: '0'
 visibility:
-  request_path:
-    id: request_path
-    pages: '<front>'
-    negate: true
-    context_mapping: {  }
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      basic_page: basic_page
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+  node_type:
+    id: node_type
+    bundles:
+      basic_page: basic_page
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
