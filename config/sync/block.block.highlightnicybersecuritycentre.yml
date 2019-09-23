@@ -18,9 +18,9 @@ provider: null
 plugin: 'block_content:d70f2992-7762-459f-8a0a-fed8d23e87d2'
 settings:
   id: 'block_content:d70f2992-7762-459f-8a0a-fed8d23e87d2'
-  label: 'Highlight - NI Cyber Security Centre'
+  label: 'NI Cyber Security Centre'
   provider: block_content
-  label_display: '0'
+  label_display: visible
   status: true
   info: ''
   view_mode: full
