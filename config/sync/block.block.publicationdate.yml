@@ -1,29 +1,29 @@
-uuid: fd89068c-5db5-40a4-9702-b7178d0a6cf9
+uuid: d8b248da-87cf-4112-900f-addd7b6e8b20
 langcode: en
 status: true
 dependencies:
   config:
-    - facets.facet.published_date
+    - facets.facet.publication_published_date
   module:
     - facets
     - system
   theme:
     - stark
-id: publisheddate
+id: publicationdate
 theme: stark
 region: sidebar_first
-weight: -1
+weight: -3
 provider: null
-plugin: 'facet_block:published_date'
+plugin: 'facet_block:publication_published_date'
 settings:
-  id: 'facet_block:published_date'
-  label: 'Published date'
+  id: 'facet_block:publication_published_date'
+  label: Date
   provider: facets
   label_display: visible
-  block_id: publisheddate
+  block_id: publicationdate
 visibility:
   request_path:
     id: request_path
-    pages: /news
+    pages: /publications
     negate: false
     context_mapping: {  }
