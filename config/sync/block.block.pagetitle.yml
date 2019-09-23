@@ -1,15 +1,16 @@
-uuid: 4e3dc8b0-1b46-4af7-9418-65951b197d75
+uuid: f526c9d2-4ff7-4ea4-94e1-0e668d97e363
 langcode: en
 status: true
 dependencies:
   module:
-    - system
+    - ctools
+    - node
   theme:
-    - stark
+    - cybersecurity
 id: pagetitle
-theme: stark
+theme: cybersecurity
 region: content
-weight: 0
+weight: -6
 provider: null
 plugin: page_title_block
 settings:
@@ -18,8 +19,23 @@ settings:
   provider: core
   label_display: '0'
 visibility:
-  request_path:
-    id: request_path
-    pages: '<front>'
-    negate: true
-    context_mapping: {  }
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      basic_page: basic_page
+      contact: contact
+      news: news
+      publication: publication
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+  node_type:
+    id: node_type
+    bundles:
+      basic_page: basic_page
+      contact: contact
+      news: news
+      publication: publication
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

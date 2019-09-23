@@ -1,0 +1,23 @@
+uuid: 54964d72-a796-43c8-9366-f957834e4f68
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - cybersecurity
+id: sitebranding
+theme: cybersecurity
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: false
+visibility: {  }

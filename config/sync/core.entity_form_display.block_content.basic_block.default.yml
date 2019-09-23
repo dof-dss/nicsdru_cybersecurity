@@ -5,8 +5,12 @@ dependencies:
   config:
     - block_content.type.basic_block
     - field.field.block_content.basic_block.body
+    - field.field.block_content.basic_block.field_block_image
+    - field.field.block_content.basic_block.field_block_title
     - field.field.block_content.basic_block.field_link_button
+    - image.style.thumbnail
   module:
+    - image
     - link
     - text
 id: block_content.basic_block.default
@@ -23,8 +27,24 @@ content:
       placeholder: ''
     third_party_settings: {  }
     region: content
+  field_block_image:
+    weight: 4
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_block_title:
+    weight: 3
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textfield
+    region: content
   field_link_button:
-    weight: 26
+    weight: 2
     settings:
       placeholder_url: ''
       placeholder_title: ''

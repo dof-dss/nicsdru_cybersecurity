@@ -1,0 +1,243 @@
+taxonomies:
+  tags: {  }
+blocks:
+  -
+    info: 'Highlight - NI Cyber Security Centre'
+    langcode: en
+    uuid: d70f2992-7762-459f-8a0a-fed8d23e87d2
+    bundle: basic_block
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        value: "<p>Helping to make Northern Ireland a safer place to live and work online</p>\r\n"
+        summary: ''
+        format: basic_html
+      field_block_image: null
+      field_block_title:
+        value: 'NI Cyber Security Centre'
+        format: basic_html
+      field_link_button:
+        uri: 'internal:/node'
+        title: 'Read more'
+        options: {  }
+  -
+    info: 'Advice & Guidance - What is cyber security?'
+    langcode: en
+    uuid: 0a77421f-2978-4a1f-a715-f91dd89b3984
+    bundle: basic_block
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        value: "<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, justo sit amet risus etiam porta sem.</p>\r\n"
+        summary: ''
+        format: basic_html
+      field_block_image:
+        target_id: '9'
+        alt: 'What is cyber security?'
+        title: ''
+        width: '302'
+        height: '140'
+      field_block_title:
+        value: 'What is cyber security?'
+        format: basic_html
+      field_link_button:
+        uri: 'internal:/node/1'
+        title: More
+        options: {  }
+  -
+    info: 'Advice & Guidance - Guidance portals'
+    langcode: en
+    uuid: d0893477-7cce-4dc1-b7f1-78b0eefcc400
+    bundle: basic_block
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        value: "<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, justo sit amet risus etiam porta sem.</p>\r\n"
+        summary: ''
+        format: basic_html
+      field_block_image:
+        target_id: '8'
+        alt: 'Guidance portals'
+        title: ''
+        width: '301'
+        height: '140'
+      field_block_title:
+        value: 'Guidance portals'
+        format: basic_html
+      field_link_button:
+        uri: 'internal:/node/1'
+        title: More
+        options: {  }
+  -
+    info: 'Advice & Guidance - How do I?'
+    langcode: en
+    uuid: d01ecee4-906f-4bca-8837-5151fda64c71
+    bundle: basic_block
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        value: "<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, justo sit amet risus etiam porta sem.</p>\r\n"
+        summary: ''
+        format: basic_html
+      field_block_image:
+        target_id: '7'
+        alt: 'How do I?'
+        title: ''
+        width: '301'
+        height: '140'
+      field_block_title:
+        value: 'How do I?'
+        format: basic_html
+      field_link_button:
+        uri: 'internal:/node/1'
+        title: More
+        options: {  }
+menus:
+  -
+    menu_name: main
+    title: 'About NICSC'
+    parent: null
+    uri: 'entity:node/1'
+    link_title: null
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-49'
+    langcode: en
+    uuid: 0f7aa151-ef11-4421-90b1-f5400fe9b8d7
+  -
+    menu_name: main
+    title: 'Information for...'
+    parent: null
+    uri: 'entity:node/2'
+    link_title: null
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-48'
+    langcode: en
+    uuid: 19c63d55-f941-4925-b7df-e0041dc673d0
+  -
+    menu_name: main
+    title: 'Advice & guidance'
+    parent: null
+    uri: 'entity:node/3'
+    link_title: null
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-47'
+    langcode: en
+    uuid: db1ddc29-7d29-4719-aa4a-d79394f76725
+  -
+    menu_name: main
+    title: 'NI Skills, industry & research'
+    parent: null
+    uri: 'entity:node/4'
+    link_title: null
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-46'
+    langcode: en
+    uuid: 3216f410-d820-499d-a30e-bbea40be0cf2
+  -
+    menu_name: main
+    title: 'Cyber Assurance & Intelligence'
+    parent: null
+    uri: 'entity:node/5'
+    link_title: null
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-45'
+    langcode: en
+    uuid: 5f11d934-92e3-4dd2-835a-1548b2d1d4d2
+  -
+    menu_name: main
+    title: Home
+    parent: null
+    uri: 'entity:node/6'
+    link_title: null
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-50'
+    langcode: en
+    uuid: 41c1fc1b-73d7-4cbe-ba3b-aebc984e9b2b
+  -
+    menu_name: main
+    title: 'What we do'
+    parent: 'menu_link_content:0f7aa151-ef11-4421-90b1-f5400fe9b8d7'
+    uri: 'entity:node/7'
+    link_title: null
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '0'
+    langcode: en
+    uuid: 6c583743-c348-4282-a175-cdcc5313ba66
+  -
+    menu_name: main
+    title: 'Who we are'
+    parent: 'menu_link_content:0f7aa151-ef11-4421-90b1-f5400fe9b8d7'
+    uri: 'entity:node/8'
+    link_title: null
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '0'
+    langcode: en
+    uuid: 10c7579b-1efc-4ab5-987e-ee5235fa21eb
+  -
+    menu_name: main
+    title: NICSC
+    parent: 'menu_link_content:10c7579b-1efc-4ab5-987e-ee5235fa21eb'
+    uri: 'entity:node/9'
+    link_title: null
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '0'
+    langcode: en
+    uuid: b4006076-0cd7-4a94-acd1-979b1c91f95d
+  -
+    menu_name: secondary-menu
+    title: CiSP
+    parent: null
+    uri: 'https://ncsc.gov.uk/section/keep-up-to-date/cisp'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '0'
+    langcode: en
+    uuid: 0b368f6b-1dbe-429e-9657-8233e48241b4
+  -
+    menu_name: secondary-menu
+    title: 'Report an Incident'
+    parent: null
+    uri: 'entity:node/10'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '1'
+    langcode: en
+    uuid: 0836168f-59f1-4f06-8e22-3699d69d0ec4
+  -
+    menu_name: secondary-menu
+    title: 'Contact us'
+    parent: null
+    uri: 'entity:node/11'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '2'
+    langcode: en
+    uuid: 0f480276-279a-4e24-8e1b-04505666e162
