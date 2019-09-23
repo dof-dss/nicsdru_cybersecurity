@@ -1,4 +1,4 @@
-uuid: f1608cf3-9f31-44ac-b0b7-56409d24d560
+uuid: 12fb3281-5b9c-4b04-bf91-dfd6e99744e6
 langcode: en
 status: true
 dependencies:
@@ -9,9 +9,9 @@ dependencies:
     - facets
     - node
   theme:
-    - tailwind
+    - cybersecurity
 id: publisheddate
-theme: tailwind
+theme: cybersecurity
 region: sidebar_left
 weight: 0
 provider: null
@@ -20,7 +20,7 @@ settings:
   id: 'facet_block:published_date'
   label: 'Published date'
   provider: facets
-  label_display: visible
+  label_display: '0'
   block_id: publisheddate
 visibility:
   'entity_bundle:node':

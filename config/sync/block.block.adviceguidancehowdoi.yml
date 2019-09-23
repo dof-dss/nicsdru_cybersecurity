@@ -1,26 +1,26 @@
-uuid: a9f98cbb-e2f3-42c7-9d95-19ba9a50e2eb
+uuid: f3290479-fd21-4c05-891e-72b486bb79a4
 langcode: en
 status: true
 dependencies:
   content:
-    - 'block_content:basic_block:0a77421f-2978-4a1f-a715-f91dd89b3984'
+    - 'block_content:basic_block:d01ecee4-906f-4bca-8837-5151fda64c71'
   module:
     - block_content
     - ctools
     - node
   theme:
-    - tailwind
-id: whatiscybersecurity
-theme: tailwind
+    - cybersecurity
+id: adviceguidancehowdoi
+theme: cybersecurity
 region: content
-weight: -4
+weight: -2
 provider: null
-plugin: 'block_content:0a77421f-2978-4a1f-a715-f91dd89b3984'
+plugin: 'block_content:d01ecee4-906f-4bca-8837-5151fda64c71'
 settings:
-  id: 'block_content:0a77421f-2978-4a1f-a715-f91dd89b3984'
-  label: 'What is cyber security?'
+  id: 'block_content:d01ecee4-906f-4bca-8837-5151fda64c71'
+  label: 'Advice & Guidance - How do I?'
   provider: block_content
-  label_display: '0'
+  label_display: visible
   status: true
   info: ''
   view_mode: full

@@ -1,13 +1,15 @@
-uuid: a3247099-c357-4624-b327-31c4382b1bfb
+uuid: aa60e0a4-2f92-4f9f-a434-fd2be5dc33aa
 langcode: en
 status: true
 dependencies:
   module:
+    - ctools
+    - node
     - system
   theme:
-    - tailwind
+    - cybersecurity
 id: mainpagecontent
-theme: tailwind
+theme: cybersecurity
 region: content
 weight: -5
 provider: null
@@ -17,4 +19,24 @@ settings:
   label: 'Main page content'
   provider: system
   label_display: '0'
-visibility: {  }
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      basic_page: basic_page
+      contact: contact
+      news: news
+      publication: publication
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+  node_type:
+    id: node_type
+    bundles:
+      basic_page: basic_page
+      contact: contact
+      news: news
+      publication: publication
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

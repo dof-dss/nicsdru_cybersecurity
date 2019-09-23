@@ -1,4 +1,4 @@
-uuid: 831fe805-d9ba-4f93-bf5f-1432ebf20a19
+uuid: f526c9d2-4ff7-4ea4-94e1-0e668d97e363
 langcode: en
 status: true
 dependencies:
@@ -6,9 +6,9 @@ dependencies:
     - ctools
     - node
   theme:
-    - tailwind
+    - cybersecurity
 id: pagetitle
-theme: tailwind
+theme: cybersecurity
 region: content
 weight: -6
 provider: null

@@ -7,7 +7,7 @@
  *
  * If using `postcss-import`, use this import instead:
  *
- * @import "tailwind/base";
+ * @import "cybersecurity/base";
  */
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -620,7 +620,7 @@ video {
  *
  * If using `postcss-import`, use this import instead:
  *
- * @import "tailwind/components";
+ * @import "cybersecurity/components";
  */
 
 /**
@@ -662,7 +662,7 @@ input {
  *
  * If using `postcss-import`, use this import instead:
  *
- * @import "tailwind/utilities";
+ * @import "cybersecurity/utilities";
  */
 
 .tw-sr-only {

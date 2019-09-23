@@ -1,4 +1,4 @@
-uuid: ef2ed162-3a6e-4ab8-940d-34c40e65f77e
+uuid: 5a8fcf88-f9f2-4c1c-9524-f3bfd31269e1
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,9 @@ dependencies:
   module:
     - system
   theme:
-    - tailwind
+    - cybersecurity
 id: secondarymenu
-theme: tailwind
+theme: cybersecurity
 region: secondary_menu
 weight: 0
 provider: null

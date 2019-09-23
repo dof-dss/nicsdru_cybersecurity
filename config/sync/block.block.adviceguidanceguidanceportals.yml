@@ -1,26 +1,26 @@
-uuid: 1dd5d80f-9088-47bc-8864-e329bb699893
+uuid: f54c10ce-6436-46a5-a683-db138c87ba0e
 langcode: en
 status: true
 dependencies:
   content:
-    - 'block_content:basic_block:d01ecee4-906f-4bca-8837-5151fda64c71'
+    - 'block_content:basic_block:d0893477-7cce-4dc1-b7f1-78b0eefcc400'
   module:
     - block_content
     - ctools
     - node
   theme:
-    - tailwind
-id: howdoi
-theme: tailwind
+    - cybersecurity
+id: adviceguidanceguidanceportals
+theme: cybersecurity
 region: content
-weight: -2
+weight: -3
 provider: null
-plugin: 'block_content:d01ecee4-906f-4bca-8837-5151fda64c71'
+plugin: 'block_content:d0893477-7cce-4dc1-b7f1-78b0eefcc400'
 settings:
-  id: 'block_content:d01ecee4-906f-4bca-8837-5151fda64c71'
-  label: 'How do I?'
+  id: 'block_content:d0893477-7cce-4dc1-b7f1-78b0eefcc400'
+  label: 'Advice & Guidance - Guidance portals'
   provider: block_content
-  label_display: '0'
+  label_display: visible
   status: true
   info: ''
   view_mode: full

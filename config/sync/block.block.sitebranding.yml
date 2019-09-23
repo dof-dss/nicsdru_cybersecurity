@@ -1,13 +1,13 @@
-uuid: 0f1bb8df-321e-44ad-8425-824c26174281
+uuid: 54964d72-a796-43c8-9366-f957834e4f68
 langcode: en
 status: true
 dependencies:
   module:
     - system
   theme:
-    - tailwind
+    - cybersecurity
 id: sitebranding
-theme: tailwind
+theme: cybersecurity
 region: header
 weight: 0
 provider: null

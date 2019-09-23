@@ -1,4 +1,4 @@
-uuid: aee5c808-84f3-4eef-8f99-043df5b5014c
+uuid: 20c9ff76-5ded-4fe6-b95e-cb85d9b0e81e
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,9 @@ dependencies:
     - node
     - system
   theme:
-    - tailwind
+    - cybersecurity
 id: breadcrumbs
-theme: tailwind
+theme: cybersecurity
 region: breadcrumb
 weight: 0
 provider: null

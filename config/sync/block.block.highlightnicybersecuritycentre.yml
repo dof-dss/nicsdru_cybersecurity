@@ -1,4 +1,4 @@
-uuid: b67a628e-68c0-4e09-84e9-9cb574b3079b
+uuid: de3dfc87-b6f2-4b35-a969-a49fab334cd8
 langcode: en
 status: true
 dependencies:
@@ -9,9 +9,9 @@ dependencies:
     - ctools
     - node
   theme:
-    - tailwind
+    - cybersecurity
 id: highlightnicybersecuritycentre
-theme: tailwind
+theme: cybersecurity
 region: highlighted
 weight: 0
 provider: null

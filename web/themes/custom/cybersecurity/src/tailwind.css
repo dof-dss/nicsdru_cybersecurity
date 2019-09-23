@@ -7,7 +7,7 @@
  *
  * If using `postcss-import`, use this import instead:
  *
- * @import "tailwind/base";
+ * @import "cybersecurity/base";
  */
 @tailwind base;
 
@@ -16,7 +16,7 @@
  *
  * If using `postcss-import`, use this import instead:
  *
- * @import "tailwind/components";
+ * @import "cybersecurity/components";
  */
 @tailwind components;
 
@@ -57,7 +57,7 @@ input {
  *
  * If using `postcss-import`, use this import instead:
  *
- * @import "tailwind/utilities";
+ * @import "cybersecurity/utilities";
  */
 @tailwind utilities;
 

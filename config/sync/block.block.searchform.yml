@@ -1,13 +1,13 @@
-uuid: 00eec465-9f5d-4dd0-888d-3a948686ad04
+uuid: 2b5f926d-4baf-4f72-a104-68b9ae7ee8e4
 langcode: en
 status: true
 dependencies:
   module:
     - search
   theme:
-    - tailwind
+    - cybersecurity
 id: searchform
-theme: tailwind
+theme: cybersecurity
 region: hero
 weight: 0
 provider: null
