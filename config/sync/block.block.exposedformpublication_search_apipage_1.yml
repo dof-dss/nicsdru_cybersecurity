@@ -1,0 +1,29 @@
+uuid: eaf6fc6a-a39a-4f56-840f-55ff43ced7fa
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.publication_search_api
+  module:
+    - system
+    - views
+  theme:
+    - stark
+id: exposedformpublication_search_apipage_1
+theme: stark
+region: sidebar_first
+weight: -4
+provider: null
+plugin: 'views_exposed_filter_block:publication_search_api-page_1'
+settings:
+  id: 'views_exposed_filter_block:publication_search_api-page_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+visibility:
+  request_path:
+    id: request_path
+    pages: /publications
+    negate: false
+    context_mapping: {  }
