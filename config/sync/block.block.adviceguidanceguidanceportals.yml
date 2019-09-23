@@ -20,7 +20,7 @@ settings:
   id: 'block_content:d0893477-7cce-4dc1-b7f1-78b0eefcc400'
   label: 'Advice & Guidance - Guidance portals'
   provider: block_content
-  label_display: visible
+  label_display: '0'
   status: true
   info: ''
   view_mode: full
