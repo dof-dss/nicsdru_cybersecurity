@@ -17,7 +17,6 @@ function tailwindcss_preprocess_block(&$variables) {
   }
 }
 
-
 /**
  * Get the active theme.
  *
