@@ -69,7 +69,11 @@ display:
       style:
         type: default
       row:
-        type: fields
+        type: search_api
+        options:
+          view_modes:
+            'entity:node':
+              publication: teaser
       fields:
         title:
           id: title

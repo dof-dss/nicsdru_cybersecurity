@@ -1,0 +1,29 @@
+uuid: 53912f16-8064-40f3-9c30-bd04f7c9cc20
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.publication_search_api
+  module:
+    - system
+    - views
+  theme:
+    - cybersecurity
+id: exposedformpublication_search_apipage_1_2
+theme: cybersecurity
+region: sidebar_left
+weight: -7
+provider: null
+plugin: 'views_exposed_filter_block:publication_search_api-page_1'
+settings:
+  id: 'views_exposed_filter_block:publication_search_api-page_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+visibility:
+  request_path:
+    id: request_path
+    pages: /publications
+    negate: false
+    context_mapping: {  }
