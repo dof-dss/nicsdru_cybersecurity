@@ -12,7 +12,7 @@ dependencies:
 id: publicationdate_2
 theme: cybersecurity
 region: sidebar_left
-weight: 0
+weight: -6
 provider: null
 plugin: 'facet_block:publication_published_date'
 settings:
