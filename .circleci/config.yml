@@ -12,13 +12,13 @@ jobs:
       - add_ssh_keys:
           fingerprints:
             - "f0:33:18:e6:c8:6c:76:6c:07:1f:76:af:c9:8f:4a:66"
-      - checkout
-      - run:
-          name: Validate composer.json and composer.lock file for consistency
-          command: composer validate --no-check-all --strict
       - run:
           name: Add GitHub access token for composer
           command: echo 'composer config -g github-oauth.github.com $GITHUB_TOKEN' >> $BASH_ENV
+      - checkout
+      - run:
+          name: Validate composer.json and composer.lock file for consistency
+          command: composer validate --no-check-all --strict      
       - run:
             name: Add OS and PHP extensions
             command: |
@@ -39,23 +39,6 @@ jobs:
           key: composer-{{ checksum "composer.lock" }}
           paths:
             - $HOME/.composer/cache
-      - run:
-          name: Update any projects on dev branches
-          command: |
-            REPOS=(
-              modules/origins
-              profiles/custom/origins
-            )
-            for repo in "${REPOS[@]}"
-            do
-              cd /home/circleci/project/web/$repo
-              if [[ $(git symbolic-ref --short HEAD) ]]; then
-                echo "Fetching latest contents of repository at /home/circleci/project/web/${repo}"
-                git pull
-              else
-                echo "Skipping /home/circleci/project/web/${repo} as it is presently checked out on release tag"
-              fi
-            done
       - persist_to_workspace:
           root: ./
           paths:
