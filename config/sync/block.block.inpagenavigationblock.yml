@@ -1,0 +1,32 @@
+uuid: 9cb6d503-b572-4e14-b6d9-7ba2d467bb27
+langcode: en
+status: true
+dependencies:
+  module:
+    - ctools
+    - origins_common
+  theme:
+    - cybersecurity
+id: inpagenavigationblock
+theme: cybersecurity
+region: sidebar_left
+weight: -4
+provider: null
+plugin: in_page_navigation_block
+settings:
+  id: in_page_navigation_block
+  label: 'In this section'
+  provider: origins_common
+  label_display: visible
+  machine_name: inpagenavigationblock
+  ipn_source: content
+  ipn_element: h2
+  ipn_exclusions: ''
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      basic_page: basic_page
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

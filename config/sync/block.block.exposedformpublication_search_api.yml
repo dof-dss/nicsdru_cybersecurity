@@ -1,4 +1,4 @@
-uuid: 53912f16-8064-40f3-9c30-bd04f7c9cc20
+uuid: 253b1ef0-2377-42f9-8b50-c64e499bd884
 langcode: en
 status: true
 dependencies:
@@ -9,14 +9,14 @@ dependencies:
     - views
   theme:
     - cybersecurity
-id: exposedformpublication_search_apipage_1_2
+id: exposedformpublication_search_api
 theme: cybersecurity
 region: sidebar_left
-weight: -7
+weight: -8
 provider: null
-plugin: 'views_exposed_filter_block:publication_search_api-page_1'
+plugin: 'views_exposed_filter_block:publication_search_api-publication_search_api'
 settings:
-  id: 'views_exposed_filter_block:publication_search_api-page_1'
+  id: 'views_exposed_filter_block:publication_search_api-publication_search_api'
   label: ''
   provider: views
   label_display: visible
