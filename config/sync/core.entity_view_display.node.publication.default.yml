@@ -9,9 +9,32 @@ dependencies:
     - node.type.publication
   module:
     - datetime
+    - ds
     - file
     - text
     - user
+third_party_settings:
+  ds:
+    layout:
+      id: layout_onecol
+      library: layout_discovery/onecol
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        classes: {  }
+        wrappers:
+          content: div
+        outer_wrapper: div
+        attributes: ''
+        link_attribute: ''
+        link_custom: ''
+    regions:
+      content:
+        - content_moderation_control
+        - links
+        - field_published_date
+        - body
+        - field_attachment
 _core:
   default_config_hash: JEXKz_Us6K6M-PZZTov7oUncjiUBseqZxIupAmhU3Xo
 id: node.publication.default
