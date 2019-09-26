@@ -29,7 +29,6 @@ function tailwindcss_get_active_theme() {
   return \Drupal::service('theme.manager')->getActiveTheme()->getName();
 }
 
-
 /**
  * Implements hook_preprocess_HOOK().
  *
