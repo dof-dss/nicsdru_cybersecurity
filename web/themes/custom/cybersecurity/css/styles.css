@@ -470,39 +470,6 @@ button {
   border: 0;
 }
 
-.container {
-  max-width: 1024px;
-  margin: 0 auto;
-  padding: 2rem;
-}
-
-/**
- * List styles
- */
-.list li {
-  display: list-item;
-  padding: 1px 0;
-}
-
-.list--bullet {
-  list-style-type: disc;
-  padding-left: 16px;
-}
-
-.list--inline li {
-  display: inline-block;
-}
-
-@media only screen and (min-width: 765px) {
-  .list--inline-md li {
-    display: inline-block;
-  }
-}
-
-.list_white a {
-  color: #fff;
-}
-
 .toolbar-menu li {
   font-size: small;
 }
@@ -521,6 +488,81 @@ button {
 
 .tabs li a.is-active {
   background-color: #e5e5ec;
+}
+
+.site-logo {
+  height: 8rem;
+}
+
+.header-hero {
+  max-height: 5rem;
+  margin: 0 1rem;
+}
+
+.region_hero {
+  max-width: 375px;
+}
+
+.region_hero .search-block-form form {
+  display: flex;
+  width: 100%;
+}
+
+.region_hero .search-block-form .form-search {
+  width: 323px;
+  height: 50px;
+}
+
+.region_hero .search-block-form .form-submit {
+  font-size: 0;
+  height: 50px;
+  width: 52px;
+}
+
+.block--nicsc-highlight {
+  width: 100%;
+}
+
+@media only screen and (min-width: 640px) {
+  .block--nicsc-highlight {
+    max-width: 521px;
+    margin-left: 2rem;
+  }
+}
+
+.layout__region {
+  margin-bottom: 3rem;
+}
+
+@media only screen and (min-width: 640px) {
+  .layout__region--first {
+    padding-left: 0;
+    padding-right: 2%;
+  }
+  .layout__region--second {
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+  }
+  .layout__region--third {
+    padding-left: 2%;
+    padding-right: 0;
+  }
+}
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+@media only screen and (min-width: 1024px) {
+  .container {
+    padding: 2rem 0;
+  }
+}
+
+.container--header {
+  padding: 0;
 }
 
 /**
@@ -1228,36 +1270,64 @@ button {
   color: #fff;
 }
 
-.front-image {
+/**
+ * List styles
+ */
+.list li {
+  display: list-item;
+  padding: 1px 0;
+}
+
+.list--bullet {
+  list-style-type: disc;
+  padding-left: 16px;
+}
+
+.list--inline li {
+  display: inline-block;
+}
+
+@media only screen and (min-width: 765px) {
+  .list--inline-md li {
+    display: inline-block;
+  }
+}
+
+@media only screen and (min-width: 640px) {
+  .list--inline-sm li {
+    display: inline-block;
+  }
+}
+
+.list--row li {
+  display: block;
+}
+
+.list_white a {
+  color: #fff;
+}
+
+.front-bg {
   background-image: url("../assets/header.png");
   background-size: cover;
 }
 
-.main-image {
+.main-bg {
   background-image: linear-gradient(#090a1e, #070945 20%, #0b165c, #143270 70%);
   background-size: cover;
 }
 
-.site-logo {
-  height: 8rem;
+.region_hero .search-block-form .form-search {
+  border: 1px solid #5787c7;
 }
 
-.header-hero {
-  max-height: 5rem;
-  margin: 0 1rem;
-}
-
-@media only screen and (min-width: 765px) {
-  .view-news .views-field-field-image {
-    max-height: 170px;
-    overflow: hidden;
-  }
-}
-
-.block--nicsc-highlight {
-  width: 521px;
-  max-width: 521px;
-  margin-left: 1rem;
+.region_hero .search-block-form .form-submit {
+  background-color: #5787c7;
+  background-image: url("../assets/icon_search.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 1px solid #5787c7;
+  content: "";
 }
 
 .block--nicsc-highlight h2 {
@@ -1293,29 +1363,52 @@ button {
   padding: 0.5rem;
 }
 
-.region_hero {
-  max-width: 375px;
+.menu_main--sub {
+  margin-top: 10px;
+  left: calc(-50vw + 50%);
 }
 
-.search-block-form form {
-  display: flex;
-  width: 100%;
+.menu_main--sub a {
+  color: #010247;
 }
 
-.search-block-form .form-search {
-  width: 323px;
-  height: 50px;
-  border: 1px solid #5787c7;
+.agtitle {
+  color: #020354;
 }
 
-.search-block-form .form-submit {
+@media only screen and (min-width: 765px) {
+  .view-news .views-field-field-image {
+    max-height: 170px;
+    overflow: hidden;
+  }
+}
+
+.block_information-for h2 {
+  color: #020354;
+  font-size: 3rem;
+  margin-bottom: 3.5rem;
+}
+
+.views-field-field-taxonomy-icon {
   background-color: #5787c7;
-  background-image: url("../assets/icon_search.svg");
-  background-repeat: no-repeat;
-  background-position: center;
-  border: 1px solid #5787c7;
-  content: "";
-  font-size: 0;
-  height: 50px;
-  width: 52px;
+  border-radius: 100%;
+  height: 10rem;
+  width: 10rem;
+  margin: auto;
+}
+
+.views-field-field-taxonomy-icon .field-content {
+  padding-top: 2.5rem;
+}
+
+.views-field-field-taxonomy-icon .field-content img {
+  margin: auto;
+}
+
+.views-field-name {
+  text-align: center;
+}
+
+.views-field-name a {
+  color: #000;
 }

@@ -30,12 +30,19 @@
   {% import _self as menus %}
   {% if items %}
     {% if menu_level == 0 %}
-      <ul{{ attributes.addClass('list list--inline-md list_white tw-flex tw-justify-between tw-my-16 menu_main') }}>
+      <ul{{ attributes.addClass('list list--inline-md list_white tw-mt-16 menu_main tw-flex tw-justify-between') }}>
     {% else %}
-      <ul>
+        <div class="bg--white tw-absolute tw-inset-x-0 tw-z-10 menu_main--sub tw-w-screen tw-flex tw-invisible">
+          <div class="container container--header">
+            <div>
+              <h2>{{ title }}</h2>
+            </div>
+            <div>
+              <h3>In this section</h3>
+              <ul class="list list--bullet list--row">
     {% endif %}
     {% for item in items %}
-      <li{{ item.attributes.addClass('tw-p-4') }}>
+      <li{{ item.attributes.addClass('tw-p-4 tw-static') }}>
         {{ link(item.title, item.url) }}
         {% if item.below %}
           {{ menus.menu_links(item.below, attributes, menu_level + 1) }}
@@ -43,5 +50,9 @@
       </li>
     {% endfor %}
     </ul>
+{#    {% if menu_level >= 0 %}#}
+{#    </div>#}
+{#    </div>#}
+{#    {% endif %}#}
   {% endif %}
 {% endmacro %}

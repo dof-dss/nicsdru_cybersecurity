@@ -10,7 +10,7 @@ dependencies:
     - system
   theme:
     - cybersecurity
-id: mainnavigation_2
+id: mainnavigation_sidebar
 theme: cybersecurity
 region: sidebar_left
 weight: -6
@@ -18,7 +18,7 @@ provider: null
 plugin: 'system_menu_block:main'
 settings:
   id: 'system_menu_block:main'
-  label: 'Main navigation'
+  label: 'Sidebar main navigation'
   provider: system
   label_display: '0'
   level: 2

@@ -1,5 +1,17 @@
+@import "toolbar";
+@import "header";
+@import "layout-region";
+
 .container {
   max-width: 1024px;
   margin: 0 auto;
   padding: 2rem;
+
+  @include breakpoint($max) {
+    padding: 2rem 0;
+  }
+
+  &--header {
+    padding: 0;
+  }
 }

@@ -1,7 +1,7 @@
 {#
 /**
  * @file
- * Theme override to display a NI Cyber Security Centre block in the highlight region.
+ * Theme override to display a block.
  *
  * Available variables:
  * - plugin_id: The ID of the block implementation.
@@ -25,10 +25,10 @@
  * @see template_preprocess_block()
  */
 #}
-<div{{ attributes.addClass("bg--white_6 tw-p-12 tw-mt-16 block--nicsc-highlight") }}>
+<div{{ attributes.addClass('block_information-for') }}>
   {{ title_prefix }}
   {% if label %}
-    <h2{{ title_attributes.addClass('tw-uppercase') }}>{{ label }}</h2>
+    <h2{{ title_attributes }}>{{ label }}</h2>
   {% endif %}
   {{ title_suffix }}
   {% block content %}

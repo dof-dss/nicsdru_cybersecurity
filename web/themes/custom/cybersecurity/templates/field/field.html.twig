@@ -1,7 +1,7 @@
 {#
 /**
  * @file
- * Theme override for a link button field.
+ * Theme override for a field.
  *
  * To override output, copy the "field.html.twig" from the templates directory
  * to your theme's directory and customize it, just like customizing other
@@ -51,7 +51,7 @@
     </div>
   {% else %}
     {% for item in items %}
-      <div{{ attributes.addClass('btn btn--more btn--primary tw-mt-5') }}>{{ item.content }}</div>
+      <div{{ attributes }}>{{ item.content }}</div>
     {% endfor %}
   {% endif %}
 {% else %}

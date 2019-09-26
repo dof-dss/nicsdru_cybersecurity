@@ -4,12 +4,14 @@ $xs: 440px;
 $sm: 640px;
 $md: 765px;
 $lg: 960px;
+$max: 1024px;
 
 $breakpoints: (
   xs: $xs,
   sm: $sm,
   md: $md,
   lg: $lg,
+  max: $max,
 );
 
 

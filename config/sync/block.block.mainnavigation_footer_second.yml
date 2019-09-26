@@ -8,7 +8,7 @@ dependencies:
     - system
   theme:
     - cybersecurity
-id: mainnavigation_3
+id: mainnavigation_footer_second
 theme: cybersecurity
 region: footer_second
 weight: 0
@@ -16,7 +16,7 @@ provider: null
 plugin: 'system_menu_block:main'
 settings:
   id: 'system_menu_block:main'
-  label: 'Main navigation'
+  label: 'Footer main navigation'
   provider: system
   label_display: '0'
   level: 1
