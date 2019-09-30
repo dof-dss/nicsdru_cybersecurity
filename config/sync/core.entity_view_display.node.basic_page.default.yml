@@ -7,13 +7,8 @@ dependencies:
     - field.field.node.basic_page.field_checkbox
     - node.type.basic_page
   module:
-    - layout_builder
     - text
     - user
-third_party_settings:
-  layout_builder:
-    allow_custom: false
-    enabled: false
 _core:
   default_config_hash: ugqId2IKn4Cd1RcEjY2pZjAfwA1P4CFIrmmO6s3eVOc
 id: node.basic_page.default
@@ -24,11 +19,10 @@ content:
   body:
     label: hidden
     type: text_default
-    weight: 0
+    weight: 1
     settings: {  }
     third_party_settings: {  }
     region: content
 hidden:
   field_checkbox: true
   links: true
-  search_api_excerpt: true
