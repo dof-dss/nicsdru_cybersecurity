@@ -26,3 +26,42 @@ function tailwindcss_preprocess_block(&$variables) {
 function tailwindcss_get_active_theme() {
   return \Drupal::service('theme.manager')->getActiveTheme()->getName();
 }
+
+/**
+ * Implements hook_preprocess_HOOK().
+ * Changing the publication field label for Publication search page
+ */
+function cybersecurity_preprocess_field(&$variables) {
+  if ($variables['element']['#bundle'] == 'publication' && $variables['element']['#view_mode'] == 'search_result_with_snippet') {
+    $variables['label'] = t('Published: ');
+  }
+}
+
+/**
+ * Implements hook_preprocess_HOOK() for views_view.
+ *
+ * @RenderElement("html_tag");
+ */
+function cybersecurity_preprocess_views_view(array &$variables) {
+  if ($variables['id'] == 'publication_search_api') {
+
+    if (!empty($variables['rows'])) {
+      $number_of_items = count($variables['rows'][0]['#rows']);
+
+      if ($number_of_items == 1) {
+        $variables['header']['result'] = [
+          '#type' => 'html_tag',
+          '#tag' => 'h3',
+          '#value' => t($number_of_items . ' publication'),
+        ];
+      }
+      else {
+        $variables['header']['result'] = [
+          '#type' => 'html_tag',
+          '#tag' => 'h3',
+          '#value' => t($number_of_items . ' publications'),
+        ];
+      }
+    }
+  }
+}
