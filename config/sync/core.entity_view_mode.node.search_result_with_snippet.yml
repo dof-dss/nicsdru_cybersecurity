@@ -1,0 +1,10 @@
+uuid: bfbfe006-53f5-4746-b573-938d3481e7aa
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.search_result_with_snippet
+label: 'Search result with snippet'
+targetEntityType: node
+cache: true

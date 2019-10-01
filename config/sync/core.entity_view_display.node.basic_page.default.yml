@@ -23,10 +23,10 @@ content:
     settings: {  }
     third_party_settings: {  }
     region: content
-  links:
-    weight: 0
-    region: content
-    settings: {  }
-    third_party_settings: {  }
+links:
+  weight: 0
+  region: content
+  settings: {  }
+  third_party_settings: {  }
 hidden:
   field_checkbox: true

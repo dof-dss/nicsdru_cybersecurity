@@ -68,12 +68,16 @@ display:
           quantity: 9
       style:
         type: default
+        options:
+          row_class: ''
+          default_row_class: false
+          uses_fields: false
       row:
         type: search_api
         options:
           view_modes:
             'entity:node':
-              publication: teaser
+              publication: search_result_with_snippet
       fields:
         title:
           id: title
@@ -290,19 +294,22 @@ display:
             label: ''
           plugin_id: search_api
       title: Publications
-      header:
-        result:
-          id: result
+      header: {  }
+      footer: {  }
+      empty:
+        area:
+          id: area
           table: views
-          field: result
+          field: area
           relationship: none
           group_type: group
           admin_label: ''
-          empty: false
-          content: '<h3>@total publications</h3>'
-          plugin_id: result
-      footer: {  }
-      empty: {  }
+          empty: true
+          tokenize: false
+          content:
+            value: 'Sorry, there are no publications to view at this time.'
+            format: basic_html
+          plugin_id: text
       relationships: {  }
       arguments: {  }
       display_extenders: {  }

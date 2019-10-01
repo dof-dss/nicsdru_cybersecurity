@@ -10,7 +10,12 @@ dependencies:
     - node.type.publication
   module:
     - datetime
+    - layout_builder
     - user
+third_party_settings:
+  layout_builder:
+    allow_custom: false
+    enabled: false
 _core:
   default_config_hash: vz9m-5Qsc6I0oU9HCxTHc3IoJhAVCdS8dNAQ97pfE4Q
 id: node.publication.teaser
@@ -20,7 +25,7 @@ mode: teaser
 content:
   field_published_date:
     type: datetime_default
-    weight: 0
+    weight: 1
     region: content
     label: inline
     settings:

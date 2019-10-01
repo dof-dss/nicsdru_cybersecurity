@@ -38,6 +38,7 @@
     },
     "require-dev": {
         "drupal/coder": "~8.0",
+        "drupal/devel": "^2.1",
         "mglaman/drupal-check": "^1.0",
         "webflo/drupal-core-require-dev": "^8.7.0"
     },
