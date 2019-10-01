@@ -1,6 +1,5 @@
 global-styling:
   css:
     base:
-      dist/tailwind.css: {}
-    theme:
       css/styles.css: {}
+

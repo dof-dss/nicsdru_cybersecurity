@@ -1,8 +1,9 @@
-@import "01_init/init";
-@import "02_base/base";
-@import "03_layout/layout";
-@import "04_modules/modules";
-@import "05_theme/theme";
+@import 'tailwind';
+@import '01_init/init';
+@import '02_base/base';
+@import '03_layout/layout';
+@import '04_modules/modules';
+@import '05_theme/theme';
 
 
 
@@ -12,14 +13,6 @@
       max-height: 170px;
       overflow: hidden;
     }
-  }
-}
-
-.block_information-for {
-  h2 {
-    color: $secondary;
-    font-size: 3rem;
-    margin-bottom: 3.5rem;
   }
 }
 

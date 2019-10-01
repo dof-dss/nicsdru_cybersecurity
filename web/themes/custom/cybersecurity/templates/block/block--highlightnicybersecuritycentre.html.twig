@@ -25,10 +25,10 @@
  * @see template_preprocess_block()
  */
 #}
-<div{{ attributes.addClass("bg--white_6 tw-p-12 tw-mt-16 block--nicsc-highlight") }}>
+<div{{ attributes.addClass("bg--white_6 tw-p-12 tw-mt-16 tw-w-full sm-tw-ml-8 block--nicsc-highlight") }}>
   {{ title_prefix }}
   {% if label %}
-    <h2{{ title_attributes.addClass('tw-uppercase') }}>{{ label }}</h2>
+    <h2{{ title_attributes.addClass('tw-uppercase tw-text-xxl tw-text-primary') }}>{{ label }}</h2>
   {% endif %}
   {{ title_suffix }}
   {% block content %}

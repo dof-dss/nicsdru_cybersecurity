@@ -1,17 +1,15 @@
 @import "toolbar";
 @import "header";
-@import "layout-region";
 
 .container {
-  max-width: 1024px;
-  margin: 0 auto;
-  padding: 2rem;
+  @apply tw-my-0 tw-mx-auto tw-p-8;
+  max-width: $max;
 
-  @include breakpoint($max) {
-    padding: 2rem 0;
+  @screen max {
+    @apply tw-px-0;
   }
 
   &--header {
-    padding: 0;
+    @apply tw-p-0;
   }
 }

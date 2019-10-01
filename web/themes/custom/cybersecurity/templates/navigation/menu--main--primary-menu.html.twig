@@ -30,9 +30,9 @@
   {% import _self as menus %}
   {% if items %}
     {% if menu_level == 0 %}
-      <ul{{ attributes.addClass('list list--inline-md list_white tw-mt-16 menu_main tw-flex tw-justify-between') }}>
+      <ul{{ attributes.addClass('list_white tw-mt-16 menu_main tw-flex tw-justify-between') }}>
     {% else %}
-        <div class="bg--white tw-absolute tw-inset-x-0 tw-z-10 menu_main--sub tw-w-screen tw-flex tw-invisible">
+        <div class="bg--white tw-absolute tw-inset-x-0 tw-z-10 menu_main--sub tw-w-screen tw-flex tw-invisible tw-mt-4">
           <div class="container container--header">
             <div>
               <h2>{{ title }}</h2>
@@ -42,8 +42,8 @@
               <ul class="list list--bullet list--row">
     {% endif %}
     {% for item in items %}
-      <li{{ item.attributes.addClass('tw-p-4 tw-static') }}>
-        {{ link(item.title, item.url) }}
+      <li{{ item.attributes.addClass('tw-static tw-flex tw-items-end') }}>
+        {{ link(item.title, item.url, { class: ['tw-text-center tw-p-2'] }) }}
         {% if item.below %}
           {{ menus.menu_links(item.below, attributes, menu_level + 1) }}
         {% endif %}

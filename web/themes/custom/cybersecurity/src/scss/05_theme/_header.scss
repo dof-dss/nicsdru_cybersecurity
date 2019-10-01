@@ -1,25 +1,26 @@
-.front-bg {
-  background-image: url("../assets/header.png");
-  background-size: cover;
-}
-
 .main-bg {
   background-image: linear-gradient(#090a1e, #070945 20%, #0b165c, #143270 70%);
-  background-size: cover;
+  @apply tw-bg-cover
+}
+
+.front-bg {
+  @apply main-bg;
+  background-image: url("../assets/header.png");
+}
+
+.search-border {
+  @apply tw-border tw-border-light tw-border-solid;
 }
 
 .region_hero {
   .search-block-form {
     .form-search {
-      border: 1px solid $light;
+      @apply search-border;
     }
 
     .form-submit {
-      background-color: $light;
+      @apply search-border tw-bg-light tw-bg-no-repeat tw-bg-center;
       background-image: url("../assets/icon_search.svg");
-      background-repeat: no-repeat;
-      background-position: center;
-      border: 1px solid $light;
       content: "";
     }
   }
@@ -27,27 +28,20 @@
 
 .block--nicsc-highlight {
   h2 {
-    font-size: 3.6rem;
-    line-height: 2.3rem;
     letter-spacing: -1px;
-    color: $primary;
+    line-height: 2.3rem;
   }
 
   p {
-    color: #000;
-    font-size: 2.4rem;
-    font-weight: bold;
+    @apply tw-text-black tw-text-lg tw-font-bold tw-my-8 tw-mx-0;
     line-height: 3rem;
-    margin: 2rem 0;
   }
 }
 
 .menu_cisp {
   li {
-    font-size: 1.4rem;
+    @apply tw-py-0 tw-px-6;
     line-height: 2.3rem;
-    font-weight: bold;
-    padding: 0 1.6rem;
   }
 }
 
@@ -56,21 +50,15 @@
     .is-active,
     a:hover,
     a:focus {
-      border-bottom: 3px solid $white;
-      text-decoration: none;
-    }
-
-    a {
-      padding: 0.5rem;
+      @apply tw-border-b-3 tw-border-solid tw-border-white tw-no-underline;
     }
   }
 
   &--sub {
-    margin-top: 10px;
     left: calc(-50vw + 50%);
 
     a {
-      color: $heading;
+      @apply tw-text-heading;
     }
   }
 }

@@ -4,51 +4,46 @@
 
 .list {
   li {
+    @apply tw-py-px tw-px-0;
     display: list-item;
-    padding: 1px 0;
-
-    a {
-      //color: $white;
-    }
   }
 
   &--bullet {
-    list-style-type: disc;
-    padding-left: 16px;
+    @apply tw-list-disc tw-pl-64;
   }
 
 
   &--inline {
     li {
-      display: inline-block;
+      @apply tw-inline-block;
     }
 
-    &-md {
+    &-sm {
       li {
-        @include breakpoint($md) {
-          display: inline-block;
+        @screen sm {
+          @apply tw-inline-block;
         }
       }
     }
 
-    &-sm {
-       li {
-         @include breakpoint($sm) {
-           display: inline-block;
-         }
-       }
+    &-md {
+      li {
+        @screen md {
+          @apply tw-inline-block;
+        }
+      }
     }
   }
 
   &--row {
     li {
-      display: block;
+      @apply tw-block;
     }
   }
 
   &_white {
     a {
-      color: $white;
+      @apply tw-text-white;
     }
   }
 }

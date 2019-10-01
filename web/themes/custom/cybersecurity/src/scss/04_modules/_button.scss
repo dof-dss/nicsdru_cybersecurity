@@ -3,26 +3,18 @@
  */
 
 .btn {
-  border-radius: .5rem;
-  padding: .5rem 1rem;
+  @apply tw-rounded-lg tw-px-4;
 
   &--more {
-    width: 15rem;
-    height: 4rem;
+    @apply tw-w-60 tw-h-16 tw-text-md tw-font-bold tw-text-center;
+    line-height: 4rem;
   }
 
-  @each $color, $code in $colors {
-    &--#{$color} {
-      background-color: #{$code};
-      font-size: 2.1rem;
-      line-height: 3rem;
-      font-weight: bold;
-      text-align: center;
-      color: $white;
+  &--primary {
+    @apply tw-bg-primary tw-text-white;
 
-      a {
-        color: $white;
-      }
+    a {
+      @apply tw-text-white;
     }
   }
 }

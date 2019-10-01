@@ -1,23 +1,10 @@
-.toolbar-menu {
-  li {
-    font-size: small;
-  }
-}
-
 .tabs {
-  padding: 2rem 0;
+  a {
+    @apply tw-py-4;
+    @apply tw-px-8;
 
-  li {
-    font-size: 1.6rem;
-
-    a {
-      padding: 1rem 2rem;
-
-      &.is-active {
-        background-color: $highlight;
-      }
+    &.is-active {
+      @apply tw-bg-highlight;
     }
-
-
   }
 }

@@ -215,14 +215,15 @@ display:
         - user.permissions
       tags:
         - 'config:field.storage.taxonomy_term.field_taxonomy_icon'
-  block_1:
+  information_for_homepage_block:
     display_plugin: block
-    id: block_1
-    display_title: Block
+    id: information_for_homepage_block
+    display_title: 'Information for homepage block'
     position: 1
     display_options:
       display_extenders: {  }
       block_description: 'Information for...'
+      display_description: ''
     cache_metadata:
       max-age: -1
       contexts:
