@@ -1,44 +1,13 @@
 @import 'tailwind';
-@import '01_init/init';
-@import '02_base/base';
-@import '03_layout/layout';
-@import '04_modules/modules';
-@import '05_theme/theme';
+@import '01_base/base';
+@import '02_layout/layout';
+@import '03_modules/modules';
+@import '04_theme/theme';
 
 
 
-.view-news {
-  .views-field-field-image {
-    @include breakpoint($md) {
-      max-height: 170px;
-      overflow: hidden;
-    }
-  }
-}
 
-.views-field-field-taxonomy-icon {
-  background-color: $light;
-  border-radius: 100%;
-  height: 10rem;
-  width: 10rem;
-  margin: auto;
 
-  .field-content {
-    padding-top: 2.5rem;
-
-    img {
-      margin: auto;
-    }
-  }
-}
-
-.views-field-name {
-  text-align: center;
-
-  a {
-    color: #000;
-  }
-}
 
 
 

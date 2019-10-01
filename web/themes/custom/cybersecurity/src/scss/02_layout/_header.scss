@@ -6,18 +6,22 @@
   max-width: 375px;
 
   .search-block-form {
+    height: 5rem;
+
     form {
-      @apply tw-flex tw-w-full;
+      @apply tw-flex tw-w-full tw-h-full;
+
+      .form-item {
+        @apply tw-w-full;
+      }
     }
 
     .form-search {
-      width: 323px;
-      height: 50px;
+      @apply tw-w-full tw-h-full;
     }
 
     .form-submit {
-      @apply tw-text-0;
-      height: 50px;
+      @apply tw-text-0 tw-h-full;
       width: 52px;
     }
   }

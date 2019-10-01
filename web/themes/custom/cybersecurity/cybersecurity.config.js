@@ -58,7 +58,9 @@ module.exports = {
     }
   },
   variants: {},
-  plugins: [],
+  plugins: [
+    require('tailwindcss-bg-alpha')(),
+  ],
   corePlugins: {
     container: false
   }

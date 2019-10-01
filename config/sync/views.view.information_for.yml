@@ -6,7 +6,7 @@ dependencies:
     - field.storage.taxonomy_term.field_taxonomy_icon
     - taxonomy.vocabulary.information_for_
   module:
-    - image
+    - svg_image
     - taxonomy
     - user
 id: information_for
@@ -62,7 +62,7 @@ display:
           default_row_class: true
           type: ul
           wrapper_class: ''
-          class: 'tw-flex tw-flex-wrap tw-justify-between md-tw-px-32'
+          class: 'tw-flex tw-flex-wrap tw-justify-between tw--mx-12'
       row:
         type: fields
       fields:
@@ -119,6 +119,10 @@ display:
           settings:
             image_style: ''
             image_link: ''
+            svg_render_as_image: 0
+            svg_attributes:
+              width: ''
+              height: ''
           group_column: ''
           group_columns: {  }
           group_rows: true

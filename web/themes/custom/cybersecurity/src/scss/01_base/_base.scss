@@ -70,7 +70,7 @@ li {
   @apply tw-text-base;
   line-height: 2.4rem;
 
-  @include breakpoint($md) {
+  @screen md {
     @apply tw-text-sm;
     //line-height: 2.7rem;
   }

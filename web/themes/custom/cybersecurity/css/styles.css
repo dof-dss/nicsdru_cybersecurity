@@ -12825,6 +12825,798 @@ video {
   z-index: auto;
 }
 
+.tw-bg-white-alpha-0 {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.tw-border-white-alpha-0 {
+  border-color: rgba(255, 255, 255, 0);
+}
+
+.tw-text-white-alpha-0 {
+  color: rgba(255, 255, 255, 0);
+}
+
+.tw-bg-white-alpha-10 {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.tw-border-white-alpha-10 {
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.tw-text-white-alpha-10 {
+  color: rgba(255, 255, 255, 0.1);
+}
+
+.tw-bg-white-alpha-20 {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.tw-border-white-alpha-20 {
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.tw-text-white-alpha-20 {
+  color: rgba(255, 255, 255, 0.2);
+}
+
+.tw-bg-white-alpha-30 {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.tw-border-white-alpha-30 {
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+.tw-text-white-alpha-30 {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.tw-bg-white-alpha-40 {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.tw-border-white-alpha-40 {
+  border-color: rgba(255, 255, 255, 0.4);
+}
+
+.tw-text-white-alpha-40 {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.tw-bg-white-alpha-50 {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.tw-border-white-alpha-50 {
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+.tw-text-white-alpha-50 {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.tw-bg-white-alpha-60 {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.tw-border-white-alpha-60 {
+  border-color: rgba(255, 255, 255, 0.6);
+}
+
+.tw-text-white-alpha-60 {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.tw-bg-white-alpha-70 {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.tw-border-white-alpha-70 {
+  border-color: rgba(255, 255, 255, 0.7);
+}
+
+.tw-text-white-alpha-70 {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.tw-bg-white-alpha-80 {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.tw-border-white-alpha-80 {
+  border-color: rgba(255, 255, 255, 0.8);
+}
+
+.tw-text-white-alpha-80 {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.tw-bg-white-alpha-90 {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.tw-border-white-alpha-90 {
+  border-color: rgba(255, 255, 255, 0.9);
+}
+
+.tw-text-white-alpha-90 {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.tw-bg-white-alpha-100 {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.tw-border-white-alpha-100 {
+  border-color: rgba(255, 255, 255, 1);
+}
+
+.tw-text-white-alpha-100 {
+  color: rgba(255, 255, 255, 1);
+}
+
+.hover-tw-bg-white-alpha-0:hover {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.hover-tw-border-white-alpha-0:hover {
+  border-color: rgba(255, 255, 255, 0);
+}
+
+.hover-tw-text-white-alpha-0:hover {
+  color: rgba(255, 255, 255, 0);
+}
+
+.hover-tw-bg-white-alpha-10:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.hover-tw-border-white-alpha-10:hover {
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.hover-tw-text-white-alpha-10:hover {
+  color: rgba(255, 255, 255, 0.1);
+}
+
+.hover-tw-bg-white-alpha-20:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.hover-tw-border-white-alpha-20:hover {
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.hover-tw-text-white-alpha-20:hover {
+  color: rgba(255, 255, 255, 0.2);
+}
+
+.hover-tw-bg-white-alpha-30:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.hover-tw-border-white-alpha-30:hover {
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+.hover-tw-text-white-alpha-30:hover {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.hover-tw-bg-white-alpha-40:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.hover-tw-border-white-alpha-40:hover {
+  border-color: rgba(255, 255, 255, 0.4);
+}
+
+.hover-tw-text-white-alpha-40:hover {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.hover-tw-bg-white-alpha-50:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.hover-tw-border-white-alpha-50:hover {
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+.hover-tw-text-white-alpha-50:hover {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.hover-tw-bg-white-alpha-60:hover {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.hover-tw-border-white-alpha-60:hover {
+  border-color: rgba(255, 255, 255, 0.6);
+}
+
+.hover-tw-text-white-alpha-60:hover {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.hover-tw-bg-white-alpha-70:hover {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.hover-tw-border-white-alpha-70:hover {
+  border-color: rgba(255, 255, 255, 0.7);
+}
+
+.hover-tw-text-white-alpha-70:hover {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.hover-tw-bg-white-alpha-80:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.hover-tw-border-white-alpha-80:hover {
+  border-color: rgba(255, 255, 255, 0.8);
+}
+
+.hover-tw-text-white-alpha-80:hover {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.hover-tw-bg-white-alpha-90:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.hover-tw-border-white-alpha-90:hover {
+  border-color: rgba(255, 255, 255, 0.9);
+}
+
+.hover-tw-text-white-alpha-90:hover {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.hover-tw-bg-white-alpha-100:hover {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.hover-tw-border-white-alpha-100:hover {
+  border-color: rgba(255, 255, 255, 1);
+}
+
+.hover-tw-text-white-alpha-100:hover {
+  color: rgba(255, 255, 255, 1);
+}
+
+.focus-tw-bg-white-alpha-0:focus {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.focus-tw-border-white-alpha-0:focus {
+  border-color: rgba(255, 255, 255, 0);
+}
+
+.focus-tw-text-white-alpha-0:focus {
+  color: rgba(255, 255, 255, 0);
+}
+
+.focus-tw-bg-white-alpha-10:focus {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.focus-tw-border-white-alpha-10:focus {
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.focus-tw-text-white-alpha-10:focus {
+  color: rgba(255, 255, 255, 0.1);
+}
+
+.focus-tw-bg-white-alpha-20:focus {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.focus-tw-border-white-alpha-20:focus {
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.focus-tw-text-white-alpha-20:focus {
+  color: rgba(255, 255, 255, 0.2);
+}
+
+.focus-tw-bg-white-alpha-30:focus {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.focus-tw-border-white-alpha-30:focus {
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+.focus-tw-text-white-alpha-30:focus {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.focus-tw-bg-white-alpha-40:focus {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.focus-tw-border-white-alpha-40:focus {
+  border-color: rgba(255, 255, 255, 0.4);
+}
+
+.focus-tw-text-white-alpha-40:focus {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.focus-tw-bg-white-alpha-50:focus {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.focus-tw-border-white-alpha-50:focus {
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+.focus-tw-text-white-alpha-50:focus {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.focus-tw-bg-white-alpha-60:focus {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.focus-tw-border-white-alpha-60:focus {
+  border-color: rgba(255, 255, 255, 0.6);
+}
+
+.focus-tw-text-white-alpha-60:focus {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.focus-tw-bg-white-alpha-70:focus {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.focus-tw-border-white-alpha-70:focus {
+  border-color: rgba(255, 255, 255, 0.7);
+}
+
+.focus-tw-text-white-alpha-70:focus {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.focus-tw-bg-white-alpha-80:focus {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.focus-tw-border-white-alpha-80:focus {
+  border-color: rgba(255, 255, 255, 0.8);
+}
+
+.focus-tw-text-white-alpha-80:focus {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.focus-tw-bg-white-alpha-90:focus {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.focus-tw-border-white-alpha-90:focus {
+  border-color: rgba(255, 255, 255, 0.9);
+}
+
+.focus-tw-text-white-alpha-90:focus {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.focus-tw-bg-white-alpha-100:focus {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.focus-tw-border-white-alpha-100:focus {
+  border-color: rgba(255, 255, 255, 1);
+}
+
+.focus-tw-text-white-alpha-100:focus {
+  color: rgba(255, 255, 255, 1);
+}
+
+.tw-bg-black-alpha-0 {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.tw-border-black-alpha-0 {
+  border-color: rgba(0, 0, 0, 0);
+}
+
+.tw-text-black-alpha-0 {
+  color: rgba(0, 0, 0, 0);
+}
+
+.tw-bg-black-alpha-10 {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.tw-border-black-alpha-10 {
+  border-color: rgba(0, 0, 0, 0.1);
+}
+
+.tw-text-black-alpha-10 {
+  color: rgba(0, 0, 0, 0.1);
+}
+
+.tw-bg-black-alpha-20 {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.tw-border-black-alpha-20 {
+  border-color: rgba(0, 0, 0, 0.2);
+}
+
+.tw-text-black-alpha-20 {
+  color: rgba(0, 0, 0, 0.2);
+}
+
+.tw-bg-black-alpha-30 {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.tw-border-black-alpha-30 {
+  border-color: rgba(0, 0, 0, 0.3);
+}
+
+.tw-text-black-alpha-30 {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.tw-bg-black-alpha-40 {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.tw-border-black-alpha-40 {
+  border-color: rgba(0, 0, 0, 0.4);
+}
+
+.tw-text-black-alpha-40 {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.tw-bg-black-alpha-50 {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.tw-border-black-alpha-50 {
+  border-color: rgba(0, 0, 0, 0.5);
+}
+
+.tw-text-black-alpha-50 {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.tw-bg-black-alpha-60 {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.tw-border-black-alpha-60 {
+  border-color: rgba(0, 0, 0, 0.6);
+}
+
+.tw-text-black-alpha-60 {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.tw-bg-black-alpha-70 {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.tw-border-black-alpha-70 {
+  border-color: rgba(0, 0, 0, 0.7);
+}
+
+.tw-text-black-alpha-70 {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.tw-bg-black-alpha-80 {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.tw-border-black-alpha-80 {
+  border-color: rgba(0, 0, 0, 0.8);
+}
+
+.tw-text-black-alpha-80 {
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.tw-bg-black-alpha-90 {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.tw-border-black-alpha-90 {
+  border-color: rgba(0, 0, 0, 0.9);
+}
+
+.tw-text-black-alpha-90 {
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.tw-bg-black-alpha-100 {
+  background-color: rgba(0, 0, 0, 1);
+}
+
+.tw-border-black-alpha-100 {
+  border-color: rgba(0, 0, 0, 1);
+}
+
+.tw-text-black-alpha-100 {
+  color: rgba(0, 0, 0, 1);
+}
+
+.hover-tw-bg-black-alpha-0:hover {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.hover-tw-border-black-alpha-0:hover {
+  border-color: rgba(0, 0, 0, 0);
+}
+
+.hover-tw-text-black-alpha-0:hover {
+  color: rgba(0, 0, 0, 0);
+}
+
+.hover-tw-bg-black-alpha-10:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.hover-tw-border-black-alpha-10:hover {
+  border-color: rgba(0, 0, 0, 0.1);
+}
+
+.hover-tw-text-black-alpha-10:hover {
+  color: rgba(0, 0, 0, 0.1);
+}
+
+.hover-tw-bg-black-alpha-20:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.hover-tw-border-black-alpha-20:hover {
+  border-color: rgba(0, 0, 0, 0.2);
+}
+
+.hover-tw-text-black-alpha-20:hover {
+  color: rgba(0, 0, 0, 0.2);
+}
+
+.hover-tw-bg-black-alpha-30:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.hover-tw-border-black-alpha-30:hover {
+  border-color: rgba(0, 0, 0, 0.3);
+}
+
+.hover-tw-text-black-alpha-30:hover {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.hover-tw-bg-black-alpha-40:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.hover-tw-border-black-alpha-40:hover {
+  border-color: rgba(0, 0, 0, 0.4);
+}
+
+.hover-tw-text-black-alpha-40:hover {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.hover-tw-bg-black-alpha-50:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hover-tw-border-black-alpha-50:hover {
+  border-color: rgba(0, 0, 0, 0.5);
+}
+
+.hover-tw-text-black-alpha-50:hover {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.hover-tw-bg-black-alpha-60:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.hover-tw-border-black-alpha-60:hover {
+  border-color: rgba(0, 0, 0, 0.6);
+}
+
+.hover-tw-text-black-alpha-60:hover {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.hover-tw-bg-black-alpha-70:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.hover-tw-border-black-alpha-70:hover {
+  border-color: rgba(0, 0, 0, 0.7);
+}
+
+.hover-tw-text-black-alpha-70:hover {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.hover-tw-bg-black-alpha-80:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.hover-tw-border-black-alpha-80:hover {
+  border-color: rgba(0, 0, 0, 0.8);
+}
+
+.hover-tw-text-black-alpha-80:hover {
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.hover-tw-bg-black-alpha-90:hover {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.hover-tw-border-black-alpha-90:hover {
+  border-color: rgba(0, 0, 0, 0.9);
+}
+
+.hover-tw-text-black-alpha-90:hover {
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.hover-tw-bg-black-alpha-100:hover {
+  background-color: rgba(0, 0, 0, 1);
+}
+
+.hover-tw-border-black-alpha-100:hover {
+  border-color: rgba(0, 0, 0, 1);
+}
+
+.hover-tw-text-black-alpha-100:hover {
+  color: rgba(0, 0, 0, 1);
+}
+
+.focus-tw-bg-black-alpha-0:focus {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.focus-tw-border-black-alpha-0:focus {
+  border-color: rgba(0, 0, 0, 0);
+}
+
+.focus-tw-text-black-alpha-0:focus {
+  color: rgba(0, 0, 0, 0);
+}
+
+.focus-tw-bg-black-alpha-10:focus {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.focus-tw-border-black-alpha-10:focus {
+  border-color: rgba(0, 0, 0, 0.1);
+}
+
+.focus-tw-text-black-alpha-10:focus {
+  color: rgba(0, 0, 0, 0.1);
+}
+
+.focus-tw-bg-black-alpha-20:focus {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.focus-tw-border-black-alpha-20:focus {
+  border-color: rgba(0, 0, 0, 0.2);
+}
+
+.focus-tw-text-black-alpha-20:focus {
+  color: rgba(0, 0, 0, 0.2);
+}
+
+.focus-tw-bg-black-alpha-30:focus {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.focus-tw-border-black-alpha-30:focus {
+  border-color: rgba(0, 0, 0, 0.3);
+}
+
+.focus-tw-text-black-alpha-30:focus {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.focus-tw-bg-black-alpha-40:focus {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.focus-tw-border-black-alpha-40:focus {
+  border-color: rgba(0, 0, 0, 0.4);
+}
+
+.focus-tw-text-black-alpha-40:focus {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.focus-tw-bg-black-alpha-50:focus {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.focus-tw-border-black-alpha-50:focus {
+  border-color: rgba(0, 0, 0, 0.5);
+}
+
+.focus-tw-text-black-alpha-50:focus {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.focus-tw-bg-black-alpha-60:focus {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.focus-tw-border-black-alpha-60:focus {
+  border-color: rgba(0, 0, 0, 0.6);
+}
+
+.focus-tw-text-black-alpha-60:focus {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.focus-tw-bg-black-alpha-70:focus {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.focus-tw-border-black-alpha-70:focus {
+  border-color: rgba(0, 0, 0, 0.7);
+}
+
+.focus-tw-text-black-alpha-70:focus {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.focus-tw-bg-black-alpha-80:focus {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.focus-tw-border-black-alpha-80:focus {
+  border-color: rgba(0, 0, 0, 0.8);
+}
+
+.focus-tw-text-black-alpha-80:focus {
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.focus-tw-bg-black-alpha-90:focus {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.focus-tw-border-black-alpha-90:focus {
+  border-color: rgba(0, 0, 0, 0.9);
+}
+
+.focus-tw-text-black-alpha-90:focus {
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.focus-tw-bg-black-alpha-100:focus {
+  background-color: rgba(0, 0, 0, 1);
+}
+
+.focus-tw-border-black-alpha-100:focus {
+  border-color: rgba(0, 0, 0, 1);
+}
+
+.focus-tw-text-black-alpha-100:focus {
+  color: rgba(0, 0, 0, 1);
+}
+
 /**
  * Box-sizing
  */
@@ -12911,7 +13703,7 @@ li {
   line-height: 2.4rem;
 }
 
-@media only screen and (min-width: 765px) {
+@media (min-width: 765px) {
   p,
   li {
     font-size: 1.8rem;
@@ -12944,47 +13736,6 @@ button {
   border-width: 0;
 }
 
-.tabs a {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-
-.tabs a.is-active {
-  background-color: #e5e5ec;
-}
-
-.header-hero {
-  max-height: 5rem;
-}
-
-.region_hero {
-  max-width: 375px;
-}
-
-.region_hero .search-block-form form {
-  display: flex;
-  width: 100%;
-}
-
-.region_hero .search-block-form .form-search {
-  width: 323px;
-  height: 50px;
-}
-
-.region_hero .search-block-form .form-submit {
-  font-size: 0;
-  height: 50px;
-  width: 52px;
-}
-
-@media (min-width: 640px) {
-  .block--nicsc-highlight {
-    max-width: 521px;
-  }
-}
-
 .container {
   margin-top: 0;
   margin-bottom: 0;
@@ -13005,528 +13756,64 @@ button {
   padding: 0;
 }
 
-/**
- * Background styling.
- */
-
-.bg--primary {
-  background-color: #361c82;
-}
-
-.bg--primary_1 {
-  background-color: rgba(54, 28, 130, calc(1/10));
-}
-
-.bg--primary_2 {
-  background-color: rgba(54, 28, 130, calc(2/10));
-}
-
-.bg--primary_3 {
-  background-color: rgba(54, 28, 130, calc(3/10));
-}
-
-.bg--primary_4 {
-  background-color: rgba(54, 28, 130, calc(4/10));
-}
-
-.bg--primary_5 {
-  background-color: rgba(54, 28, 130, calc(5/10));
-}
-
-.bg--primary_6 {
-  background-color: rgba(54, 28, 130, calc(6/10));
-}
-
-.bg--primary_7 {
-  background-color: rgba(54, 28, 130, calc(7/10));
-}
-
-.bg--primary_8 {
-  background-color: rgba(54, 28, 130, calc(8/10));
-}
-
-.bg--primary_9 {
-  background-color: rgba(54, 28, 130, calc(9/10));
-}
-
-.bg--secondary {
-  background-color: #020354;
-}
-
-.bg--secondary_1 {
-  background-color: rgba(2, 3, 84, calc(1/10));
-}
-
-.bg--secondary_2 {
-  background-color: rgba(2, 3, 84, calc(2/10));
-}
-
-.bg--secondary_3 {
-  background-color: rgba(2, 3, 84, calc(3/10));
-}
-
-.bg--secondary_4 {
-  background-color: rgba(2, 3, 84, calc(4/10));
-}
-
-.bg--secondary_5 {
-  background-color: rgba(2, 3, 84, calc(5/10));
-}
-
-.bg--secondary_6 {
-  background-color: rgba(2, 3, 84, calc(6/10));
-}
-
-.bg--secondary_7 {
-  background-color: rgba(2, 3, 84, calc(7/10));
-}
-
-.bg--secondary_8 {
-  background-color: rgba(2, 3, 84, calc(8/10));
-}
-
-.bg--secondary_9 {
-  background-color: rgba(2, 3, 84, calc(9/10));
-}
-
-.bg--heading {
-  background-color: #010247;
-}
-
-.bg--heading_1 {
-  background-color: rgba(1, 2, 71, calc(1/10));
-}
-
-.bg--heading_2 {
-  background-color: rgba(1, 2, 71, calc(2/10));
-}
-
-.bg--heading_3 {
-  background-color: rgba(1, 2, 71, calc(3/10));
-}
-
-.bg--heading_4 {
-  background-color: rgba(1, 2, 71, calc(4/10));
-}
-
-.bg--heading_5 {
-  background-color: rgba(1, 2, 71, calc(5/10));
-}
-
-.bg--heading_6 {
-  background-color: rgba(1, 2, 71, calc(6/10));
-}
-
-.bg--heading_7 {
-  background-color: rgba(1, 2, 71, calc(7/10));
-}
-
-.bg--heading_8 {
-  background-color: rgba(1, 2, 71, calc(8/10));
-}
-
-.bg--heading_9 {
-  background-color: rgba(1, 2, 71, calc(9/10));
-}
-
-.bg--mid-heading {
-  background-color: #010247;
-}
-
-.bg--mid-heading_1 {
-  background-color: rgba(1, 2, 71, calc(1/10));
-}
-
-.bg--mid-heading_2 {
-  background-color: rgba(1, 2, 71, calc(2/10));
-}
-
-.bg--mid-heading_3 {
-  background-color: rgba(1, 2, 71, calc(3/10));
-}
-
-.bg--mid-heading_4 {
-  background-color: rgba(1, 2, 71, calc(4/10));
-}
-
-.bg--mid-heading_5 {
-  background-color: rgba(1, 2, 71, calc(5/10));
-}
-
-.bg--mid-heading_6 {
-  background-color: rgba(1, 2, 71, calc(6/10));
-}
-
-.bg--mid-heading_7 {
-  background-color: rgba(1, 2, 71, calc(7/10));
-}
-
-.bg--mid-heading_8 {
-  background-color: rgba(1, 2, 71, calc(8/10));
-}
-
-.bg--mid-heading_9 {
-  background-color: rgba(1, 2, 71, calc(9/10));
-}
-
-.bg--sidebar-left-parent {
-  background-color: #0a165c;
-}
-
-.bg--sidebar-left-parent_1 {
-  background-color: rgba(10, 22, 92, calc(1/10));
-}
-
-.bg--sidebar-left-parent_2 {
-  background-color: rgba(10, 22, 92, calc(2/10));
-}
-
-.bg--sidebar-left-parent_3 {
-  background-color: rgba(10, 22, 92, calc(3/10));
-}
-
-.bg--sidebar-left-parent_4 {
-  background-color: rgba(10, 22, 92, calc(4/10));
-}
-
-.bg--sidebar-left-parent_5 {
-  background-color: rgba(10, 22, 92, calc(5/10));
-}
-
-.bg--sidebar-left-parent_6 {
-  background-color: rgba(10, 22, 92, calc(6/10));
-}
-
-.bg--sidebar-left-parent_7 {
-  background-color: rgba(10, 22, 92, calc(7/10));
-}
-
-.bg--sidebar-left-parent_8 {
-  background-color: rgba(10, 22, 92, calc(8/10));
-}
-
-.bg--sidebar-left-parent_9 {
-  background-color: rgba(10, 22, 92, calc(9/10));
-}
-
-.bg--sidebar-left {
-  background-color: #163772;
-}
-
-.bg--sidebar-left_1 {
-  background-color: rgba(22, 55, 114, calc(1/10));
-}
-
-.bg--sidebar-left_2 {
-  background-color: rgba(22, 55, 114, calc(2/10));
-}
-
-.bg--sidebar-left_3 {
-  background-color: rgba(22, 55, 114, calc(3/10));
-}
-
-.bg--sidebar-left_4 {
-  background-color: rgba(22, 55, 114, calc(4/10));
-}
-
-.bg--sidebar-left_5 {
-  background-color: rgba(22, 55, 114, calc(5/10));
-}
-
-.bg--sidebar-left_6 {
-  background-color: rgba(22, 55, 114, calc(6/10));
-}
-
-.bg--sidebar-left_7 {
-  background-color: rgba(22, 55, 114, calc(7/10));
-}
-
-.bg--sidebar-left_8 {
-  background-color: rgba(22, 55, 114, calc(8/10));
-}
-
-.bg--sidebar-left_9 {
-  background-color: rgba(22, 55, 114, calc(9/10));
-}
-
-.bg--sidebar-left-separator {
-  background-color: #2451a2;
-}
-
-.bg--sidebar-left-separator_1 {
-  background-color: rgba(36, 81, 162, calc(1/10));
-}
-
-.bg--sidebar-left-separator_2 {
-  background-color: rgba(36, 81, 162, calc(2/10));
-}
-
-.bg--sidebar-left-separator_3 {
-  background-color: rgba(36, 81, 162, calc(3/10));
-}
-
-.bg--sidebar-left-separator_4 {
-  background-color: rgba(36, 81, 162, calc(4/10));
-}
-
-.bg--sidebar-left-separator_5 {
-  background-color: rgba(36, 81, 162, calc(5/10));
-}
-
-.bg--sidebar-left-separator_6 {
-  background-color: rgba(36, 81, 162, calc(6/10));
-}
-
-.bg--sidebar-left-separator_7 {
-  background-color: rgba(36, 81, 162, calc(7/10));
-}
-
-.bg--sidebar-left-separator_8 {
-  background-color: rgba(36, 81, 162, calc(8/10));
-}
-
-.bg--sidebar-left-separator_9 {
-  background-color: rgba(36, 81, 162, calc(9/10));
-}
-
-.bg--sidebar-left-selected {
-  background-color: #85b3e1;
-}
-
-.bg--sidebar-left-selected_1 {
-  background-color: rgba(133, 179, 225, calc(1/10));
-}
-
-.bg--sidebar-left-selected_2 {
-  background-color: rgba(133, 179, 225, calc(2/10));
-}
-
-.bg--sidebar-left-selected_3 {
-  background-color: rgba(133, 179, 225, calc(3/10));
-}
-
-.bg--sidebar-left-selected_4 {
-  background-color: rgba(133, 179, 225, calc(4/10));
-}
-
-.bg--sidebar-left-selected_5 {
-  background-color: rgba(133, 179, 225, calc(5/10));
-}
-
-.bg--sidebar-left-selected_6 {
-  background-color: rgba(133, 179, 225, calc(6/10));
-}
-
-.bg--sidebar-left-selected_7 {
-  background-color: rgba(133, 179, 225, calc(7/10));
-}
-
-.bg--sidebar-left-selected_8 {
-  background-color: rgba(133, 179, 225, calc(8/10));
-}
-
-.bg--sidebar-left-selected_9 {
-  background-color: rgba(133, 179, 225, calc(9/10));
-}
-
-.bg--link {
-  background-color: #0066ff;
-}
-
-.bg--link_1 {
-  background-color: rgba(0, 102, 255, calc(1/10));
-}
-
-.bg--link_2 {
-  background-color: rgba(0, 102, 255, calc(2/10));
-}
-
-.bg--link_3 {
-  background-color: rgba(0, 102, 255, calc(3/10));
-}
-
-.bg--link_4 {
-  background-color: rgba(0, 102, 255, calc(4/10));
-}
-
-.bg--link_5 {
-  background-color: rgba(0, 102, 255, calc(5/10));
-}
-
-.bg--link_6 {
-  background-color: rgba(0, 102, 255, calc(6/10));
-}
-
-.bg--link_7 {
-  background-color: rgba(0, 102, 255, calc(7/10));
-}
-
-.bg--link_8 {
-  background-color: rgba(0, 102, 255, calc(8/10));
-}
-
-.bg--link_9 {
-  background-color: rgba(0, 102, 255, calc(9/10));
-}
-
-.bg--light {
-  background-color: #5787c7;
-}
-
-.bg--light_1 {
-  background-color: rgba(87, 135, 199, calc(1/10));
-}
-
-.bg--light_2 {
-  background-color: rgba(87, 135, 199, calc(2/10));
-}
-
-.bg--light_3 {
-  background-color: rgba(87, 135, 199, calc(3/10));
-}
-
-.bg--light_4 {
-  background-color: rgba(87, 135, 199, calc(4/10));
-}
-
-.bg--light_5 {
-  background-color: rgba(87, 135, 199, calc(5/10));
-}
-
-.bg--light_6 {
-  background-color: rgba(87, 135, 199, calc(6/10));
-}
-
-.bg--light_7 {
-  background-color: rgba(87, 135, 199, calc(7/10));
-}
-
-.bg--light_8 {
-  background-color: rgba(87, 135, 199, calc(8/10));
-}
-
-.bg--light_9 {
-  background-color: rgba(87, 135, 199, calc(9/10));
+.tabs a {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
-.bg--highlight {
+.tabs a.is-active {
   background-color: #e5e5ec;
 }
 
-.bg--highlight_1 {
-  background-color: rgba(229, 229, 236, calc(1/10));
+.header-hero {
+  max-height: 5rem;
 }
 
-.bg--highlight_2 {
-  background-color: rgba(229, 229, 236, calc(2/10));
+.region_hero {
+  max-width: 375px;
 }
 
-.bg--highlight_3 {
-  background-color: rgba(229, 229, 236, calc(3/10));
+.region_hero .search-block-form {
+  height: 5rem;
 }
 
-.bg--highlight_4 {
-  background-color: rgba(229, 229, 236, calc(4/10));
+.region_hero .search-block-form form {
+  display: flex;
+  width: 100%;
+  height: 100%;
 }
 
-.bg--highlight_5 {
-  background-color: rgba(229, 229, 236, calc(5/10));
+.region_hero .search-block-form form .form-item {
+  width: 100%;
 }
 
-.bg--highlight_6 {
-  background-color: rgba(229, 229, 236, calc(6/10));
+.region_hero .search-block-form .form-search {
+  width: 100%;
+  height: 100%;
 }
 
-.bg--highlight_7 {
-  background-color: rgba(229, 229, 236, calc(7/10));
+.region_hero .search-block-form .form-submit {
+  font-size: 0;
+  height: 100%;
+  width: 52px;
 }
 
-.bg--highlight_8 {
-  background-color: rgba(229, 229, 236, calc(8/10));
+@media (min-width: 640px) {
+  .block--nicsc-highlight {
+    max-width: 521px;
+  }
 }
 
-.bg--highlight_9 {
-  background-color: rgba(229, 229, 236, calc(9/10));
+.views-field-name {
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
-.bg--white {
-  background-color: #fff;
-}
-
-.bg--white_1 {
-  background-color: rgba(255, 255, 255, calc(1/10));
-}
-
-.bg--white_2 {
-  background-color: rgba(255, 255, 255, calc(2/10));
-}
-
-.bg--white_3 {
-  background-color: rgba(255, 255, 255, calc(3/10));
-}
-
-.bg--white_4 {
-  background-color: rgba(255, 255, 255, calc(4/10));
-}
-
-.bg--white_5 {
-  background-color: rgba(255, 255, 255, calc(5/10));
-}
-
-.bg--white_6 {
-  background-color: rgba(255, 255, 255, calc(6/10));
-}
-
-.bg--white_7 {
-  background-color: rgba(255, 255, 255, calc(7/10));
-}
-
-.bg--white_8 {
-  background-color: rgba(255, 255, 255, calc(8/10));
-}
-
-.bg--white_9 {
-  background-color: rgba(255, 255, 255, calc(9/10));
-}
-
-.bg--text {
-  background-color: #333;
-}
-
-.bg--text_1 {
-  background-color: rgba(51, 51, 51, calc(1/10));
-}
-
-.bg--text_2 {
-  background-color: rgba(51, 51, 51, calc(2/10));
-}
-
-.bg--text_3 {
-  background-color: rgba(51, 51, 51, calc(3/10));
-}
-
-.bg--text_4 {
-  background-color: rgba(51, 51, 51, calc(4/10));
-}
-
-.bg--text_5 {
-  background-color: rgba(51, 51, 51, calc(5/10));
-}
-
-.bg--text_6 {
-  background-color: rgba(51, 51, 51, calc(6/10));
-}
-
-.bg--text_7 {
-  background-color: rgba(51, 51, 51, calc(7/10));
-}
-
-.bg--text_8 {
-  background-color: rgba(51, 51, 51, calc(8/10));
-}
-
-.bg--text_9 {
-  background-color: rgba(51, 51, 51, calc(9/10));
+.views-field-name a {
+  color: #000;
 }
 
 /**
@@ -13671,37 +13958,6 @@ button {
 
 .menu_main--sub a {
   color: #010247;
-}
-
-@media only screen and (min-width: 765px) {
-  .view-news .views-field-field-image {
-    max-height: 170px;
-    overflow: hidden;
-  }
-}
-
-.views-field-field-taxonomy-icon {
-  background-color: #5787c7;
-  border-radius: 100%;
-  height: 10rem;
-  width: 10rem;
-  margin: auto;
-}
-
-.views-field-field-taxonomy-icon .field-content {
-  padding-top: 2.5rem;
-}
-
-.views-field-field-taxonomy-icon .field-content img {
-  margin: auto;
-}
-
-.views-field-name {
-  text-align: center;
-}
-
-.views-field-name a {
-  color: #000;
 }
 
 @media (min-width: 440px) {
@@ -25925,6 +26181,798 @@ button {
 
   .xs-tw-z-auto {
     z-index: auto;
+  }
+
+  .xs-tw-bg-white-alpha-0 {
+    background-color: rgba(255, 255, 255, 0);
+  }
+
+  .xs-tw-border-white-alpha-0 {
+    border-color: rgba(255, 255, 255, 0);
+  }
+
+  .xs-tw-text-white-alpha-0 {
+    color: rgba(255, 255, 255, 0);
+  }
+
+  .xs-tw-bg-white-alpha-10 {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+
+  .xs-tw-border-white-alpha-10 {
+    border-color: rgba(255, 255, 255, 0.1);
+  }
+
+  .xs-tw-text-white-alpha-10 {
+    color: rgba(255, 255, 255, 0.1);
+  }
+
+  .xs-tw-bg-white-alpha-20 {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+
+  .xs-tw-border-white-alpha-20 {
+    border-color: rgba(255, 255, 255, 0.2);
+  }
+
+  .xs-tw-text-white-alpha-20 {
+    color: rgba(255, 255, 255, 0.2);
+  }
+
+  .xs-tw-bg-white-alpha-30 {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+
+  .xs-tw-border-white-alpha-30 {
+    border-color: rgba(255, 255, 255, 0.3);
+  }
+
+  .xs-tw-text-white-alpha-30 {
+    color: rgba(255, 255, 255, 0.3);
+  }
+
+  .xs-tw-bg-white-alpha-40 {
+    background-color: rgba(255, 255, 255, 0.4);
+  }
+
+  .xs-tw-border-white-alpha-40 {
+    border-color: rgba(255, 255, 255, 0.4);
+  }
+
+  .xs-tw-text-white-alpha-40 {
+    color: rgba(255, 255, 255, 0.4);
+  }
+
+  .xs-tw-bg-white-alpha-50 {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+
+  .xs-tw-border-white-alpha-50 {
+    border-color: rgba(255, 255, 255, 0.5);
+  }
+
+  .xs-tw-text-white-alpha-50 {
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+  .xs-tw-bg-white-alpha-60 {
+    background-color: rgba(255, 255, 255, 0.6);
+  }
+
+  .xs-tw-border-white-alpha-60 {
+    border-color: rgba(255, 255, 255, 0.6);
+  }
+
+  .xs-tw-text-white-alpha-60 {
+    color: rgba(255, 255, 255, 0.6);
+  }
+
+  .xs-tw-bg-white-alpha-70 {
+    background-color: rgba(255, 255, 255, 0.7);
+  }
+
+  .xs-tw-border-white-alpha-70 {
+    border-color: rgba(255, 255, 255, 0.7);
+  }
+
+  .xs-tw-text-white-alpha-70 {
+    color: rgba(255, 255, 255, 0.7);
+  }
+
+  .xs-tw-bg-white-alpha-80 {
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+
+  .xs-tw-border-white-alpha-80 {
+    border-color: rgba(255, 255, 255, 0.8);
+  }
+
+  .xs-tw-text-white-alpha-80 {
+    color: rgba(255, 255, 255, 0.8);
+  }
+
+  .xs-tw-bg-white-alpha-90 {
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+
+  .xs-tw-border-white-alpha-90 {
+    border-color: rgba(255, 255, 255, 0.9);
+  }
+
+  .xs-tw-text-white-alpha-90 {
+    color: rgba(255, 255, 255, 0.9);
+  }
+
+  .xs-tw-bg-white-alpha-100 {
+    background-color: rgba(255, 255, 255, 1);
+  }
+
+  .xs-tw-border-white-alpha-100 {
+    border-color: rgba(255, 255, 255, 1);
+  }
+
+  .xs-tw-text-white-alpha-100 {
+    color: rgba(255, 255, 255, 1);
+  }
+
+  .xs-hover-tw-bg-white-alpha-0:hover {
+    background-color: rgba(255, 255, 255, 0);
+  }
+
+  .xs-hover-tw-border-white-alpha-0:hover {
+    border-color: rgba(255, 255, 255, 0);
+  }
+
+  .xs-hover-tw-text-white-alpha-0:hover {
+    color: rgba(255, 255, 255, 0);
+  }
+
+  .xs-hover-tw-bg-white-alpha-10:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+
+  .xs-hover-tw-border-white-alpha-10:hover {
+    border-color: rgba(255, 255, 255, 0.1);
+  }
+
+  .xs-hover-tw-text-white-alpha-10:hover {
+    color: rgba(255, 255, 255, 0.1);
+  }
+
+  .xs-hover-tw-bg-white-alpha-20:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+
+  .xs-hover-tw-border-white-alpha-20:hover {
+    border-color: rgba(255, 255, 255, 0.2);
+  }
+
+  .xs-hover-tw-text-white-alpha-20:hover {
+    color: rgba(255, 255, 255, 0.2);
+  }
+
+  .xs-hover-tw-bg-white-alpha-30:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+
+  .xs-hover-tw-border-white-alpha-30:hover {
+    border-color: rgba(255, 255, 255, 0.3);
+  }
+
+  .xs-hover-tw-text-white-alpha-30:hover {
+    color: rgba(255, 255, 255, 0.3);
+  }
+
+  .xs-hover-tw-bg-white-alpha-40:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+  }
+
+  .xs-hover-tw-border-white-alpha-40:hover {
+    border-color: rgba(255, 255, 255, 0.4);
+  }
+
+  .xs-hover-tw-text-white-alpha-40:hover {
+    color: rgba(255, 255, 255, 0.4);
+  }
+
+  .xs-hover-tw-bg-white-alpha-50:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+
+  .xs-hover-tw-border-white-alpha-50:hover {
+    border-color: rgba(255, 255, 255, 0.5);
+  }
+
+  .xs-hover-tw-text-white-alpha-50:hover {
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+  .xs-hover-tw-bg-white-alpha-60:hover {
+    background-color: rgba(255, 255, 255, 0.6);
+  }
+
+  .xs-hover-tw-border-white-alpha-60:hover {
+    border-color: rgba(255, 255, 255, 0.6);
+  }
+
+  .xs-hover-tw-text-white-alpha-60:hover {
+    color: rgba(255, 255, 255, 0.6);
+  }
+
+  .xs-hover-tw-bg-white-alpha-70:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+  }
+
+  .xs-hover-tw-border-white-alpha-70:hover {
+    border-color: rgba(255, 255, 255, 0.7);
+  }
+
+  .xs-hover-tw-text-white-alpha-70:hover {
+    color: rgba(255, 255, 255, 0.7);
+  }
+
+  .xs-hover-tw-bg-white-alpha-80:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+
+  .xs-hover-tw-border-white-alpha-80:hover {
+    border-color: rgba(255, 255, 255, 0.8);
+  }
+
+  .xs-hover-tw-text-white-alpha-80:hover {
+    color: rgba(255, 255, 255, 0.8);
+  }
+
+  .xs-hover-tw-bg-white-alpha-90:hover {
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+
+  .xs-hover-tw-border-white-alpha-90:hover {
+    border-color: rgba(255, 255, 255, 0.9);
+  }
+
+  .xs-hover-tw-text-white-alpha-90:hover {
+    color: rgba(255, 255, 255, 0.9);
+  }
+
+  .xs-hover-tw-bg-white-alpha-100:hover {
+    background-color: rgba(255, 255, 255, 1);
+  }
+
+  .xs-hover-tw-border-white-alpha-100:hover {
+    border-color: rgba(255, 255, 255, 1);
+  }
+
+  .xs-hover-tw-text-white-alpha-100:hover {
+    color: rgba(255, 255, 255, 1);
+  }
+
+  .xs-focus-tw-bg-white-alpha-0:focus {
+    background-color: rgba(255, 255, 255, 0);
+  }
+
+  .xs-focus-tw-border-white-alpha-0:focus {
+    border-color: rgba(255, 255, 255, 0);
+  }
+
+  .xs-focus-tw-text-white-alpha-0:focus {
+    color: rgba(255, 255, 255, 0);
+  }
+
+  .xs-focus-tw-bg-white-alpha-10:focus {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+
+  .xs-focus-tw-border-white-alpha-10:focus {
+    border-color: rgba(255, 255, 255, 0.1);
+  }
+
+  .xs-focus-tw-text-white-alpha-10:focus {
+    color: rgba(255, 255, 255, 0.1);
+  }
+
+  .xs-focus-tw-bg-white-alpha-20:focus {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+
+  .xs-focus-tw-border-white-alpha-20:focus {
+    border-color: rgba(255, 255, 255, 0.2);
+  }
+
+  .xs-focus-tw-text-white-alpha-20:focus {
+    color: rgba(255, 255, 255, 0.2);
+  }
+
+  .xs-focus-tw-bg-white-alpha-30:focus {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+
+  .xs-focus-tw-border-white-alpha-30:focus {
+    border-color: rgba(255, 255, 255, 0.3);
+  }
+
+  .xs-focus-tw-text-white-alpha-30:focus {
+    color: rgba(255, 255, 255, 0.3);
+  }
+
+  .xs-focus-tw-bg-white-alpha-40:focus {
+    background-color: rgba(255, 255, 255, 0.4);
+  }
+
+  .xs-focus-tw-border-white-alpha-40:focus {
+    border-color: rgba(255, 255, 255, 0.4);
+  }
+
+  .xs-focus-tw-text-white-alpha-40:focus {
+    color: rgba(255, 255, 255, 0.4);
+  }
+
+  .xs-focus-tw-bg-white-alpha-50:focus {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+
+  .xs-focus-tw-border-white-alpha-50:focus {
+    border-color: rgba(255, 255, 255, 0.5);
+  }
+
+  .xs-focus-tw-text-white-alpha-50:focus {
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+  .xs-focus-tw-bg-white-alpha-60:focus {
+    background-color: rgba(255, 255, 255, 0.6);
+  }
+
+  .xs-focus-tw-border-white-alpha-60:focus {
+    border-color: rgba(255, 255, 255, 0.6);
+  }
+
+  .xs-focus-tw-text-white-alpha-60:focus {
+    color: rgba(255, 255, 255, 0.6);
+  }
+
+  .xs-focus-tw-bg-white-alpha-70:focus {
+    background-color: rgba(255, 255, 255, 0.7);
+  }
+
+  .xs-focus-tw-border-white-alpha-70:focus {
+    border-color: rgba(255, 255, 255, 0.7);
+  }
+
+  .xs-focus-tw-text-white-alpha-70:focus {
+    color: rgba(255, 255, 255, 0.7);
+  }
+
+  .xs-focus-tw-bg-white-alpha-80:focus {
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+
+  .xs-focus-tw-border-white-alpha-80:focus {
+    border-color: rgba(255, 255, 255, 0.8);
+  }
+
+  .xs-focus-tw-text-white-alpha-80:focus {
+    color: rgba(255, 255, 255, 0.8);
+  }
+
+  .xs-focus-tw-bg-white-alpha-90:focus {
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+
+  .xs-focus-tw-border-white-alpha-90:focus {
+    border-color: rgba(255, 255, 255, 0.9);
+  }
+
+  .xs-focus-tw-text-white-alpha-90:focus {
+    color: rgba(255, 255, 255, 0.9);
+  }
+
+  .xs-focus-tw-bg-white-alpha-100:focus {
+    background-color: rgba(255, 255, 255, 1);
+  }
+
+  .xs-focus-tw-border-white-alpha-100:focus {
+    border-color: rgba(255, 255, 255, 1);
+  }
+
+  .xs-focus-tw-text-white-alpha-100:focus {
+    color: rgba(255, 255, 255, 1);
+  }
+
+  .xs-tw-bg-black-alpha-0 {
+    background-color: rgba(0, 0, 0, 0);
+  }
+
+  .xs-tw-border-black-alpha-0 {
+    border-color: rgba(0, 0, 0, 0);
+  }
+
+  .xs-tw-text-black-alpha-0 {
+    color: rgba(0, 0, 0, 0);
+  }
+
+  .xs-tw-bg-black-alpha-10 {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+  .xs-tw-border-black-alpha-10 {
+    border-color: rgba(0, 0, 0, 0.1);
+  }
+
+  .xs-tw-text-black-alpha-10 {
+    color: rgba(0, 0, 0, 0.1);
+  }
+
+  .xs-tw-bg-black-alpha-20 {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+
+  .xs-tw-border-black-alpha-20 {
+    border-color: rgba(0, 0, 0, 0.2);
+  }
+
+  .xs-tw-text-black-alpha-20 {
+    color: rgba(0, 0, 0, 0.2);
+  }
+
+  .xs-tw-bg-black-alpha-30 {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+
+  .xs-tw-border-black-alpha-30 {
+    border-color: rgba(0, 0, 0, 0.3);
+  }
+
+  .xs-tw-text-black-alpha-30 {
+    color: rgba(0, 0, 0, 0.3);
+  }
+
+  .xs-tw-bg-black-alpha-40 {
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+
+  .xs-tw-border-black-alpha-40 {
+    border-color: rgba(0, 0, 0, 0.4);
+  }
+
+  .xs-tw-text-black-alpha-40 {
+    color: rgba(0, 0, 0, 0.4);
+  }
+
+  .xs-tw-bg-black-alpha-50 {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .xs-tw-border-black-alpha-50 {
+    border-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .xs-tw-text-black-alpha-50 {
+    color: rgba(0, 0, 0, 0.5);
+  }
+
+  .xs-tw-bg-black-alpha-60 {
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+
+  .xs-tw-border-black-alpha-60 {
+    border-color: rgba(0, 0, 0, 0.6);
+  }
+
+  .xs-tw-text-black-alpha-60 {
+    color: rgba(0, 0, 0, 0.6);
+  }
+
+  .xs-tw-bg-black-alpha-70 {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+
+  .xs-tw-border-black-alpha-70 {
+    border-color: rgba(0, 0, 0, 0.7);
+  }
+
+  .xs-tw-text-black-alpha-70 {
+    color: rgba(0, 0, 0, 0.7);
+  }
+
+  .xs-tw-bg-black-alpha-80 {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  .xs-tw-border-black-alpha-80 {
+    border-color: rgba(0, 0, 0, 0.8);
+  }
+
+  .xs-tw-text-black-alpha-80 {
+    color: rgba(0, 0, 0, 0.8);
+  }
+
+  .xs-tw-bg-black-alpha-90 {
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+
+  .xs-tw-border-black-alpha-90 {
+    border-color: rgba(0, 0, 0, 0.9);
+  }
+
+  .xs-tw-text-black-alpha-90 {
+    color: rgba(0, 0, 0, 0.9);
+  }
+
+  .xs-tw-bg-black-alpha-100 {
+    background-color: rgba(0, 0, 0, 1);
+  }
+
+  .xs-tw-border-black-alpha-100 {
+    border-color: rgba(0, 0, 0, 1);
+  }
+
+  .xs-tw-text-black-alpha-100 {
+    color: rgba(0, 0, 0, 1);
+  }
+
+  .xs-hover-tw-bg-black-alpha-0:hover {
+    background-color: rgba(0, 0, 0, 0);
+  }
+
+  .xs-hover-tw-border-black-alpha-0:hover {
+    border-color: rgba(0, 0, 0, 0);
+  }
+
+  .xs-hover-tw-text-black-alpha-0:hover {
+    color: rgba(0, 0, 0, 0);
+  }
+
+  .xs-hover-tw-bg-black-alpha-10:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+  .xs-hover-tw-border-black-alpha-10:hover {
+    border-color: rgba(0, 0, 0, 0.1);
+  }
+
+  .xs-hover-tw-text-black-alpha-10:hover {
+    color: rgba(0, 0, 0, 0.1);
+  }
+
+  .xs-hover-tw-bg-black-alpha-20:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+
+  .xs-hover-tw-border-black-alpha-20:hover {
+    border-color: rgba(0, 0, 0, 0.2);
+  }
+
+  .xs-hover-tw-text-black-alpha-20:hover {
+    color: rgba(0, 0, 0, 0.2);
+  }
+
+  .xs-hover-tw-bg-black-alpha-30:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+
+  .xs-hover-tw-border-black-alpha-30:hover {
+    border-color: rgba(0, 0, 0, 0.3);
+  }
+
+  .xs-hover-tw-text-black-alpha-30:hover {
+    color: rgba(0, 0, 0, 0.3);
+  }
+
+  .xs-hover-tw-bg-black-alpha-40:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+
+  .xs-hover-tw-border-black-alpha-40:hover {
+    border-color: rgba(0, 0, 0, 0.4);
+  }
+
+  .xs-hover-tw-text-black-alpha-40:hover {
+    color: rgba(0, 0, 0, 0.4);
+  }
+
+  .xs-hover-tw-bg-black-alpha-50:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .xs-hover-tw-border-black-alpha-50:hover {
+    border-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .xs-hover-tw-text-black-alpha-50:hover {
+    color: rgba(0, 0, 0, 0.5);
+  }
+
+  .xs-hover-tw-bg-black-alpha-60:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+
+  .xs-hover-tw-border-black-alpha-60:hover {
+    border-color: rgba(0, 0, 0, 0.6);
+  }
+
+  .xs-hover-tw-text-black-alpha-60:hover {
+    color: rgba(0, 0, 0, 0.6);
+  }
+
+  .xs-hover-tw-bg-black-alpha-70:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+
+  .xs-hover-tw-border-black-alpha-70:hover {
+    border-color: rgba(0, 0, 0, 0.7);
+  }
+
+  .xs-hover-tw-text-black-alpha-70:hover {
+    color: rgba(0, 0, 0, 0.7);
+  }
+
+  .xs-hover-tw-bg-black-alpha-80:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  .xs-hover-tw-border-black-alpha-80:hover {
+    border-color: rgba(0, 0, 0, 0.8);
+  }
+
+  .xs-hover-tw-text-black-alpha-80:hover {
+    color: rgba(0, 0, 0, 0.8);
+  }
+
+  .xs-hover-tw-bg-black-alpha-90:hover {
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+
+  .xs-hover-tw-border-black-alpha-90:hover {
+    border-color: rgba(0, 0, 0, 0.9);
+  }
+
+  .xs-hover-tw-text-black-alpha-90:hover {
+    color: rgba(0, 0, 0, 0.9);
+  }
+
+  .xs-hover-tw-bg-black-alpha-100:hover {
+    background-color: rgba(0, 0, 0, 1);
+  }
+
+  .xs-hover-tw-border-black-alpha-100:hover {
+    border-color: rgba(0, 0, 0, 1);
+  }
+
+  .xs-hover-tw-text-black-alpha-100:hover {
+    color: rgba(0, 0, 0, 1);
+  }
+
+  .xs-focus-tw-bg-black-alpha-0:focus {
+    background-color: rgba(0, 0, 0, 0);
+  }
+
+  .xs-focus-tw-border-black-alpha-0:focus {
+    border-color: rgba(0, 0, 0, 0);
+  }
+
+  .xs-focus-tw-text-black-alpha-0:focus {
+    color: rgba(0, 0, 0, 0);
+  }
+
+  .xs-focus-tw-bg-black-alpha-10:focus {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+  .xs-focus-tw-border-black-alpha-10:focus {
+    border-color: rgba(0, 0, 0, 0.1);
+  }
+
+  .xs-focus-tw-text-black-alpha-10:focus {
+    color: rgba(0, 0, 0, 0.1);
+  }
+
+  .xs-focus-tw-bg-black-alpha-20:focus {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+
+  .xs-focus-tw-border-black-alpha-20:focus {
+    border-color: rgba(0, 0, 0, 0.2);
+  }
+
+  .xs-focus-tw-text-black-alpha-20:focus {
+    color: rgba(0, 0, 0, 0.2);
+  }
+
+  .xs-focus-tw-bg-black-alpha-30:focus {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+
+  .xs-focus-tw-border-black-alpha-30:focus {
+    border-color: rgba(0, 0, 0, 0.3);
+  }
+
+  .xs-focus-tw-text-black-alpha-30:focus {
+    color: rgba(0, 0, 0, 0.3);
+  }
+
+  .xs-focus-tw-bg-black-alpha-40:focus {
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+
+  .xs-focus-tw-border-black-alpha-40:focus {
+    border-color: rgba(0, 0, 0, 0.4);
+  }
+
+  .xs-focus-tw-text-black-alpha-40:focus {
+    color: rgba(0, 0, 0, 0.4);
+  }
+
+  .xs-focus-tw-bg-black-alpha-50:focus {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .xs-focus-tw-border-black-alpha-50:focus {
+    border-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .xs-focus-tw-text-black-alpha-50:focus {
+    color: rgba(0, 0, 0, 0.5);
+  }
+
+  .xs-focus-tw-bg-black-alpha-60:focus {
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+
+  .xs-focus-tw-border-black-alpha-60:focus {
+    border-color: rgba(0, 0, 0, 0.6);
+  }
+
+  .xs-focus-tw-text-black-alpha-60:focus {
+    color: rgba(0, 0, 0, 0.6);
+  }
+
+  .xs-focus-tw-bg-black-alpha-70:focus {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+
+  .xs-focus-tw-border-black-alpha-70:focus {
+    border-color: rgba(0, 0, 0, 0.7);
+  }
+
+  .xs-focus-tw-text-black-alpha-70:focus {
+    color: rgba(0, 0, 0, 0.7);
+  }
+
+  .xs-focus-tw-bg-black-alpha-80:focus {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  .xs-focus-tw-border-black-alpha-80:focus {
+    border-color: rgba(0, 0, 0, 0.8);
+  }
+
+  .xs-focus-tw-text-black-alpha-80:focus {
+    color: rgba(0, 0, 0, 0.8);
+  }
+
+  .xs-focus-tw-bg-black-alpha-90:focus {
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+
+  .xs-focus-tw-border-black-alpha-90:focus {
+    border-color: rgba(0, 0, 0, 0.9);
+  }
+
+  .xs-focus-tw-text-black-alpha-90:focus {
+    color: rgba(0, 0, 0, 0.9);
+  }
+
+  .xs-focus-tw-bg-black-alpha-100:focus {
+    background-color: rgba(0, 0, 0, 1);
+  }
+
+  .xs-focus-tw-border-black-alpha-100:focus {
+    border-color: rgba(0, 0, 0, 1);
+  }
+
+  .xs-focus-tw-text-black-alpha-100:focus {
+    color: rgba(0, 0, 0, 1);
   }
 }
 
@@ -38150,6 +39198,798 @@ button {
   .sm-tw-z-auto {
     z-index: auto;
   }
+
+  .sm-tw-bg-white-alpha-0 {
+    background-color: rgba(255, 255, 255, 0);
+  }
+
+  .sm-tw-border-white-alpha-0 {
+    border-color: rgba(255, 255, 255, 0);
+  }
+
+  .sm-tw-text-white-alpha-0 {
+    color: rgba(255, 255, 255, 0);
+  }
+
+  .sm-tw-bg-white-alpha-10 {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+
+  .sm-tw-border-white-alpha-10 {
+    border-color: rgba(255, 255, 255, 0.1);
+  }
+
+  .sm-tw-text-white-alpha-10 {
+    color: rgba(255, 255, 255, 0.1);
+  }
+
+  .sm-tw-bg-white-alpha-20 {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+
+  .sm-tw-border-white-alpha-20 {
+    border-color: rgba(255, 255, 255, 0.2);
+  }
+
+  .sm-tw-text-white-alpha-20 {
+    color: rgba(255, 255, 255, 0.2);
+  }
+
+  .sm-tw-bg-white-alpha-30 {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+
+  .sm-tw-border-white-alpha-30 {
+    border-color: rgba(255, 255, 255, 0.3);
+  }
+
+  .sm-tw-text-white-alpha-30 {
+    color: rgba(255, 255, 255, 0.3);
+  }
+
+  .sm-tw-bg-white-alpha-40 {
+    background-color: rgba(255, 255, 255, 0.4);
+  }
+
+  .sm-tw-border-white-alpha-40 {
+    border-color: rgba(255, 255, 255, 0.4);
+  }
+
+  .sm-tw-text-white-alpha-40 {
+    color: rgba(255, 255, 255, 0.4);
+  }
+
+  .sm-tw-bg-white-alpha-50 {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+
+  .sm-tw-border-white-alpha-50 {
+    border-color: rgba(255, 255, 255, 0.5);
+  }
+
+  .sm-tw-text-white-alpha-50 {
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+  .sm-tw-bg-white-alpha-60 {
+    background-color: rgba(255, 255, 255, 0.6);
+  }
+
+  .sm-tw-border-white-alpha-60 {
+    border-color: rgba(255, 255, 255, 0.6);
+  }
+
+  .sm-tw-text-white-alpha-60 {
+    color: rgba(255, 255, 255, 0.6);
+  }
+
+  .sm-tw-bg-white-alpha-70 {
+    background-color: rgba(255, 255, 255, 0.7);
+  }
+
+  .sm-tw-border-white-alpha-70 {
+    border-color: rgba(255, 255, 255, 0.7);
+  }
+
+  .sm-tw-text-white-alpha-70 {
+    color: rgba(255, 255, 255, 0.7);
+  }
+
+  .sm-tw-bg-white-alpha-80 {
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+
+  .sm-tw-border-white-alpha-80 {
+    border-color: rgba(255, 255, 255, 0.8);
+  }
+
+  .sm-tw-text-white-alpha-80 {
+    color: rgba(255, 255, 255, 0.8);
+  }
+
+  .sm-tw-bg-white-alpha-90 {
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+
+  .sm-tw-border-white-alpha-90 {
+    border-color: rgba(255, 255, 255, 0.9);
+  }
+
+  .sm-tw-text-white-alpha-90 {
+    color: rgba(255, 255, 255, 0.9);
+  }
+
+  .sm-tw-bg-white-alpha-100 {
+    background-color: rgba(255, 255, 255, 1);
+  }
+
+  .sm-tw-border-white-alpha-100 {
+    border-color: rgba(255, 255, 255, 1);
+  }
+
+  .sm-tw-text-white-alpha-100 {
+    color: rgba(255, 255, 255, 1);
+  }
+
+  .sm-hover-tw-bg-white-alpha-0:hover {
+    background-color: rgba(255, 255, 255, 0);
+  }
+
+  .sm-hover-tw-border-white-alpha-0:hover {
+    border-color: rgba(255, 255, 255, 0);
+  }
+
+  .sm-hover-tw-text-white-alpha-0:hover {
+    color: rgba(255, 255, 255, 0);
+  }
+
+  .sm-hover-tw-bg-white-alpha-10:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+
+  .sm-hover-tw-border-white-alpha-10:hover {
+    border-color: rgba(255, 255, 255, 0.1);
+  }
+
+  .sm-hover-tw-text-white-alpha-10:hover {
+    color: rgba(255, 255, 255, 0.1);
+  }
+
+  .sm-hover-tw-bg-white-alpha-20:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+
+  .sm-hover-tw-border-white-alpha-20:hover {
+    border-color: rgba(255, 255, 255, 0.2);
+  }
+
+  .sm-hover-tw-text-white-alpha-20:hover {
+    color: rgba(255, 255, 255, 0.2);
+  }
+
+  .sm-hover-tw-bg-white-alpha-30:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+
+  .sm-hover-tw-border-white-alpha-30:hover {
+    border-color: rgba(255, 255, 255, 0.3);
+  }
+
+  .sm-hover-tw-text-white-alpha-30:hover {
+    color: rgba(255, 255, 255, 0.3);
+  }
+
+  .sm-hover-tw-bg-white-alpha-40:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+  }
+
+  .sm-hover-tw-border-white-alpha-40:hover {
+    border-color: rgba(255, 255, 255, 0.4);
+  }
+
+  .sm-hover-tw-text-white-alpha-40:hover {
+    color: rgba(255, 255, 255, 0.4);
+  }
+
+  .sm-hover-tw-bg-white-alpha-50:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+
+  .sm-hover-tw-border-white-alpha-50:hover {
+    border-color: rgba(255, 255, 255, 0.5);
+  }
+
+  .sm-hover-tw-text-white-alpha-50:hover {
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+  .sm-hover-tw-bg-white-alpha-60:hover {
+    background-color: rgba(255, 255, 255, 0.6);
+  }
+
+  .sm-hover-tw-border-white-alpha-60:hover {
+    border-color: rgba(255, 255, 255, 0.6);
+  }
+
+  .sm-hover-tw-text-white-alpha-60:hover {
+    color: rgba(255, 255, 255, 0.6);
+  }
+
+  .sm-hover-tw-bg-white-alpha-70:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+  }
+
+  .sm-hover-tw-border-white-alpha-70:hover {
+    border-color: rgba(255, 255, 255, 0.7);
+  }
+
+  .sm-hover-tw-text-white-alpha-70:hover {
+    color: rgba(255, 255, 255, 0.7);
+  }
+
+  .sm-hover-tw-bg-white-alpha-80:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+
+  .sm-hover-tw-border-white-alpha-80:hover {
+    border-color: rgba(255, 255, 255, 0.8);
+  }
+
+  .sm-hover-tw-text-white-alpha-80:hover {
+    color: rgba(255, 255, 255, 0.8);
+  }
+
+  .sm-hover-tw-bg-white-alpha-90:hover {
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+
+  .sm-hover-tw-border-white-alpha-90:hover {
+    border-color: rgba(255, 255, 255, 0.9);
+  }
+
+  .sm-hover-tw-text-white-alpha-90:hover {
+    color: rgba(255, 255, 255, 0.9);
+  }
+
+  .sm-hover-tw-bg-white-alpha-100:hover {
+    background-color: rgba(255, 255, 255, 1);
+  }
+
+  .sm-hover-tw-border-white-alpha-100:hover {
+    border-color: rgba(255, 255, 255, 1);
+  }
+
+  .sm-hover-tw-text-white-alpha-100:hover {
+    color: rgba(255, 255, 255, 1);
+  }
+
+  .sm-focus-tw-bg-white-alpha-0:focus {
+    background-color: rgba(255, 255, 255, 0);
+  }
+
+  .sm-focus-tw-border-white-alpha-0:focus {
+    border-color: rgba(255, 255, 255, 0);
+  }
+
+  .sm-focus-tw-text-white-alpha-0:focus {
+    color: rgba(255, 255, 255, 0);
+  }
+
+  .sm-focus-tw-bg-white-alpha-10:focus {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+
+  .sm-focus-tw-border-white-alpha-10:focus {
+    border-color: rgba(255, 255, 255, 0.1);
+  }
+
+  .sm-focus-tw-text-white-alpha-10:focus {
+    color: rgba(255, 255, 255, 0.1);
+  }
+
+  .sm-focus-tw-bg-white-alpha-20:focus {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+
+  .sm-focus-tw-border-white-alpha-20:focus {
+    border-color: rgba(255, 255, 255, 0.2);
+  }
+
+  .sm-focus-tw-text-white-alpha-20:focus {
+    color: rgba(255, 255, 255, 0.2);
+  }
+
+  .sm-focus-tw-bg-white-alpha-30:focus {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+
+  .sm-focus-tw-border-white-alpha-30:focus {
+    border-color: rgba(255, 255, 255, 0.3);
+  }
+
+  .sm-focus-tw-text-white-alpha-30:focus {
+    color: rgba(255, 255, 255, 0.3);
+  }
+
+  .sm-focus-tw-bg-white-alpha-40:focus {
+    background-color: rgba(255, 255, 255, 0.4);
+  }
+
+  .sm-focus-tw-border-white-alpha-40:focus {
+    border-color: rgba(255, 255, 255, 0.4);
+  }
+
+  .sm-focus-tw-text-white-alpha-40:focus {
+    color: rgba(255, 255, 255, 0.4);
+  }
+
+  .sm-focus-tw-bg-white-alpha-50:focus {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+
+  .sm-focus-tw-border-white-alpha-50:focus {
+    border-color: rgba(255, 255, 255, 0.5);
+  }
+
+  .sm-focus-tw-text-white-alpha-50:focus {
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+  .sm-focus-tw-bg-white-alpha-60:focus {
+    background-color: rgba(255, 255, 255, 0.6);
+  }
+
+  .sm-focus-tw-border-white-alpha-60:focus {
+    border-color: rgba(255, 255, 255, 0.6);
+  }
+
+  .sm-focus-tw-text-white-alpha-60:focus {
+    color: rgba(255, 255, 255, 0.6);
+  }
+
+  .sm-focus-tw-bg-white-alpha-70:focus {
+    background-color: rgba(255, 255, 255, 0.7);
+  }
+
+  .sm-focus-tw-border-white-alpha-70:focus {
+    border-color: rgba(255, 255, 255, 0.7);
+  }
+
+  .sm-focus-tw-text-white-alpha-70:focus {
+    color: rgba(255, 255, 255, 0.7);
+  }
+
+  .sm-focus-tw-bg-white-alpha-80:focus {
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+
+  .sm-focus-tw-border-white-alpha-80:focus {
+    border-color: rgba(255, 255, 255, 0.8);
+  }
+
+  .sm-focus-tw-text-white-alpha-80:focus {
+    color: rgba(255, 255, 255, 0.8);
+  }
+
+  .sm-focus-tw-bg-white-alpha-90:focus {
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+
+  .sm-focus-tw-border-white-alpha-90:focus {
+    border-color: rgba(255, 255, 255, 0.9);
+  }
+
+  .sm-focus-tw-text-white-alpha-90:focus {
+    color: rgba(255, 255, 255, 0.9);
+  }
+
+  .sm-focus-tw-bg-white-alpha-100:focus {
+    background-color: rgba(255, 255, 255, 1);
+  }
+
+  .sm-focus-tw-border-white-alpha-100:focus {
+    border-color: rgba(255, 255, 255, 1);
+  }
+
+  .sm-focus-tw-text-white-alpha-100:focus {
+    color: rgba(255, 255, 255, 1);
+  }
+
+  .sm-tw-bg-black-alpha-0 {
+    background-color: rgba(0, 0, 0, 0);
+  }
+
+  .sm-tw-border-black-alpha-0 {
+    border-color: rgba(0, 0, 0, 0);
+  }
+
+  .sm-tw-text-black-alpha-0 {
+    color: rgba(0, 0, 0, 0);
+  }
+
+  .sm-tw-bg-black-alpha-10 {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+  .sm-tw-border-black-alpha-10 {
+    border-color: rgba(0, 0, 0, 0.1);
+  }
+
+  .sm-tw-text-black-alpha-10 {
+    color: rgba(0, 0, 0, 0.1);
+  }
+
+  .sm-tw-bg-black-alpha-20 {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+
+  .sm-tw-border-black-alpha-20 {
+    border-color: rgba(0, 0, 0, 0.2);
+  }
+
+  .sm-tw-text-black-alpha-20 {
+    color: rgba(0, 0, 0, 0.2);
+  }
+
+  .sm-tw-bg-black-alpha-30 {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+
+  .sm-tw-border-black-alpha-30 {
+    border-color: rgba(0, 0, 0, 0.3);
+  }
+
+  .sm-tw-text-black-alpha-30 {
+    color: rgba(0, 0, 0, 0.3);
+  }
+
+  .sm-tw-bg-black-alpha-40 {
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+
+  .sm-tw-border-black-alpha-40 {
+    border-color: rgba(0, 0, 0, 0.4);
+  }
+
+  .sm-tw-text-black-alpha-40 {
+    color: rgba(0, 0, 0, 0.4);
+  }
+
+  .sm-tw-bg-black-alpha-50 {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .sm-tw-border-black-alpha-50 {
+    border-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .sm-tw-text-black-alpha-50 {
+    color: rgba(0, 0, 0, 0.5);
+  }
+
+  .sm-tw-bg-black-alpha-60 {
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+
+  .sm-tw-border-black-alpha-60 {
+    border-color: rgba(0, 0, 0, 0.6);
+  }
+
+  .sm-tw-text-black-alpha-60 {
+    color: rgba(0, 0, 0, 0.6);
+  }
+
+  .sm-tw-bg-black-alpha-70 {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+
+  .sm-tw-border-black-alpha-70 {
+    border-color: rgba(0, 0, 0, 0.7);
+  }
+
+  .sm-tw-text-black-alpha-70 {
+    color: rgba(0, 0, 0, 0.7);
+  }
+
+  .sm-tw-bg-black-alpha-80 {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  .sm-tw-border-black-alpha-80 {
+    border-color: rgba(0, 0, 0, 0.8);
+  }
+
+  .sm-tw-text-black-alpha-80 {
+    color: rgba(0, 0, 0, 0.8);
+  }
+
+  .sm-tw-bg-black-alpha-90 {
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+
+  .sm-tw-border-black-alpha-90 {
+    border-color: rgba(0, 0, 0, 0.9);
+  }
+
+  .sm-tw-text-black-alpha-90 {
+    color: rgba(0, 0, 0, 0.9);
+  }
+
+  .sm-tw-bg-black-alpha-100 {
+    background-color: rgba(0, 0, 0, 1);
+  }
+
+  .sm-tw-border-black-alpha-100 {
+    border-color: rgba(0, 0, 0, 1);
+  }
+
+  .sm-tw-text-black-alpha-100 {
+    color: rgba(0, 0, 0, 1);
+  }
+
+  .sm-hover-tw-bg-black-alpha-0:hover {
+    background-color: rgba(0, 0, 0, 0);
+  }
+
+  .sm-hover-tw-border-black-alpha-0:hover {
+    border-color: rgba(0, 0, 0, 0);
+  }
+
+  .sm-hover-tw-text-black-alpha-0:hover {
+    color: rgba(0, 0, 0, 0);
+  }
+
+  .sm-hover-tw-bg-black-alpha-10:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+  .sm-hover-tw-border-black-alpha-10:hover {
+    border-color: rgba(0, 0, 0, 0.1);
+  }
+
+  .sm-hover-tw-text-black-alpha-10:hover {
+    color: rgba(0, 0, 0, 0.1);
+  }
+
+  .sm-hover-tw-bg-black-alpha-20:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+
+  .sm-hover-tw-border-black-alpha-20:hover {
+    border-color: rgba(0, 0, 0, 0.2);
+  }
+
+  .sm-hover-tw-text-black-alpha-20:hover {
+    color: rgba(0, 0, 0, 0.2);
+  }
+
+  .sm-hover-tw-bg-black-alpha-30:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+
+  .sm-hover-tw-border-black-alpha-30:hover {
+    border-color: rgba(0, 0, 0, 0.3);
+  }
+
+  .sm-hover-tw-text-black-alpha-30:hover {
+    color: rgba(0, 0, 0, 0.3);
+  }
+
+  .sm-hover-tw-bg-black-alpha-40:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+
+  .sm-hover-tw-border-black-alpha-40:hover {
+    border-color: rgba(0, 0, 0, 0.4);
+  }
+
+  .sm-hover-tw-text-black-alpha-40:hover {
+    color: rgba(0, 0, 0, 0.4);
+  }
+
+  .sm-hover-tw-bg-black-alpha-50:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .sm-hover-tw-border-black-alpha-50:hover {
+    border-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .sm-hover-tw-text-black-alpha-50:hover {
+    color: rgba(0, 0, 0, 0.5);
+  }
+
+  .sm-hover-tw-bg-black-alpha-60:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+
+  .sm-hover-tw-border-black-alpha-60:hover {
+    border-color: rgba(0, 0, 0, 0.6);
+  }
+
+  .sm-hover-tw-text-black-alpha-60:hover {
+    color: rgba(0, 0, 0, 0.6);
+  }
+
+  .sm-hover-tw-bg-black-alpha-70:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+
+  .sm-hover-tw-border-black-alpha-70:hover {
+    border-color: rgba(0, 0, 0, 0.7);
+  }
+
+  .sm-hover-tw-text-black-alpha-70:hover {
+    color: rgba(0, 0, 0, 0.7);
+  }
+
+  .sm-hover-tw-bg-black-alpha-80:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  .sm-hover-tw-border-black-alpha-80:hover {
+    border-color: rgba(0, 0, 0, 0.8);
+  }
+
+  .sm-hover-tw-text-black-alpha-80:hover {
+    color: rgba(0, 0, 0, 0.8);
+  }
+
+  .sm-hover-tw-bg-black-alpha-90:hover {
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+
+  .sm-hover-tw-border-black-alpha-90:hover {
+    border-color: rgba(0, 0, 0, 0.9);
+  }
+
+  .sm-hover-tw-text-black-alpha-90:hover {
+    color: rgba(0, 0, 0, 0.9);
+  }
+
+  .sm-hover-tw-bg-black-alpha-100:hover {
+    background-color: rgba(0, 0, 0, 1);
+  }
+
+  .sm-hover-tw-border-black-alpha-100:hover {
+    border-color: rgba(0, 0, 0, 1);
+  }
+
+  .sm-hover-tw-text-black-alpha-100:hover {
+    color: rgba(0, 0, 0, 1);
+  }
+
+  .sm-focus-tw-bg-black-alpha-0:focus {
+    background-color: rgba(0, 0, 0, 0);
+  }
+
+  .sm-focus-tw-border-black-alpha-0:focus {
+    border-color: rgba(0, 0, 0, 0);
+  }
+
+  .sm-focus-tw-text-black-alpha-0:focus {
+    color: rgba(0, 0, 0, 0);
+  }
+
+  .sm-focus-tw-bg-black-alpha-10:focus {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+  .sm-focus-tw-border-black-alpha-10:focus {
+    border-color: rgba(0, 0, 0, 0.1);
+  }
+
+  .sm-focus-tw-text-black-alpha-10:focus {
+    color: rgba(0, 0, 0, 0.1);
+  }
+
+  .sm-focus-tw-bg-black-alpha-20:focus {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+
+  .sm-focus-tw-border-black-alpha-20:focus {
+    border-color: rgba(0, 0, 0, 0.2);
+  }
+
+  .sm-focus-tw-text-black-alpha-20:focus {
+    color: rgba(0, 0, 0, 0.2);
+  }
+
+  .sm-focus-tw-bg-black-alpha-30:focus {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+
+  .sm-focus-tw-border-black-alpha-30:focus {
+    border-color: rgba(0, 0, 0, 0.3);
+  }
+
+  .sm-focus-tw-text-black-alpha-30:focus {
+    color: rgba(0, 0, 0, 0.3);
+  }
+
+  .sm-focus-tw-bg-black-alpha-40:focus {
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+
+  .sm-focus-tw-border-black-alpha-40:focus {
+    border-color: rgba(0, 0, 0, 0.4);
+  }
+
+  .sm-focus-tw-text-black-alpha-40:focus {
+    color: rgba(0, 0, 0, 0.4);
+  }
+
+  .sm-focus-tw-bg-black-alpha-50:focus {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .sm-focus-tw-border-black-alpha-50:focus {
+    border-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .sm-focus-tw-text-black-alpha-50:focus {
+    color: rgba(0, 0, 0, 0.5);
+  }
+
+  .sm-focus-tw-bg-black-alpha-60:focus {
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+
+  .sm-focus-tw-border-black-alpha-60:focus {
+    border-color: rgba(0, 0, 0, 0.6);
+  }
+
+  .sm-focus-tw-text-black-alpha-60:focus {
+    color: rgba(0, 0, 0, 0.6);
+  }
+
+  .sm-focus-tw-bg-black-alpha-70:focus {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+
+  .sm-focus-tw-border-black-alpha-70:focus {
+    border-color: rgba(0, 0, 0, 0.7);
+  }
+
+  .sm-focus-tw-text-black-alpha-70:focus {
+    color: rgba(0, 0, 0, 0.7);
+  }
+
+  .sm-focus-tw-bg-black-alpha-80:focus {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  .sm-focus-tw-border-black-alpha-80:focus {
+    border-color: rgba(0, 0, 0, 0.8);
+  }
+
+  .sm-focus-tw-text-black-alpha-80:focus {
+    color: rgba(0, 0, 0, 0.8);
+  }
+
+  .sm-focus-tw-bg-black-alpha-90:focus {
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+
+  .sm-focus-tw-border-black-alpha-90:focus {
+    border-color: rgba(0, 0, 0, 0.9);
+  }
+
+  .sm-focus-tw-text-black-alpha-90:focus {
+    color: rgba(0, 0, 0, 0.9);
+  }
+
+  .sm-focus-tw-bg-black-alpha-100:focus {
+    background-color: rgba(0, 0, 0, 1);
+  }
+
+  .sm-focus-tw-border-black-alpha-100:focus {
+    border-color: rgba(0, 0, 0, 1);
+  }
+
+  .sm-focus-tw-text-black-alpha-100:focus {
+    color: rgba(0, 0, 0, 1);
+  }
 }
 
 @media (min-width: 765px) {
@@ -50373,6 +52213,798 @@ button {
 
   .md-tw-z-auto {
     z-index: auto;
+  }
+
+  .md-tw-bg-white-alpha-0 {
+    background-color: rgba(255, 255, 255, 0);
+  }
+
+  .md-tw-border-white-alpha-0 {
+    border-color: rgba(255, 255, 255, 0);
+  }
+
+  .md-tw-text-white-alpha-0 {
+    color: rgba(255, 255, 255, 0);
+  }
+
+  .md-tw-bg-white-alpha-10 {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+
+  .md-tw-border-white-alpha-10 {
+    border-color: rgba(255, 255, 255, 0.1);
+  }
+
+  .md-tw-text-white-alpha-10 {
+    color: rgba(255, 255, 255, 0.1);
+  }
+
+  .md-tw-bg-white-alpha-20 {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+
+  .md-tw-border-white-alpha-20 {
+    border-color: rgba(255, 255, 255, 0.2);
+  }
+
+  .md-tw-text-white-alpha-20 {
+    color: rgba(255, 255, 255, 0.2);
+  }
+
+  .md-tw-bg-white-alpha-30 {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+
+  .md-tw-border-white-alpha-30 {
+    border-color: rgba(255, 255, 255, 0.3);
+  }
+
+  .md-tw-text-white-alpha-30 {
+    color: rgba(255, 255, 255, 0.3);
+  }
+
+  .md-tw-bg-white-alpha-40 {
+    background-color: rgba(255, 255, 255, 0.4);
+  }
+
+  .md-tw-border-white-alpha-40 {
+    border-color: rgba(255, 255, 255, 0.4);
+  }
+
+  .md-tw-text-white-alpha-40 {
+    color: rgba(255, 255, 255, 0.4);
+  }
+
+  .md-tw-bg-white-alpha-50 {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+
+  .md-tw-border-white-alpha-50 {
+    border-color: rgba(255, 255, 255, 0.5);
+  }
+
+  .md-tw-text-white-alpha-50 {
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+  .md-tw-bg-white-alpha-60 {
+    background-color: rgba(255, 255, 255, 0.6);
+  }
+
+  .md-tw-border-white-alpha-60 {
+    border-color: rgba(255, 255, 255, 0.6);
+  }
+
+  .md-tw-text-white-alpha-60 {
+    color: rgba(255, 255, 255, 0.6);
+  }
+
+  .md-tw-bg-white-alpha-70 {
+    background-color: rgba(255, 255, 255, 0.7);
+  }
+
+  .md-tw-border-white-alpha-70 {
+    border-color: rgba(255, 255, 255, 0.7);
+  }
+
+  .md-tw-text-white-alpha-70 {
+    color: rgba(255, 255, 255, 0.7);
+  }
+
+  .md-tw-bg-white-alpha-80 {
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+
+  .md-tw-border-white-alpha-80 {
+    border-color: rgba(255, 255, 255, 0.8);
+  }
+
+  .md-tw-text-white-alpha-80 {
+    color: rgba(255, 255, 255, 0.8);
+  }
+
+  .md-tw-bg-white-alpha-90 {
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+
+  .md-tw-border-white-alpha-90 {
+    border-color: rgba(255, 255, 255, 0.9);
+  }
+
+  .md-tw-text-white-alpha-90 {
+    color: rgba(255, 255, 255, 0.9);
+  }
+
+  .md-tw-bg-white-alpha-100 {
+    background-color: rgba(255, 255, 255, 1);
+  }
+
+  .md-tw-border-white-alpha-100 {
+    border-color: rgba(255, 255, 255, 1);
+  }
+
+  .md-tw-text-white-alpha-100 {
+    color: rgba(255, 255, 255, 1);
+  }
+
+  .md-hover-tw-bg-white-alpha-0:hover {
+    background-color: rgba(255, 255, 255, 0);
+  }
+
+  .md-hover-tw-border-white-alpha-0:hover {
+    border-color: rgba(255, 255, 255, 0);
+  }
+
+  .md-hover-tw-text-white-alpha-0:hover {
+    color: rgba(255, 255, 255, 0);
+  }
+
+  .md-hover-tw-bg-white-alpha-10:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+
+  .md-hover-tw-border-white-alpha-10:hover {
+    border-color: rgba(255, 255, 255, 0.1);
+  }
+
+  .md-hover-tw-text-white-alpha-10:hover {
+    color: rgba(255, 255, 255, 0.1);
+  }
+
+  .md-hover-tw-bg-white-alpha-20:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+
+  .md-hover-tw-border-white-alpha-20:hover {
+    border-color: rgba(255, 255, 255, 0.2);
+  }
+
+  .md-hover-tw-text-white-alpha-20:hover {
+    color: rgba(255, 255, 255, 0.2);
+  }
+
+  .md-hover-tw-bg-white-alpha-30:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+
+  .md-hover-tw-border-white-alpha-30:hover {
+    border-color: rgba(255, 255, 255, 0.3);
+  }
+
+  .md-hover-tw-text-white-alpha-30:hover {
+    color: rgba(255, 255, 255, 0.3);
+  }
+
+  .md-hover-tw-bg-white-alpha-40:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+  }
+
+  .md-hover-tw-border-white-alpha-40:hover {
+    border-color: rgba(255, 255, 255, 0.4);
+  }
+
+  .md-hover-tw-text-white-alpha-40:hover {
+    color: rgba(255, 255, 255, 0.4);
+  }
+
+  .md-hover-tw-bg-white-alpha-50:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+
+  .md-hover-tw-border-white-alpha-50:hover {
+    border-color: rgba(255, 255, 255, 0.5);
+  }
+
+  .md-hover-tw-text-white-alpha-50:hover {
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+  .md-hover-tw-bg-white-alpha-60:hover {
+    background-color: rgba(255, 255, 255, 0.6);
+  }
+
+  .md-hover-tw-border-white-alpha-60:hover {
+    border-color: rgba(255, 255, 255, 0.6);
+  }
+
+  .md-hover-tw-text-white-alpha-60:hover {
+    color: rgba(255, 255, 255, 0.6);
+  }
+
+  .md-hover-tw-bg-white-alpha-70:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+  }
+
+  .md-hover-tw-border-white-alpha-70:hover {
+    border-color: rgba(255, 255, 255, 0.7);
+  }
+
+  .md-hover-tw-text-white-alpha-70:hover {
+    color: rgba(255, 255, 255, 0.7);
+  }
+
+  .md-hover-tw-bg-white-alpha-80:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+
+  .md-hover-tw-border-white-alpha-80:hover {
+    border-color: rgba(255, 255, 255, 0.8);
+  }
+
+  .md-hover-tw-text-white-alpha-80:hover {
+    color: rgba(255, 255, 255, 0.8);
+  }
+
+  .md-hover-tw-bg-white-alpha-90:hover {
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+
+  .md-hover-tw-border-white-alpha-90:hover {
+    border-color: rgba(255, 255, 255, 0.9);
+  }
+
+  .md-hover-tw-text-white-alpha-90:hover {
+    color: rgba(255, 255, 255, 0.9);
+  }
+
+  .md-hover-tw-bg-white-alpha-100:hover {
+    background-color: rgba(255, 255, 255, 1);
+  }
+
+  .md-hover-tw-border-white-alpha-100:hover {
+    border-color: rgba(255, 255, 255, 1);
+  }
+
+  .md-hover-tw-text-white-alpha-100:hover {
+    color: rgba(255, 255, 255, 1);
+  }
+
+  .md-focus-tw-bg-white-alpha-0:focus {
+    background-color: rgba(255, 255, 255, 0);
+  }
+
+  .md-focus-tw-border-white-alpha-0:focus {
+    border-color: rgba(255, 255, 255, 0);
+  }
+
+  .md-focus-tw-text-white-alpha-0:focus {
+    color: rgba(255, 255, 255, 0);
+  }
+
+  .md-focus-tw-bg-white-alpha-10:focus {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+
+  .md-focus-tw-border-white-alpha-10:focus {
+    border-color: rgba(255, 255, 255, 0.1);
+  }
+
+  .md-focus-tw-text-white-alpha-10:focus {
+    color: rgba(255, 255, 255, 0.1);
+  }
+
+  .md-focus-tw-bg-white-alpha-20:focus {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+
+  .md-focus-tw-border-white-alpha-20:focus {
+    border-color: rgba(255, 255, 255, 0.2);
+  }
+
+  .md-focus-tw-text-white-alpha-20:focus {
+    color: rgba(255, 255, 255, 0.2);
+  }
+
+  .md-focus-tw-bg-white-alpha-30:focus {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+
+  .md-focus-tw-border-white-alpha-30:focus {
+    border-color: rgba(255, 255, 255, 0.3);
+  }
+
+  .md-focus-tw-text-white-alpha-30:focus {
+    color: rgba(255, 255, 255, 0.3);
+  }
+
+  .md-focus-tw-bg-white-alpha-40:focus {
+    background-color: rgba(255, 255, 255, 0.4);
+  }
+
+  .md-focus-tw-border-white-alpha-40:focus {
+    border-color: rgba(255, 255, 255, 0.4);
+  }
+
+  .md-focus-tw-text-white-alpha-40:focus {
+    color: rgba(255, 255, 255, 0.4);
+  }
+
+  .md-focus-tw-bg-white-alpha-50:focus {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+
+  .md-focus-tw-border-white-alpha-50:focus {
+    border-color: rgba(255, 255, 255, 0.5);
+  }
+
+  .md-focus-tw-text-white-alpha-50:focus {
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+  .md-focus-tw-bg-white-alpha-60:focus {
+    background-color: rgba(255, 255, 255, 0.6);
+  }
+
+  .md-focus-tw-border-white-alpha-60:focus {
+    border-color: rgba(255, 255, 255, 0.6);
+  }
+
+  .md-focus-tw-text-white-alpha-60:focus {
+    color: rgba(255, 255, 255, 0.6);
+  }
+
+  .md-focus-tw-bg-white-alpha-70:focus {
+    background-color: rgba(255, 255, 255, 0.7);
+  }
+
+  .md-focus-tw-border-white-alpha-70:focus {
+    border-color: rgba(255, 255, 255, 0.7);
+  }
+
+  .md-focus-tw-text-white-alpha-70:focus {
+    color: rgba(255, 255, 255, 0.7);
+  }
+
+  .md-focus-tw-bg-white-alpha-80:focus {
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+
+  .md-focus-tw-border-white-alpha-80:focus {
+    border-color: rgba(255, 255, 255, 0.8);
+  }
+
+  .md-focus-tw-text-white-alpha-80:focus {
+    color: rgba(255, 255, 255, 0.8);
+  }
+
+  .md-focus-tw-bg-white-alpha-90:focus {
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+
+  .md-focus-tw-border-white-alpha-90:focus {
+    border-color: rgba(255, 255, 255, 0.9);
+  }
+
+  .md-focus-tw-text-white-alpha-90:focus {
+    color: rgba(255, 255, 255, 0.9);
+  }
+
+  .md-focus-tw-bg-white-alpha-100:focus {
+    background-color: rgba(255, 255, 255, 1);
+  }
+
+  .md-focus-tw-border-white-alpha-100:focus {
+    border-color: rgba(255, 255, 255, 1);
+  }
+
+  .md-focus-tw-text-white-alpha-100:focus {
+    color: rgba(255, 255, 255, 1);
+  }
+
+  .md-tw-bg-black-alpha-0 {
+    background-color: rgba(0, 0, 0, 0);
+  }
+
+  .md-tw-border-black-alpha-0 {
+    border-color: rgba(0, 0, 0, 0);
+  }
+
+  .md-tw-text-black-alpha-0 {
+    color: rgba(0, 0, 0, 0);
+  }
+
+  .md-tw-bg-black-alpha-10 {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+  .md-tw-border-black-alpha-10 {
+    border-color: rgba(0, 0, 0, 0.1);
+  }
+
+  .md-tw-text-black-alpha-10 {
+    color: rgba(0, 0, 0, 0.1);
+  }
+
+  .md-tw-bg-black-alpha-20 {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+
+  .md-tw-border-black-alpha-20 {
+    border-color: rgba(0, 0, 0, 0.2);
+  }
+
+  .md-tw-text-black-alpha-20 {
+    color: rgba(0, 0, 0, 0.2);
+  }
+
+  .md-tw-bg-black-alpha-30 {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+
+  .md-tw-border-black-alpha-30 {
+    border-color: rgba(0, 0, 0, 0.3);
+  }
+
+  .md-tw-text-black-alpha-30 {
+    color: rgba(0, 0, 0, 0.3);
+  }
+
+  .md-tw-bg-black-alpha-40 {
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+
+  .md-tw-border-black-alpha-40 {
+    border-color: rgba(0, 0, 0, 0.4);
+  }
+
+  .md-tw-text-black-alpha-40 {
+    color: rgba(0, 0, 0, 0.4);
+  }
+
+  .md-tw-bg-black-alpha-50 {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .md-tw-border-black-alpha-50 {
+    border-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .md-tw-text-black-alpha-50 {
+    color: rgba(0, 0, 0, 0.5);
+  }
+
+  .md-tw-bg-black-alpha-60 {
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+
+  .md-tw-border-black-alpha-60 {
+    border-color: rgba(0, 0, 0, 0.6);
+  }
+
+  .md-tw-text-black-alpha-60 {
+    color: rgba(0, 0, 0, 0.6);
+  }
+
+  .md-tw-bg-black-alpha-70 {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+
+  .md-tw-border-black-alpha-70 {
+    border-color: rgba(0, 0, 0, 0.7);
+  }
+
+  .md-tw-text-black-alpha-70 {
+    color: rgba(0, 0, 0, 0.7);
+  }
+
+  .md-tw-bg-black-alpha-80 {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  .md-tw-border-black-alpha-80 {
+    border-color: rgba(0, 0, 0, 0.8);
+  }
+
+  .md-tw-text-black-alpha-80 {
+    color: rgba(0, 0, 0, 0.8);
+  }
+
+  .md-tw-bg-black-alpha-90 {
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+
+  .md-tw-border-black-alpha-90 {
+    border-color: rgba(0, 0, 0, 0.9);
+  }
+
+  .md-tw-text-black-alpha-90 {
+    color: rgba(0, 0, 0, 0.9);
+  }
+
+  .md-tw-bg-black-alpha-100 {
+    background-color: rgba(0, 0, 0, 1);
+  }
+
+  .md-tw-border-black-alpha-100 {
+    border-color: rgba(0, 0, 0, 1);
+  }
+
+  .md-tw-text-black-alpha-100 {
+    color: rgba(0, 0, 0, 1);
+  }
+
+  .md-hover-tw-bg-black-alpha-0:hover {
+    background-color: rgba(0, 0, 0, 0);
+  }
+
+  .md-hover-tw-border-black-alpha-0:hover {
+    border-color: rgba(0, 0, 0, 0);
+  }
+
+  .md-hover-tw-text-black-alpha-0:hover {
+    color: rgba(0, 0, 0, 0);
+  }
+
+  .md-hover-tw-bg-black-alpha-10:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+  .md-hover-tw-border-black-alpha-10:hover {
+    border-color: rgba(0, 0, 0, 0.1);
+  }
+
+  .md-hover-tw-text-black-alpha-10:hover {
+    color: rgba(0, 0, 0, 0.1);
+  }
+
+  .md-hover-tw-bg-black-alpha-20:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+
+  .md-hover-tw-border-black-alpha-20:hover {
+    border-color: rgba(0, 0, 0, 0.2);
+  }
+
+  .md-hover-tw-text-black-alpha-20:hover {
+    color: rgba(0, 0, 0, 0.2);
+  }
+
+  .md-hover-tw-bg-black-alpha-30:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+
+  .md-hover-tw-border-black-alpha-30:hover {
+    border-color: rgba(0, 0, 0, 0.3);
+  }
+
+  .md-hover-tw-text-black-alpha-30:hover {
+    color: rgba(0, 0, 0, 0.3);
+  }
+
+  .md-hover-tw-bg-black-alpha-40:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+
+  .md-hover-tw-border-black-alpha-40:hover {
+    border-color: rgba(0, 0, 0, 0.4);
+  }
+
+  .md-hover-tw-text-black-alpha-40:hover {
+    color: rgba(0, 0, 0, 0.4);
+  }
+
+  .md-hover-tw-bg-black-alpha-50:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .md-hover-tw-border-black-alpha-50:hover {
+    border-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .md-hover-tw-text-black-alpha-50:hover {
+    color: rgba(0, 0, 0, 0.5);
+  }
+
+  .md-hover-tw-bg-black-alpha-60:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+
+  .md-hover-tw-border-black-alpha-60:hover {
+    border-color: rgba(0, 0, 0, 0.6);
+  }
+
+  .md-hover-tw-text-black-alpha-60:hover {
+    color: rgba(0, 0, 0, 0.6);
+  }
+
+  .md-hover-tw-bg-black-alpha-70:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+
+  .md-hover-tw-border-black-alpha-70:hover {
+    border-color: rgba(0, 0, 0, 0.7);
+  }
+
+  .md-hover-tw-text-black-alpha-70:hover {
+    color: rgba(0, 0, 0, 0.7);
+  }
+
+  .md-hover-tw-bg-black-alpha-80:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  .md-hover-tw-border-black-alpha-80:hover {
+    border-color: rgba(0, 0, 0, 0.8);
+  }
+
+  .md-hover-tw-text-black-alpha-80:hover {
+    color: rgba(0, 0, 0, 0.8);
+  }
+
+  .md-hover-tw-bg-black-alpha-90:hover {
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+
+  .md-hover-tw-border-black-alpha-90:hover {
+    border-color: rgba(0, 0, 0, 0.9);
+  }
+
+  .md-hover-tw-text-black-alpha-90:hover {
+    color: rgba(0, 0, 0, 0.9);
+  }
+
+  .md-hover-tw-bg-black-alpha-100:hover {
+    background-color: rgba(0, 0, 0, 1);
+  }
+
+  .md-hover-tw-border-black-alpha-100:hover {
+    border-color: rgba(0, 0, 0, 1);
+  }
+
+  .md-hover-tw-text-black-alpha-100:hover {
+    color: rgba(0, 0, 0, 1);
+  }
+
+  .md-focus-tw-bg-black-alpha-0:focus {
+    background-color: rgba(0, 0, 0, 0);
+  }
+
+  .md-focus-tw-border-black-alpha-0:focus {
+    border-color: rgba(0, 0, 0, 0);
+  }
+
+  .md-focus-tw-text-black-alpha-0:focus {
+    color: rgba(0, 0, 0, 0);
+  }
+
+  .md-focus-tw-bg-black-alpha-10:focus {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+  .md-focus-tw-border-black-alpha-10:focus {
+    border-color: rgba(0, 0, 0, 0.1);
+  }
+
+  .md-focus-tw-text-black-alpha-10:focus {
+    color: rgba(0, 0, 0, 0.1);
+  }
+
+  .md-focus-tw-bg-black-alpha-20:focus {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+
+  .md-focus-tw-border-black-alpha-20:focus {
+    border-color: rgba(0, 0, 0, 0.2);
+  }
+
+  .md-focus-tw-text-black-alpha-20:focus {
+    color: rgba(0, 0, 0, 0.2);
+  }
+
+  .md-focus-tw-bg-black-alpha-30:focus {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+
+  .md-focus-tw-border-black-alpha-30:focus {
+    border-color: rgba(0, 0, 0, 0.3);
+  }
+
+  .md-focus-tw-text-black-alpha-30:focus {
+    color: rgba(0, 0, 0, 0.3);
+  }
+
+  .md-focus-tw-bg-black-alpha-40:focus {
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+
+  .md-focus-tw-border-black-alpha-40:focus {
+    border-color: rgba(0, 0, 0, 0.4);
+  }
+
+  .md-focus-tw-text-black-alpha-40:focus {
+    color: rgba(0, 0, 0, 0.4);
+  }
+
+  .md-focus-tw-bg-black-alpha-50:focus {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .md-focus-tw-border-black-alpha-50:focus {
+    border-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .md-focus-tw-text-black-alpha-50:focus {
+    color: rgba(0, 0, 0, 0.5);
+  }
+
+  .md-focus-tw-bg-black-alpha-60:focus {
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+
+  .md-focus-tw-border-black-alpha-60:focus {
+    border-color: rgba(0, 0, 0, 0.6);
+  }
+
+  .md-focus-tw-text-black-alpha-60:focus {
+    color: rgba(0, 0, 0, 0.6);
+  }
+
+  .md-focus-tw-bg-black-alpha-70:focus {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+
+  .md-focus-tw-border-black-alpha-70:focus {
+    border-color: rgba(0, 0, 0, 0.7);
+  }
+
+  .md-focus-tw-text-black-alpha-70:focus {
+    color: rgba(0, 0, 0, 0.7);
+  }
+
+  .md-focus-tw-bg-black-alpha-80:focus {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  .md-focus-tw-border-black-alpha-80:focus {
+    border-color: rgba(0, 0, 0, 0.8);
+  }
+
+  .md-focus-tw-text-black-alpha-80:focus {
+    color: rgba(0, 0, 0, 0.8);
+  }
+
+  .md-focus-tw-bg-black-alpha-90:focus {
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+
+  .md-focus-tw-border-black-alpha-90:focus {
+    border-color: rgba(0, 0, 0, 0.9);
+  }
+
+  .md-focus-tw-text-black-alpha-90:focus {
+    color: rgba(0, 0, 0, 0.9);
+  }
+
+  .md-focus-tw-bg-black-alpha-100:focus {
+    background-color: rgba(0, 0, 0, 1);
+  }
+
+  .md-focus-tw-border-black-alpha-100:focus {
+    border-color: rgba(0, 0, 0, 1);
+  }
+
+  .md-focus-tw-text-black-alpha-100:focus {
+    color: rgba(0, 0, 0, 1);
   }
 }
 
@@ -62598,6 +65230,798 @@ button {
   .lg-tw-z-auto {
     z-index: auto;
   }
+
+  .lg-tw-bg-white-alpha-0 {
+    background-color: rgba(255, 255, 255, 0);
+  }
+
+  .lg-tw-border-white-alpha-0 {
+    border-color: rgba(255, 255, 255, 0);
+  }
+
+  .lg-tw-text-white-alpha-0 {
+    color: rgba(255, 255, 255, 0);
+  }
+
+  .lg-tw-bg-white-alpha-10 {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+
+  .lg-tw-border-white-alpha-10 {
+    border-color: rgba(255, 255, 255, 0.1);
+  }
+
+  .lg-tw-text-white-alpha-10 {
+    color: rgba(255, 255, 255, 0.1);
+  }
+
+  .lg-tw-bg-white-alpha-20 {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+
+  .lg-tw-border-white-alpha-20 {
+    border-color: rgba(255, 255, 255, 0.2);
+  }
+
+  .lg-tw-text-white-alpha-20 {
+    color: rgba(255, 255, 255, 0.2);
+  }
+
+  .lg-tw-bg-white-alpha-30 {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+
+  .lg-tw-border-white-alpha-30 {
+    border-color: rgba(255, 255, 255, 0.3);
+  }
+
+  .lg-tw-text-white-alpha-30 {
+    color: rgba(255, 255, 255, 0.3);
+  }
+
+  .lg-tw-bg-white-alpha-40 {
+    background-color: rgba(255, 255, 255, 0.4);
+  }
+
+  .lg-tw-border-white-alpha-40 {
+    border-color: rgba(255, 255, 255, 0.4);
+  }
+
+  .lg-tw-text-white-alpha-40 {
+    color: rgba(255, 255, 255, 0.4);
+  }
+
+  .lg-tw-bg-white-alpha-50 {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+
+  .lg-tw-border-white-alpha-50 {
+    border-color: rgba(255, 255, 255, 0.5);
+  }
+
+  .lg-tw-text-white-alpha-50 {
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+  .lg-tw-bg-white-alpha-60 {
+    background-color: rgba(255, 255, 255, 0.6);
+  }
+
+  .lg-tw-border-white-alpha-60 {
+    border-color: rgba(255, 255, 255, 0.6);
+  }
+
+  .lg-tw-text-white-alpha-60 {
+    color: rgba(255, 255, 255, 0.6);
+  }
+
+  .lg-tw-bg-white-alpha-70 {
+    background-color: rgba(255, 255, 255, 0.7);
+  }
+
+  .lg-tw-border-white-alpha-70 {
+    border-color: rgba(255, 255, 255, 0.7);
+  }
+
+  .lg-tw-text-white-alpha-70 {
+    color: rgba(255, 255, 255, 0.7);
+  }
+
+  .lg-tw-bg-white-alpha-80 {
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+
+  .lg-tw-border-white-alpha-80 {
+    border-color: rgba(255, 255, 255, 0.8);
+  }
+
+  .lg-tw-text-white-alpha-80 {
+    color: rgba(255, 255, 255, 0.8);
+  }
+
+  .lg-tw-bg-white-alpha-90 {
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+
+  .lg-tw-border-white-alpha-90 {
+    border-color: rgba(255, 255, 255, 0.9);
+  }
+
+  .lg-tw-text-white-alpha-90 {
+    color: rgba(255, 255, 255, 0.9);
+  }
+
+  .lg-tw-bg-white-alpha-100 {
+    background-color: rgba(255, 255, 255, 1);
+  }
+
+  .lg-tw-border-white-alpha-100 {
+    border-color: rgba(255, 255, 255, 1);
+  }
+
+  .lg-tw-text-white-alpha-100 {
+    color: rgba(255, 255, 255, 1);
+  }
+
+  .lg-hover-tw-bg-white-alpha-0:hover {
+    background-color: rgba(255, 255, 255, 0);
+  }
+
+  .lg-hover-tw-border-white-alpha-0:hover {
+    border-color: rgba(255, 255, 255, 0);
+  }
+
+  .lg-hover-tw-text-white-alpha-0:hover {
+    color: rgba(255, 255, 255, 0);
+  }
+
+  .lg-hover-tw-bg-white-alpha-10:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+
+  .lg-hover-tw-border-white-alpha-10:hover {
+    border-color: rgba(255, 255, 255, 0.1);
+  }
+
+  .lg-hover-tw-text-white-alpha-10:hover {
+    color: rgba(255, 255, 255, 0.1);
+  }
+
+  .lg-hover-tw-bg-white-alpha-20:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+
+  .lg-hover-tw-border-white-alpha-20:hover {
+    border-color: rgba(255, 255, 255, 0.2);
+  }
+
+  .lg-hover-tw-text-white-alpha-20:hover {
+    color: rgba(255, 255, 255, 0.2);
+  }
+
+  .lg-hover-tw-bg-white-alpha-30:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+
+  .lg-hover-tw-border-white-alpha-30:hover {
+    border-color: rgba(255, 255, 255, 0.3);
+  }
+
+  .lg-hover-tw-text-white-alpha-30:hover {
+    color: rgba(255, 255, 255, 0.3);
+  }
+
+  .lg-hover-tw-bg-white-alpha-40:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+  }
+
+  .lg-hover-tw-border-white-alpha-40:hover {
+    border-color: rgba(255, 255, 255, 0.4);
+  }
+
+  .lg-hover-tw-text-white-alpha-40:hover {
+    color: rgba(255, 255, 255, 0.4);
+  }
+
+  .lg-hover-tw-bg-white-alpha-50:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+
+  .lg-hover-tw-border-white-alpha-50:hover {
+    border-color: rgba(255, 255, 255, 0.5);
+  }
+
+  .lg-hover-tw-text-white-alpha-50:hover {
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+  .lg-hover-tw-bg-white-alpha-60:hover {
+    background-color: rgba(255, 255, 255, 0.6);
+  }
+
+  .lg-hover-tw-border-white-alpha-60:hover {
+    border-color: rgba(255, 255, 255, 0.6);
+  }
+
+  .lg-hover-tw-text-white-alpha-60:hover {
+    color: rgba(255, 255, 255, 0.6);
+  }
+
+  .lg-hover-tw-bg-white-alpha-70:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+  }
+
+  .lg-hover-tw-border-white-alpha-70:hover {
+    border-color: rgba(255, 255, 255, 0.7);
+  }
+
+  .lg-hover-tw-text-white-alpha-70:hover {
+    color: rgba(255, 255, 255, 0.7);
+  }
+
+  .lg-hover-tw-bg-white-alpha-80:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+
+  .lg-hover-tw-border-white-alpha-80:hover {
+    border-color: rgba(255, 255, 255, 0.8);
+  }
+
+  .lg-hover-tw-text-white-alpha-80:hover {
+    color: rgba(255, 255, 255, 0.8);
+  }
+
+  .lg-hover-tw-bg-white-alpha-90:hover {
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+
+  .lg-hover-tw-border-white-alpha-90:hover {
+    border-color: rgba(255, 255, 255, 0.9);
+  }
+
+  .lg-hover-tw-text-white-alpha-90:hover {
+    color: rgba(255, 255, 255, 0.9);
+  }
+
+  .lg-hover-tw-bg-white-alpha-100:hover {
+    background-color: rgba(255, 255, 255, 1);
+  }
+
+  .lg-hover-tw-border-white-alpha-100:hover {
+    border-color: rgba(255, 255, 255, 1);
+  }
+
+  .lg-hover-tw-text-white-alpha-100:hover {
+    color: rgba(255, 255, 255, 1);
+  }
+
+  .lg-focus-tw-bg-white-alpha-0:focus {
+    background-color: rgba(255, 255, 255, 0);
+  }
+
+  .lg-focus-tw-border-white-alpha-0:focus {
+    border-color: rgba(255, 255, 255, 0);
+  }
+
+  .lg-focus-tw-text-white-alpha-0:focus {
+    color: rgba(255, 255, 255, 0);
+  }
+
+  .lg-focus-tw-bg-white-alpha-10:focus {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+
+  .lg-focus-tw-border-white-alpha-10:focus {
+    border-color: rgba(255, 255, 255, 0.1);
+  }
+
+  .lg-focus-tw-text-white-alpha-10:focus {
+    color: rgba(255, 255, 255, 0.1);
+  }
+
+  .lg-focus-tw-bg-white-alpha-20:focus {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+
+  .lg-focus-tw-border-white-alpha-20:focus {
+    border-color: rgba(255, 255, 255, 0.2);
+  }
+
+  .lg-focus-tw-text-white-alpha-20:focus {
+    color: rgba(255, 255, 255, 0.2);
+  }
+
+  .lg-focus-tw-bg-white-alpha-30:focus {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+
+  .lg-focus-tw-border-white-alpha-30:focus {
+    border-color: rgba(255, 255, 255, 0.3);
+  }
+
+  .lg-focus-tw-text-white-alpha-30:focus {
+    color: rgba(255, 255, 255, 0.3);
+  }
+
+  .lg-focus-tw-bg-white-alpha-40:focus {
+    background-color: rgba(255, 255, 255, 0.4);
+  }
+
+  .lg-focus-tw-border-white-alpha-40:focus {
+    border-color: rgba(255, 255, 255, 0.4);
+  }
+
+  .lg-focus-tw-text-white-alpha-40:focus {
+    color: rgba(255, 255, 255, 0.4);
+  }
+
+  .lg-focus-tw-bg-white-alpha-50:focus {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+
+  .lg-focus-tw-border-white-alpha-50:focus {
+    border-color: rgba(255, 255, 255, 0.5);
+  }
+
+  .lg-focus-tw-text-white-alpha-50:focus {
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+  .lg-focus-tw-bg-white-alpha-60:focus {
+    background-color: rgba(255, 255, 255, 0.6);
+  }
+
+  .lg-focus-tw-border-white-alpha-60:focus {
+    border-color: rgba(255, 255, 255, 0.6);
+  }
+
+  .lg-focus-tw-text-white-alpha-60:focus {
+    color: rgba(255, 255, 255, 0.6);
+  }
+
+  .lg-focus-tw-bg-white-alpha-70:focus {
+    background-color: rgba(255, 255, 255, 0.7);
+  }
+
+  .lg-focus-tw-border-white-alpha-70:focus {
+    border-color: rgba(255, 255, 255, 0.7);
+  }
+
+  .lg-focus-tw-text-white-alpha-70:focus {
+    color: rgba(255, 255, 255, 0.7);
+  }
+
+  .lg-focus-tw-bg-white-alpha-80:focus {
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+
+  .lg-focus-tw-border-white-alpha-80:focus {
+    border-color: rgba(255, 255, 255, 0.8);
+  }
+
+  .lg-focus-tw-text-white-alpha-80:focus {
+    color: rgba(255, 255, 255, 0.8);
+  }
+
+  .lg-focus-tw-bg-white-alpha-90:focus {
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+
+  .lg-focus-tw-border-white-alpha-90:focus {
+    border-color: rgba(255, 255, 255, 0.9);
+  }
+
+  .lg-focus-tw-text-white-alpha-90:focus {
+    color: rgba(255, 255, 255, 0.9);
+  }
+
+  .lg-focus-tw-bg-white-alpha-100:focus {
+    background-color: rgba(255, 255, 255, 1);
+  }
+
+  .lg-focus-tw-border-white-alpha-100:focus {
+    border-color: rgba(255, 255, 255, 1);
+  }
+
+  .lg-focus-tw-text-white-alpha-100:focus {
+    color: rgba(255, 255, 255, 1);
+  }
+
+  .lg-tw-bg-black-alpha-0 {
+    background-color: rgba(0, 0, 0, 0);
+  }
+
+  .lg-tw-border-black-alpha-0 {
+    border-color: rgba(0, 0, 0, 0);
+  }
+
+  .lg-tw-text-black-alpha-0 {
+    color: rgba(0, 0, 0, 0);
+  }
+
+  .lg-tw-bg-black-alpha-10 {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+  .lg-tw-border-black-alpha-10 {
+    border-color: rgba(0, 0, 0, 0.1);
+  }
+
+  .lg-tw-text-black-alpha-10 {
+    color: rgba(0, 0, 0, 0.1);
+  }
+
+  .lg-tw-bg-black-alpha-20 {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+
+  .lg-tw-border-black-alpha-20 {
+    border-color: rgba(0, 0, 0, 0.2);
+  }
+
+  .lg-tw-text-black-alpha-20 {
+    color: rgba(0, 0, 0, 0.2);
+  }
+
+  .lg-tw-bg-black-alpha-30 {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+
+  .lg-tw-border-black-alpha-30 {
+    border-color: rgba(0, 0, 0, 0.3);
+  }
+
+  .lg-tw-text-black-alpha-30 {
+    color: rgba(0, 0, 0, 0.3);
+  }
+
+  .lg-tw-bg-black-alpha-40 {
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+
+  .lg-tw-border-black-alpha-40 {
+    border-color: rgba(0, 0, 0, 0.4);
+  }
+
+  .lg-tw-text-black-alpha-40 {
+    color: rgba(0, 0, 0, 0.4);
+  }
+
+  .lg-tw-bg-black-alpha-50 {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .lg-tw-border-black-alpha-50 {
+    border-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .lg-tw-text-black-alpha-50 {
+    color: rgba(0, 0, 0, 0.5);
+  }
+
+  .lg-tw-bg-black-alpha-60 {
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+
+  .lg-tw-border-black-alpha-60 {
+    border-color: rgba(0, 0, 0, 0.6);
+  }
+
+  .lg-tw-text-black-alpha-60 {
+    color: rgba(0, 0, 0, 0.6);
+  }
+
+  .lg-tw-bg-black-alpha-70 {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+
+  .lg-tw-border-black-alpha-70 {
+    border-color: rgba(0, 0, 0, 0.7);
+  }
+
+  .lg-tw-text-black-alpha-70 {
+    color: rgba(0, 0, 0, 0.7);
+  }
+
+  .lg-tw-bg-black-alpha-80 {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  .lg-tw-border-black-alpha-80 {
+    border-color: rgba(0, 0, 0, 0.8);
+  }
+
+  .lg-tw-text-black-alpha-80 {
+    color: rgba(0, 0, 0, 0.8);
+  }
+
+  .lg-tw-bg-black-alpha-90 {
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+
+  .lg-tw-border-black-alpha-90 {
+    border-color: rgba(0, 0, 0, 0.9);
+  }
+
+  .lg-tw-text-black-alpha-90 {
+    color: rgba(0, 0, 0, 0.9);
+  }
+
+  .lg-tw-bg-black-alpha-100 {
+    background-color: rgba(0, 0, 0, 1);
+  }
+
+  .lg-tw-border-black-alpha-100 {
+    border-color: rgba(0, 0, 0, 1);
+  }
+
+  .lg-tw-text-black-alpha-100 {
+    color: rgba(0, 0, 0, 1);
+  }
+
+  .lg-hover-tw-bg-black-alpha-0:hover {
+    background-color: rgba(0, 0, 0, 0);
+  }
+
+  .lg-hover-tw-border-black-alpha-0:hover {
+    border-color: rgba(0, 0, 0, 0);
+  }
+
+  .lg-hover-tw-text-black-alpha-0:hover {
+    color: rgba(0, 0, 0, 0);
+  }
+
+  .lg-hover-tw-bg-black-alpha-10:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+  .lg-hover-tw-border-black-alpha-10:hover {
+    border-color: rgba(0, 0, 0, 0.1);
+  }
+
+  .lg-hover-tw-text-black-alpha-10:hover {
+    color: rgba(0, 0, 0, 0.1);
+  }
+
+  .lg-hover-tw-bg-black-alpha-20:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+
+  .lg-hover-tw-border-black-alpha-20:hover {
+    border-color: rgba(0, 0, 0, 0.2);
+  }
+
+  .lg-hover-tw-text-black-alpha-20:hover {
+    color: rgba(0, 0, 0, 0.2);
+  }
+
+  .lg-hover-tw-bg-black-alpha-30:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+
+  .lg-hover-tw-border-black-alpha-30:hover {
+    border-color: rgba(0, 0, 0, 0.3);
+  }
+
+  .lg-hover-tw-text-black-alpha-30:hover {
+    color: rgba(0, 0, 0, 0.3);
+  }
+
+  .lg-hover-tw-bg-black-alpha-40:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+
+  .lg-hover-tw-border-black-alpha-40:hover {
+    border-color: rgba(0, 0, 0, 0.4);
+  }
+
+  .lg-hover-tw-text-black-alpha-40:hover {
+    color: rgba(0, 0, 0, 0.4);
+  }
+
+  .lg-hover-tw-bg-black-alpha-50:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .lg-hover-tw-border-black-alpha-50:hover {
+    border-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .lg-hover-tw-text-black-alpha-50:hover {
+    color: rgba(0, 0, 0, 0.5);
+  }
+
+  .lg-hover-tw-bg-black-alpha-60:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+
+  .lg-hover-tw-border-black-alpha-60:hover {
+    border-color: rgba(0, 0, 0, 0.6);
+  }
+
+  .lg-hover-tw-text-black-alpha-60:hover {
+    color: rgba(0, 0, 0, 0.6);
+  }
+
+  .lg-hover-tw-bg-black-alpha-70:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+
+  .lg-hover-tw-border-black-alpha-70:hover {
+    border-color: rgba(0, 0, 0, 0.7);
+  }
+
+  .lg-hover-tw-text-black-alpha-70:hover {
+    color: rgba(0, 0, 0, 0.7);
+  }
+
+  .lg-hover-tw-bg-black-alpha-80:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  .lg-hover-tw-border-black-alpha-80:hover {
+    border-color: rgba(0, 0, 0, 0.8);
+  }
+
+  .lg-hover-tw-text-black-alpha-80:hover {
+    color: rgba(0, 0, 0, 0.8);
+  }
+
+  .lg-hover-tw-bg-black-alpha-90:hover {
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+
+  .lg-hover-tw-border-black-alpha-90:hover {
+    border-color: rgba(0, 0, 0, 0.9);
+  }
+
+  .lg-hover-tw-text-black-alpha-90:hover {
+    color: rgba(0, 0, 0, 0.9);
+  }
+
+  .lg-hover-tw-bg-black-alpha-100:hover {
+    background-color: rgba(0, 0, 0, 1);
+  }
+
+  .lg-hover-tw-border-black-alpha-100:hover {
+    border-color: rgba(0, 0, 0, 1);
+  }
+
+  .lg-hover-tw-text-black-alpha-100:hover {
+    color: rgba(0, 0, 0, 1);
+  }
+
+  .lg-focus-tw-bg-black-alpha-0:focus {
+    background-color: rgba(0, 0, 0, 0);
+  }
+
+  .lg-focus-tw-border-black-alpha-0:focus {
+    border-color: rgba(0, 0, 0, 0);
+  }
+
+  .lg-focus-tw-text-black-alpha-0:focus {
+    color: rgba(0, 0, 0, 0);
+  }
+
+  .lg-focus-tw-bg-black-alpha-10:focus {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+  .lg-focus-tw-border-black-alpha-10:focus {
+    border-color: rgba(0, 0, 0, 0.1);
+  }
+
+  .lg-focus-tw-text-black-alpha-10:focus {
+    color: rgba(0, 0, 0, 0.1);
+  }
+
+  .lg-focus-tw-bg-black-alpha-20:focus {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+
+  .lg-focus-tw-border-black-alpha-20:focus {
+    border-color: rgba(0, 0, 0, 0.2);
+  }
+
+  .lg-focus-tw-text-black-alpha-20:focus {
+    color: rgba(0, 0, 0, 0.2);
+  }
+
+  .lg-focus-tw-bg-black-alpha-30:focus {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+
+  .lg-focus-tw-border-black-alpha-30:focus {
+    border-color: rgba(0, 0, 0, 0.3);
+  }
+
+  .lg-focus-tw-text-black-alpha-30:focus {
+    color: rgba(0, 0, 0, 0.3);
+  }
+
+  .lg-focus-tw-bg-black-alpha-40:focus {
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+
+  .lg-focus-tw-border-black-alpha-40:focus {
+    border-color: rgba(0, 0, 0, 0.4);
+  }
+
+  .lg-focus-tw-text-black-alpha-40:focus {
+    color: rgba(0, 0, 0, 0.4);
+  }
+
+  .lg-focus-tw-bg-black-alpha-50:focus {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .lg-focus-tw-border-black-alpha-50:focus {
+    border-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .lg-focus-tw-text-black-alpha-50:focus {
+    color: rgba(0, 0, 0, 0.5);
+  }
+
+  .lg-focus-tw-bg-black-alpha-60:focus {
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+
+  .lg-focus-tw-border-black-alpha-60:focus {
+    border-color: rgba(0, 0, 0, 0.6);
+  }
+
+  .lg-focus-tw-text-black-alpha-60:focus {
+    color: rgba(0, 0, 0, 0.6);
+  }
+
+  .lg-focus-tw-bg-black-alpha-70:focus {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+
+  .lg-focus-tw-border-black-alpha-70:focus {
+    border-color: rgba(0, 0, 0, 0.7);
+  }
+
+  .lg-focus-tw-text-black-alpha-70:focus {
+    color: rgba(0, 0, 0, 0.7);
+  }
+
+  .lg-focus-tw-bg-black-alpha-80:focus {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  .lg-focus-tw-border-black-alpha-80:focus {
+    border-color: rgba(0, 0, 0, 0.8);
+  }
+
+  .lg-focus-tw-text-black-alpha-80:focus {
+    color: rgba(0, 0, 0, 0.8);
+  }
+
+  .lg-focus-tw-bg-black-alpha-90:focus {
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+
+  .lg-focus-tw-border-black-alpha-90:focus {
+    border-color: rgba(0, 0, 0, 0.9);
+  }
+
+  .lg-focus-tw-text-black-alpha-90:focus {
+    color: rgba(0, 0, 0, 0.9);
+  }
+
+  .lg-focus-tw-bg-black-alpha-100:focus {
+    background-color: rgba(0, 0, 0, 1);
+  }
+
+  .lg-focus-tw-border-black-alpha-100:focus {
+    border-color: rgba(0, 0, 0, 1);
+  }
+
+  .lg-focus-tw-text-black-alpha-100:focus {
+    color: rgba(0, 0, 0, 1);
+  }
 }
 
 @media (min-width: 1024px) {
@@ -74821,5 +78245,797 @@ button {
 
   .max-tw-z-auto {
     z-index: auto;
+  }
+
+  .max-tw-bg-white-alpha-0 {
+    background-color: rgba(255, 255, 255, 0);
+  }
+
+  .max-tw-border-white-alpha-0 {
+    border-color: rgba(255, 255, 255, 0);
+  }
+
+  .max-tw-text-white-alpha-0 {
+    color: rgba(255, 255, 255, 0);
+  }
+
+  .max-tw-bg-white-alpha-10 {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+
+  .max-tw-border-white-alpha-10 {
+    border-color: rgba(255, 255, 255, 0.1);
+  }
+
+  .max-tw-text-white-alpha-10 {
+    color: rgba(255, 255, 255, 0.1);
+  }
+
+  .max-tw-bg-white-alpha-20 {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+
+  .max-tw-border-white-alpha-20 {
+    border-color: rgba(255, 255, 255, 0.2);
+  }
+
+  .max-tw-text-white-alpha-20 {
+    color: rgba(255, 255, 255, 0.2);
+  }
+
+  .max-tw-bg-white-alpha-30 {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+
+  .max-tw-border-white-alpha-30 {
+    border-color: rgba(255, 255, 255, 0.3);
+  }
+
+  .max-tw-text-white-alpha-30 {
+    color: rgba(255, 255, 255, 0.3);
+  }
+
+  .max-tw-bg-white-alpha-40 {
+    background-color: rgba(255, 255, 255, 0.4);
+  }
+
+  .max-tw-border-white-alpha-40 {
+    border-color: rgba(255, 255, 255, 0.4);
+  }
+
+  .max-tw-text-white-alpha-40 {
+    color: rgba(255, 255, 255, 0.4);
+  }
+
+  .max-tw-bg-white-alpha-50 {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+
+  .max-tw-border-white-alpha-50 {
+    border-color: rgba(255, 255, 255, 0.5);
+  }
+
+  .max-tw-text-white-alpha-50 {
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+  .max-tw-bg-white-alpha-60 {
+    background-color: rgba(255, 255, 255, 0.6);
+  }
+
+  .max-tw-border-white-alpha-60 {
+    border-color: rgba(255, 255, 255, 0.6);
+  }
+
+  .max-tw-text-white-alpha-60 {
+    color: rgba(255, 255, 255, 0.6);
+  }
+
+  .max-tw-bg-white-alpha-70 {
+    background-color: rgba(255, 255, 255, 0.7);
+  }
+
+  .max-tw-border-white-alpha-70 {
+    border-color: rgba(255, 255, 255, 0.7);
+  }
+
+  .max-tw-text-white-alpha-70 {
+    color: rgba(255, 255, 255, 0.7);
+  }
+
+  .max-tw-bg-white-alpha-80 {
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+
+  .max-tw-border-white-alpha-80 {
+    border-color: rgba(255, 255, 255, 0.8);
+  }
+
+  .max-tw-text-white-alpha-80 {
+    color: rgba(255, 255, 255, 0.8);
+  }
+
+  .max-tw-bg-white-alpha-90 {
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+
+  .max-tw-border-white-alpha-90 {
+    border-color: rgba(255, 255, 255, 0.9);
+  }
+
+  .max-tw-text-white-alpha-90 {
+    color: rgba(255, 255, 255, 0.9);
+  }
+
+  .max-tw-bg-white-alpha-100 {
+    background-color: rgba(255, 255, 255, 1);
+  }
+
+  .max-tw-border-white-alpha-100 {
+    border-color: rgba(255, 255, 255, 1);
+  }
+
+  .max-tw-text-white-alpha-100 {
+    color: rgba(255, 255, 255, 1);
+  }
+
+  .max-hover-tw-bg-white-alpha-0:hover {
+    background-color: rgba(255, 255, 255, 0);
+  }
+
+  .max-hover-tw-border-white-alpha-0:hover {
+    border-color: rgba(255, 255, 255, 0);
+  }
+
+  .max-hover-tw-text-white-alpha-0:hover {
+    color: rgba(255, 255, 255, 0);
+  }
+
+  .max-hover-tw-bg-white-alpha-10:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+
+  .max-hover-tw-border-white-alpha-10:hover {
+    border-color: rgba(255, 255, 255, 0.1);
+  }
+
+  .max-hover-tw-text-white-alpha-10:hover {
+    color: rgba(255, 255, 255, 0.1);
+  }
+
+  .max-hover-tw-bg-white-alpha-20:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+
+  .max-hover-tw-border-white-alpha-20:hover {
+    border-color: rgba(255, 255, 255, 0.2);
+  }
+
+  .max-hover-tw-text-white-alpha-20:hover {
+    color: rgba(255, 255, 255, 0.2);
+  }
+
+  .max-hover-tw-bg-white-alpha-30:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+
+  .max-hover-tw-border-white-alpha-30:hover {
+    border-color: rgba(255, 255, 255, 0.3);
+  }
+
+  .max-hover-tw-text-white-alpha-30:hover {
+    color: rgba(255, 255, 255, 0.3);
+  }
+
+  .max-hover-tw-bg-white-alpha-40:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+  }
+
+  .max-hover-tw-border-white-alpha-40:hover {
+    border-color: rgba(255, 255, 255, 0.4);
+  }
+
+  .max-hover-tw-text-white-alpha-40:hover {
+    color: rgba(255, 255, 255, 0.4);
+  }
+
+  .max-hover-tw-bg-white-alpha-50:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+
+  .max-hover-tw-border-white-alpha-50:hover {
+    border-color: rgba(255, 255, 255, 0.5);
+  }
+
+  .max-hover-tw-text-white-alpha-50:hover {
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+  .max-hover-tw-bg-white-alpha-60:hover {
+    background-color: rgba(255, 255, 255, 0.6);
+  }
+
+  .max-hover-tw-border-white-alpha-60:hover {
+    border-color: rgba(255, 255, 255, 0.6);
+  }
+
+  .max-hover-tw-text-white-alpha-60:hover {
+    color: rgba(255, 255, 255, 0.6);
+  }
+
+  .max-hover-tw-bg-white-alpha-70:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+  }
+
+  .max-hover-tw-border-white-alpha-70:hover {
+    border-color: rgba(255, 255, 255, 0.7);
+  }
+
+  .max-hover-tw-text-white-alpha-70:hover {
+    color: rgba(255, 255, 255, 0.7);
+  }
+
+  .max-hover-tw-bg-white-alpha-80:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+
+  .max-hover-tw-border-white-alpha-80:hover {
+    border-color: rgba(255, 255, 255, 0.8);
+  }
+
+  .max-hover-tw-text-white-alpha-80:hover {
+    color: rgba(255, 255, 255, 0.8);
+  }
+
+  .max-hover-tw-bg-white-alpha-90:hover {
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+
+  .max-hover-tw-border-white-alpha-90:hover {
+    border-color: rgba(255, 255, 255, 0.9);
+  }
+
+  .max-hover-tw-text-white-alpha-90:hover {
+    color: rgba(255, 255, 255, 0.9);
+  }
+
+  .max-hover-tw-bg-white-alpha-100:hover {
+    background-color: rgba(255, 255, 255, 1);
+  }
+
+  .max-hover-tw-border-white-alpha-100:hover {
+    border-color: rgba(255, 255, 255, 1);
+  }
+
+  .max-hover-tw-text-white-alpha-100:hover {
+    color: rgba(255, 255, 255, 1);
+  }
+
+  .max-focus-tw-bg-white-alpha-0:focus {
+    background-color: rgba(255, 255, 255, 0);
+  }
+
+  .max-focus-tw-border-white-alpha-0:focus {
+    border-color: rgba(255, 255, 255, 0);
+  }
+
+  .max-focus-tw-text-white-alpha-0:focus {
+    color: rgba(255, 255, 255, 0);
+  }
+
+  .max-focus-tw-bg-white-alpha-10:focus {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+
+  .max-focus-tw-border-white-alpha-10:focus {
+    border-color: rgba(255, 255, 255, 0.1);
+  }
+
+  .max-focus-tw-text-white-alpha-10:focus {
+    color: rgba(255, 255, 255, 0.1);
+  }
+
+  .max-focus-tw-bg-white-alpha-20:focus {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+
+  .max-focus-tw-border-white-alpha-20:focus {
+    border-color: rgba(255, 255, 255, 0.2);
+  }
+
+  .max-focus-tw-text-white-alpha-20:focus {
+    color: rgba(255, 255, 255, 0.2);
+  }
+
+  .max-focus-tw-bg-white-alpha-30:focus {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+
+  .max-focus-tw-border-white-alpha-30:focus {
+    border-color: rgba(255, 255, 255, 0.3);
+  }
+
+  .max-focus-tw-text-white-alpha-30:focus {
+    color: rgba(255, 255, 255, 0.3);
+  }
+
+  .max-focus-tw-bg-white-alpha-40:focus {
+    background-color: rgba(255, 255, 255, 0.4);
+  }
+
+  .max-focus-tw-border-white-alpha-40:focus {
+    border-color: rgba(255, 255, 255, 0.4);
+  }
+
+  .max-focus-tw-text-white-alpha-40:focus {
+    color: rgba(255, 255, 255, 0.4);
+  }
+
+  .max-focus-tw-bg-white-alpha-50:focus {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+
+  .max-focus-tw-border-white-alpha-50:focus {
+    border-color: rgba(255, 255, 255, 0.5);
+  }
+
+  .max-focus-tw-text-white-alpha-50:focus {
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+  .max-focus-tw-bg-white-alpha-60:focus {
+    background-color: rgba(255, 255, 255, 0.6);
+  }
+
+  .max-focus-tw-border-white-alpha-60:focus {
+    border-color: rgba(255, 255, 255, 0.6);
+  }
+
+  .max-focus-tw-text-white-alpha-60:focus {
+    color: rgba(255, 255, 255, 0.6);
+  }
+
+  .max-focus-tw-bg-white-alpha-70:focus {
+    background-color: rgba(255, 255, 255, 0.7);
+  }
+
+  .max-focus-tw-border-white-alpha-70:focus {
+    border-color: rgba(255, 255, 255, 0.7);
+  }
+
+  .max-focus-tw-text-white-alpha-70:focus {
+    color: rgba(255, 255, 255, 0.7);
+  }
+
+  .max-focus-tw-bg-white-alpha-80:focus {
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+
+  .max-focus-tw-border-white-alpha-80:focus {
+    border-color: rgba(255, 255, 255, 0.8);
+  }
+
+  .max-focus-tw-text-white-alpha-80:focus {
+    color: rgba(255, 255, 255, 0.8);
+  }
+
+  .max-focus-tw-bg-white-alpha-90:focus {
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+
+  .max-focus-tw-border-white-alpha-90:focus {
+    border-color: rgba(255, 255, 255, 0.9);
+  }
+
+  .max-focus-tw-text-white-alpha-90:focus {
+    color: rgba(255, 255, 255, 0.9);
+  }
+
+  .max-focus-tw-bg-white-alpha-100:focus {
+    background-color: rgba(255, 255, 255, 1);
+  }
+
+  .max-focus-tw-border-white-alpha-100:focus {
+    border-color: rgba(255, 255, 255, 1);
+  }
+
+  .max-focus-tw-text-white-alpha-100:focus {
+    color: rgba(255, 255, 255, 1);
+  }
+
+  .max-tw-bg-black-alpha-0 {
+    background-color: rgba(0, 0, 0, 0);
+  }
+
+  .max-tw-border-black-alpha-0 {
+    border-color: rgba(0, 0, 0, 0);
+  }
+
+  .max-tw-text-black-alpha-0 {
+    color: rgba(0, 0, 0, 0);
+  }
+
+  .max-tw-bg-black-alpha-10 {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+  .max-tw-border-black-alpha-10 {
+    border-color: rgba(0, 0, 0, 0.1);
+  }
+
+  .max-tw-text-black-alpha-10 {
+    color: rgba(0, 0, 0, 0.1);
+  }
+
+  .max-tw-bg-black-alpha-20 {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+
+  .max-tw-border-black-alpha-20 {
+    border-color: rgba(0, 0, 0, 0.2);
+  }
+
+  .max-tw-text-black-alpha-20 {
+    color: rgba(0, 0, 0, 0.2);
+  }
+
+  .max-tw-bg-black-alpha-30 {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+
+  .max-tw-border-black-alpha-30 {
+    border-color: rgba(0, 0, 0, 0.3);
+  }
+
+  .max-tw-text-black-alpha-30 {
+    color: rgba(0, 0, 0, 0.3);
+  }
+
+  .max-tw-bg-black-alpha-40 {
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+
+  .max-tw-border-black-alpha-40 {
+    border-color: rgba(0, 0, 0, 0.4);
+  }
+
+  .max-tw-text-black-alpha-40 {
+    color: rgba(0, 0, 0, 0.4);
+  }
+
+  .max-tw-bg-black-alpha-50 {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .max-tw-border-black-alpha-50 {
+    border-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .max-tw-text-black-alpha-50 {
+    color: rgba(0, 0, 0, 0.5);
+  }
+
+  .max-tw-bg-black-alpha-60 {
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+
+  .max-tw-border-black-alpha-60 {
+    border-color: rgba(0, 0, 0, 0.6);
+  }
+
+  .max-tw-text-black-alpha-60 {
+    color: rgba(0, 0, 0, 0.6);
+  }
+
+  .max-tw-bg-black-alpha-70 {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+
+  .max-tw-border-black-alpha-70 {
+    border-color: rgba(0, 0, 0, 0.7);
+  }
+
+  .max-tw-text-black-alpha-70 {
+    color: rgba(0, 0, 0, 0.7);
+  }
+
+  .max-tw-bg-black-alpha-80 {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  .max-tw-border-black-alpha-80 {
+    border-color: rgba(0, 0, 0, 0.8);
+  }
+
+  .max-tw-text-black-alpha-80 {
+    color: rgba(0, 0, 0, 0.8);
+  }
+
+  .max-tw-bg-black-alpha-90 {
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+
+  .max-tw-border-black-alpha-90 {
+    border-color: rgba(0, 0, 0, 0.9);
+  }
+
+  .max-tw-text-black-alpha-90 {
+    color: rgba(0, 0, 0, 0.9);
+  }
+
+  .max-tw-bg-black-alpha-100 {
+    background-color: rgba(0, 0, 0, 1);
+  }
+
+  .max-tw-border-black-alpha-100 {
+    border-color: rgba(0, 0, 0, 1);
+  }
+
+  .max-tw-text-black-alpha-100 {
+    color: rgba(0, 0, 0, 1);
+  }
+
+  .max-hover-tw-bg-black-alpha-0:hover {
+    background-color: rgba(0, 0, 0, 0);
+  }
+
+  .max-hover-tw-border-black-alpha-0:hover {
+    border-color: rgba(0, 0, 0, 0);
+  }
+
+  .max-hover-tw-text-black-alpha-0:hover {
+    color: rgba(0, 0, 0, 0);
+  }
+
+  .max-hover-tw-bg-black-alpha-10:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+  .max-hover-tw-border-black-alpha-10:hover {
+    border-color: rgba(0, 0, 0, 0.1);
+  }
+
+  .max-hover-tw-text-black-alpha-10:hover {
+    color: rgba(0, 0, 0, 0.1);
+  }
+
+  .max-hover-tw-bg-black-alpha-20:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+
+  .max-hover-tw-border-black-alpha-20:hover {
+    border-color: rgba(0, 0, 0, 0.2);
+  }
+
+  .max-hover-tw-text-black-alpha-20:hover {
+    color: rgba(0, 0, 0, 0.2);
+  }
+
+  .max-hover-tw-bg-black-alpha-30:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+
+  .max-hover-tw-border-black-alpha-30:hover {
+    border-color: rgba(0, 0, 0, 0.3);
+  }
+
+  .max-hover-tw-text-black-alpha-30:hover {
+    color: rgba(0, 0, 0, 0.3);
+  }
+
+  .max-hover-tw-bg-black-alpha-40:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+
+  .max-hover-tw-border-black-alpha-40:hover {
+    border-color: rgba(0, 0, 0, 0.4);
+  }
+
+  .max-hover-tw-text-black-alpha-40:hover {
+    color: rgba(0, 0, 0, 0.4);
+  }
+
+  .max-hover-tw-bg-black-alpha-50:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .max-hover-tw-border-black-alpha-50:hover {
+    border-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .max-hover-tw-text-black-alpha-50:hover {
+    color: rgba(0, 0, 0, 0.5);
+  }
+
+  .max-hover-tw-bg-black-alpha-60:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+
+  .max-hover-tw-border-black-alpha-60:hover {
+    border-color: rgba(0, 0, 0, 0.6);
+  }
+
+  .max-hover-tw-text-black-alpha-60:hover {
+    color: rgba(0, 0, 0, 0.6);
+  }
+
+  .max-hover-tw-bg-black-alpha-70:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+
+  .max-hover-tw-border-black-alpha-70:hover {
+    border-color: rgba(0, 0, 0, 0.7);
+  }
+
+  .max-hover-tw-text-black-alpha-70:hover {
+    color: rgba(0, 0, 0, 0.7);
+  }
+
+  .max-hover-tw-bg-black-alpha-80:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  .max-hover-tw-border-black-alpha-80:hover {
+    border-color: rgba(0, 0, 0, 0.8);
+  }
+
+  .max-hover-tw-text-black-alpha-80:hover {
+    color: rgba(0, 0, 0, 0.8);
+  }
+
+  .max-hover-tw-bg-black-alpha-90:hover {
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+
+  .max-hover-tw-border-black-alpha-90:hover {
+    border-color: rgba(0, 0, 0, 0.9);
+  }
+
+  .max-hover-tw-text-black-alpha-90:hover {
+    color: rgba(0, 0, 0, 0.9);
+  }
+
+  .max-hover-tw-bg-black-alpha-100:hover {
+    background-color: rgba(0, 0, 0, 1);
+  }
+
+  .max-hover-tw-border-black-alpha-100:hover {
+    border-color: rgba(0, 0, 0, 1);
+  }
+
+  .max-hover-tw-text-black-alpha-100:hover {
+    color: rgba(0, 0, 0, 1);
+  }
+
+  .max-focus-tw-bg-black-alpha-0:focus {
+    background-color: rgba(0, 0, 0, 0);
+  }
+
+  .max-focus-tw-border-black-alpha-0:focus {
+    border-color: rgba(0, 0, 0, 0);
+  }
+
+  .max-focus-tw-text-black-alpha-0:focus {
+    color: rgba(0, 0, 0, 0);
+  }
+
+  .max-focus-tw-bg-black-alpha-10:focus {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+  .max-focus-tw-border-black-alpha-10:focus {
+    border-color: rgba(0, 0, 0, 0.1);
+  }
+
+  .max-focus-tw-text-black-alpha-10:focus {
+    color: rgba(0, 0, 0, 0.1);
+  }
+
+  .max-focus-tw-bg-black-alpha-20:focus {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+
+  .max-focus-tw-border-black-alpha-20:focus {
+    border-color: rgba(0, 0, 0, 0.2);
+  }
+
+  .max-focus-tw-text-black-alpha-20:focus {
+    color: rgba(0, 0, 0, 0.2);
+  }
+
+  .max-focus-tw-bg-black-alpha-30:focus {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+
+  .max-focus-tw-border-black-alpha-30:focus {
+    border-color: rgba(0, 0, 0, 0.3);
+  }
+
+  .max-focus-tw-text-black-alpha-30:focus {
+    color: rgba(0, 0, 0, 0.3);
+  }
+
+  .max-focus-tw-bg-black-alpha-40:focus {
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+
+  .max-focus-tw-border-black-alpha-40:focus {
+    border-color: rgba(0, 0, 0, 0.4);
+  }
+
+  .max-focus-tw-text-black-alpha-40:focus {
+    color: rgba(0, 0, 0, 0.4);
+  }
+
+  .max-focus-tw-bg-black-alpha-50:focus {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .max-focus-tw-border-black-alpha-50:focus {
+    border-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .max-focus-tw-text-black-alpha-50:focus {
+    color: rgba(0, 0, 0, 0.5);
+  }
+
+  .max-focus-tw-bg-black-alpha-60:focus {
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+
+  .max-focus-tw-border-black-alpha-60:focus {
+    border-color: rgba(0, 0, 0, 0.6);
+  }
+
+  .max-focus-tw-text-black-alpha-60:focus {
+    color: rgba(0, 0, 0, 0.6);
+  }
+
+  .max-focus-tw-bg-black-alpha-70:focus {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+
+  .max-focus-tw-border-black-alpha-70:focus {
+    border-color: rgba(0, 0, 0, 0.7);
+  }
+
+  .max-focus-tw-text-black-alpha-70:focus {
+    color: rgba(0, 0, 0, 0.7);
+  }
+
+  .max-focus-tw-bg-black-alpha-80:focus {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  .max-focus-tw-border-black-alpha-80:focus {
+    border-color: rgba(0, 0, 0, 0.8);
+  }
+
+  .max-focus-tw-text-black-alpha-80:focus {
+    color: rgba(0, 0, 0, 0.8);
+  }
+
+  .max-focus-tw-bg-black-alpha-90:focus {
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+
+  .max-focus-tw-border-black-alpha-90:focus {
+    border-color: rgba(0, 0, 0, 0.9);
+  }
+
+  .max-focus-tw-text-black-alpha-90:focus {
+    color: rgba(0, 0, 0, 0.9);
+  }
+
+  .max-focus-tw-bg-black-alpha-100:focus {
+    background-color: rgba(0, 0, 0, 1);
+  }
+
+  .max-focus-tw-border-black-alpha-100:focus {
+    border-color: rgba(0, 0, 0, 1);
+  }
+
+  .max-focus-tw-text-black-alpha-100:focus {
+    color: rgba(0, 0, 0, 1);
   }
 }
