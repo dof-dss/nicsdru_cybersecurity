@@ -28,19 +28,19 @@ function tailwindcss_get_active_theme() {
 }
 
 /**
- * Implements hook_preprocess_HOOK().
+ * Implements hook_preprocess_field().
  * Changing the publication field label for Publication search page.
  */
 function cybersecurity_preprocess_field(&$variables) {
 
   // Check if the field label in the correct view mode and content type.
   if ($variables['element']['#bundle'] == 'publication' && $variables['element']['#view_mode'] == 'search_result_with_snippet') {
-    $variables['label'] = t('Published') . ':';
+    $variables['label'] = t('Published') . ': ';
   }
 }
 
 /**
- * Implements hook_preprocess_HOOK() for views_view.
+ * Implements hook_preprocess_views_view() for views_view.
  * Adding a singular/pluralised result count in the header of the search page.
  *
  * @RenderElement("html_tag");
@@ -63,7 +63,11 @@ function cybersecurity_preprocess_views_view(array &$variables) {
       $variables['header']['result'] = [
         '#type' => 'html_tag',
         '#tag' => 'h3',
-        '#value' => t('@item_count ' . $header_text , ['@item_count' => $number_of_publications]),
+        '#value' => t('@item_count ' . '@header_text',
+          [
+            '@item_count' => $number_of_publications,
+            '@header_text' => $header_text
+          ]),
       ];
     }
   }
