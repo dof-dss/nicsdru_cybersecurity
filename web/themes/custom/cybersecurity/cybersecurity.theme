@@ -63,10 +63,10 @@ function cybersecurity_preprocess_views_view(array &$variables) {
       $variables['header']['result'] = [
         '#type' => 'html_tag',
         '#tag' => 'h3',
-        '#value' => t('@item_count ' . '@header_text',
+        '#value' => t('@item_count @header_text',
           [
             '@item_count' => $number_of_publications,
-            '@header_text' => $header_text
+            '@header_text' => $header_text,
           ]),
       ];
     }
