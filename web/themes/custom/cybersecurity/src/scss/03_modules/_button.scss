@@ -1,0 +1,20 @@
+/**
+ * Button styling.
+ */
+
+.btn {
+  @apply tw-rounded-lg tw-px-4;
+
+  &--more {
+    @apply tw-w-60 tw-h-16 tw-text-md tw-font-bold tw-text-center;
+    line-height: 4rem;
+  }
+
+  &--primary {
+    @apply tw-bg-primary tw-text-white;
+
+    a {
+      @apply tw-text-white;
+    }
+  }
+}

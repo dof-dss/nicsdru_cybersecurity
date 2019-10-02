@@ -1,0 +1,101 @@
+/**
+ * Box-sizing
+ */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.clearfix::after {
+  content: '';
+  clear: both;
+  display: table;
+}
+
+
+
+
+
+
+/**
+ * Typography
+ */
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  @apply tw-text-text tw-font-lato tw-text-base tw-antialiased;
+  line-height: 2.4rem;
+
+  @screen md {
+    @apply tw-text-sm;
+    //line-height: 2.7rem;
+  }
+}
+
+h1 {
+  @apply tw-text-heading tw-text-xxl tw-font-bold tw-my-10 tw-mx-0;
+  line-height: 2.8rem;
+}
+
+h2 {
+  @apply tw-text-heading tw-text-sm tw-font-bold;
+  line-height: 2.4rem;
+
+  @screen sm {
+    @apply tw-text-lg;
+    line-height: 3rem;
+  }
+}
+
+h3 {
+  @apply tw-text-md tw-font-bold tw-my-5 tw-mx-0;
+  line-height: 2.8rem;
+}
+
+h1,
+h2,
+h3 {
+  a {
+    @apply tw-text-heading;
+  }
+}
+
+p,
+li {
+  @apply tw-text-base;
+  line-height: 2.4rem;
+
+  @screen md {
+    @apply tw-text-sm;
+    //line-height: 2.7rem;
+  }
+}
+
+a {
+  @apply tw-text-link tw-no-underline;
+}
+
+a:hover,
+a:focus {
+  @apply tw-underline;
+  transition-duration: .25s;
+  transition-timing-function: ease-out;
+}
+
+img {
+  @apply tw-max-w-full tw-max-h-full;
+}
+
+ol,
+ul {
+  @apply tw-pl-0;
+}
+
+button {
+  @apply tw-border-0;
+}

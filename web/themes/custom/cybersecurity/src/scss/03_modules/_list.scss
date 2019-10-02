@@ -1,0 +1,52 @@
+/**
+ * List styles
+ */
+
+.list {
+  li {
+    @apply tw-py-px tw-px-0;
+    display: list-item;
+  }
+
+  &--bullet {
+    @apply tw-list-disc tw-pl-64;
+  }
+
+
+  &--inline {
+    li {
+      @apply tw-inline-block;
+    }
+
+    &-sm {
+      li {
+        @screen sm {
+          @apply tw-inline-block;
+        }
+      }
+    }
+
+    &-md {
+      li {
+        @screen md {
+          @apply tw-inline-block;
+        }
+      }
+    }
+  }
+
+  &--row {
+    li {
+      @apply tw-block;
+    }
+  }
+
+  &_white {
+    a {
+      @apply tw-text-white;
+    }
+  }
+}
+
+
+

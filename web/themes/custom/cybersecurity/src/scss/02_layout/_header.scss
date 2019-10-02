@@ -1,0 +1,38 @@
+.header-hero {
+  max-height: 5rem;
+}
+
+.region_hero {
+  max-width: 375px;
+
+  .search-block-form {
+    height: 5rem;
+
+    form {
+      @apply tw-flex tw-w-full tw-h-full;
+
+      .form-item {
+        @apply tw-w-full;
+      }
+    }
+
+    .form-search {
+      @apply tw-w-full tw-h-full;
+    }
+
+    .form-submit {
+      @apply tw-text-0 tw-h-full;
+      width: 52px;
+    }
+  }
+}
+
+.block--nicsc-highlight {
+  @screen sm {
+    max-width: 521px;
+  }
+
+
+}
+
+

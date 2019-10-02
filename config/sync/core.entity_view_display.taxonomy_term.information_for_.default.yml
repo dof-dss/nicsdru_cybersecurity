@@ -1,0 +1,37 @@
+uuid: b3ccef79-ef03-48ac-ae5d-e790d6139ad6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.information_for_.field_taxonomy_icon
+    - taxonomy.vocabulary.information_for_
+  module:
+    - svg_image
+    - text
+id: taxonomy_term.information_for_.default
+targetEntityType: taxonomy_term
+bundle: information_for_
+mode: default
+content:
+  description:
+    label: hidden
+    type: text_default
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_taxonomy_icon:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+      svg_attributes:
+        width: '100'
+        height: '100'
+      svg_render_as_image: 0
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden:
+  search_api_excerpt: true

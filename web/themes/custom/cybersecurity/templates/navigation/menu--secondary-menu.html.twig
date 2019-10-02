@@ -30,12 +30,12 @@
   {% import _self as menus %}
   {% if items %}
     {% if menu_level == 0 %}
-      <ul{{ attributes.addClass('list list--inline-md list_white bg--heading tw-p-4 tw-uppercase menu_cisp tw-mt-12') }}>
+      <ul{{ attributes.addClass('list list--inline-md list_white tw-bg-heading tw-p-4 tw-uppercase menu_cisp tw-mt-12') }}>
     {% else %}
       <ul>
     {% endif %}
     {% for item in items %}
-      <li{{ item.attributes }}>
+      <li{{ item.attributes.addClass('tw-text-xs tw-font-bold') }}>
         {{ link(item.title, item.url) }}
         {% if item.below %}
           {{ menus.menu_links(item.below, attributes, menu_level + 1) }}

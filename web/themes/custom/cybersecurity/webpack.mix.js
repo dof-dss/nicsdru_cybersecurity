@@ -1,5 +1,9 @@
-let mix = require('laravel-mix');
+const mix = require('laravel-mix');
+const tailwindcss = require('tailwindcss');
 
-mix.postCss('src/cybersecurity.css', 'dist', [
-  require('tailwindcss')('./cybersecurity.config.js'),
-])
+mix.sass('src/scss/styles.scss', 'css')
+  .options({
+    processCssUrls: false,
+    postCss: [tailwindcss('./cybersecurity.config.js')],
+  });
+
