@@ -1052,22 +1052,18 @@ video {
 }
 
 .tw-bg-mid-heading {
-  background-color: #010247;
-}
-
-.tw-bg-sidebar-left-parent {
   background-color: #0a165c;
 }
 
-.tw-bg-sidebar-left {
+.tw-bg-sidebar {
   background-color: #163772;
 }
 
-.tw-bg-sidebar-left-separator {
+.tw-bg-separator {
   background-color: #2451a2;
 }
 
-.tw-bg-sidebar-left-selected {
+.tw-bg-selected {
   background-color: #85b3e1;
 }
 
@@ -1472,22 +1468,18 @@ video {
 }
 
 .hover-tw-bg-mid-heading:hover {
-  background-color: #010247;
-}
-
-.hover-tw-bg-sidebar-left-parent:hover {
   background-color: #0a165c;
 }
 
-.hover-tw-bg-sidebar-left:hover {
+.hover-tw-bg-sidebar:hover {
   background-color: #163772;
 }
 
-.hover-tw-bg-sidebar-left-separator:hover {
+.hover-tw-bg-separator:hover {
   background-color: #2451a2;
 }
 
-.hover-tw-bg-sidebar-left-selected:hover {
+.hover-tw-bg-selected:hover {
   background-color: #85b3e1;
 }
 
@@ -1892,22 +1884,18 @@ video {
 }
 
 .focus-tw-bg-mid-heading:focus {
-  background-color: #010247;
-}
-
-.focus-tw-bg-sidebar-left-parent:focus {
   background-color: #0a165c;
 }
 
-.focus-tw-bg-sidebar-left:focus {
+.focus-tw-bg-sidebar:focus {
   background-color: #163772;
 }
 
-.focus-tw-bg-sidebar-left-separator:focus {
+.focus-tw-bg-separator:focus {
   background-color: #2451a2;
 }
 
-.focus-tw-bg-sidebar-left-selected:focus {
+.focus-tw-bg-selected:focus {
   background-color: #85b3e1;
 }
 
@@ -2392,22 +2380,18 @@ video {
 }
 
 .tw-border-mid-heading {
-  border-color: #010247;
-}
-
-.tw-border-sidebar-left-parent {
   border-color: #0a165c;
 }
 
-.tw-border-sidebar-left {
+.tw-border-sidebar {
   border-color: #163772;
 }
 
-.tw-border-sidebar-left-separator {
+.tw-border-separator {
   border-color: #2451a2;
 }
 
-.tw-border-sidebar-left-selected {
+.tw-border-selected {
   border-color: #85b3e1;
 }
 
@@ -2812,22 +2796,18 @@ video {
 }
 
 .hover-tw-border-mid-heading:hover {
-  border-color: #010247;
-}
-
-.hover-tw-border-sidebar-left-parent:hover {
   border-color: #0a165c;
 }
 
-.hover-tw-border-sidebar-left:hover {
+.hover-tw-border-sidebar:hover {
   border-color: #163772;
 }
 
-.hover-tw-border-sidebar-left-separator:hover {
+.hover-tw-border-separator:hover {
   border-color: #2451a2;
 }
 
-.hover-tw-border-sidebar-left-selected:hover {
+.hover-tw-border-selected:hover {
   border-color: #85b3e1;
 }
 
@@ -3232,22 +3212,18 @@ video {
 }
 
 .focus-tw-border-mid-heading:focus {
-  border-color: #010247;
-}
-
-.focus-tw-border-sidebar-left-parent:focus {
   border-color: #0a165c;
 }
 
-.focus-tw-border-sidebar-left:focus {
+.focus-tw-border-sidebar:focus {
   border-color: #163772;
 }
 
-.focus-tw-border-sidebar-left-separator:focus {
+.focus-tw-border-separator:focus {
   border-color: #2451a2;
 }
 
-.focus-tw-border-sidebar-left-selected:focus {
+.focus-tw-border-selected:focus {
   border-color: #85b3e1;
 }
 
@@ -8574,102 +8550,82 @@ video {
 }
 
 .tw-placeholder-mid-heading::-webkit-input-placeholder {
-  color: #010247;
+  color: #0a165c;
 }
 
 .tw-placeholder-mid-heading::-moz-placeholder {
-  color: #010247;
+  color: #0a165c;
 }
 
 .tw-placeholder-mid-heading:-ms-input-placeholder {
-  color: #010247;
+  color: #0a165c;
 }
 
 .tw-placeholder-mid-heading::-ms-input-placeholder {
-  color: #010247;
+  color: #0a165c;
 }
 
 .tw-placeholder-mid-heading::placeholder {
-  color: #010247;
-}
-
-.tw-placeholder-sidebar-left-parent::-webkit-input-placeholder {
   color: #0a165c;
 }
 
-.tw-placeholder-sidebar-left-parent::-moz-placeholder {
-  color: #0a165c;
-}
-
-.tw-placeholder-sidebar-left-parent:-ms-input-placeholder {
-  color: #0a165c;
-}
-
-.tw-placeholder-sidebar-left-parent::-ms-input-placeholder {
-  color: #0a165c;
-}
-
-.tw-placeholder-sidebar-left-parent::placeholder {
-  color: #0a165c;
-}
-
-.tw-placeholder-sidebar-left::-webkit-input-placeholder {
+.tw-placeholder-sidebar::-webkit-input-placeholder {
   color: #163772;
 }
 
-.tw-placeholder-sidebar-left::-moz-placeholder {
+.tw-placeholder-sidebar::-moz-placeholder {
   color: #163772;
 }
 
-.tw-placeholder-sidebar-left:-ms-input-placeholder {
+.tw-placeholder-sidebar:-ms-input-placeholder {
   color: #163772;
 }
 
-.tw-placeholder-sidebar-left::-ms-input-placeholder {
+.tw-placeholder-sidebar::-ms-input-placeholder {
   color: #163772;
 }
 
-.tw-placeholder-sidebar-left::placeholder {
+.tw-placeholder-sidebar::placeholder {
   color: #163772;
 }
 
-.tw-placeholder-sidebar-left-separator::-webkit-input-placeholder {
+.tw-placeholder-separator::-webkit-input-placeholder {
   color: #2451a2;
 }
 
-.tw-placeholder-sidebar-left-separator::-moz-placeholder {
+.tw-placeholder-separator::-moz-placeholder {
   color: #2451a2;
 }
 
-.tw-placeholder-sidebar-left-separator:-ms-input-placeholder {
+.tw-placeholder-separator:-ms-input-placeholder {
   color: #2451a2;
 }
 
-.tw-placeholder-sidebar-left-separator::-ms-input-placeholder {
+.tw-placeholder-separator::-ms-input-placeholder {
   color: #2451a2;
 }
 
-.tw-placeholder-sidebar-left-separator::placeholder {
+.tw-placeholder-separator::placeholder {
   color: #2451a2;
 }
 
-.tw-placeholder-sidebar-left-selected::-webkit-input-placeholder {
+.tw-placeholder-selected::-webkit-input-placeholder {
   color: #85b3e1;
 }
 
-.tw-placeholder-sidebar-left-selected::-moz-placeholder {
+.tw-placeholder-selected::-moz-placeholder {
   color: #85b3e1;
 }
 
-.tw-placeholder-sidebar-left-selected:-ms-input-placeholder {
+.tw-placeholder-selected:-ms-input-placeholder {
   color: #85b3e1;
 }
 
-.tw-placeholder-sidebar-left-selected::-ms-input-placeholder {
+.tw-placeholder-selected::-ms-input-placeholder {
   color: #85b3e1;
 }
 
-.tw-placeholder-sidebar-left-selected::placeholder {
+.tw-placeholder-selected::placeholder {
   color: #85b3e1;
 }
 
@@ -10674,102 +10630,82 @@ video {
 }
 
 .focus-tw-placeholder-mid-heading:focus::-webkit-input-placeholder {
-  color: #010247;
+  color: #0a165c;
 }
 
 .focus-tw-placeholder-mid-heading:focus::-moz-placeholder {
-  color: #010247;
+  color: #0a165c;
 }
 
 .focus-tw-placeholder-mid-heading:focus:-ms-input-placeholder {
-  color: #010247;
+  color: #0a165c;
 }
 
 .focus-tw-placeholder-mid-heading:focus::-ms-input-placeholder {
-  color: #010247;
+  color: #0a165c;
 }
 
 .focus-tw-placeholder-mid-heading:focus::placeholder {
-  color: #010247;
-}
-
-.focus-tw-placeholder-sidebar-left-parent:focus::-webkit-input-placeholder {
   color: #0a165c;
 }
 
-.focus-tw-placeholder-sidebar-left-parent:focus::-moz-placeholder {
-  color: #0a165c;
-}
-
-.focus-tw-placeholder-sidebar-left-parent:focus:-ms-input-placeholder {
-  color: #0a165c;
-}
-
-.focus-tw-placeholder-sidebar-left-parent:focus::-ms-input-placeholder {
-  color: #0a165c;
-}
-
-.focus-tw-placeholder-sidebar-left-parent:focus::placeholder {
-  color: #0a165c;
-}
-
-.focus-tw-placeholder-sidebar-left:focus::-webkit-input-placeholder {
+.focus-tw-placeholder-sidebar:focus::-webkit-input-placeholder {
   color: #163772;
 }
 
-.focus-tw-placeholder-sidebar-left:focus::-moz-placeholder {
+.focus-tw-placeholder-sidebar:focus::-moz-placeholder {
   color: #163772;
 }
 
-.focus-tw-placeholder-sidebar-left:focus:-ms-input-placeholder {
+.focus-tw-placeholder-sidebar:focus:-ms-input-placeholder {
   color: #163772;
 }
 
-.focus-tw-placeholder-sidebar-left:focus::-ms-input-placeholder {
+.focus-tw-placeholder-sidebar:focus::-ms-input-placeholder {
   color: #163772;
 }
 
-.focus-tw-placeholder-sidebar-left:focus::placeholder {
+.focus-tw-placeholder-sidebar:focus::placeholder {
   color: #163772;
 }
 
-.focus-tw-placeholder-sidebar-left-separator:focus::-webkit-input-placeholder {
+.focus-tw-placeholder-separator:focus::-webkit-input-placeholder {
   color: #2451a2;
 }
 
-.focus-tw-placeholder-sidebar-left-separator:focus::-moz-placeholder {
+.focus-tw-placeholder-separator:focus::-moz-placeholder {
   color: #2451a2;
 }
 
-.focus-tw-placeholder-sidebar-left-separator:focus:-ms-input-placeholder {
+.focus-tw-placeholder-separator:focus:-ms-input-placeholder {
   color: #2451a2;
 }
 
-.focus-tw-placeholder-sidebar-left-separator:focus::-ms-input-placeholder {
+.focus-tw-placeholder-separator:focus::-ms-input-placeholder {
   color: #2451a2;
 }
 
-.focus-tw-placeholder-sidebar-left-separator:focus::placeholder {
+.focus-tw-placeholder-separator:focus::placeholder {
   color: #2451a2;
 }
 
-.focus-tw-placeholder-sidebar-left-selected:focus::-webkit-input-placeholder {
+.focus-tw-placeholder-selected:focus::-webkit-input-placeholder {
   color: #85b3e1;
 }
 
-.focus-tw-placeholder-sidebar-left-selected:focus::-moz-placeholder {
+.focus-tw-placeholder-selected:focus::-moz-placeholder {
   color: #85b3e1;
 }
 
-.focus-tw-placeholder-sidebar-left-selected:focus:-ms-input-placeholder {
+.focus-tw-placeholder-selected:focus:-ms-input-placeholder {
   color: #85b3e1;
 }
 
-.focus-tw-placeholder-sidebar-left-selected:focus::-ms-input-placeholder {
+.focus-tw-placeholder-selected:focus::-ms-input-placeholder {
   color: #85b3e1;
 }
 
-.focus-tw-placeholder-sidebar-left-selected:focus::placeholder {
+.focus-tw-placeholder-selected:focus::placeholder {
   color: #85b3e1;
 }
 
@@ -11477,22 +11413,18 @@ video {
 }
 
 .tw-text-mid-heading {
-  color: #010247;
-}
-
-.tw-text-sidebar-left-parent {
   color: #0a165c;
 }
 
-.tw-text-sidebar-left {
+.tw-text-sidebar {
   color: #163772;
 }
 
-.tw-text-sidebar-left-separator {
+.tw-text-separator {
   color: #2451a2;
 }
 
-.tw-text-sidebar-left-selected {
+.tw-text-selected {
   color: #85b3e1;
 }
 
@@ -11897,22 +11829,18 @@ video {
 }
 
 .hover-tw-text-mid-heading:hover {
-  color: #010247;
-}
-
-.hover-tw-text-sidebar-left-parent:hover {
   color: #0a165c;
 }
 
-.hover-tw-text-sidebar-left:hover {
+.hover-tw-text-sidebar:hover {
   color: #163772;
 }
 
-.hover-tw-text-sidebar-left-separator:hover {
+.hover-tw-text-separator:hover {
   color: #2451a2;
 }
 
-.hover-tw-text-sidebar-left-selected:hover {
+.hover-tw-text-selected:hover {
   color: #85b3e1;
 }
 
@@ -12317,22 +12245,18 @@ video {
 }
 
 .focus-tw-text-mid-heading:focus {
-  color: #010247;
-}
-
-.focus-tw-text-sidebar-left-parent:focus {
   color: #0a165c;
 }
 
-.focus-tw-text-sidebar-left:focus {
+.focus-tw-text-sidebar:focus {
   color: #163772;
 }
 
-.focus-tw-text-sidebar-left-separator:focus {
+.focus-tw-text-separator:focus {
   color: #2451a2;
 }
 
-.focus-tw-text-sidebar-left-selected:focus {
+.focus-tw-text-selected:focus {
   color: #85b3e1;
 }
 
@@ -14410,22 +14334,18 @@ button {
   }
 
   .xs-tw-bg-mid-heading {
-    background-color: #010247;
-  }
-
-  .xs-tw-bg-sidebar-left-parent {
     background-color: #0a165c;
   }
 
-  .xs-tw-bg-sidebar-left {
+  .xs-tw-bg-sidebar {
     background-color: #163772;
   }
 
-  .xs-tw-bg-sidebar-left-separator {
+  .xs-tw-bg-separator {
     background-color: #2451a2;
   }
 
-  .xs-tw-bg-sidebar-left-selected {
+  .xs-tw-bg-selected {
     background-color: #85b3e1;
   }
 
@@ -14830,22 +14750,18 @@ button {
   }
 
   .xs-hover-tw-bg-mid-heading:hover {
-    background-color: #010247;
-  }
-
-  .xs-hover-tw-bg-sidebar-left-parent:hover {
     background-color: #0a165c;
   }
 
-  .xs-hover-tw-bg-sidebar-left:hover {
+  .xs-hover-tw-bg-sidebar:hover {
     background-color: #163772;
   }
 
-  .xs-hover-tw-bg-sidebar-left-separator:hover {
+  .xs-hover-tw-bg-separator:hover {
     background-color: #2451a2;
   }
 
-  .xs-hover-tw-bg-sidebar-left-selected:hover {
+  .xs-hover-tw-bg-selected:hover {
     background-color: #85b3e1;
   }
 
@@ -15250,22 +15166,18 @@ button {
   }
 
   .xs-focus-tw-bg-mid-heading:focus {
-    background-color: #010247;
-  }
-
-  .xs-focus-tw-bg-sidebar-left-parent:focus {
     background-color: #0a165c;
   }
 
-  .xs-focus-tw-bg-sidebar-left:focus {
+  .xs-focus-tw-bg-sidebar:focus {
     background-color: #163772;
   }
 
-  .xs-focus-tw-bg-sidebar-left-separator:focus {
+  .xs-focus-tw-bg-separator:focus {
     background-color: #2451a2;
   }
 
-  .xs-focus-tw-bg-sidebar-left-selected:focus {
+  .xs-focus-tw-bg-selected:focus {
     background-color: #85b3e1;
   }
 
@@ -15750,22 +15662,18 @@ button {
   }
 
   .xs-tw-border-mid-heading {
-    border-color: #010247;
-  }
-
-  .xs-tw-border-sidebar-left-parent {
     border-color: #0a165c;
   }
 
-  .xs-tw-border-sidebar-left {
+  .xs-tw-border-sidebar {
     border-color: #163772;
   }
 
-  .xs-tw-border-sidebar-left-separator {
+  .xs-tw-border-separator {
     border-color: #2451a2;
   }
 
-  .xs-tw-border-sidebar-left-selected {
+  .xs-tw-border-selected {
     border-color: #85b3e1;
   }
 
@@ -16170,22 +16078,18 @@ button {
   }
 
   .xs-hover-tw-border-mid-heading:hover {
-    border-color: #010247;
-  }
-
-  .xs-hover-tw-border-sidebar-left-parent:hover {
     border-color: #0a165c;
   }
 
-  .xs-hover-tw-border-sidebar-left:hover {
+  .xs-hover-tw-border-sidebar:hover {
     border-color: #163772;
   }
 
-  .xs-hover-tw-border-sidebar-left-separator:hover {
+  .xs-hover-tw-border-separator:hover {
     border-color: #2451a2;
   }
 
-  .xs-hover-tw-border-sidebar-left-selected:hover {
+  .xs-hover-tw-border-selected:hover {
     border-color: #85b3e1;
   }
 
@@ -16590,22 +16494,18 @@ button {
   }
 
   .xs-focus-tw-border-mid-heading:focus {
-    border-color: #010247;
-  }
-
-  .xs-focus-tw-border-sidebar-left-parent:focus {
     border-color: #0a165c;
   }
 
-  .xs-focus-tw-border-sidebar-left:focus {
+  .xs-focus-tw-border-sidebar:focus {
     border-color: #163772;
   }
 
-  .xs-focus-tw-border-sidebar-left-separator:focus {
+  .xs-focus-tw-border-separator:focus {
     border-color: #2451a2;
   }
 
-  .xs-focus-tw-border-sidebar-left-selected:focus {
+  .xs-focus-tw-border-selected:focus {
     border-color: #85b3e1;
   }
 
@@ -21932,102 +21832,82 @@ button {
   }
 
   .xs-tw-placeholder-mid-heading::-webkit-input-placeholder {
-    color: #010247;
+    color: #0a165c;
   }
 
   .xs-tw-placeholder-mid-heading::-moz-placeholder {
-    color: #010247;
+    color: #0a165c;
   }
 
   .xs-tw-placeholder-mid-heading:-ms-input-placeholder {
-    color: #010247;
+    color: #0a165c;
   }
 
   .xs-tw-placeholder-mid-heading::-ms-input-placeholder {
-    color: #010247;
+    color: #0a165c;
   }
 
   .xs-tw-placeholder-mid-heading::placeholder {
-    color: #010247;
-  }
-
-  .xs-tw-placeholder-sidebar-left-parent::-webkit-input-placeholder {
     color: #0a165c;
   }
 
-  .xs-tw-placeholder-sidebar-left-parent::-moz-placeholder {
-    color: #0a165c;
-  }
-
-  .xs-tw-placeholder-sidebar-left-parent:-ms-input-placeholder {
-    color: #0a165c;
-  }
-
-  .xs-tw-placeholder-sidebar-left-parent::-ms-input-placeholder {
-    color: #0a165c;
-  }
-
-  .xs-tw-placeholder-sidebar-left-parent::placeholder {
-    color: #0a165c;
-  }
-
-  .xs-tw-placeholder-sidebar-left::-webkit-input-placeholder {
+  .xs-tw-placeholder-sidebar::-webkit-input-placeholder {
     color: #163772;
   }
 
-  .xs-tw-placeholder-sidebar-left::-moz-placeholder {
+  .xs-tw-placeholder-sidebar::-moz-placeholder {
     color: #163772;
   }
 
-  .xs-tw-placeholder-sidebar-left:-ms-input-placeholder {
+  .xs-tw-placeholder-sidebar:-ms-input-placeholder {
     color: #163772;
   }
 
-  .xs-tw-placeholder-sidebar-left::-ms-input-placeholder {
+  .xs-tw-placeholder-sidebar::-ms-input-placeholder {
     color: #163772;
   }
 
-  .xs-tw-placeholder-sidebar-left::placeholder {
+  .xs-tw-placeholder-sidebar::placeholder {
     color: #163772;
   }
 
-  .xs-tw-placeholder-sidebar-left-separator::-webkit-input-placeholder {
+  .xs-tw-placeholder-separator::-webkit-input-placeholder {
     color: #2451a2;
   }
 
-  .xs-tw-placeholder-sidebar-left-separator::-moz-placeholder {
+  .xs-tw-placeholder-separator::-moz-placeholder {
     color: #2451a2;
   }
 
-  .xs-tw-placeholder-sidebar-left-separator:-ms-input-placeholder {
+  .xs-tw-placeholder-separator:-ms-input-placeholder {
     color: #2451a2;
   }
 
-  .xs-tw-placeholder-sidebar-left-separator::-ms-input-placeholder {
+  .xs-tw-placeholder-separator::-ms-input-placeholder {
     color: #2451a2;
   }
 
-  .xs-tw-placeholder-sidebar-left-separator::placeholder {
+  .xs-tw-placeholder-separator::placeholder {
     color: #2451a2;
   }
 
-  .xs-tw-placeholder-sidebar-left-selected::-webkit-input-placeholder {
+  .xs-tw-placeholder-selected::-webkit-input-placeholder {
     color: #85b3e1;
   }
 
-  .xs-tw-placeholder-sidebar-left-selected::-moz-placeholder {
+  .xs-tw-placeholder-selected::-moz-placeholder {
     color: #85b3e1;
   }
 
-  .xs-tw-placeholder-sidebar-left-selected:-ms-input-placeholder {
+  .xs-tw-placeholder-selected:-ms-input-placeholder {
     color: #85b3e1;
   }
 
-  .xs-tw-placeholder-sidebar-left-selected::-ms-input-placeholder {
+  .xs-tw-placeholder-selected::-ms-input-placeholder {
     color: #85b3e1;
   }
 
-  .xs-tw-placeholder-sidebar-left-selected::placeholder {
+  .xs-tw-placeholder-selected::placeholder {
     color: #85b3e1;
   }
 
@@ -24032,102 +23912,82 @@ button {
   }
 
   .xs-focus-tw-placeholder-mid-heading:focus::-webkit-input-placeholder {
-    color: #010247;
+    color: #0a165c;
   }
 
   .xs-focus-tw-placeholder-mid-heading:focus::-moz-placeholder {
-    color: #010247;
+    color: #0a165c;
   }
 
   .xs-focus-tw-placeholder-mid-heading:focus:-ms-input-placeholder {
-    color: #010247;
+    color: #0a165c;
   }
 
   .xs-focus-tw-placeholder-mid-heading:focus::-ms-input-placeholder {
-    color: #010247;
+    color: #0a165c;
   }
 
   .xs-focus-tw-placeholder-mid-heading:focus::placeholder {
-    color: #010247;
-  }
-
-  .xs-focus-tw-placeholder-sidebar-left-parent:focus::-webkit-input-placeholder {
     color: #0a165c;
   }
 
-  .xs-focus-tw-placeholder-sidebar-left-parent:focus::-moz-placeholder {
-    color: #0a165c;
-  }
-
-  .xs-focus-tw-placeholder-sidebar-left-parent:focus:-ms-input-placeholder {
-    color: #0a165c;
-  }
-
-  .xs-focus-tw-placeholder-sidebar-left-parent:focus::-ms-input-placeholder {
-    color: #0a165c;
-  }
-
-  .xs-focus-tw-placeholder-sidebar-left-parent:focus::placeholder {
-    color: #0a165c;
-  }
-
-  .xs-focus-tw-placeholder-sidebar-left:focus::-webkit-input-placeholder {
+  .xs-focus-tw-placeholder-sidebar:focus::-webkit-input-placeholder {
     color: #163772;
   }
 
-  .xs-focus-tw-placeholder-sidebar-left:focus::-moz-placeholder {
+  .xs-focus-tw-placeholder-sidebar:focus::-moz-placeholder {
     color: #163772;
   }
 
-  .xs-focus-tw-placeholder-sidebar-left:focus:-ms-input-placeholder {
+  .xs-focus-tw-placeholder-sidebar:focus:-ms-input-placeholder {
     color: #163772;
   }
 
-  .xs-focus-tw-placeholder-sidebar-left:focus::-ms-input-placeholder {
+  .xs-focus-tw-placeholder-sidebar:focus::-ms-input-placeholder {
     color: #163772;
   }
 
-  .xs-focus-tw-placeholder-sidebar-left:focus::placeholder {
+  .xs-focus-tw-placeholder-sidebar:focus::placeholder {
     color: #163772;
   }
 
-  .xs-focus-tw-placeholder-sidebar-left-separator:focus::-webkit-input-placeholder {
+  .xs-focus-tw-placeholder-separator:focus::-webkit-input-placeholder {
     color: #2451a2;
   }
 
-  .xs-focus-tw-placeholder-sidebar-left-separator:focus::-moz-placeholder {
+  .xs-focus-tw-placeholder-separator:focus::-moz-placeholder {
     color: #2451a2;
   }
 
-  .xs-focus-tw-placeholder-sidebar-left-separator:focus:-ms-input-placeholder {
+  .xs-focus-tw-placeholder-separator:focus:-ms-input-placeholder {
     color: #2451a2;
   }
 
-  .xs-focus-tw-placeholder-sidebar-left-separator:focus::-ms-input-placeholder {
+  .xs-focus-tw-placeholder-separator:focus::-ms-input-placeholder {
     color: #2451a2;
   }
 
-  .xs-focus-tw-placeholder-sidebar-left-separator:focus::placeholder {
+  .xs-focus-tw-placeholder-separator:focus::placeholder {
     color: #2451a2;
   }
 
-  .xs-focus-tw-placeholder-sidebar-left-selected:focus::-webkit-input-placeholder {
+  .xs-focus-tw-placeholder-selected:focus::-webkit-input-placeholder {
     color: #85b3e1;
   }
 
-  .xs-focus-tw-placeholder-sidebar-left-selected:focus::-moz-placeholder {
+  .xs-focus-tw-placeholder-selected:focus::-moz-placeholder {
     color: #85b3e1;
   }
 
-  .xs-focus-tw-placeholder-sidebar-left-selected:focus:-ms-input-placeholder {
+  .xs-focus-tw-placeholder-selected:focus:-ms-input-placeholder {
     color: #85b3e1;
   }
 
-  .xs-focus-tw-placeholder-sidebar-left-selected:focus::-ms-input-placeholder {
+  .xs-focus-tw-placeholder-selected:focus::-ms-input-placeholder {
     color: #85b3e1;
   }
 
-  .xs-focus-tw-placeholder-sidebar-left-selected:focus::placeholder {
+  .xs-focus-tw-placeholder-selected:focus::placeholder {
     color: #85b3e1;
   }
 
@@ -24835,22 +24695,18 @@ button {
   }
 
   .xs-tw-text-mid-heading {
-    color: #010247;
-  }
-
-  .xs-tw-text-sidebar-left-parent {
     color: #0a165c;
   }
 
-  .xs-tw-text-sidebar-left {
+  .xs-tw-text-sidebar {
     color: #163772;
   }
 
-  .xs-tw-text-sidebar-left-separator {
+  .xs-tw-text-separator {
     color: #2451a2;
   }
 
-  .xs-tw-text-sidebar-left-selected {
+  .xs-tw-text-selected {
     color: #85b3e1;
   }
 
@@ -25255,22 +25111,18 @@ button {
   }
 
   .xs-hover-tw-text-mid-heading:hover {
-    color: #010247;
-  }
-
-  .xs-hover-tw-text-sidebar-left-parent:hover {
     color: #0a165c;
   }
 
-  .xs-hover-tw-text-sidebar-left:hover {
+  .xs-hover-tw-text-sidebar:hover {
     color: #163772;
   }
 
-  .xs-hover-tw-text-sidebar-left-separator:hover {
+  .xs-hover-tw-text-separator:hover {
     color: #2451a2;
   }
 
-  .xs-hover-tw-text-sidebar-left-selected:hover {
+  .xs-hover-tw-text-selected:hover {
     color: #85b3e1;
   }
 
@@ -25675,22 +25527,18 @@ button {
   }
 
   .xs-focus-tw-text-mid-heading:focus {
-    color: #010247;
-  }
-
-  .xs-focus-tw-text-sidebar-left-parent:focus {
     color: #0a165c;
   }
 
-  .xs-focus-tw-text-sidebar-left:focus {
+  .xs-focus-tw-text-sidebar:focus {
     color: #163772;
   }
 
-  .xs-focus-tw-text-sidebar-left-separator:focus {
+  .xs-focus-tw-text-separator:focus {
     color: #2451a2;
   }
 
-  .xs-focus-tw-text-sidebar-left-selected:focus {
+  .xs-focus-tw-text-selected:focus {
     color: #85b3e1;
   }
 
@@ -27426,22 +27274,18 @@ button {
   }
 
   .sm-tw-bg-mid-heading {
-    background-color: #010247;
-  }
-
-  .sm-tw-bg-sidebar-left-parent {
     background-color: #0a165c;
   }
 
-  .sm-tw-bg-sidebar-left {
+  .sm-tw-bg-sidebar {
     background-color: #163772;
   }
 
-  .sm-tw-bg-sidebar-left-separator {
+  .sm-tw-bg-separator {
     background-color: #2451a2;
   }
 
-  .sm-tw-bg-sidebar-left-selected {
+  .sm-tw-bg-selected {
     background-color: #85b3e1;
   }
 
@@ -27846,22 +27690,18 @@ button {
   }
 
   .sm-hover-tw-bg-mid-heading:hover {
-    background-color: #010247;
-  }
-
-  .sm-hover-tw-bg-sidebar-left-parent:hover {
     background-color: #0a165c;
   }
 
-  .sm-hover-tw-bg-sidebar-left:hover {
+  .sm-hover-tw-bg-sidebar:hover {
     background-color: #163772;
   }
 
-  .sm-hover-tw-bg-sidebar-left-separator:hover {
+  .sm-hover-tw-bg-separator:hover {
     background-color: #2451a2;
   }
 
-  .sm-hover-tw-bg-sidebar-left-selected:hover {
+  .sm-hover-tw-bg-selected:hover {
     background-color: #85b3e1;
   }
 
@@ -28266,22 +28106,18 @@ button {
   }
 
   .sm-focus-tw-bg-mid-heading:focus {
-    background-color: #010247;
-  }
-
-  .sm-focus-tw-bg-sidebar-left-parent:focus {
     background-color: #0a165c;
   }
 
-  .sm-focus-tw-bg-sidebar-left:focus {
+  .sm-focus-tw-bg-sidebar:focus {
     background-color: #163772;
   }
 
-  .sm-focus-tw-bg-sidebar-left-separator:focus {
+  .sm-focus-tw-bg-separator:focus {
     background-color: #2451a2;
   }
 
-  .sm-focus-tw-bg-sidebar-left-selected:focus {
+  .sm-focus-tw-bg-selected:focus {
     background-color: #85b3e1;
   }
 
@@ -28766,22 +28602,18 @@ button {
   }
 
   .sm-tw-border-mid-heading {
-    border-color: #010247;
-  }
-
-  .sm-tw-border-sidebar-left-parent {
     border-color: #0a165c;
   }
 
-  .sm-tw-border-sidebar-left {
+  .sm-tw-border-sidebar {
     border-color: #163772;
   }
 
-  .sm-tw-border-sidebar-left-separator {
+  .sm-tw-border-separator {
     border-color: #2451a2;
   }
 
-  .sm-tw-border-sidebar-left-selected {
+  .sm-tw-border-selected {
     border-color: #85b3e1;
   }
 
@@ -29186,22 +29018,18 @@ button {
   }
 
   .sm-hover-tw-border-mid-heading:hover {
-    border-color: #010247;
-  }
-
-  .sm-hover-tw-border-sidebar-left-parent:hover {
     border-color: #0a165c;
   }
 
-  .sm-hover-tw-border-sidebar-left:hover {
+  .sm-hover-tw-border-sidebar:hover {
     border-color: #163772;
   }
 
-  .sm-hover-tw-border-sidebar-left-separator:hover {
+  .sm-hover-tw-border-separator:hover {
     border-color: #2451a2;
   }
 
-  .sm-hover-tw-border-sidebar-left-selected:hover {
+  .sm-hover-tw-border-selected:hover {
     border-color: #85b3e1;
   }
 
@@ -29606,22 +29434,18 @@ button {
   }
 
   .sm-focus-tw-border-mid-heading:focus {
-    border-color: #010247;
-  }
-
-  .sm-focus-tw-border-sidebar-left-parent:focus {
     border-color: #0a165c;
   }
 
-  .sm-focus-tw-border-sidebar-left:focus {
+  .sm-focus-tw-border-sidebar:focus {
     border-color: #163772;
   }
 
-  .sm-focus-tw-border-sidebar-left-separator:focus {
+  .sm-focus-tw-border-separator:focus {
     border-color: #2451a2;
   }
 
-  .sm-focus-tw-border-sidebar-left-selected:focus {
+  .sm-focus-tw-border-selected:focus {
     border-color: #85b3e1;
   }
 
@@ -34948,102 +34772,82 @@ button {
   }
 
   .sm-tw-placeholder-mid-heading::-webkit-input-placeholder {
-    color: #010247;
+    color: #0a165c;
   }
 
   .sm-tw-placeholder-mid-heading::-moz-placeholder {
-    color: #010247;
+    color: #0a165c;
   }
 
   .sm-tw-placeholder-mid-heading:-ms-input-placeholder {
-    color: #010247;
+    color: #0a165c;
   }
 
   .sm-tw-placeholder-mid-heading::-ms-input-placeholder {
-    color: #010247;
+    color: #0a165c;
   }
 
   .sm-tw-placeholder-mid-heading::placeholder {
-    color: #010247;
-  }
-
-  .sm-tw-placeholder-sidebar-left-parent::-webkit-input-placeholder {
     color: #0a165c;
   }
 
-  .sm-tw-placeholder-sidebar-left-parent::-moz-placeholder {
-    color: #0a165c;
-  }
-
-  .sm-tw-placeholder-sidebar-left-parent:-ms-input-placeholder {
-    color: #0a165c;
-  }
-
-  .sm-tw-placeholder-sidebar-left-parent::-ms-input-placeholder {
-    color: #0a165c;
-  }
-
-  .sm-tw-placeholder-sidebar-left-parent::placeholder {
-    color: #0a165c;
-  }
-
-  .sm-tw-placeholder-sidebar-left::-webkit-input-placeholder {
+  .sm-tw-placeholder-sidebar::-webkit-input-placeholder {
     color: #163772;
   }
 
-  .sm-tw-placeholder-sidebar-left::-moz-placeholder {
+  .sm-tw-placeholder-sidebar::-moz-placeholder {
     color: #163772;
   }
 
-  .sm-tw-placeholder-sidebar-left:-ms-input-placeholder {
+  .sm-tw-placeholder-sidebar:-ms-input-placeholder {
     color: #163772;
   }
 
-  .sm-tw-placeholder-sidebar-left::-ms-input-placeholder {
+  .sm-tw-placeholder-sidebar::-ms-input-placeholder {
     color: #163772;
   }
 
-  .sm-tw-placeholder-sidebar-left::placeholder {
+  .sm-tw-placeholder-sidebar::placeholder {
     color: #163772;
   }
 
-  .sm-tw-placeholder-sidebar-left-separator::-webkit-input-placeholder {
+  .sm-tw-placeholder-separator::-webkit-input-placeholder {
     color: #2451a2;
   }
 
-  .sm-tw-placeholder-sidebar-left-separator::-moz-placeholder {
+  .sm-tw-placeholder-separator::-moz-placeholder {
     color: #2451a2;
   }
 
-  .sm-tw-placeholder-sidebar-left-separator:-ms-input-placeholder {
+  .sm-tw-placeholder-separator:-ms-input-placeholder {
     color: #2451a2;
   }
 
-  .sm-tw-placeholder-sidebar-left-separator::-ms-input-placeholder {
+  .sm-tw-placeholder-separator::-ms-input-placeholder {
     color: #2451a2;
   }
 
-  .sm-tw-placeholder-sidebar-left-separator::placeholder {
+  .sm-tw-placeholder-separator::placeholder {
     color: #2451a2;
   }
 
-  .sm-tw-placeholder-sidebar-left-selected::-webkit-input-placeholder {
+  .sm-tw-placeholder-selected::-webkit-input-placeholder {
     color: #85b3e1;
   }
 
-  .sm-tw-placeholder-sidebar-left-selected::-moz-placeholder {
+  .sm-tw-placeholder-selected::-moz-placeholder {
     color: #85b3e1;
   }
 
-  .sm-tw-placeholder-sidebar-left-selected:-ms-input-placeholder {
+  .sm-tw-placeholder-selected:-ms-input-placeholder {
     color: #85b3e1;
   }
 
-  .sm-tw-placeholder-sidebar-left-selected::-ms-input-placeholder {
+  .sm-tw-placeholder-selected::-ms-input-placeholder {
     color: #85b3e1;
   }
 
-  .sm-tw-placeholder-sidebar-left-selected::placeholder {
+  .sm-tw-placeholder-selected::placeholder {
     color: #85b3e1;
   }
 
@@ -37048,102 +36852,82 @@ button {
   }
 
   .sm-focus-tw-placeholder-mid-heading:focus::-webkit-input-placeholder {
-    color: #010247;
+    color: #0a165c;
   }
 
   .sm-focus-tw-placeholder-mid-heading:focus::-moz-placeholder {
-    color: #010247;
+    color: #0a165c;
   }
 
   .sm-focus-tw-placeholder-mid-heading:focus:-ms-input-placeholder {
-    color: #010247;
+    color: #0a165c;
   }
 
   .sm-focus-tw-placeholder-mid-heading:focus::-ms-input-placeholder {
-    color: #010247;
+    color: #0a165c;
   }
 
   .sm-focus-tw-placeholder-mid-heading:focus::placeholder {
-    color: #010247;
-  }
-
-  .sm-focus-tw-placeholder-sidebar-left-parent:focus::-webkit-input-placeholder {
     color: #0a165c;
   }
 
-  .sm-focus-tw-placeholder-sidebar-left-parent:focus::-moz-placeholder {
-    color: #0a165c;
-  }
-
-  .sm-focus-tw-placeholder-sidebar-left-parent:focus:-ms-input-placeholder {
-    color: #0a165c;
-  }
-
-  .sm-focus-tw-placeholder-sidebar-left-parent:focus::-ms-input-placeholder {
-    color: #0a165c;
-  }
-
-  .sm-focus-tw-placeholder-sidebar-left-parent:focus::placeholder {
-    color: #0a165c;
-  }
-
-  .sm-focus-tw-placeholder-sidebar-left:focus::-webkit-input-placeholder {
+  .sm-focus-tw-placeholder-sidebar:focus::-webkit-input-placeholder {
     color: #163772;
   }
 
-  .sm-focus-tw-placeholder-sidebar-left:focus::-moz-placeholder {
+  .sm-focus-tw-placeholder-sidebar:focus::-moz-placeholder {
     color: #163772;
   }
 
-  .sm-focus-tw-placeholder-sidebar-left:focus:-ms-input-placeholder {
+  .sm-focus-tw-placeholder-sidebar:focus:-ms-input-placeholder {
     color: #163772;
   }
 
-  .sm-focus-tw-placeholder-sidebar-left:focus::-ms-input-placeholder {
+  .sm-focus-tw-placeholder-sidebar:focus::-ms-input-placeholder {
     color: #163772;
   }
 
-  .sm-focus-tw-placeholder-sidebar-left:focus::placeholder {
+  .sm-focus-tw-placeholder-sidebar:focus::placeholder {
     color: #163772;
   }
 
-  .sm-focus-tw-placeholder-sidebar-left-separator:focus::-webkit-input-placeholder {
+  .sm-focus-tw-placeholder-separator:focus::-webkit-input-placeholder {
     color: #2451a2;
   }
 
-  .sm-focus-tw-placeholder-sidebar-left-separator:focus::-moz-placeholder {
+  .sm-focus-tw-placeholder-separator:focus::-moz-placeholder {
     color: #2451a2;
   }
 
-  .sm-focus-tw-placeholder-sidebar-left-separator:focus:-ms-input-placeholder {
+  .sm-focus-tw-placeholder-separator:focus:-ms-input-placeholder {
     color: #2451a2;
   }
 
-  .sm-focus-tw-placeholder-sidebar-left-separator:focus::-ms-input-placeholder {
+  .sm-focus-tw-placeholder-separator:focus::-ms-input-placeholder {
     color: #2451a2;
   }
 
-  .sm-focus-tw-placeholder-sidebar-left-separator:focus::placeholder {
+  .sm-focus-tw-placeholder-separator:focus::placeholder {
     color: #2451a2;
   }
 
-  .sm-focus-tw-placeholder-sidebar-left-selected:focus::-webkit-input-placeholder {
+  .sm-focus-tw-placeholder-selected:focus::-webkit-input-placeholder {
     color: #85b3e1;
   }
 
-  .sm-focus-tw-placeholder-sidebar-left-selected:focus::-moz-placeholder {
+  .sm-focus-tw-placeholder-selected:focus::-moz-placeholder {
     color: #85b3e1;
   }
 
-  .sm-focus-tw-placeholder-sidebar-left-selected:focus:-ms-input-placeholder {
+  .sm-focus-tw-placeholder-selected:focus:-ms-input-placeholder {
     color: #85b3e1;
   }
 
-  .sm-focus-tw-placeholder-sidebar-left-selected:focus::-ms-input-placeholder {
+  .sm-focus-tw-placeholder-selected:focus::-ms-input-placeholder {
     color: #85b3e1;
   }
 
-  .sm-focus-tw-placeholder-sidebar-left-selected:focus::placeholder {
+  .sm-focus-tw-placeholder-selected:focus::placeholder {
     color: #85b3e1;
   }
 
@@ -37851,22 +37635,18 @@ button {
   }
 
   .sm-tw-text-mid-heading {
-    color: #010247;
-  }
-
-  .sm-tw-text-sidebar-left-parent {
     color: #0a165c;
   }
 
-  .sm-tw-text-sidebar-left {
+  .sm-tw-text-sidebar {
     color: #163772;
   }
 
-  .sm-tw-text-sidebar-left-separator {
+  .sm-tw-text-separator {
     color: #2451a2;
   }
 
-  .sm-tw-text-sidebar-left-selected {
+  .sm-tw-text-selected {
     color: #85b3e1;
   }
 
@@ -38271,22 +38051,18 @@ button {
   }
 
   .sm-hover-tw-text-mid-heading:hover {
-    color: #010247;
-  }
-
-  .sm-hover-tw-text-sidebar-left-parent:hover {
     color: #0a165c;
   }
 
-  .sm-hover-tw-text-sidebar-left:hover {
+  .sm-hover-tw-text-sidebar:hover {
     color: #163772;
   }
 
-  .sm-hover-tw-text-sidebar-left-separator:hover {
+  .sm-hover-tw-text-separator:hover {
     color: #2451a2;
   }
 
-  .sm-hover-tw-text-sidebar-left-selected:hover {
+  .sm-hover-tw-text-selected:hover {
     color: #85b3e1;
   }
 
@@ -38691,22 +38467,18 @@ button {
   }
 
   .sm-focus-tw-text-mid-heading:focus {
-    color: #010247;
-  }
-
-  .sm-focus-tw-text-sidebar-left-parent:focus {
     color: #0a165c;
   }
 
-  .sm-focus-tw-text-sidebar-left:focus {
+  .sm-focus-tw-text-sidebar:focus {
     color: #163772;
   }
 
-  .sm-focus-tw-text-sidebar-left-separator:focus {
+  .sm-focus-tw-text-separator:focus {
     color: #2451a2;
   }
 
-  .sm-focus-tw-text-sidebar-left-selected:focus {
+  .sm-focus-tw-text-selected:focus {
     color: #85b3e1;
   }
 
@@ -40442,22 +40214,18 @@ button {
   }
 
   .md-tw-bg-mid-heading {
-    background-color: #010247;
-  }
-
-  .md-tw-bg-sidebar-left-parent {
     background-color: #0a165c;
   }
 
-  .md-tw-bg-sidebar-left {
+  .md-tw-bg-sidebar {
     background-color: #163772;
   }
 
-  .md-tw-bg-sidebar-left-separator {
+  .md-tw-bg-separator {
     background-color: #2451a2;
   }
 
-  .md-tw-bg-sidebar-left-selected {
+  .md-tw-bg-selected {
     background-color: #85b3e1;
   }
 
@@ -40862,22 +40630,18 @@ button {
   }
 
   .md-hover-tw-bg-mid-heading:hover {
-    background-color: #010247;
-  }
-
-  .md-hover-tw-bg-sidebar-left-parent:hover {
     background-color: #0a165c;
   }
 
-  .md-hover-tw-bg-sidebar-left:hover {
+  .md-hover-tw-bg-sidebar:hover {
     background-color: #163772;
   }
 
-  .md-hover-tw-bg-sidebar-left-separator:hover {
+  .md-hover-tw-bg-separator:hover {
     background-color: #2451a2;
   }
 
-  .md-hover-tw-bg-sidebar-left-selected:hover {
+  .md-hover-tw-bg-selected:hover {
     background-color: #85b3e1;
   }
 
@@ -41282,22 +41046,18 @@ button {
   }
 
   .md-focus-tw-bg-mid-heading:focus {
-    background-color: #010247;
-  }
-
-  .md-focus-tw-bg-sidebar-left-parent:focus {
     background-color: #0a165c;
   }
 
-  .md-focus-tw-bg-sidebar-left:focus {
+  .md-focus-tw-bg-sidebar:focus {
     background-color: #163772;
   }
 
-  .md-focus-tw-bg-sidebar-left-separator:focus {
+  .md-focus-tw-bg-separator:focus {
     background-color: #2451a2;
   }
 
-  .md-focus-tw-bg-sidebar-left-selected:focus {
+  .md-focus-tw-bg-selected:focus {
     background-color: #85b3e1;
   }
 
@@ -41782,22 +41542,18 @@ button {
   }
 
   .md-tw-border-mid-heading {
-    border-color: #010247;
-  }
-
-  .md-tw-border-sidebar-left-parent {
     border-color: #0a165c;
   }
 
-  .md-tw-border-sidebar-left {
+  .md-tw-border-sidebar {
     border-color: #163772;
   }
 
-  .md-tw-border-sidebar-left-separator {
+  .md-tw-border-separator {
     border-color: #2451a2;
   }
 
-  .md-tw-border-sidebar-left-selected {
+  .md-tw-border-selected {
     border-color: #85b3e1;
   }
 
@@ -42202,22 +41958,18 @@ button {
   }
 
   .md-hover-tw-border-mid-heading:hover {
-    border-color: #010247;
-  }
-
-  .md-hover-tw-border-sidebar-left-parent:hover {
     border-color: #0a165c;
   }
 
-  .md-hover-tw-border-sidebar-left:hover {
+  .md-hover-tw-border-sidebar:hover {
     border-color: #163772;
   }
 
-  .md-hover-tw-border-sidebar-left-separator:hover {
+  .md-hover-tw-border-separator:hover {
     border-color: #2451a2;
   }
 
-  .md-hover-tw-border-sidebar-left-selected:hover {
+  .md-hover-tw-border-selected:hover {
     border-color: #85b3e1;
   }
 
@@ -42622,22 +42374,18 @@ button {
   }
 
   .md-focus-tw-border-mid-heading:focus {
-    border-color: #010247;
-  }
-
-  .md-focus-tw-border-sidebar-left-parent:focus {
     border-color: #0a165c;
   }
 
-  .md-focus-tw-border-sidebar-left:focus {
+  .md-focus-tw-border-sidebar:focus {
     border-color: #163772;
   }
 
-  .md-focus-tw-border-sidebar-left-separator:focus {
+  .md-focus-tw-border-separator:focus {
     border-color: #2451a2;
   }
 
-  .md-focus-tw-border-sidebar-left-selected:focus {
+  .md-focus-tw-border-selected:focus {
     border-color: #85b3e1;
   }
 
@@ -47964,102 +47712,82 @@ button {
   }
 
   .md-tw-placeholder-mid-heading::-webkit-input-placeholder {
-    color: #010247;
+    color: #0a165c;
   }
 
   .md-tw-placeholder-mid-heading::-moz-placeholder {
-    color: #010247;
+    color: #0a165c;
   }
 
   .md-tw-placeholder-mid-heading:-ms-input-placeholder {
-    color: #010247;
+    color: #0a165c;
   }
 
   .md-tw-placeholder-mid-heading::-ms-input-placeholder {
-    color: #010247;
+    color: #0a165c;
   }
 
   .md-tw-placeholder-mid-heading::placeholder {
-    color: #010247;
-  }
-
-  .md-tw-placeholder-sidebar-left-parent::-webkit-input-placeholder {
     color: #0a165c;
   }
 
-  .md-tw-placeholder-sidebar-left-parent::-moz-placeholder {
-    color: #0a165c;
-  }
-
-  .md-tw-placeholder-sidebar-left-parent:-ms-input-placeholder {
-    color: #0a165c;
-  }
-
-  .md-tw-placeholder-sidebar-left-parent::-ms-input-placeholder {
-    color: #0a165c;
-  }
-
-  .md-tw-placeholder-sidebar-left-parent::placeholder {
-    color: #0a165c;
-  }
-
-  .md-tw-placeholder-sidebar-left::-webkit-input-placeholder {
+  .md-tw-placeholder-sidebar::-webkit-input-placeholder {
     color: #163772;
   }
 
-  .md-tw-placeholder-sidebar-left::-moz-placeholder {
+  .md-tw-placeholder-sidebar::-moz-placeholder {
     color: #163772;
   }
 
-  .md-tw-placeholder-sidebar-left:-ms-input-placeholder {
+  .md-tw-placeholder-sidebar:-ms-input-placeholder {
     color: #163772;
   }
 
-  .md-tw-placeholder-sidebar-left::-ms-input-placeholder {
+  .md-tw-placeholder-sidebar::-ms-input-placeholder {
     color: #163772;
   }
 
-  .md-tw-placeholder-sidebar-left::placeholder {
+  .md-tw-placeholder-sidebar::placeholder {
     color: #163772;
   }
 
-  .md-tw-placeholder-sidebar-left-separator::-webkit-input-placeholder {
+  .md-tw-placeholder-separator::-webkit-input-placeholder {
     color: #2451a2;
   }
 
-  .md-tw-placeholder-sidebar-left-separator::-moz-placeholder {
+  .md-tw-placeholder-separator::-moz-placeholder {
     color: #2451a2;
   }
 
-  .md-tw-placeholder-sidebar-left-separator:-ms-input-placeholder {
+  .md-tw-placeholder-separator:-ms-input-placeholder {
     color: #2451a2;
   }
 
-  .md-tw-placeholder-sidebar-left-separator::-ms-input-placeholder {
+  .md-tw-placeholder-separator::-ms-input-placeholder {
     color: #2451a2;
   }
 
-  .md-tw-placeholder-sidebar-left-separator::placeholder {
+  .md-tw-placeholder-separator::placeholder {
     color: #2451a2;
   }
 
-  .md-tw-placeholder-sidebar-left-selected::-webkit-input-placeholder {
+  .md-tw-placeholder-selected::-webkit-input-placeholder {
     color: #85b3e1;
   }
 
-  .md-tw-placeholder-sidebar-left-selected::-moz-placeholder {
+  .md-tw-placeholder-selected::-moz-placeholder {
     color: #85b3e1;
   }
 
-  .md-tw-placeholder-sidebar-left-selected:-ms-input-placeholder {
+  .md-tw-placeholder-selected:-ms-input-placeholder {
     color: #85b3e1;
   }
 
-  .md-tw-placeholder-sidebar-left-selected::-ms-input-placeholder {
+  .md-tw-placeholder-selected::-ms-input-placeholder {
     color: #85b3e1;
   }
 
-  .md-tw-placeholder-sidebar-left-selected::placeholder {
+  .md-tw-placeholder-selected::placeholder {
     color: #85b3e1;
   }
 
@@ -50064,102 +49792,82 @@ button {
   }
 
   .md-focus-tw-placeholder-mid-heading:focus::-webkit-input-placeholder {
-    color: #010247;
+    color: #0a165c;
   }
 
   .md-focus-tw-placeholder-mid-heading:focus::-moz-placeholder {
-    color: #010247;
+    color: #0a165c;
   }
 
   .md-focus-tw-placeholder-mid-heading:focus:-ms-input-placeholder {
-    color: #010247;
+    color: #0a165c;
   }
 
   .md-focus-tw-placeholder-mid-heading:focus::-ms-input-placeholder {
-    color: #010247;
+    color: #0a165c;
   }
 
   .md-focus-tw-placeholder-mid-heading:focus::placeholder {
-    color: #010247;
-  }
-
-  .md-focus-tw-placeholder-sidebar-left-parent:focus::-webkit-input-placeholder {
     color: #0a165c;
   }
 
-  .md-focus-tw-placeholder-sidebar-left-parent:focus::-moz-placeholder {
-    color: #0a165c;
-  }
-
-  .md-focus-tw-placeholder-sidebar-left-parent:focus:-ms-input-placeholder {
-    color: #0a165c;
-  }
-
-  .md-focus-tw-placeholder-sidebar-left-parent:focus::-ms-input-placeholder {
-    color: #0a165c;
-  }
-
-  .md-focus-tw-placeholder-sidebar-left-parent:focus::placeholder {
-    color: #0a165c;
-  }
-
-  .md-focus-tw-placeholder-sidebar-left:focus::-webkit-input-placeholder {
+  .md-focus-tw-placeholder-sidebar:focus::-webkit-input-placeholder {
     color: #163772;
   }
 
-  .md-focus-tw-placeholder-sidebar-left:focus::-moz-placeholder {
+  .md-focus-tw-placeholder-sidebar:focus::-moz-placeholder {
     color: #163772;
   }
 
-  .md-focus-tw-placeholder-sidebar-left:focus:-ms-input-placeholder {
+  .md-focus-tw-placeholder-sidebar:focus:-ms-input-placeholder {
     color: #163772;
   }
 
-  .md-focus-tw-placeholder-sidebar-left:focus::-ms-input-placeholder {
+  .md-focus-tw-placeholder-sidebar:focus::-ms-input-placeholder {
     color: #163772;
   }
 
-  .md-focus-tw-placeholder-sidebar-left:focus::placeholder {
+  .md-focus-tw-placeholder-sidebar:focus::placeholder {
     color: #163772;
   }
 
-  .md-focus-tw-placeholder-sidebar-left-separator:focus::-webkit-input-placeholder {
+  .md-focus-tw-placeholder-separator:focus::-webkit-input-placeholder {
     color: #2451a2;
   }
 
-  .md-focus-tw-placeholder-sidebar-left-separator:focus::-moz-placeholder {
+  .md-focus-tw-placeholder-separator:focus::-moz-placeholder {
     color: #2451a2;
   }
 
-  .md-focus-tw-placeholder-sidebar-left-separator:focus:-ms-input-placeholder {
+  .md-focus-tw-placeholder-separator:focus:-ms-input-placeholder {
     color: #2451a2;
   }
 
-  .md-focus-tw-placeholder-sidebar-left-separator:focus::-ms-input-placeholder {
+  .md-focus-tw-placeholder-separator:focus::-ms-input-placeholder {
     color: #2451a2;
   }
 
-  .md-focus-tw-placeholder-sidebar-left-separator:focus::placeholder {
+  .md-focus-tw-placeholder-separator:focus::placeholder {
     color: #2451a2;
   }
 
-  .md-focus-tw-placeholder-sidebar-left-selected:focus::-webkit-input-placeholder {
+  .md-focus-tw-placeholder-selected:focus::-webkit-input-placeholder {
     color: #85b3e1;
   }
 
-  .md-focus-tw-placeholder-sidebar-left-selected:focus::-moz-placeholder {
+  .md-focus-tw-placeholder-selected:focus::-moz-placeholder {
     color: #85b3e1;
   }
 
-  .md-focus-tw-placeholder-sidebar-left-selected:focus:-ms-input-placeholder {
+  .md-focus-tw-placeholder-selected:focus:-ms-input-placeholder {
     color: #85b3e1;
   }
 
-  .md-focus-tw-placeholder-sidebar-left-selected:focus::-ms-input-placeholder {
+  .md-focus-tw-placeholder-selected:focus::-ms-input-placeholder {
     color: #85b3e1;
   }
 
-  .md-focus-tw-placeholder-sidebar-left-selected:focus::placeholder {
+  .md-focus-tw-placeholder-selected:focus::placeholder {
     color: #85b3e1;
   }
 
@@ -50867,22 +50575,18 @@ button {
   }
 
   .md-tw-text-mid-heading {
-    color: #010247;
-  }
-
-  .md-tw-text-sidebar-left-parent {
     color: #0a165c;
   }
 
-  .md-tw-text-sidebar-left {
+  .md-tw-text-sidebar {
     color: #163772;
   }
 
-  .md-tw-text-sidebar-left-separator {
+  .md-tw-text-separator {
     color: #2451a2;
   }
 
-  .md-tw-text-sidebar-left-selected {
+  .md-tw-text-selected {
     color: #85b3e1;
   }
 
@@ -51287,22 +50991,18 @@ button {
   }
 
   .md-hover-tw-text-mid-heading:hover {
-    color: #010247;
-  }
-
-  .md-hover-tw-text-sidebar-left-parent:hover {
     color: #0a165c;
   }
 
-  .md-hover-tw-text-sidebar-left:hover {
+  .md-hover-tw-text-sidebar:hover {
     color: #163772;
   }
 
-  .md-hover-tw-text-sidebar-left-separator:hover {
+  .md-hover-tw-text-separator:hover {
     color: #2451a2;
   }
 
-  .md-hover-tw-text-sidebar-left-selected:hover {
+  .md-hover-tw-text-selected:hover {
     color: #85b3e1;
   }
 
@@ -51707,22 +51407,18 @@ button {
   }
 
   .md-focus-tw-text-mid-heading:focus {
-    color: #010247;
-  }
-
-  .md-focus-tw-text-sidebar-left-parent:focus {
     color: #0a165c;
   }
 
-  .md-focus-tw-text-sidebar-left:focus {
+  .md-focus-tw-text-sidebar:focus {
     color: #163772;
   }
 
-  .md-focus-tw-text-sidebar-left-separator:focus {
+  .md-focus-tw-text-separator:focus {
     color: #2451a2;
   }
 
-  .md-focus-tw-text-sidebar-left-selected:focus {
+  .md-focus-tw-text-selected:focus {
     color: #85b3e1;
   }
 
@@ -53458,22 +53154,18 @@ button {
   }
 
   .lg-tw-bg-mid-heading {
-    background-color: #010247;
-  }
-
-  .lg-tw-bg-sidebar-left-parent {
     background-color: #0a165c;
   }
 
-  .lg-tw-bg-sidebar-left {
+  .lg-tw-bg-sidebar {
     background-color: #163772;
   }
 
-  .lg-tw-bg-sidebar-left-separator {
+  .lg-tw-bg-separator {
     background-color: #2451a2;
   }
 
-  .lg-tw-bg-sidebar-left-selected {
+  .lg-tw-bg-selected {
     background-color: #85b3e1;
   }
 
@@ -53878,22 +53570,18 @@ button {
   }
 
   .lg-hover-tw-bg-mid-heading:hover {
-    background-color: #010247;
-  }
-
-  .lg-hover-tw-bg-sidebar-left-parent:hover {
     background-color: #0a165c;
   }
 
-  .lg-hover-tw-bg-sidebar-left:hover {
+  .lg-hover-tw-bg-sidebar:hover {
     background-color: #163772;
   }
 
-  .lg-hover-tw-bg-sidebar-left-separator:hover {
+  .lg-hover-tw-bg-separator:hover {
     background-color: #2451a2;
   }
 
-  .lg-hover-tw-bg-sidebar-left-selected:hover {
+  .lg-hover-tw-bg-selected:hover {
     background-color: #85b3e1;
   }
 
@@ -54298,22 +53986,18 @@ button {
   }
 
   .lg-focus-tw-bg-mid-heading:focus {
-    background-color: #010247;
-  }
-
-  .lg-focus-tw-bg-sidebar-left-parent:focus {
     background-color: #0a165c;
   }
 
-  .lg-focus-tw-bg-sidebar-left:focus {
+  .lg-focus-tw-bg-sidebar:focus {
     background-color: #163772;
   }
 
-  .lg-focus-tw-bg-sidebar-left-separator:focus {
+  .lg-focus-tw-bg-separator:focus {
     background-color: #2451a2;
   }
 
-  .lg-focus-tw-bg-sidebar-left-selected:focus {
+  .lg-focus-tw-bg-selected:focus {
     background-color: #85b3e1;
   }
 
@@ -54798,22 +54482,18 @@ button {
   }
 
   .lg-tw-border-mid-heading {
-    border-color: #010247;
-  }
-
-  .lg-tw-border-sidebar-left-parent {
     border-color: #0a165c;
   }
 
-  .lg-tw-border-sidebar-left {
+  .lg-tw-border-sidebar {
     border-color: #163772;
   }
 
-  .lg-tw-border-sidebar-left-separator {
+  .lg-tw-border-separator {
     border-color: #2451a2;
   }
 
-  .lg-tw-border-sidebar-left-selected {
+  .lg-tw-border-selected {
     border-color: #85b3e1;
   }
 
@@ -55218,22 +54898,18 @@ button {
   }
 
   .lg-hover-tw-border-mid-heading:hover {
-    border-color: #010247;
-  }
-
-  .lg-hover-tw-border-sidebar-left-parent:hover {
     border-color: #0a165c;
   }
 
-  .lg-hover-tw-border-sidebar-left:hover {
+  .lg-hover-tw-border-sidebar:hover {
     border-color: #163772;
   }
 
-  .lg-hover-tw-border-sidebar-left-separator:hover {
+  .lg-hover-tw-border-separator:hover {
     border-color: #2451a2;
   }
 
-  .lg-hover-tw-border-sidebar-left-selected:hover {
+  .lg-hover-tw-border-selected:hover {
     border-color: #85b3e1;
   }
 
@@ -55638,22 +55314,18 @@ button {
   }
 
   .lg-focus-tw-border-mid-heading:focus {
-    border-color: #010247;
-  }
-
-  .lg-focus-tw-border-sidebar-left-parent:focus {
     border-color: #0a165c;
   }
 
-  .lg-focus-tw-border-sidebar-left:focus {
+  .lg-focus-tw-border-sidebar:focus {
     border-color: #163772;
   }
 
-  .lg-focus-tw-border-sidebar-left-separator:focus {
+  .lg-focus-tw-border-separator:focus {
     border-color: #2451a2;
   }
 
-  .lg-focus-tw-border-sidebar-left-selected:focus {
+  .lg-focus-tw-border-selected:focus {
     border-color: #85b3e1;
   }
 
@@ -60980,102 +60652,82 @@ button {
   }
 
   .lg-tw-placeholder-mid-heading::-webkit-input-placeholder {
-    color: #010247;
+    color: #0a165c;
   }
 
   .lg-tw-placeholder-mid-heading::-moz-placeholder {
-    color: #010247;
+    color: #0a165c;
   }
 
   .lg-tw-placeholder-mid-heading:-ms-input-placeholder {
-    color: #010247;
+    color: #0a165c;
   }
 
   .lg-tw-placeholder-mid-heading::-ms-input-placeholder {
-    color: #010247;
+    color: #0a165c;
   }
 
   .lg-tw-placeholder-mid-heading::placeholder {
-    color: #010247;
-  }
-
-  .lg-tw-placeholder-sidebar-left-parent::-webkit-input-placeholder {
     color: #0a165c;
   }
 
-  .lg-tw-placeholder-sidebar-left-parent::-moz-placeholder {
-    color: #0a165c;
-  }
-
-  .lg-tw-placeholder-sidebar-left-parent:-ms-input-placeholder {
-    color: #0a165c;
-  }
-
-  .lg-tw-placeholder-sidebar-left-parent::-ms-input-placeholder {
-    color: #0a165c;
-  }
-
-  .lg-tw-placeholder-sidebar-left-parent::placeholder {
-    color: #0a165c;
-  }
-
-  .lg-tw-placeholder-sidebar-left::-webkit-input-placeholder {
+  .lg-tw-placeholder-sidebar::-webkit-input-placeholder {
     color: #163772;
   }
 
-  .lg-tw-placeholder-sidebar-left::-moz-placeholder {
+  .lg-tw-placeholder-sidebar::-moz-placeholder {
     color: #163772;
   }
 
-  .lg-tw-placeholder-sidebar-left:-ms-input-placeholder {
+  .lg-tw-placeholder-sidebar:-ms-input-placeholder {
     color: #163772;
   }
 
-  .lg-tw-placeholder-sidebar-left::-ms-input-placeholder {
+  .lg-tw-placeholder-sidebar::-ms-input-placeholder {
     color: #163772;
   }
 
-  .lg-tw-placeholder-sidebar-left::placeholder {
+  .lg-tw-placeholder-sidebar::placeholder {
     color: #163772;
   }
 
-  .lg-tw-placeholder-sidebar-left-separator::-webkit-input-placeholder {
+  .lg-tw-placeholder-separator::-webkit-input-placeholder {
     color: #2451a2;
   }
 
-  .lg-tw-placeholder-sidebar-left-separator::-moz-placeholder {
+  .lg-tw-placeholder-separator::-moz-placeholder {
     color: #2451a2;
   }
 
-  .lg-tw-placeholder-sidebar-left-separator:-ms-input-placeholder {
+  .lg-tw-placeholder-separator:-ms-input-placeholder {
     color: #2451a2;
   }
 
-  .lg-tw-placeholder-sidebar-left-separator::-ms-input-placeholder {
+  .lg-tw-placeholder-separator::-ms-input-placeholder {
     color: #2451a2;
   }
 
-  .lg-tw-placeholder-sidebar-left-separator::placeholder {
+  .lg-tw-placeholder-separator::placeholder {
     color: #2451a2;
   }
 
-  .lg-tw-placeholder-sidebar-left-selected::-webkit-input-placeholder {
+  .lg-tw-placeholder-selected::-webkit-input-placeholder {
     color: #85b3e1;
   }
 
-  .lg-tw-placeholder-sidebar-left-selected::-moz-placeholder {
+  .lg-tw-placeholder-selected::-moz-placeholder {
     color: #85b3e1;
   }
 
-  .lg-tw-placeholder-sidebar-left-selected:-ms-input-placeholder {
+  .lg-tw-placeholder-selected:-ms-input-placeholder {
     color: #85b3e1;
   }
 
-  .lg-tw-placeholder-sidebar-left-selected::-ms-input-placeholder {
+  .lg-tw-placeholder-selected::-ms-input-placeholder {
     color: #85b3e1;
   }
 
-  .lg-tw-placeholder-sidebar-left-selected::placeholder {
+  .lg-tw-placeholder-selected::placeholder {
     color: #85b3e1;
   }
 
@@ -63080,102 +62732,82 @@ button {
   }
 
   .lg-focus-tw-placeholder-mid-heading:focus::-webkit-input-placeholder {
-    color: #010247;
+    color: #0a165c;
   }
 
   .lg-focus-tw-placeholder-mid-heading:focus::-moz-placeholder {
-    color: #010247;
+    color: #0a165c;
   }
 
   .lg-focus-tw-placeholder-mid-heading:focus:-ms-input-placeholder {
-    color: #010247;
+    color: #0a165c;
   }
 
   .lg-focus-tw-placeholder-mid-heading:focus::-ms-input-placeholder {
-    color: #010247;
+    color: #0a165c;
   }
 
   .lg-focus-tw-placeholder-mid-heading:focus::placeholder {
-    color: #010247;
-  }
-
-  .lg-focus-tw-placeholder-sidebar-left-parent:focus::-webkit-input-placeholder {
     color: #0a165c;
   }
 
-  .lg-focus-tw-placeholder-sidebar-left-parent:focus::-moz-placeholder {
-    color: #0a165c;
-  }
-
-  .lg-focus-tw-placeholder-sidebar-left-parent:focus:-ms-input-placeholder {
-    color: #0a165c;
-  }
-
-  .lg-focus-tw-placeholder-sidebar-left-parent:focus::-ms-input-placeholder {
-    color: #0a165c;
-  }
-
-  .lg-focus-tw-placeholder-sidebar-left-parent:focus::placeholder {
-    color: #0a165c;
-  }
-
-  .lg-focus-tw-placeholder-sidebar-left:focus::-webkit-input-placeholder {
+  .lg-focus-tw-placeholder-sidebar:focus::-webkit-input-placeholder {
     color: #163772;
   }
 
-  .lg-focus-tw-placeholder-sidebar-left:focus::-moz-placeholder {
+  .lg-focus-tw-placeholder-sidebar:focus::-moz-placeholder {
     color: #163772;
   }
 
-  .lg-focus-tw-placeholder-sidebar-left:focus:-ms-input-placeholder {
+  .lg-focus-tw-placeholder-sidebar:focus:-ms-input-placeholder {
     color: #163772;
   }
 
-  .lg-focus-tw-placeholder-sidebar-left:focus::-ms-input-placeholder {
+  .lg-focus-tw-placeholder-sidebar:focus::-ms-input-placeholder {
     color: #163772;
   }
 
-  .lg-focus-tw-placeholder-sidebar-left:focus::placeholder {
+  .lg-focus-tw-placeholder-sidebar:focus::placeholder {
     color: #163772;
   }
 
-  .lg-focus-tw-placeholder-sidebar-left-separator:focus::-webkit-input-placeholder {
+  .lg-focus-tw-placeholder-separator:focus::-webkit-input-placeholder {
     color: #2451a2;
   }
 
-  .lg-focus-tw-placeholder-sidebar-left-separator:focus::-moz-placeholder {
+  .lg-focus-tw-placeholder-separator:focus::-moz-placeholder {
     color: #2451a2;
   }
 
-  .lg-focus-tw-placeholder-sidebar-left-separator:focus:-ms-input-placeholder {
+  .lg-focus-tw-placeholder-separator:focus:-ms-input-placeholder {
     color: #2451a2;
   }
 
-  .lg-focus-tw-placeholder-sidebar-left-separator:focus::-ms-input-placeholder {
+  .lg-focus-tw-placeholder-separator:focus::-ms-input-placeholder {
     color: #2451a2;
   }
 
-  .lg-focus-tw-placeholder-sidebar-left-separator:focus::placeholder {
+  .lg-focus-tw-placeholder-separator:focus::placeholder {
     color: #2451a2;
   }
 
-  .lg-focus-tw-placeholder-sidebar-left-selected:focus::-webkit-input-placeholder {
+  .lg-focus-tw-placeholder-selected:focus::-webkit-input-placeholder {
     color: #85b3e1;
   }
 
-  .lg-focus-tw-placeholder-sidebar-left-selected:focus::-moz-placeholder {
+  .lg-focus-tw-placeholder-selected:focus::-moz-placeholder {
     color: #85b3e1;
   }
 
-  .lg-focus-tw-placeholder-sidebar-left-selected:focus:-ms-input-placeholder {
+  .lg-focus-tw-placeholder-selected:focus:-ms-input-placeholder {
     color: #85b3e1;
   }
 
-  .lg-focus-tw-placeholder-sidebar-left-selected:focus::-ms-input-placeholder {
+  .lg-focus-tw-placeholder-selected:focus::-ms-input-placeholder {
     color: #85b3e1;
   }
 
-  .lg-focus-tw-placeholder-sidebar-left-selected:focus::placeholder {
+  .lg-focus-tw-placeholder-selected:focus::placeholder {
     color: #85b3e1;
   }
 
@@ -63883,22 +63515,18 @@ button {
   }
 
   .lg-tw-text-mid-heading {
-    color: #010247;
-  }
-
-  .lg-tw-text-sidebar-left-parent {
     color: #0a165c;
   }
 
-  .lg-tw-text-sidebar-left {
+  .lg-tw-text-sidebar {
     color: #163772;
   }
 
-  .lg-tw-text-sidebar-left-separator {
+  .lg-tw-text-separator {
     color: #2451a2;
   }
 
-  .lg-tw-text-sidebar-left-selected {
+  .lg-tw-text-selected {
     color: #85b3e1;
   }
 
@@ -64303,22 +63931,18 @@ button {
   }
 
   .lg-hover-tw-text-mid-heading:hover {
-    color: #010247;
-  }
-
-  .lg-hover-tw-text-sidebar-left-parent:hover {
     color: #0a165c;
   }
 
-  .lg-hover-tw-text-sidebar-left:hover {
+  .lg-hover-tw-text-sidebar:hover {
     color: #163772;
   }
 
-  .lg-hover-tw-text-sidebar-left-separator:hover {
+  .lg-hover-tw-text-separator:hover {
     color: #2451a2;
   }
 
-  .lg-hover-tw-text-sidebar-left-selected:hover {
+  .lg-hover-tw-text-selected:hover {
     color: #85b3e1;
   }
 
@@ -64723,22 +64347,18 @@ button {
   }
 
   .lg-focus-tw-text-mid-heading:focus {
-    color: #010247;
-  }
-
-  .lg-focus-tw-text-sidebar-left-parent:focus {
     color: #0a165c;
   }
 
-  .lg-focus-tw-text-sidebar-left:focus {
+  .lg-focus-tw-text-sidebar:focus {
     color: #163772;
   }
 
-  .lg-focus-tw-text-sidebar-left-separator:focus {
+  .lg-focus-tw-text-separator:focus {
     color: #2451a2;
   }
 
-  .lg-focus-tw-text-sidebar-left-selected:focus {
+  .lg-focus-tw-text-selected:focus {
     color: #85b3e1;
   }
 
@@ -66474,22 +66094,18 @@ button {
   }
 
   .max-tw-bg-mid-heading {
-    background-color: #010247;
-  }
-
-  .max-tw-bg-sidebar-left-parent {
     background-color: #0a165c;
   }
 
-  .max-tw-bg-sidebar-left {
+  .max-tw-bg-sidebar {
     background-color: #163772;
   }
 
-  .max-tw-bg-sidebar-left-separator {
+  .max-tw-bg-separator {
     background-color: #2451a2;
   }
 
-  .max-tw-bg-sidebar-left-selected {
+  .max-tw-bg-selected {
     background-color: #85b3e1;
   }
 
@@ -66894,22 +66510,18 @@ button {
   }
 
   .max-hover-tw-bg-mid-heading:hover {
-    background-color: #010247;
-  }
-
-  .max-hover-tw-bg-sidebar-left-parent:hover {
     background-color: #0a165c;
   }
 
-  .max-hover-tw-bg-sidebar-left:hover {
+  .max-hover-tw-bg-sidebar:hover {
     background-color: #163772;
   }
 
-  .max-hover-tw-bg-sidebar-left-separator:hover {
+  .max-hover-tw-bg-separator:hover {
     background-color: #2451a2;
   }
 
-  .max-hover-tw-bg-sidebar-left-selected:hover {
+  .max-hover-tw-bg-selected:hover {
     background-color: #85b3e1;
   }
 
@@ -67314,22 +66926,18 @@ button {
   }
 
   .max-focus-tw-bg-mid-heading:focus {
-    background-color: #010247;
-  }
-
-  .max-focus-tw-bg-sidebar-left-parent:focus {
     background-color: #0a165c;
   }
 
-  .max-focus-tw-bg-sidebar-left:focus {
+  .max-focus-tw-bg-sidebar:focus {
     background-color: #163772;
   }
 
-  .max-focus-tw-bg-sidebar-left-separator:focus {
+  .max-focus-tw-bg-separator:focus {
     background-color: #2451a2;
   }
 
-  .max-focus-tw-bg-sidebar-left-selected:focus {
+  .max-focus-tw-bg-selected:focus {
     background-color: #85b3e1;
   }
 
@@ -67814,22 +67422,18 @@ button {
   }
 
   .max-tw-border-mid-heading {
-    border-color: #010247;
-  }
-
-  .max-tw-border-sidebar-left-parent {
     border-color: #0a165c;
   }
 
-  .max-tw-border-sidebar-left {
+  .max-tw-border-sidebar {
     border-color: #163772;
   }
 
-  .max-tw-border-sidebar-left-separator {
+  .max-tw-border-separator {
     border-color: #2451a2;
   }
 
-  .max-tw-border-sidebar-left-selected {
+  .max-tw-border-selected {
     border-color: #85b3e1;
   }
 
@@ -68234,22 +67838,18 @@ button {
   }
 
   .max-hover-tw-border-mid-heading:hover {
-    border-color: #010247;
-  }
-
-  .max-hover-tw-border-sidebar-left-parent:hover {
     border-color: #0a165c;
   }
 
-  .max-hover-tw-border-sidebar-left:hover {
+  .max-hover-tw-border-sidebar:hover {
     border-color: #163772;
   }
 
-  .max-hover-tw-border-sidebar-left-separator:hover {
+  .max-hover-tw-border-separator:hover {
     border-color: #2451a2;
   }
 
-  .max-hover-tw-border-sidebar-left-selected:hover {
+  .max-hover-tw-border-selected:hover {
     border-color: #85b3e1;
   }
 
@@ -68654,22 +68254,18 @@ button {
   }
 
   .max-focus-tw-border-mid-heading:focus {
-    border-color: #010247;
-  }
-
-  .max-focus-tw-border-sidebar-left-parent:focus {
     border-color: #0a165c;
   }
 
-  .max-focus-tw-border-sidebar-left:focus {
+  .max-focus-tw-border-sidebar:focus {
     border-color: #163772;
   }
 
-  .max-focus-tw-border-sidebar-left-separator:focus {
+  .max-focus-tw-border-separator:focus {
     border-color: #2451a2;
   }
 
-  .max-focus-tw-border-sidebar-left-selected:focus {
+  .max-focus-tw-border-selected:focus {
     border-color: #85b3e1;
   }
 
@@ -73996,102 +73592,82 @@ button {
   }
 
   .max-tw-placeholder-mid-heading::-webkit-input-placeholder {
-    color: #010247;
+    color: #0a165c;
   }
 
   .max-tw-placeholder-mid-heading::-moz-placeholder {
-    color: #010247;
+    color: #0a165c;
   }
 
   .max-tw-placeholder-mid-heading:-ms-input-placeholder {
-    color: #010247;
+    color: #0a165c;
   }
 
   .max-tw-placeholder-mid-heading::-ms-input-placeholder {
-    color: #010247;
+    color: #0a165c;
   }
 
   .max-tw-placeholder-mid-heading::placeholder {
-    color: #010247;
-  }
-
-  .max-tw-placeholder-sidebar-left-parent::-webkit-input-placeholder {
     color: #0a165c;
   }
 
-  .max-tw-placeholder-sidebar-left-parent::-moz-placeholder {
-    color: #0a165c;
-  }
-
-  .max-tw-placeholder-sidebar-left-parent:-ms-input-placeholder {
-    color: #0a165c;
-  }
-
-  .max-tw-placeholder-sidebar-left-parent::-ms-input-placeholder {
-    color: #0a165c;
-  }
-
-  .max-tw-placeholder-sidebar-left-parent::placeholder {
-    color: #0a165c;
-  }
-
-  .max-tw-placeholder-sidebar-left::-webkit-input-placeholder {
+  .max-tw-placeholder-sidebar::-webkit-input-placeholder {
     color: #163772;
   }
 
-  .max-tw-placeholder-sidebar-left::-moz-placeholder {
+  .max-tw-placeholder-sidebar::-moz-placeholder {
     color: #163772;
   }
 
-  .max-tw-placeholder-sidebar-left:-ms-input-placeholder {
+  .max-tw-placeholder-sidebar:-ms-input-placeholder {
     color: #163772;
   }
 
-  .max-tw-placeholder-sidebar-left::-ms-input-placeholder {
+  .max-tw-placeholder-sidebar::-ms-input-placeholder {
     color: #163772;
   }
 
-  .max-tw-placeholder-sidebar-left::placeholder {
+  .max-tw-placeholder-sidebar::placeholder {
     color: #163772;
   }
 
-  .max-tw-placeholder-sidebar-left-separator::-webkit-input-placeholder {
+  .max-tw-placeholder-separator::-webkit-input-placeholder {
     color: #2451a2;
   }
 
-  .max-tw-placeholder-sidebar-left-separator::-moz-placeholder {
+  .max-tw-placeholder-separator::-moz-placeholder {
     color: #2451a2;
   }
 
-  .max-tw-placeholder-sidebar-left-separator:-ms-input-placeholder {
+  .max-tw-placeholder-separator:-ms-input-placeholder {
     color: #2451a2;
   }
 
-  .max-tw-placeholder-sidebar-left-separator::-ms-input-placeholder {
+  .max-tw-placeholder-separator::-ms-input-placeholder {
     color: #2451a2;
   }
 
-  .max-tw-placeholder-sidebar-left-separator::placeholder {
+  .max-tw-placeholder-separator::placeholder {
     color: #2451a2;
   }
 
-  .max-tw-placeholder-sidebar-left-selected::-webkit-input-placeholder {
+  .max-tw-placeholder-selected::-webkit-input-placeholder {
     color: #85b3e1;
   }
 
-  .max-tw-placeholder-sidebar-left-selected::-moz-placeholder {
+  .max-tw-placeholder-selected::-moz-placeholder {
     color: #85b3e1;
   }
 
-  .max-tw-placeholder-sidebar-left-selected:-ms-input-placeholder {
+  .max-tw-placeholder-selected:-ms-input-placeholder {
     color: #85b3e1;
   }
 
-  .max-tw-placeholder-sidebar-left-selected::-ms-input-placeholder {
+  .max-tw-placeholder-selected::-ms-input-placeholder {
     color: #85b3e1;
   }
 
-  .max-tw-placeholder-sidebar-left-selected::placeholder {
+  .max-tw-placeholder-selected::placeholder {
     color: #85b3e1;
   }
 
@@ -76096,102 +75672,82 @@ button {
   }
 
   .max-focus-tw-placeholder-mid-heading:focus::-webkit-input-placeholder {
-    color: #010247;
+    color: #0a165c;
   }
 
   .max-focus-tw-placeholder-mid-heading:focus::-moz-placeholder {
-    color: #010247;
+    color: #0a165c;
   }
 
   .max-focus-tw-placeholder-mid-heading:focus:-ms-input-placeholder {
-    color: #010247;
+    color: #0a165c;
   }
 
   .max-focus-tw-placeholder-mid-heading:focus::-ms-input-placeholder {
-    color: #010247;
+    color: #0a165c;
   }
 
   .max-focus-tw-placeholder-mid-heading:focus::placeholder {
-    color: #010247;
-  }
-
-  .max-focus-tw-placeholder-sidebar-left-parent:focus::-webkit-input-placeholder {
     color: #0a165c;
   }
 
-  .max-focus-tw-placeholder-sidebar-left-parent:focus::-moz-placeholder {
-    color: #0a165c;
-  }
-
-  .max-focus-tw-placeholder-sidebar-left-parent:focus:-ms-input-placeholder {
-    color: #0a165c;
-  }
-
-  .max-focus-tw-placeholder-sidebar-left-parent:focus::-ms-input-placeholder {
-    color: #0a165c;
-  }
-
-  .max-focus-tw-placeholder-sidebar-left-parent:focus::placeholder {
-    color: #0a165c;
-  }
-
-  .max-focus-tw-placeholder-sidebar-left:focus::-webkit-input-placeholder {
+  .max-focus-tw-placeholder-sidebar:focus::-webkit-input-placeholder {
     color: #163772;
   }
 
-  .max-focus-tw-placeholder-sidebar-left:focus::-moz-placeholder {
+  .max-focus-tw-placeholder-sidebar:focus::-moz-placeholder {
     color: #163772;
   }
 
-  .max-focus-tw-placeholder-sidebar-left:focus:-ms-input-placeholder {
+  .max-focus-tw-placeholder-sidebar:focus:-ms-input-placeholder {
     color: #163772;
   }
 
-  .max-focus-tw-placeholder-sidebar-left:focus::-ms-input-placeholder {
+  .max-focus-tw-placeholder-sidebar:focus::-ms-input-placeholder {
     color: #163772;
   }
 
-  .max-focus-tw-placeholder-sidebar-left:focus::placeholder {
+  .max-focus-tw-placeholder-sidebar:focus::placeholder {
     color: #163772;
   }
 
-  .max-focus-tw-placeholder-sidebar-left-separator:focus::-webkit-input-placeholder {
+  .max-focus-tw-placeholder-separator:focus::-webkit-input-placeholder {
     color: #2451a2;
   }
 
-  .max-focus-tw-placeholder-sidebar-left-separator:focus::-moz-placeholder {
+  .max-focus-tw-placeholder-separator:focus::-moz-placeholder {
     color: #2451a2;
   }
 
-  .max-focus-tw-placeholder-sidebar-left-separator:focus:-ms-input-placeholder {
+  .max-focus-tw-placeholder-separator:focus:-ms-input-placeholder {
     color: #2451a2;
   }
 
-  .max-focus-tw-placeholder-sidebar-left-separator:focus::-ms-input-placeholder {
+  .max-focus-tw-placeholder-separator:focus::-ms-input-placeholder {
     color: #2451a2;
   }
 
-  .max-focus-tw-placeholder-sidebar-left-separator:focus::placeholder {
+  .max-focus-tw-placeholder-separator:focus::placeholder {
     color: #2451a2;
   }
 
-  .max-focus-tw-placeholder-sidebar-left-selected:focus::-webkit-input-placeholder {
+  .max-focus-tw-placeholder-selected:focus::-webkit-input-placeholder {
     color: #85b3e1;
   }
 
-  .max-focus-tw-placeholder-sidebar-left-selected:focus::-moz-placeholder {
+  .max-focus-tw-placeholder-selected:focus::-moz-placeholder {
     color: #85b3e1;
   }
 
-  .max-focus-tw-placeholder-sidebar-left-selected:focus:-ms-input-placeholder {
+  .max-focus-tw-placeholder-selected:focus:-ms-input-placeholder {
     color: #85b3e1;
   }
 
-  .max-focus-tw-placeholder-sidebar-left-selected:focus::-ms-input-placeholder {
+  .max-focus-tw-placeholder-selected:focus::-ms-input-placeholder {
     color: #85b3e1;
   }
 
-  .max-focus-tw-placeholder-sidebar-left-selected:focus::placeholder {
+  .max-focus-tw-placeholder-selected:focus::placeholder {
     color: #85b3e1;
   }
 
@@ -76899,22 +76455,18 @@ button {
   }
 
   .max-tw-text-mid-heading {
-    color: #010247;
-  }
-
-  .max-tw-text-sidebar-left-parent {
     color: #0a165c;
   }
 
-  .max-tw-text-sidebar-left {
+  .max-tw-text-sidebar {
     color: #163772;
   }
 
-  .max-tw-text-sidebar-left-separator {
+  .max-tw-text-separator {
     color: #2451a2;
   }
 
-  .max-tw-text-sidebar-left-selected {
+  .max-tw-text-selected {
     color: #85b3e1;
   }
 
@@ -77319,22 +76871,18 @@ button {
   }
 
   .max-hover-tw-text-mid-heading:hover {
-    color: #010247;
-  }
-
-  .max-hover-tw-text-sidebar-left-parent:hover {
     color: #0a165c;
   }
 
-  .max-hover-tw-text-sidebar-left:hover {
+  .max-hover-tw-text-sidebar:hover {
     color: #163772;
   }
 
-  .max-hover-tw-text-sidebar-left-separator:hover {
+  .max-hover-tw-text-separator:hover {
     color: #2451a2;
   }
 
-  .max-hover-tw-text-sidebar-left-selected:hover {
+  .max-hover-tw-text-selected:hover {
     color: #85b3e1;
   }
 
@@ -77739,22 +77287,18 @@ button {
   }
 
   .max-focus-tw-text-mid-heading:focus {
-    color: #010247;
-  }
-
-  .max-focus-tw-text-sidebar-left-parent:focus {
     color: #0a165c;
   }
 
-  .max-focus-tw-text-sidebar-left:focus {
+  .max-focus-tw-text-sidebar:focus {
     color: #163772;
   }
 
-  .max-focus-tw-text-sidebar-left-separator:focus {
+  .max-focus-tw-text-separator:focus {
     color: #2451a2;
   }
 
-  .max-focus-tw-text-sidebar-left-selected:focus {
+  .max-focus-tw-text-selected:focus {
     color: #85b3e1;
   }
 
