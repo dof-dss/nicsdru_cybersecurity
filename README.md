@@ -23,3 +23,19 @@ lando drush ea
 ```
 
 For more information on the structure sync commands please visit https://www.drupal.org/project/structure_sync
+
+
+### Backup and Migrate
+Database and public files directory backups have been included in the folder 'backups'. This can be imported into your 
+site to allow you to view the site progress.
+
+To restore these backups after installing the site and importing the config, navigate to `Manage > Configuration > 
+Development > Backup and Migrate`.
+
+Click on the Restore tab, upload the .mysql.gz under 'Upload a Backup File'. Choose Restore To Default Drupal Database 
+in the dropdown options and then click Restore now.
+
+Then, upload the .tar.gz under 'Upload a Backup File'. Choose Restore To Public Files Directory in the dropdown options 
+and then click Restore now.
+
+Now set the homepage to `\home` in `Manage > Configuration > System Site Settings > Front Page`.

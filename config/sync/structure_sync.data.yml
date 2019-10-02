@@ -12,11 +12,11 @@ taxonomies:
       uuid: 3ebb3150-6bf5-4b5e-9653-f9c4a2dac3c8
       field_taxonomy_icon:
         -
-          target_id: '10'
+          target_id: '19'
           alt: Individuals
           title: ''
-          width: '68'
-          height: '50'
+          width: '64'
+          height: '64'
     -
       vid: information_for_
       tid: '2'
@@ -29,11 +29,11 @@ taxonomies:
       uuid: 4a4c4cf2-07b1-42b7-ad3e-fafaf40da0fa
       field_taxonomy_icon:
         -
-          target_id: '11'
+          target_id: '20'
           alt: Charities
           title: ''
-          width: '63'
-          height: '50'
+          width: '64'
+          height: '64'
     -
       vid: information_for_
       tid: '3'
@@ -46,11 +46,11 @@ taxonomies:
       uuid: 33c24d3e-fdd4-4e30-90e7-f6a5008fa0f4
       field_taxonomy_icon:
         -
-          target_id: '12'
+          target_id: '21'
           alt: 'Sole traders and small business'
           title: ''
-          width: '45'
-          height: '50'
+          width: '64'
+          height: '64'
     -
       vid: information_for_
       tid: '4'
@@ -63,11 +63,11 @@ taxonomies:
       uuid: bf562081-0df2-43a9-9722-5d0e7ed668a7
       field_taxonomy_icon:
         -
-          target_id: '13'
+          target_id: '22'
           alt: 'Public sector'
           title: ''
-          width: '50'
-          height: '50'
+          width: '64'
+          height: '64'
     -
       vid: information_for_
       tid: '5'
@@ -80,11 +80,11 @@ taxonomies:
       uuid: d16fb260-743a-4689-96e3-1434c89bad38
       field_taxonomy_icon:
         -
-          target_id: '14'
+          target_id: '23'
           alt: 'Small to medium sized enterprises'
           title: ''
-          width: '36'
-          height: '50'
+          width: '64'
+          height: '64'
     -
       vid: information_for_
       tid: '6'
@@ -97,11 +97,11 @@ taxonomies:
       uuid: 6a1d70bb-fdc8-4de7-99ea-a887ff6324f3
       field_taxonomy_icon:
         -
-          target_id: '15'
+          target_id: '24'
           alt: 'Cyber security professionals'
           title: ''
-          width: '35'
-          height: '50'
+          width: '64'
+          height: '64'
   tags: {  }
 blocks:
   -
@@ -135,11 +135,11 @@ blocks:
         summary: ''
         format: basic_html
       field_block_image:
-        target_id: '9'
+        target_id: '29'
         alt: 'What is cyber security?'
         title: ''
-        width: '302'
-        height: '140'
+        width: '381'
+        height: '246'
       field_block_title:
         value: 'What is cyber security?'
         format: basic_html
@@ -160,11 +160,11 @@ blocks:
         summary: ''
         format: basic_html
       field_block_image:
-        target_id: '8'
+        target_id: '31'
         alt: 'Guidance portals'
         title: ''
-        width: '301'
-        height: '140'
+        width: '383'
+        height: '255'
       field_block_title:
         value: 'Guidance portals'
         format: basic_html
@@ -185,11 +185,11 @@ blocks:
         summary: ''
         format: basic_html
       field_block_image:
-        target_id: '7'
+        target_id: '32'
         alt: 'How do I?'
         title: ''
-        width: '301'
-        height: '140'
+        width: '389'
+        height: '260'
       field_block_title:
         value: 'How do I?'
         format: basic_html
