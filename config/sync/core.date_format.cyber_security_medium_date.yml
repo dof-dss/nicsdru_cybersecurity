@@ -1,0 +1,8 @@
+uuid: e3707283-8ff8-450a-95fc-52dc12383aaa
+langcode: en
+status: true
+dependencies: {  }
+id: cyber_security_medium_date
+label: 'Cyber Security Long Date'
+locked: false
+pattern: 'd F Y'
