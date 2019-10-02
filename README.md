@@ -26,11 +26,14 @@ For more information on the structure sync commands please visit https://www.dru
 
 
 ### Backup and Migrate
-A site backup has been included in the folder 'backups'. This can be imported into your site to allow you to view the 
-site progress.
+Database and public files directory backups have been included in the folder 'backups'. This can be imported into your 
+site to allow you to view the site progress.
 
-To restore this backup after installing the site and importing the config, navigate to Manage > Configuration > 
+To restore these backups after installing the site and importing the config, navigate to Manage > Configuration > 
 Development > Backup and Migrate.
 
-Click on the Restore tab, upload the .tar.gz under 'Upload a Backup File'. Choose Restore To Entire Site in the dropdown 
-options and then click Restore now.
+Click on the Restore tab, upload the .mysql.gz under 'Upload a Backup File'. Choose Restore To Default Drupal Database 
+in the dropdown options and then click Restore now.
+
+Then, upload the .tar.gz under 'Upload a Backup File'. Choose Restore To Public Files Directory in the dropdown options 
+and then click Restore now.
