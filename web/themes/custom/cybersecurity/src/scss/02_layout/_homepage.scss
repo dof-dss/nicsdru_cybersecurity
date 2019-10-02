@@ -1,3 +1,8 @@
+.ag_image,
+.news-image {
+  max-height: 140px;
+}
+
 .views-field-name {
   @apply tw-text-center tw-py-8;
 
@@ -5,3 +10,4 @@
     @apply tw-text-black;
   }
 }
+

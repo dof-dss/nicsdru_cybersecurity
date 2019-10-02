@@ -13730,6 +13730,11 @@ button {
   }
 }
 
+.ag_image,
+.news-image {
+  max-height: 140px;
+}
+
 .views-field-name {
   text-align: center;
   padding-top: 2rem;
@@ -13738,14 +13743,6 @@ button {
 
 .views-field-name a {
   color: #000;
-}
-
-.ag_image {
-  max-height: 140px;
-}
-
-.news-image {
-  max-height: 140px;
 }
 
 /**
