@@ -23,3 +23,14 @@ lando drush ea
 ```
 
 For more information on the structure sync commands please visit https://www.drupal.org/project/structure_sync
+
+
+### Backup and Migrate
+A site backup has been included in the folder 'backups'. This can be imported into your site to allow you to view the 
+site progress.
+
+To restore this backup after installing the site and importing the config, navigate to Manage > Configuration > 
+Development > Backup and Migrate.
+
+Click on the Restore tab, upload the .tar.gz under 'Upload a Backup File'. Choose Restore To Entire Site in the dropdown 
+options and then click Restore now.
