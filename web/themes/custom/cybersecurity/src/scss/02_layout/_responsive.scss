@@ -1,0 +1,22 @@
+.disappear {
+  @apply tw-invisible tw-h-0 tw-p-0 tw-m-0 tw-w-0;
+
+  &-md {
+    @screen md {
+      @apply disappear;
+    }
+  }
+}
+
+.menu-mob {
+  @apply tw-fixed tw-w-full tw-h-full tw-top-0 tw-left-0 tw-z-10 tw-opacity-0 tw-invisible;
+
+  &.open {
+    @apply tw-opacity-100 tw-visible;
+  }
+
+  @screen md {
+    @apply tw-relative tw-inset-auto tw-w-auto tw-h-auto tw-z-auto tw-opacity-100 tw-visible;
+  }
+}
+

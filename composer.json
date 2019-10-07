@@ -25,6 +25,7 @@
         "drupal/core": "^8.7.0",
         "drupal/facets": "^1.4",
         "drupal/facets_pretty_paths": "^1.0",
+        "drupal/fontawesome": "^2.14",
         "drupal/honeypot": "^1.29",
         "drupal/pathauto": "^1.4",
         "drupal/search_api": "^1.14",

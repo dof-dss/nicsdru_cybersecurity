@@ -43,6 +43,7 @@ module.exports = {
     },
     fontFamily: {
       'lato': ['Lato', 'sans-serif'],
+      'fontawesome': ['"Font Awesome 5 Free"'],
     },
     fontSize: {
       '0': '0',

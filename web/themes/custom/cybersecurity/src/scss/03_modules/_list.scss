@@ -41,11 +41,25 @@
     }
   }
 
-  &_white {
+  &_heading {
     a {
-      @apply tw-text-white;
+      @apply tw-text-heading;
     }
   }
+
+  &_white {
+     a {
+       @apply tw-text-white;
+     }
+
+     &-md {
+       @screen md {
+         a {
+           @apply tw-text-white;
+         }
+       }
+     }
+   }
 }
 
 

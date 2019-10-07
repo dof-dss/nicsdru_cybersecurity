@@ -30,7 +30,7 @@
   {% import _self as menus %}
   {% if items %}
     {% if menu_level == 0 %}
-      <ul{{ attributes.addClass('list_white tw-mt-16 menu_main tw-flex tw-justify-between') }}>
+      <ul{{ attributes.addClass('list_heading list_white-md tw-font-bold md-tw-font-normal md-tw-mt-16 menu_main tw-flex tw-flex-wrap md-tw-flex-no-wrap tw-justify-between') }}>
     {% else %}
         <div class="bg--white tw-absolute tw-inset-x-0 tw-z-10 menu_main--sub tw-w-screen tw-flex tw-invisible tw-mt-4">
           <div class="container container--header">
@@ -42,11 +42,12 @@
               <ul class="list list--bullet list--row">
     {% endif %}
     {% for item in items %}
-      <li{{ item.attributes.addClass('tw-static tw-flex tw-items-end') }}>
-        {{ link(item.title, item.url, { class: ['tw-text-center tw-p-2'] }) }}
+      <li{{ item.attributes.addClass('tw-text-base sm-tw-text-md md-tw-text-base tw-static tw-w-full md-tw-w-auto tw-flex tw-justify-between tw-content-center md-tw-items-end tw-border-b md-tw-border-0') }}>
+        {{ link(item.title, item.url, { class: ['md-tw-text-center tw-py-8 md-tw-p-2 tw-w-11/12 md-tw-w-full'] }) }}
         {% if item.below %}
           {{ menus.menu_links(item.below, attributes, menu_level + 1) }}
         {% endif %}
+        <span class="disappear-md md-tw-text-lg sm-tw-text-xl tw-flex tw-justify-end tw-content-center tw-pt-10 tw-pb-8 sm-tw-py-8 tw-w-1/12"><i class="fas fa-chevron-right"></i></span>
       </li>
     {% endfor %}
     </ul>

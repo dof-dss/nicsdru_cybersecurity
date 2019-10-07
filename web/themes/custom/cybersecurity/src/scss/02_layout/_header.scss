@@ -1,12 +1,30 @@
 .header-hero {
-  max-height: 5rem;
+  @screen md {
+    max-height: 5rem;
+  }
+
+  header {
+    @apply tw-mx-auto;
+    max-width: 500px;
+
+    @screen md {
+      @apply tw-mx-0;
+    }
+  }
 }
 
 .region_hero {
-  max-width: 375px;
+  @screen md {
+    max-width: 375px;
+  }
 
   .search-block-form {
-    height: 5rem;
+    @apply tw-w-full;
+    height: 4rem;
+
+    @screen md {
+      height: 5rem;
+    }
 
     form {
       @apply tw-flex tw-w-full tw-h-full;
@@ -23,6 +41,18 @@
     .form-submit {
       @apply tw-text-0 tw-h-full;
       width: 52px;
+    }
+  }
+
+  .burger-nav {
+    @apply tw-flex tw-flex-row tw-items-center tw-text-white tw-font-bold tw-mr-4 tw-justify-between;
+
+    @screen md {
+      @apply tw-invisible tw-w-0;
+    }
+
+    p {
+      @apply tw-px-4;
     }
   }
 }
