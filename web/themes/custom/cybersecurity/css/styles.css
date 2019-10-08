@@ -3849,6 +3849,10 @@ video {
   font-family: Lato, sans-serif;
 }
 
+.tw-font-fontawesome {
+  font-family: "Font Awesome 5 Free";
+}
+
 .tw-font-hairline {
   font-weight: 100;
 }
@@ -13691,16 +13695,40 @@ button {
   background-color: #e5e5ec;
 }
 
-.header-hero {
-  max-height: 5rem;
+@media (min-width: 765px) {
+  .header-hero {
+    max-height: 5rem;
+  }
 }
 
-.region_hero {
-  max-width: 375px;
+.header-hero header {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 500px;
+}
+
+@media (min-width: 765px) {
+  .header-hero header {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media (min-width: 765px) {
+  .region_hero {
+    max-width: 375px;
+  }
 }
 
 .region_hero .search-block-form {
-  height: 5rem;
+  width: 100%;
+  height: 4rem;
+}
+
+@media (min-width: 765px) {
+  .region_hero .search-block-form {
+    height: 5rem;
+  }
 }
 
 .region_hero .search-block-form form {
@@ -13724,6 +13752,28 @@ button {
   width: 52px;
 }
 
+.region_hero .burger-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #fff;
+  font-weight: 700;
+  margin-right: 1rem;
+  justify-content: space-between;
+}
+
+@media (min-width: 765px) {
+  .region_hero .burger-nav {
+    visibility: hidden;
+    width: 0;
+  }
+}
+
+.region_hero .burger-nav p {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
 @media (min-width: 640px) {
   .block--nicsc-highlight {
     max-width: 521px;
@@ -13743,6 +13793,55 @@ button {
 
 .views-field-name a {
   color: #000;
+}
+
+.disappear {
+  visibility: hidden;
+  height: 0;
+  padding: 0;
+  margin: 0;
+  width: 0;
+}
+
+@media (min-width: 765px) {
+  .disappear-md {
+    visibility: hidden;
+    height: 0;
+    padding: 0;
+    margin: 0;
+    width: 0;
+  }
+}
+
+.menu-mob {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.menu-mob.open {
+  opacity: 1;
+  visibility: visible;
+}
+
+@media (min-width: 765px) {
+  .menu-mob {
+    position: relative;
+    top: auto;
+    right: auto;
+    bottom: auto;
+    left: auto;
+    width: auto;
+    height: auto;
+    z-index: auto;
+    opacity: 1;
+    visibility: visible;
+  }
 }
 
 /**
@@ -13810,8 +13909,18 @@ button {
   display: block;
 }
 
+.list_heading a {
+  color: #010247;
+}
+
 .list_white a {
   color: #fff;
+}
+
+@media (min-width: 765px) {
+  .list_white-md a {
+    color: #fff;
+  }
 }
 
 .main-bg {
@@ -13831,16 +13940,13 @@ button {
   border-style: solid;
 }
 
-.region_hero .search-block-form .form-search {
+.region_hero .search-block-form form {
   border-width: 1px;
   border-color: #5787c7;
   border-style: solid;
 }
 
 .region_hero .search-block-form .form-submit {
-  border-width: 1px;
-  border-color: #5787c7;
-  border-style: solid;
   background-color: #5787c7;
   background-repeat: no-repeat;
   background-position: center;
@@ -13850,12 +13956,18 @@ button {
 
 .block--nicsc-highlight h2 {
   letter-spacing: -1px;
-  line-height: 2.3rem;
+  line-height: 3.3rem;
+}
+
+@media (min-width: 640px) {
+  .block--nicsc-highlight h2 {
+    line-height: 4rem;
+  }
 }
 
 .block--nicsc-highlight p {
   color: #000;
-  font-size: 2.4rem;
+  font-size: 2.1rem;
   font-weight: 700;
   margin-top: 2rem;
   margin-bottom: 2rem;
@@ -13864,11 +13976,13 @@ button {
   line-height: 3rem;
 }
 
+@media (min-width: 640px) {
+  .block--nicsc-highlight p {
+    font-size: 2.4rem;
+  }
+}
+
 .menu_cisp li {
-  padding-top: 0;
-  padding-bottom: 0;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
   line-height: 2.3rem;
 }
 
@@ -13887,6 +14001,16 @@ button {
 
 .menu_main--sub a {
   color: #010247;
+}
+
+.icon::before {
+  display: none;
+}
+
+.icon_menu::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 700;
+  content: "\F0C9";
 }
 
 @media (min-width: 440px) {
@@ -17134,6 +17258,10 @@ button {
 
   .xs-tw-font-lato {
     font-family: Lato, sans-serif;
+  }
+
+  .xs-tw-font-fontawesome {
+    font-family: "Font Awesome 5 Free";
   }
 
   .xs-tw-font-hairline {
@@ -30076,6 +30204,10 @@ button {
     font-family: Lato, sans-serif;
   }
 
+  .sm-tw-font-fontawesome {
+    font-family: "Font Awesome 5 Free";
+  }
+
   .sm-tw-font-hairline {
     font-weight: 100;
   }
@@ -43014,6 +43146,10 @@ button {
 
   .md-tw-font-lato {
     font-family: Lato, sans-serif;
+  }
+
+  .md-tw-font-fontawesome {
+    font-family: "Font Awesome 5 Free";
   }
 
   .md-tw-font-hairline {
@@ -55956,6 +56092,10 @@ button {
     font-family: Lato, sans-serif;
   }
 
+  .lg-tw-font-fontawesome {
+    font-family: "Font Awesome 5 Free";
+  }
+
   .lg-tw-font-hairline {
     font-weight: 100;
   }
@@ -68894,6 +69034,10 @@ button {
 
   .max-tw-font-lato {
     font-family: Lato, sans-serif;
+  }
+
+  .max-tw-font-fontawesome {
+    font-family: "Font Awesome 5 Free";
   }
 
   .max-tw-font-hairline {

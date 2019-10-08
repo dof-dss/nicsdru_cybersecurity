@@ -2,4 +2,12 @@ global-styling:
   css:
     base:
       css/styles.css: {}
+    theme:
+      'https://fonts.googleapis.com/css?family=Lato:400,700&display=swap': { type: external }
 
+global-js:
+  js:
+    js/scripts.js: {}
+  dependencies:
+    - core/jquery
+    - core/jquery.once

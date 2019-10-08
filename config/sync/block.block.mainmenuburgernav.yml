@@ -1,0 +1,25 @@
+uuid: f28b9700-2606-4b4e-82fb-fa109ab877e9
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:icon:38fa1bda-d607-4838-a31b-b2455fdd7b58'
+  module:
+    - block_content
+  theme:
+    - cybersecurity
+id: mainmenuburgernav
+theme: cybersecurity
+region: hero
+weight: 0
+provider: null
+plugin: 'block_content:38fa1bda-d607-4838-a31b-b2455fdd7b58'
+settings:
+  id: 'block_content:38fa1bda-d607-4838-a31b-b2455fdd7b58'
+  label: 'Main Menu Burger Nav'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

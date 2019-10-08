@@ -14,12 +14,15 @@
 
 .region_hero {
   .search-block-form {
-    .form-search {
+    form {
       @apply search-border;
+    }
+    .form-search {
+      //@apply search-border;
     }
 
     .form-submit {
-      @apply search-border tw-bg-light tw-bg-no-repeat tw-bg-center;
+      @apply tw-bg-light tw-bg-no-repeat tw-bg-center;
       background-image: url("../assets/icon_search.svg");
       content: "";
     }
@@ -29,18 +32,25 @@
 .block--nicsc-highlight {
   h2 {
     letter-spacing: -1px;
-    line-height: 2.3rem;
+    line-height: 3.3rem;
+
+    @screen sm {
+      line-height: 4rem;
+    }
   }
 
   p {
-    @apply tw-text-black tw-text-lg tw-font-bold tw-my-8 tw-mx-0;
+    @apply tw-text-black tw-text-md tw-font-bold tw-my-8 tw-mx-0;
     line-height: 3rem;
+
+    @screen sm {
+      @apply tw-text-lg;
+    }
   }
 }
 
 .menu_cisp {
   li {
-    @apply tw-py-0 tw-px-6;
     line-height: 2.3rem;
   }
 }

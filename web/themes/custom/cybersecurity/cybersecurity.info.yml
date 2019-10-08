@@ -5,6 +5,7 @@ type: theme
 base theme: stable
 libraries:
   - cybersecurity/global-styling
+  - cybersecurity/global-js
 
 # Information added by Drupal.org packaging script on 2019-06-18
 version: '8.x-0.1'
