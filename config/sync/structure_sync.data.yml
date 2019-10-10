@@ -232,7 +232,7 @@ menus:
     parent: null
     uri: 'entity:node/2'
     link_title: ''
-    description: 'Our quick start guides to help find  the right information for you.'
+    description: 'Our quick start guides to help find the right information for you.'
     enabled: '1'
     expanded: '0'
     weight: '-48'
@@ -430,3 +430,87 @@ menus:
     weight: '5'
     langcode: en
     uuid: a6a9c8e6-51c2-45a9-89bf-d5c423a46519
+  -
+    menu_name: footer
+    title: 'Ⓒ Crown Copyright'
+    parent: null
+    uri: 'internal:/node'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-49'
+    langcode: en
+    uuid: 73489bad-0b05-4739-9eb2-4a9ff74a85a0
+  -
+    menu_name: footer
+    title: 'Useful links'
+    parent: null
+    uri: 'internal:/node'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-48'
+    langcode: en
+    uuid: 84c50f97-ba98-4753-a5ec-7125475cb466
+  -
+    menu_name: footer
+    title: 'Terms and conditions'
+    parent: null
+    uri: 'internal:/node'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-47'
+    langcode: en
+    uuid: 6f2fc2bf-8ee1-460d-a659-66df685f9f8a
+  -
+    menu_name: footer
+    title: Cookies
+    parent: null
+    uri: 'internal:/node'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-46'
+    langcode: en
+    uuid: d3ee3277-df65-4d9b-8988-05e8979e3b35
+  -
+    menu_name: social
+    title: Facebook
+    parent: null
+    uri: 'http://www.facebook.com'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-50'
+    langcode: en
+    uuid: 692d001c-dbe1-4e91-b2e2-7928c2cdcc20
+  -
+    menu_name: social
+    title: Twitter
+    parent: null
+    uri: 'http://twitter.com'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-49'
+    langcode: en
+    uuid: 5ebaf4d6-e29d-459c-bc05-12b18d879751
+  -
+    menu_name: social
+    title: LinkedIn
+    parent: null
+    uri: 'http://linkedin.com'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-48'
+    langcode: en
+    uuid: be59643d-0fbb-4aed-a05f-4bf06c19e336

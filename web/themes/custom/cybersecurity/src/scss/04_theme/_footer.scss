@@ -1,0 +1,16 @@
+.footer {
+  h2 {
+    @apply tw-text-white tw-text-sm;
+  }
+
+  li {
+    @apply tw-pb-4 tw-font-bold;
+  }
+}
+
+.footer_first,
+.footer_second {
+  a {
+    @apply tw-text-white;
+  }
+}
