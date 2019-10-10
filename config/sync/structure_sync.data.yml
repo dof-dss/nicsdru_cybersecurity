@@ -197,6 +197,22 @@ blocks:
         uri: 'internal:/node/1'
         title: More
         options: {  }
+  -
+    info: 'Main Menu Burger Nav'
+    langcode: en
+    uuid: 38fa1bda-d607-4838-a31b-b2455fdd7b58
+    bundle: icon
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        value: "<p>Menu</p>\r\n"
+        summary: ''
+        format: basic_html
+      field_icon:
+        icon_name: bars
+        style: fas
+        settings: 'a:6:{s:4:"size";s:5:"fa-2x";s:11:"fixed-width";s:5:"fa-fw";s:6:"invert";s:10:"fa-inverse";s:7:"duotone";a:3:{s:12:"swap-opacity";i:0;s:7:"opacity";a:2:{s:7:"primary";s:0:"";s:9:"secondary";s:0:"";}s:5:"color";a:2:{s:7:"primary";s:7:"#000000";s:9:"secondary";s:7:"#000000";}}s:7:"masking";a:2:{s:4:"mask";s:0:"";s:5:"style";s:3:"fas";}s:16:"power_transforms";a:3:{s:5:"scale";a:2:{s:4:"type";s:0:"";s:5:"value";s:0:"";}s:10:"position_y";a:2:{s:4:"type";s:0:"";s:5:"value";s:0:"";}s:10:"position_x";a:2:{s:4:"type";s:0:"";s:5:"value";s:0:"";}}}'
 menus:
   -
     menu_name: main

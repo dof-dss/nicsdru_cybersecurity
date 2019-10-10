@@ -9,7 +9,7 @@
 }
 
 .menu-mob {
-  @apply tw-fixed tw-w-full tw-h-full tw-top-0 tw-left-0 tw-z-10 tw-opacity-0 tw-invisible;
+  @apply tw-fixed tw-w-full tw-h-screen inset-0 tw-z-10 tw-opacity-0 tw-invisible;
 
   &.open {
     @apply tw-opacity-100 tw-visible;
