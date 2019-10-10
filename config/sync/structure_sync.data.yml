@@ -197,14 +197,30 @@ blocks:
         uri: 'internal:/node/1'
         title: More
         options: {  }
+  -
+    info: 'Main Menu Burger Nav'
+    langcode: en
+    uuid: 38fa1bda-d607-4838-a31b-b2455fdd7b58
+    bundle: icon
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        value: "<p>Menu</p>\r\n"
+        summary: ''
+        format: basic_html
+      field_icon:
+        icon_name: bars
+        style: fas
+        settings: 'a:6:{s:4:"size";s:5:"fa-2x";s:11:"fixed-width";s:5:"fa-fw";s:6:"invert";s:10:"fa-inverse";s:7:"duotone";a:3:{s:12:"swap-opacity";i:0;s:7:"opacity";a:2:{s:7:"primary";s:0:"";s:9:"secondary";s:0:"";}s:5:"color";a:2:{s:7:"primary";s:7:"#000000";s:9:"secondary";s:7:"#000000";}}s:7:"masking";a:2:{s:4:"mask";s:0:"";s:5:"style";s:3:"fas";}s:16:"power_transforms";a:3:{s:5:"scale";a:2:{s:4:"type";s:0:"";s:5:"value";s:0:"";}s:10:"position_y";a:2:{s:4:"type";s:0:"";s:5:"value";s:0:"";}s:10:"position_x";a:2:{s:4:"type";s:0:"";s:5:"value";s:0:"";}}}'
 menus:
   -
     menu_name: main
     title: 'About NICSC'
     parent: null
     uri: 'entity:node/1'
-    link_title: null
-    description: null
+    link_title: ''
+    description: 'Northern Ireland''s independent authority on cyber security'
     enabled: '1'
     expanded: '0'
     weight: '-49'
@@ -215,8 +231,8 @@ menus:
     title: 'Information for...'
     parent: null
     uri: 'entity:node/2'
-    link_title: null
-    description: null
+    link_title: ''
+    description: 'Our quick start guides to help find  the right information for you.'
     enabled: '1'
     expanded: '0'
     weight: '-48'
@@ -342,3 +358,75 @@ menus:
     weight: '2'
     langcode: en
     uuid: 0f480276-279a-4e24-8e1b-04505666e162
+  -
+    menu_name: main
+    title: 'Individuals & families'
+    parent: 'menu_link_content:19c63d55-f941-4925-b7df-e0041dc673d0'
+    uri: 'entity:node/12'
+    link_title: null
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '0'
+    langcode: en
+    uuid: 0ca90ab6-1b0d-403d-b8bc-cc82c2bfce1c
+  -
+    menu_name: main
+    title: 'Self employed & sole traders'
+    parent: 'menu_link_content:19c63d55-f941-4925-b7df-e0041dc673d0'
+    uri: 'entity:node/16'
+    link_title: null
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '1'
+    langcode: en
+    uuid: c46a9af4-cde0-4529-a84f-d94c03203cba
+  -
+    menu_name: main
+    title: 'Small & medium sized organisations'
+    parent: 'menu_link_content:19c63d55-f941-4925-b7df-e0041dc673d0'
+    uri: 'entity:node/17'
+    link_title: null
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '2'
+    langcode: en
+    uuid: bfe5c968-101a-4922-894a-6e09e28410b2
+  -
+    menu_name: main
+    title: 'Large organisations'
+    parent: 'menu_link_content:19c63d55-f941-4925-b7df-e0041dc673d0'
+    uri: 'entity:node/18'
+    link_title: null
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '3'
+    langcode: en
+    uuid: 8cf34b07-4422-4561-96c9-7fec95590220
+  -
+    menu_name: main
+    title: 'Public sector'
+    parent: 'menu_link_content:19c63d55-f941-4925-b7df-e0041dc673d0'
+    uri: 'entity:node/19'
+    link_title: null
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '4'
+    langcode: en
+    uuid: 13dfa5d7-0c0c-4e21-b3a6-140009d19edf
+  -
+    menu_name: main
+    title: 'Cyber security professionals'
+    parent: 'menu_link_content:19c63d55-f941-4925-b7df-e0041dc673d0'
+    uri: 'entity:node/20'
+    link_title: null
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '5'
+    langcode: en
+    uuid: a6a9c8e6-51c2-45a9-89bf-d5c423a46519

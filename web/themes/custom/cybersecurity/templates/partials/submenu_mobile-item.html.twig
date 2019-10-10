@@ -1,0 +1,12 @@
+<span class="disappear-md tw-flex tw-justify-between tw-w-full">
+  {% if menu_level == 0 and item.title != 'Home' %}
+    <h3 class="tw-self-center tw-text-base sm-tw-text-md tw-text-heading">{{ item.title}}</h3>
+    <span class="disappear-md md-tw-p-0 md-tw-text-lg sm-tw-text-xl tw-flex tw-justify-end tw-content-center tw-text-heading tw-pt-10 tw-pb-8 sm-tw-py-8 tw-w-1/12">
+      <i class="fas fa-chevron-right"></i>
+    </span>
+  {% elseif menu_level == 0 and item.title == 'Home'%}
+    <h3 class="tw-self-center tw-text-base sm-tw-text-md">
+      <a href="{{ item.url }}" title="{{ item.original_link.pluginDefinition.description }}">{{ item.title }}</a>
+    </h3>
+  {% endif %}
+</span>
