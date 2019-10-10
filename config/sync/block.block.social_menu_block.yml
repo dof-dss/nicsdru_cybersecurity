@@ -1,0 +1,25 @@
+uuid: 1439f074-a290-4ec2-b72b-0c576d1a7e89
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.social
+  module:
+    - system
+  theme:
+    - cybersecurity
+id: social_menu_block
+theme: cybersecurity
+region: footer_third
+weight: 0
+provider: null
+plugin: 'system_menu_block:social'
+settings:
+  id: 'system_menu_block:social'
+  label: 'Follow us'
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 1
+  expand_all_items: false
+visibility: {  }

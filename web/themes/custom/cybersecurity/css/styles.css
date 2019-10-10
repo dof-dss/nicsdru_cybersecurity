@@ -14353,6 +14353,21 @@ button {
   color: #010247;
 }
 
+.footer h2 {
+  color: #fff;
+  font-size: 1.8rem;
+}
+
+.footer li {
+  padding-bottom: 1rem;
+  font-weight: 700;
+}
+
+.footer_first a,
+.footer_second a {
+  color: #fff;
+}
+
 .icon::before {
   display: none;
 }
