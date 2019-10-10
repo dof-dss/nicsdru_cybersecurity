@@ -31,7 +31,6 @@
         "drupal/search_api": "^1.14",
         "drupal/structure_sync": "^1.16",
         "drupal/svg_image": "^1.9",
-        "drupal/twig_tweak": "^2.4",
         "drupal/webform": "^5.4",
         "drush/drush": "^9.0.0",
         "vlucas/phpdotenv": "^2.4",
