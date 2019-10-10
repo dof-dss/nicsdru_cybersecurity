@@ -32,15 +32,7 @@
     {% if menu_level == 0 %}
       <ul{{ attributes.addClass('list_heading list_white-md tw-font-bold md-tw-font-normal md-tw-mt-16 menu_main tw-flex tw-flex-wrap md-tw-flex-no-wrap tw-justify-between') }}>
     {% else %}
-        <div class="tw-bg-white tw-absolute tw-inset-x-0 tw-z-10 menu_main--sub tw-w-screen tw-flex tw-mt-1 tw-pt-4 tw-pb-28 tw-invisible">
-          <div class="container tw-flex tw-w-full">
-            <div class="tw-w-1/3 tw-pr-6 tw-text-heading">
-              <h2 class="tw-mt-5 tw-mb-8">{{ this_title }}</h2>
-              <p class="tw-font-bold">{{ this_description }}</p>
-            </div>
-            <div class="tw-w-1/3">
-              <h3 class="tw-text-heading tw-mb-8 tw-text-lg">{{ 'In this section'|t }}</h3>
-              <ul class="list--bullet">
+        {% include '@cybersecurity/partials/submenu_wrapper.html.twig' %}
     {% endif %}
     {% for item in items %}
       <li{{ item.attributes.addClass(menu_level == 0 ? 'menu_main--item', menu_level != 0 ? 'menu_main--sub--item') }}>
@@ -49,14 +41,7 @@
         {% else %}
           {{ link(item.title, item.url) }}
         {% endif %}
-          <span class="disappear-md tw-flex tw-justify-between tw-w-full">
-          {% if menu_level == 0 and item.title != 'Home' %}
-            <h3 class="tw-self-center tw-text-base sm-tw-text-md tw-text-heading">{{ item.title}}</h3>
-            <span class="disappear-md md-tw-p-0 md-tw-text-lg sm-tw-text-xl tw-flex tw-justify-end tw-content-center tw-text-heading tw-pt-10 tw-pb-8 sm-tw-py-8 tw-w-1/12"><i class="fas fa-chevron-right"></i></span>
-          {% elseif menu_level == 0 and item.title == 'Home'%}
-            <h3 class="tw-self-center tw-text-base sm-tw-text-md"><a href="{{ item.url }}" title="{{ item.original_link.pluginDefinition.description }}">{{ item.title }}</a></h3>
-          {% endif %}
-          </span>
+        {% include '@cybersecurity/partials/submenu_mobile-item.html.twig' %}
         {% if item.below %}
           {{ menus.menu_links(item.below, attributes, menu_level + 1, item.title, item.original_link.pluginDefinition.description) }}
         {% endif %}
