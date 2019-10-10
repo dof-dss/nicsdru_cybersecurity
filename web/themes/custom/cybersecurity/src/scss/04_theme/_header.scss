@@ -63,10 +63,6 @@
       @apply tw-no-underline;
     }
 
-    &:hover .menu_main--sub .menu_main--sub--item {
-      @apply tw-visible;
-    }
-
     @screen sm {
       @apply tw-text-md;
     }

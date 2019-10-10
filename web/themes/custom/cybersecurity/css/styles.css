@@ -14297,10 +14297,6 @@ button {
   text-decoration: none;
 }
 
-.menu_main--item:hover .menu_main--sub .menu_main--sub--item {
-  visibility: visible;
-}
-
 @media (min-width: 640px) {
   .menu_main--item {
     font-size: 2.1rem;
