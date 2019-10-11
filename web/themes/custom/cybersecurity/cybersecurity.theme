@@ -34,10 +34,10 @@ function tailwindcss_get_active_theme() {
  * Changing the publication field label for Publication search page.
  */
 function cybersecurity_preprocess_field(&$variables) {
-  $ctypes = ['publication', 'news'];
-  foreach ($ctypes as $ctype) {
+  $content_types = ['publication', 'news'];
+  foreach ($content_types as $content_type) {
     // Check if the field label in the correct view mode and content type.
-    if ($variables['element']['#bundle'] == $ctype && $variables['element']['#view_mode'] == 'search_result_with_snippet') {
+    if ($variables['element']['#bundle'] == $content_type && $variables['element']['#view_mode'] == 'search_result_with_snippet') {
       $variables['label'] = t('Published') . ': ';
     }
   }
