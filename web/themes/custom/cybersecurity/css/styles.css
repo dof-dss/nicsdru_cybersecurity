@@ -13918,6 +13918,11 @@ h3 a {
   color: #010247;
 }
 
+p {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
 p,
 li {
   font-size: 1.6rem;
@@ -14357,6 +14362,7 @@ button {
 .footer h2 {
   color: #fff;
   font-size: 1.8rem;
+  line-height: 2.4rem;
 }
 
 .footer li {
@@ -14369,8 +14375,14 @@ button {
   color: #fff;
 }
 
-.menu_left li .is-active {
+.menu_left--item .is-active {
   border-bottom-width: 0;
+}
+
+.menu_left--sub a:before {
+  display: inline-block;
+  content: "-";
+  width: 1rem;
 }
 
 .icon::before {

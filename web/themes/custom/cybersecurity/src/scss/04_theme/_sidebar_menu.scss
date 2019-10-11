@@ -1,7 +1,21 @@
 .menu_left {
-  li {
+  &--item {
+    &.active {
+
+    }
+
     .is-active {
       @apply tw-border-b-0;
+    }
+  }
+
+  &--sub {
+    a {
+      &:before {
+        @apply tw-inline-block;
+        content: "-";
+        width: 1rem;
+      }
     }
   }
 }
