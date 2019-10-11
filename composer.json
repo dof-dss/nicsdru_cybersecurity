@@ -80,6 +80,11 @@
         "patchLevel": {
             "drupal/core": "-p2"
         },
+        "patches": {
+            "dof-dss/nicsdru_origins_modules": {
+                "Fix to prevent non node entities from executing presave function": "https://github.com/dof-dss/nicsdru_origins_modules/commit/d854c9231fa901b0076adbea8eb31068402cea92.patch"
+            }
+        },
         "installer-paths": {
             "web/core": [
                 "type:drupal-core"
