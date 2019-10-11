@@ -1,0 +1,29 @@
+uuid: 36135d37-8972-4ce3-813d-e5b826efa214
+langcode: en
+status: true
+dependencies:
+  config:
+    - facets.facet.news_date_facet
+  module:
+    - facets
+    - system
+  theme:
+    - cybersecurity
+id: newsdatefacet
+theme: cybersecurity
+region: sidebar_left
+weight: 0
+provider: null
+plugin: 'facet_block:news_date_facet'
+settings:
+  id: 'facet_block:news_date_facet'
+  label: 'Published date'
+  provider: facets
+  label_display: visible
+  block_id: newsdatefacet
+visibility:
+  request_path:
+    id: request_path
+    pages: "/news\r\n/news/date/*"
+    negate: false
+    context_mapping: {  }
