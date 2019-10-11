@@ -1,0 +1,7 @@
+.menu_left {
+  li {
+    .is-active {
+      @apply tw-border-b-0;
+    }
+  }
+}

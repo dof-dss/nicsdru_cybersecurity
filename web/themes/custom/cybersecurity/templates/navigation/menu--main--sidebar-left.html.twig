@@ -30,13 +30,27 @@
   {% import _self as menus %}
   {% if items %}
     {% if menu_level == 0 %}
-      <ul{{ attributes.addClass('tw-bg-sidebar') }}>
+      <ul{{ attributes.addClass('menu_left tw-pr-6') }}>
     {% else %}
       <ul>
     {% endif %}
     {% for item in items %}
-      <li{{ item.attributes }}>
-        {{ link(item.title, item.url) }}
+      {% if menu_level == 0 %}
+        {% if item.in_active_trail %}
+          <li{{ item.attributes.addClass('tw-bg-mid-heading tw-font-bold tw-border-l-4 tw-border-selected') }}>
+        {% else %}
+          <li{{ item.attributes.addClass('tw-bg-sidebar tw-px-2') }}>
+        {% endif %}
+      {% else %}
+        <li{{ item.attributes.addClass('tw-bg-heading tw-font-normal') }}>
+      {% endif %}
+
+      {% if loop.last %}
+        {{ link(item.title, item.url, { class: ['tw-text-white tw-px-4 tw-py-6 tw-block tw-w-full']}) }}
+      {% else %}
+        {{ link(item.title, item.url, { class: ['tw-text-white tw-px-4 tw-py-6 tw-block tw-w-full tw-border-b tw-border-separator']}) }}
+      {% endif %}
+
         {% if item.below %}
           {{ menus.menu_links(item.below, attributes, menu_level + 1) }}
         {% endif %}
