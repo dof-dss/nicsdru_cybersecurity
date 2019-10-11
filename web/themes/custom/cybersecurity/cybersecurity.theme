@@ -34,16 +34,21 @@ function tailwindcss_get_active_theme() {
  * Changing the publication field label for Publication search page.
  */
 function cybersecurity_preprocess_field(&$variables) {
-
-  // Check if the field label in the correct view mode and content type.
-  if ($variables['element']['#bundle'] == 'publication' && $variables['element']['#view_mode'] == 'search_result_with_snippet') {
-    $variables['label'] = t('Published') . ': ';
+  $ctypes = ['publication', 'news'];
+  foreach ($ctypes as $ctype) {
+    // Check if the field label in the correct view mode and content type.
+    if ($variables['element']['#bundle'] == $ctype && $variables['element']['#view_mode'] == 'search_result_with_snippet') {
+      $variables['label'] = t('Published') . ': ';
+    }
+  }
+  if ($variables['element']['#bundle'] == 'publication' && $variables['element']['#view_mode'] == 'full') {
+    $variables['label'] = t('Date') . ': ';
   }
 }
 
 /**
  * Implements hook_preprocess_views_view() for views_view.
- * Adding a singular/pluralised result count in the header of the search page.
+ * Adding a singular/pluralised result count in the header of the publication search page.
  *
  * @RenderElement("html_tag");
  */
