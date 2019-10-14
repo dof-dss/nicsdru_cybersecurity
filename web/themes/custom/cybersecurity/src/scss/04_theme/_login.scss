@@ -1,0 +1,21 @@
+.user-login-form {
+  .form-item {
+    @apply tw-mb-8;
+  }
+
+  label {
+    @apply tw-font-bold tw-block;
+  }
+
+  input {
+    @apply tw-border tw-border-text tw-block;
+  }
+
+  .description {
+    @apply tw-italic;
+  }
+
+  .button {
+    @apply tw-border-0 tw-p-4 tw-bg-gray-200 tw-rounded;
+  }
+}
