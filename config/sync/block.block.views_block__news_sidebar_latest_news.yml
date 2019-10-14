@@ -1,4 +1,4 @@
-uuid: d311bc0e-3479-4879-9667-ad9896af8315
+uuid: 5a3b3d50-1035-4366-a372-5e46ad61e78c
 langcode: en
 status: true
 dependencies:
@@ -9,14 +9,14 @@ dependencies:
     - views
   theme:
     - cybersecurity
-id: views_block__news_latest_news_block
+id: views_block__news_sidebar_latest_news
 theme: cybersecurity
 region: sidebar_right
 weight: 0
 provider: null
-plugin: 'views_block:news-latest_news_block'
+plugin: 'views_block:news-sidebar_latest_news'
 settings:
-  id: 'views_block:news-latest_news_block'
+  id: 'views_block:news-sidebar_latest_news'
   label: ''
   provider: views
   label_display: visible

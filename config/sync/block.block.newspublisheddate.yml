@@ -1,26 +1,26 @@
-uuid: 36135d37-8972-4ce3-813d-e5b826efa214
+uuid: 359b91ab-cd59-4a88-99d0-9f477f6f4b42
 langcode: en
 status: true
 dependencies:
   config:
-    - facets.facet.news_date_facet
+    - facets.facet.news_search_published_date
   module:
     - facets
     - system
   theme:
     - cybersecurity
-id: newsdatefacet
+id: newspublisheddate
 theme: cybersecurity
 region: sidebar_left
 weight: 0
 provider: null
-plugin: 'facet_block:news_date_facet'
+plugin: 'facet_block:news_search_published_date'
 settings:
-  id: 'facet_block:news_date_facet'
+  id: 'facet_block:news_search_published_date'
   label: 'Published date'
   provider: facets
   label_display: visible
-  block_id: newsdatefacet
+  block_id: newspublisheddate
 visibility:
   request_path:
     id: request_path
