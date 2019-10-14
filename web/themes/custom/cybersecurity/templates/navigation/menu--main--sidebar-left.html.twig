@@ -49,13 +49,6 @@
           {{ link(item.title, item.url, { class: ['tw-text-white tw-pl-16 tw-pr-4 tw-py-6 tw-block tw-w-full', loop.last ? '' : 'tw-border-b tw-border-separator']}) }}
       {% endif %}
 
-{#      {% if item.in_active_trail %}#}
-{#        <a href="{{ item.url }}" title="{{ item.original_link.pluginDefinition.description }}" class="tw-text-white tw-px-4 tw-py-6 tw-block tw-w-full {{ loop.last ? '' : 'tw-border-b tw-border-separator' }}">{{ item.title }}<i class="fas fa-caret-down tw-ml-4 tw-text-md"></i></a>#}
-{#      {% else %}#}
-{#        {{ link(item.title, item.url, { class: ['tw-text-white tw-px-4 tw-py-6 tw-block tw-w-full', loop.last ? '' : 'tw-border-b tw-border-separator']}) }}#}
-{#      {% endif %}#}
-
-
         {% if item.below %}
           {{ menus.menu_links(item.below, attributes, menu_level + 1) }}
         {% endif %}
