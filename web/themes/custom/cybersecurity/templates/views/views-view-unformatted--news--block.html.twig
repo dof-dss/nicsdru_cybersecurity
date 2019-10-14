@@ -21,12 +21,12 @@
 {% for row in rows %}
   {%
     set row_classes = [
-      default_row_class ? 'views-row',
-      'xs-tw-flex',
-      'xs-tw-flex-row-reverse',
-      'md-tw-block',
-      'md-tw-flex-1',
-    ]
+    default_row_class ? 'views-row',
+    'xs-tw-flex',
+    'xs-tw-flex-row-reverse',
+    'md-tw-block',
+    'md-tw-flex-1',
+  ]
   %}
   <div{{ row.attributes.addClass(row_classes) }}>
     {{- row.content -}}

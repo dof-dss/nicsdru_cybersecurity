@@ -14375,8 +14375,16 @@ button {
   color: #fff;
 }
 
-.menu_left--item .is-active {
-  border-bottom-width: 0;
+.page-content ul {
+  margin-left: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.page-content li {
+  list-style-type: disc;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .menu_left--sub a:before {

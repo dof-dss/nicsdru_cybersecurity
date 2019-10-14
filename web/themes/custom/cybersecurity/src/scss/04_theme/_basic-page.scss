@@ -1,0 +1,8 @@
+.page-content {
+  ul {
+    @apply tw-ml-8 tw-my-8;
+  }
+  li {
+    @apply tw-list-disc tw-py-2;
+  }
+}

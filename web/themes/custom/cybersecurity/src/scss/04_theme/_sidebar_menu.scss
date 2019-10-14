@@ -1,14 +1,4 @@
 .menu_left {
-  &--item {
-    &.active {
-
-    }
-
-    .is-active {
-      @apply tw-border-b-0;
-    }
-  }
-
   &--sub {
     a {
       &:before {
