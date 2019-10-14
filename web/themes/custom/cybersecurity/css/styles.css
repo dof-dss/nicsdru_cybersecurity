@@ -13882,7 +13882,6 @@ h1 {
   color: #010247;
   font-size: 3.6rem;
   font-weight: 700;
-  margin-top: 2.5rem;
   margin-bottom: 2.5rem;
   margin-left: 0;
   margin-right: 0;
@@ -13917,6 +13916,11 @@ h1 a,
 h2 a,
 h3 a {
   color: #010247;
+}
+
+p {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 p,
@@ -14293,7 +14297,8 @@ button {
   flex: 1 1 auto;
 }
 
-.menu_main--item a:hover {
+.menu_main--item a:hover,
+.menu_main--item a:focus {
   text-decoration: none;
 }
 
@@ -14325,7 +14330,8 @@ button {
     transition: all 0.1s ease;
   }
 
-  .menu_main--item:hover .menu_main--sub {
+  .menu_main--item:hover .menu_main--sub,
+  .menu_main--item:focus .menu_main--sub {
     visibility: visible;
     transition: all 0.1s ease;
   }
@@ -14356,6 +14362,7 @@ button {
 .footer h2 {
   color: #fff;
   font-size: 1.8rem;
+  line-height: 2.4rem;
 }
 
 .footer li {
@@ -14366,6 +14373,24 @@ button {
 .footer_first a,
 .footer_second a {
   color: #fff;
+}
+
+.page-content ul {
+  margin-left: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.page-content li {
+  list-style-type: disc;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.menu_left--sub a:before {
+  display: inline-block;
+  content: "-";
+  width: 1rem;
 }
 
 .icon::before {
