@@ -29,8 +29,6 @@ permissions:
   - 'create news content'
   - 'create profile content'
   - 'create publication content'
-  - 'delete own news content'
-  - 'delete own publication content'
   - 'download any audio files'
   - 'download any document files'
   - 'download any image files'

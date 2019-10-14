@@ -1,4 +1,4 @@
-uuid: 3f5cb885-b5c8-4630-98a3-72dc3ca9e715
+uuid: 599400f0-34fc-4429-83b1-7f1dccd2b5bd
 langcode: en
 status: true
 dependencies:
@@ -6,23 +6,19 @@ dependencies:
     - search_api.index.news_index
     - views.view.news
   module:
-    - facets_pretty_paths
     - search_api
-third_party_settings:
-  facets_pretty_paths:
-    coder: default_coder
-id: news_date_facet
-name: 'News date facet'
-url_alias: date
+id: published_date
+name: 'Published date'
+url_alias: published_date
 weight: 0
 min_count: 1
 show_only_one_result: false
 field_identifier: field_published_date
-facet_source_id: 'search_api:views_page__news__news_search_api'
+facet_source_id: 'search_api:views_page__news__page_1'
 widget:
   type: links
   config:
-    show_numbers: false
+    show_numbers: true
     soft_limit: 0
     soft_limit_settings:
       show_less_label: 'Show less'
@@ -50,14 +46,6 @@ processor_configs:
       sort: 30
     settings:
       sort: DESC
-  date_item:
-    processor_id: date_item
-    weights:
-      build: 35
-    settings:
-      date_display: actual_date
-      granularity: 6
-      date_format: ''
   display_value_widget_order:
     processor_id: display_value_widget_order
     weights:

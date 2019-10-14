@@ -10,7 +10,7 @@ dependencies:
 id: inpagenavigationblock
 theme: cybersecurity
 region: sidebar_left
-weight: -6
+weight: -4
 provider: null
 plugin: in_page_navigation_block
 settings:
