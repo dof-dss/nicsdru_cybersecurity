@@ -1,1 +1,1 @@
-$(function(){$(".burger-nav").on("click",function(){if(!$(".menu-mob").hasClass("open")){$(".menu-mob").addClass("open")}})});$(function(){$(".menu-close").on("click",function(){if($(".menu-mob").hasClass("open")){$(".menu-mob").removeClass("open")}})});
+(function(n){n(".burger-nav").on("click",function(){if(!n(".menu-mob").hasClass("open")){n(".menu-mob").addClass("open")}});n(".menu-close").on("click",function(){if(n(".menu-mob").hasClass("open")){n(".menu-mob").removeClass("open")}})})(jQuery);

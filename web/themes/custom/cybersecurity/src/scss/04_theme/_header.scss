@@ -59,7 +59,8 @@
   &--item {
     @apply tw-text-base tw-static tw-w-full tw-flex tw-justify-between tw-content-center tw-border-b tw-flex-auto;
 
-    a:hover {
+    a:hover,
+    a:focus {
       @apply tw-no-underline;
     }
 
@@ -81,7 +82,8 @@
         transition: all 0.1s ease;
       }
 
-      &:hover .menu_main--sub {
+      &:hover .menu_main--sub,
+      &:focus .menu_main--sub {
         @apply tw-visible;
         transition: all 0.1s ease;
       }

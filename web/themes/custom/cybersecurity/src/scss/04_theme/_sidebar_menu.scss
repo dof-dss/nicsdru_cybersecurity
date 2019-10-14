@@ -1,0 +1,11 @@
+.menu_left {
+  &--sub {
+    a {
+      &:before {
+        @apply tw-inline-block;
+        content: "-";
+        width: 1rem;
+      }
+    }
+  }
+}
