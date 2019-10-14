@@ -1,6 +1,6 @@
 uuid: 0bf29fc3-5b7a-4561-8f0b-65db14a2f044
 langcode: en
-status: false
+status: true
 dependencies:
   config:
     - field.storage.node.body
@@ -42,7 +42,7 @@ display:
       exposed_form:
         type: basic
         options:
-          submit_button: Apply
+          submit_button: Search
           reset_button: false
           reset_button_label: Reset
           exposed_sorts_label: 'Sort by'
@@ -625,9 +625,9 @@ display:
         - 'config:field.storage.node.body'
         - 'config:field.storage.node.field_photo'
         - 'config:field.storage.node.field_published_date'
-  page_1:
+  news_search_api:
     display_plugin: page
-    id: page_1
+    id: news_search_api
     display_title: Page
     position: 1
     display_options:
@@ -637,12 +637,237 @@ display:
         type: none
       defaults:
         cache: false
+        style: false
+        row: false
+        pager: false
+        filters: false
+        filter_groups: false
+        sorts: false
+        empty: false
+        header: false
+      style:
+        type: default
+        options:
+          grouping: {  }
+          row_class: ''
+          default_row_class: false
+      row:
+        type: search_api
+        options:
+          view_modes:
+            'entity:node':
+              news: search_result_with_snippet
+      pager:
+        type: full
+        options:
+          items_per_page: 20
+          offset: 0
+          id: 0
+          total_pages: null
+          tags:
+            previous: ‹‹
+            next: ››
+            first: '« First'
+            last: 'Last »'
+          expose:
+            items_per_page: false
+            items_per_page_label: 'Items per page'
+            items_per_page_options: '5, 10, 25, 50'
+            items_per_page_options_all: false
+            items_per_page_options_all_label: '- All -'
+            offset: false
+            offset_label: Offset
+          quantity: 9
+      exposed_block: true
+      filters:
+        search_api_fulltext:
+          id: search_api_fulltext
+          table: search_api_index_news_index
+          field: search_api_fulltext
+          relationship: none
+          group_type: group
+          admin_label: ''
+          operator: or
+          value: ''
+          group: 1
+          exposed: true
+          expose:
+            operator_id: search_api_fulltext_op
+            label: 'Enter keywords'
+            description: 'Search news and choose filters to show only the results you want'
+            use_operator: false
+            operator: search_api_fulltext_op
+            identifier: search_api_fulltext
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+              anonymous: '0'
+              administrator: '0'
+              author_user: '0'
+              supervisor_user: '0'
+              editor_user: '0'
+              admin_user: '0'
+            placeholder: ''
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
+          parse_mode: terms
+          min_length: 2
+          fields: {  }
+          plugin_id: search_api_fulltext
+      filter_groups:
+        operator: AND
+        groups:
+          1: AND
+      sorts:
+        search_api_relevance:
+          id: search_api_relevance
+          table: search_api_index_news_index
+          field: search_api_relevance
+          relationship: none
+          group_type: group
+          admin_label: ''
+          order: ASC
+          exposed: false
+          expose:
+            label: ''
+          plugin_id: search_api
+        field_published_date:
+          id: field_published_date
+          table: search_api_index_news_index
+          field: field_published_date
+          relationship: none
+          group_type: group
+          admin_label: ''
+          order: DESC
+          exposed: false
+          expose:
+            label: ''
+          plugin_id: search_api
+      empty:
+        area:
+          id: area
+          table: views
+          field: area
+          relationship: none
+          group_type: group
+          admin_label: ''
+          empty: true
+          tokenize: false
+          content:
+            value: 'Sorry, there is no news to view at this time.'
+            format: basic_html
+          plugin_id: text
+      header:
+        result:
+          id: result
+          table: views
+          field: result
+          relationship: none
+          group_type: group
+          admin_label: ''
+          empty: false
+          content: '<h3>@total news</h3>'
+          plugin_id: result
     cache_metadata:
       max-age: -1
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
+        - url
         - url.query_args
+      tags:
+        - 'config:field.storage.node.body'
+        - 'config:field.storage.node.field_photo'
+        - 'config:field.storage.node.field_published_date'
+  sidebar_latest_news:
+    display_plugin: block
+    id: sidebar_latest_news
+    display_title: 'Sidebar latest news'
+    position: 3
+    display_options:
+      display_extenders: {  }
+      display_description: ''
+      style:
+        type: html_list
+        options:
+          grouping: {  }
+          row_class: ''
+          default_row_class: false
+          type: ul
+          wrapper_class: item-list
+          class: ''
+      defaults:
+        style: false
+        row: false
+        pager: false
+        use_more: false
+        use_more_always: false
+        use_more_text: false
+        exposed_form: false
+        filters: false
+        filter_groups: false
+        sorts: false
+        title: false
+      row:
+        type: search_api
+        options:
+          view_modes:
+            'entity:node':
+              news: sidebar_search_result
+      pager:
+        type: some
+        options:
+          items_per_page: 4
+          offset: 0
+      use_more: true
+      use_more_always: false
+      use_more_text: 'More news...'
+      exposed_form:
+        type: basic
+        options:
+          submit_button: Search
+          reset_button: false
+          reset_button_label: Reset
+          exposed_sorts_label: 'Sort by'
+          expose_sort_order: true
+          sort_asc_label: Asc
+          sort_desc_label: Desc
+      filters: {  }
+      filter_groups:
+        operator: AND
+        groups:
+          1: AND
+      sorts:
+        field_published_date:
+          id: field_published_date
+          table: search_api_index_news_index
+          field: field_published_date
+          relationship: none
+          group_type: group
+          admin_label: ''
+          order: DESC
+          exposed: false
+          expose:
+            label: ''
+          plugin_id: search_api
+      title: 'Latest News'
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
       tags:
         - 'config:field.storage.node.body'
         - 'config:field.storage.node.field_photo'

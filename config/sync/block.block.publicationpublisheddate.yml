@@ -1,29 +1,29 @@
-uuid: 8d4798a8-4936-4aae-a0d1-acc6f7a2bcae
+uuid: 4867693d-1aaa-4c03-85f2-d433eaaef582
 langcode: en
 status: true
 dependencies:
   config:
-    - facets.facet.publication_search_date
+    - facets.facet.publication_search_published_date
   module:
     - facets
     - system
   theme:
     - cybersecurity
-id: date
+id: publicationpublisheddate
 theme: cybersecurity
 region: sidebar_left
-weight: -7
+weight: 0
 provider: null
-plugin: 'facet_block:publication_search_date'
+plugin: 'facet_block:publication_search_published_date'
 settings:
-  id: 'facet_block:publication_search_date'
+  id: 'facet_block:publication_search_published_date'
   label: Date
   provider: facets
   label_display: visible
-  block_id: date
+  block_id: publicationpublisheddate
 visibility:
   request_path:
     id: request_path
-    pages: /publications
+    pages: "/publications\r\n/publications/date/*"
     negate: false
     context_mapping: {  }

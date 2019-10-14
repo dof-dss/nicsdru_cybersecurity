@@ -1,9 +1,9 @@
-uuid: 9758f67c-0f02-4faa-a2b2-e2540f96ac44
+uuid: f4c94d83-bd87-4304-98ba-c9bee560552f
 langcode: en
 status: true
 dependencies: {  }
-id: search_api__views_page__news__page_1
-name: 'search_api:views_page__news__page_1'
+id: search_api__views_page__news__news_search_api
+name: 'search_api:views_page__news__news_search_api'
 filter_key: ''
 url_processor: facets_pretty_paths
 breadcrumb:

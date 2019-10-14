@@ -1,22 +1,22 @@
-uuid: 253b1ef0-2377-42f9-8b50-c64e499bd884
+uuid: c20a1fcb-d573-43b1-9f38-330e9addbc61
 langcode: en
 status: true
 dependencies:
   config:
-    - views.view.publication_search_api
+    - views.view.news
   module:
     - system
     - views
   theme:
     - cybersecurity
-id: exposedformpublication_search_api
+id: exposedformnewsnews_search_api
 theme: cybersecurity
 region: sidebar_left
-weight: -9
+weight: -10
 provider: null
-plugin: 'views_exposed_filter_block:publication_search_api-publication_search_api'
+plugin: 'views_exposed_filter_block:news-news_search_api'
 settings:
-  id: 'views_exposed_filter_block:publication_search_api-publication_search_api'
+  id: 'views_exposed_filter_block:news-news_search_api'
   label: ''
   provider: views
   label_display: visible
@@ -24,6 +24,6 @@ settings:
 visibility:
   request_path:
     id: request_path
-    pages: "/publications\r\n/publications/date/*"
+    pages: "/news\r\n/news/date/*"
     negate: false
     context_mapping: {  }

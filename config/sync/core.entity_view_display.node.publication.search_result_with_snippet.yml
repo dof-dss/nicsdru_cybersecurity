@@ -28,7 +28,7 @@ content:
     label: inline
     settings:
       timezone_override: ''
-      format_type: cyber_security_medium
+      format_type: cyber_security_medium_date
     third_party_settings: {  }
     type: datetime_default
     region: content

@@ -13,7 +13,7 @@ dependencies:
 id: mainnavigation_sidebar
 theme: cybersecurity
 region: sidebar_left
-weight: -6
+weight: -8
 provider: null
 plugin: 'system_menu_block:main'
 settings:

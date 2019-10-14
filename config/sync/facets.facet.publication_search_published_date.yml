@@ -1,4 +1,4 @@
-uuid: fc5e84f4-c217-43e7-923d-50ec3abf3453
+uuid: 96f93a72-b119-470d-9229-13bb931ad5e8
 langcode: en
 status: true
 dependencies:
@@ -6,9 +6,13 @@ dependencies:
     - search_api.index.publication_index
     - views.view.publication_search_api
   module:
+    - facets_pretty_paths
     - search_api
-id: publication_search_date
-name: Date
+third_party_settings:
+  facets_pretty_paths:
+    coder: default_coder
+id: publication_search_published_date
+name: 'Publication Published date'
 url_alias: date
 weight: 0
 min_count: 1
