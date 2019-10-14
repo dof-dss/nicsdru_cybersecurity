@@ -1,4 +1,4 @@
-uuid: 8d4798a8-4936-4aae-a0d1-acc6f7a2bcae
+uuid: ac71ba2c-9ee7-4bba-aa88-37887f9068b8
 langcode: en
 status: true
 dependencies:
@@ -9,10 +9,10 @@ dependencies:
     - system
   theme:
     - cybersecurity
-id: date
+id: publicationdatefacet
 theme: cybersecurity
 region: sidebar_left
-weight: -7
+weight: 0
 provider: null
 plugin: 'facet_block:publication_search_date'
 settings:
@@ -20,10 +20,10 @@ settings:
   label: Date
   provider: facets
   label_display: visible
-  block_id: date
+  block_id: publicationdatefacet
 visibility:
   request_path:
     id: request_path
-    pages: /publications
+    pages: "/publications\r\n/publications/*"
     negate: false
     context_mapping: {  }
