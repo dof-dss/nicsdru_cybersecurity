@@ -103,3 +103,14 @@ function cybersecurity_theme_suggestions_menu_alter(&$suggestions, array $variab
     $suggestions[] = 'menu__' . $variables['menu_name'] . '__' . $variables['attributes']['region'];
   }
 }
+
+/**
+ * Implements hook_theme_suggestions_page_alter().
+ *
+ * Provide content type based page suggestions.
+ */
+function cybersecurity_theme_suggestions_page_alter(array &$suggestions, array $variables) {
+  if ($node = \Drupal::routeMatch()->getParameter('node')) {
+    $suggestions[] = 'page__'.$node->bundle();
+  }
+}
