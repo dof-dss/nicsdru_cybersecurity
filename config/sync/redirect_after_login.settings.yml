@@ -1,0 +1,9 @@
+login_redirection:
+  anonymous: null
+  authenticated: /
+  administrator: /
+  author_user: /admin/workflow/drafts
+  supervisor_user: /admin/workflow/needs-review
+  editor_user: /admin/workflow/drafts
+  admin_user: /
+exclude_urls: ''

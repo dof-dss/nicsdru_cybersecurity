@@ -5,7 +5,7 @@ dependencies:
   config:
     - views.view.news
   module:
-    - system
+    - node
     - views
   theme:
     - cybersecurity
@@ -23,8 +23,10 @@ settings:
   views_label: ''
   items_per_page: none
 visibility:
-  request_path:
-    id: request_path
-    pages: '/news-centre/*'
+  node_type:
+    id: node_type
+    bundles:
+      news: news
     negate: false
-    context_mapping: {  }
+    context_mapping:
+      node: '@node.node_route_context:node'
