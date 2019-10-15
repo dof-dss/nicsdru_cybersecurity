@@ -28,6 +28,7 @@
         "drupal/fontawesome": "^2.14",
         "drupal/honeypot": "^1.29",
         "drupal/pathauto": "^1.4",
+        "drupal/redirect_after_login": "^2.5",
         "drupal/search_api": "^1.14",
         "drupal/structure_sync": "^1.16",
         "drupal/svg_image": "^1.9",
