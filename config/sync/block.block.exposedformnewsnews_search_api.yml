@@ -19,7 +19,7 @@ settings:
   id: 'views_exposed_filter_block:news-news_search_api'
   label: ''
   provider: views
-  label_display: visible
+  label_display: '0'
   views_label: ''
 visibility:
   request_path:

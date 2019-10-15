@@ -778,7 +778,7 @@ display:
           group_type: group
           admin_label: ''
           empty: false
-          content: '<h3>@total news</h3>'
+          content: '<h2>@total news</h2>'
           plugin_id: result
     cache_metadata:
       max-age: -1
