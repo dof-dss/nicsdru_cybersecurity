@@ -38,6 +38,11 @@ settings:
             - BulletedList
             - NumberedList
         -
+          name: Embed
+          items:
+            - media_entity_embed
+            - node
+        -
           name: Media
           items:
             - Undo
