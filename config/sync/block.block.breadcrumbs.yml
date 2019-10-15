@@ -3,8 +3,6 @@ langcode: en
 status: true
 dependencies:
   module:
-    - ctools
-    - node
     - system
   theme:
     - cybersecurity
@@ -20,17 +18,8 @@ settings:
   provider: system
   label_display: '0'
 visibility:
-  'entity_bundle:node':
-    id: 'entity_bundle:node'
-    bundles:
-      basic_page: basic_page
-    negate: false
-    context_mapping:
-      node: '@node.node_route_context:node'
-  node_type:
-    id: node_type
-    bundles:
-      basic_page: basic_page
-    negate: false
-    context_mapping:
-      node: '@node.node_route_context:node'
+  request_path:
+    id: request_path
+    pages: "/news\r\n/publications"
+    negate: true
+    context_mapping: {  }
