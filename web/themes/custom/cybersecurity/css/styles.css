@@ -14393,6 +14393,32 @@ button {
   width: 1rem;
 }
 
+.user-login-form .form-item {
+  margin-bottom: 2rem;
+}
+
+.user-login-form label {
+  font-weight: 700;
+  display: block;
+}
+
+.user-login-form input {
+  border-width: 1px;
+  border-color: #333;
+  display: block;
+}
+
+.user-login-form .description {
+  font-style: italic;
+}
+
+.user-login-form .button {
+  border-width: 0;
+  padding: 1rem;
+  background-color: #edf2f7;
+  border-radius: 0.25rem;
+}
+
 .icon::before {
   display: none;
 }
