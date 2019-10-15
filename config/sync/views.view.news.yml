@@ -632,7 +632,7 @@ display:
     position: 1
     display_options:
       display_extenders: {  }
-      path: news-centre
+      path: news
       cache:
         type: none
       defaults:
