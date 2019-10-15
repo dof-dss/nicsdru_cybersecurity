@@ -1,0 +1,15 @@
+uuid: a91dac91-e7af-447e-b91a-b34398793104
+langcode: en
+status: true
+dependencies: {  }
+name: sidebar_portrait_
+label: 'sidebar (portrait)'
+effects:
+  8c56c946-7e86-4fcf-8af9-c34042c207f0:
+    uuid: 8c56c946-7e86-4fcf-8af9-c34042c207f0
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 260
+      height: 320
+      anchor: center-center

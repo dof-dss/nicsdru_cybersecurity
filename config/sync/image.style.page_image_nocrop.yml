@@ -1,0 +1,15 @@
+uuid: 48c7dd70-59b3-498b-b18b-4c58dc78040e
+langcode: en
+status: true
+dependencies: {  }
+name: page_image_nocrop
+label: 'page image nocrop'
+effects:
+  5169907d-5bad-4b97-ad90-7c20969b4d57:
+    uuid: 5169907d-5bad-4b97-ad90-7c20969b4d57
+    id: image_scale
+    weight: 1
+    data:
+      width: 325
+      height: 215
+      upscale: false

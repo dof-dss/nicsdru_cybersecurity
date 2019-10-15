@@ -1,0 +1,15 @@
+uuid: 27d878c6-01f3-4d7c-a2e3-c71854758288
+langcode: en
+status: true
+dependencies: {  }
+name: home_widget
+label: 'Home Widget'
+effects:
+  e5299e35-d720-423e-93ec-3d763e989594:
+    uuid: e5299e35-d720-423e-93ec-3d763e989594
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 640
+      height: 260
+      anchor: center-center

@@ -1,0 +1,15 @@
+uuid: 7e2f1987-f53a-4d44-a382-ce3b91f20794
+langcode: en
+status: true
+dependencies: {  }
+name: inline_x2_
+label: 'Inline (x2)'
+effects:
+  2a354159-bf13-429a-b623-8a0d11a99431:
+    uuid: 2a354159-bf13-429a-b623-8a0d11a99431
+    id: image_scale
+    weight: 1
+    data:
+      width: 600
+      height: null
+      upscale: true

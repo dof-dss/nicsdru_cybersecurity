@@ -1,0 +1,15 @@
+uuid: f1149c31-ffee-4b1b-a187-717249bd7410
+langcode: en
+status: true
+dependencies: {  }
+name: page_image_retina_landscape_
+label: 'page image retina (landscape)'
+effects:
+  49b22b82-a93a-48a7-a94a-9ebcaf5b162f:
+    uuid: 49b22b82-a93a-48a7-a94a-9ebcaf5b162f
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 504
+      height: 336
+      anchor: center-center

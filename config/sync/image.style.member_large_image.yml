@@ -1,0 +1,15 @@
+uuid: f01db1bc-b398-4aa2-a5d3-fc9a8d5ae559
+langcode: en
+status: true
+dependencies: {  }
+name: member_large_image
+label: 'Member large image'
+effects:
+  a9f42e56-dd97-42d4-a327-abbdca974dd6:
+    uuid: a9f42e56-dd97-42d4-a327-abbdca974dd6
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 260
+      height: 320
+      anchor: center-center

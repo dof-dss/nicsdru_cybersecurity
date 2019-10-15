@@ -1,0 +1,15 @@
+uuid: c08dbe4c-716b-4753-b6a8-09119106634c
+langcode: en
+status: true
+dependencies: {  }
+name: inline_expandable
+label: 'Inline expandable'
+effects:
+  4f4682f9-7050-413e-b100-8a1107c80269:
+    uuid: 4f4682f9-7050-413e-b100-8a1107c80269
+    id: image_scale
+    weight: 1
+    data:
+      width: 670
+      height: null
+      upscale: true

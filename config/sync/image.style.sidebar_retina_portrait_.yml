@@ -1,0 +1,15 @@
+uuid: f77ab0dd-0a86-47fc-a991-f56af59d51ad
+langcode: en
+status: true
+dependencies: {  }
+name: sidebar_retina_portrait_
+label: 'sidebar retina (portrait)'
+effects:
+  fc9be614-85f3-4bd2-8613-2f93b1f0f2a7:
+    uuid: fc9be614-85f3-4bd2-8613-2f93b1f0f2a7
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 440
+      height: 540
+      anchor: center-center
