@@ -17,4 +17,12 @@
       @apply tw-text-white;
     }
   }
+
+  &--heading {
+    @apply tw-bg-heading tw-text-white;
+
+    a {
+      @apply tw-text-white;
+    }
+  }
 }

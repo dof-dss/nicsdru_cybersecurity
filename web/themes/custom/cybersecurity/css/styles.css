@@ -14172,6 +14172,15 @@ button {
   color: #fff;
 }
 
+.btn--heading {
+  background-color: #010247;
+  color: #fff;
+}
+
+.btn--heading a {
+  color: #fff;
+}
+
 /**
  * List styles
  */
@@ -14401,6 +14410,37 @@ button {
   display: inline-block;
   content: "-";
   width: 1rem;
+}
+
+.block_search .form-item-search-api-fulltext label {
+  font-weight: 700;
+}
+
+.block_search .form-item-search-api-fulltext input {
+  max-width: 100%;
+  border-width: 1px;
+  border-color: #718096;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.block_search .form-actions input {
+  border-radius: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: #010247;
+  color: #fff;
+  padding: 0.5rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-top: 2rem;
+  width: 10rem;
+}
+
+.facets-widget-links {
+  padding: 1rem;
 }
 
 .user-login-form .form-item {
