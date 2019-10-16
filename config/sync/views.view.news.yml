@@ -425,7 +425,7 @@ display:
           type: image
           settings:
             image_style: ''
-            image_link: ''
+            image_link: content
             svg_render_as_image: 1
             svg_attributes:
               width: ''
@@ -548,7 +548,7 @@ display:
             suffix: ''
             target: ''
             nl2br: false
-            max_length: 0
+            max_length: 100
             word_boundary: true
             ellipsis: true
             more_link: false
@@ -571,8 +571,9 @@ display:
           empty_zero: false
           hide_alter_empty: true
           click_sort_column: value
-          type: text_default
-          settings: {  }
+          type: text_summary_or_trimmed
+          settings:
+            trim_length: 100
           group_column: value
           group_columns: {  }
           group_rows: true
