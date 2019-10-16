@@ -39,8 +39,7 @@ settings:
         -
           name: Embed
           items:
-            - media_entity_embed
-            - node
+            - image_embed
         -
           name: Media
           items:
