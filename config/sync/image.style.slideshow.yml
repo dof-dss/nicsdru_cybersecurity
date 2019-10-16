@@ -1,0 +1,15 @@
+uuid: 7ce2a81c-f4b8-4791-9a22-dd10b69231f8
+langcode: en
+status: true
+dependencies: {  }
+name: slideshow
+label: Slideshow
+effects:
+  2d26fb7f-b95f-40f1-9701-45bb940ec795:
+    uuid: 2d26fb7f-b95f-40f1-9701-45bb940ec795
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 1024
+      height: 340
+      anchor: center-center

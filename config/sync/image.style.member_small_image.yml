@@ -1,0 +1,15 @@
+uuid: 34b05949-edc8-4786-8177-41ceca8e07cc
+langcode: en
+status: true
+dependencies: {  }
+name: member_small_image
+label: 'Member Small Image'
+effects:
+  b4a99bf3-e4f9-4797-a706-beafc4764100:
+    uuid: b4a99bf3-e4f9-4797-a706-beafc4764100
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 100
+      height: 133
+      anchor: center-center

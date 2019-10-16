@@ -1,0 +1,15 @@
+uuid: 6a7aeb65-ace2-4fe7-b5ad-254755fdcd5c
+langcode: en
+status: true
+dependencies: {  }
+name: default_image_preview_style
+label: default_image_preview_style
+effects:
+  99c4d243-c068-4f8a-947d-a650010df973:
+    uuid: 99c4d243-c068-4f8a-947d-a650010df973
+    id: image_scale
+    weight: 1
+    data:
+      width: 300
+      height: null
+      upscale: true

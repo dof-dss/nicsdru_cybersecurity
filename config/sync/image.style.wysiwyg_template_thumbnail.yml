@@ -1,0 +1,14 @@
+uuid: f341f1f9-f958-4e93-b88b-2e8f856594ba
+langcode: en
+status: true
+dependencies: {  }
+name: wysiwyg_template_thumbnail
+label: wysiwyg_template_thumbnail
+effects:
+  ecd1d895-cc93-429c-a96d-fe88632f25e8:
+    uuid: ecd1d895-cc93-429c-a96d-fe88632f25e8
+    id: image_resize
+    weight: 1
+    data:
+      width: 100
+      height: 70

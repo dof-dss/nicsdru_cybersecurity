@@ -1,0 +1,15 @@
+uuid: 28acafea-e7a0-4671-aa59-6a64edd9d98b
+langcode: en
+status: true
+dependencies: {  }
+name: page_image_responsive_landscape_
+label: 'page image responsive (landscape)'
+effects:
+  dc008055-e3f7-4e07-b2da-a03a64b93f22:
+    uuid: dc008055-e3f7-4e07-b2da-a03a64b93f22
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 441
+      height: 294
+      anchor: center-center

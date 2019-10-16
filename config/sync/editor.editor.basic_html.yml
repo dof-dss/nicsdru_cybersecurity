@@ -18,7 +18,14 @@ settings:
           name: Formatting
           items:
             - Bold
-            - Italic
+            - Blockquote
+            - Superscript
+            - RemoveFormat
+        -
+          name: 'Block Formatting'
+          items:
+            - Format
+            - Table
         -
           name: Linking
           items:
@@ -30,26 +37,34 @@ settings:
             - BulletedList
             - NumberedList
         -
+          name: Embed
+          items:
+            - media_entity_embed
+            - node
+        -
           name: Media
           items:
-            - Blockquote
-            - DrupalImage
-        -
-          name: 'Block Formatting'
-          items:
-            - Format
+            - Undo
+            - Redo
         -
           name: Tools
           items:
-            - Source
+            - Cut
+            - Copy
+            - PasteText
+            - PasteFromWord
+            - SpecialChar
+            - Maximize
   plugins:
     stylescombo:
       styles: ''
+    language:
+      language_list: un
 image_upload:
   status: true
   scheme: public
   directory: inline-images
   max_size: ''
   max_dimensions:
-    width: 0
-    height: 0
+    width: null
+    height: null

@@ -1,0 +1,15 @@
+uuid: 9032cc15-071a-4575-8959-34a31601fe62
+langcode: en
+status: true
+dependencies: {  }
+name: page_image_resonsive_retina_nocrop
+label: 'page image responsive retina nocrop'
+effects:
+  2f6b35e2-ef80-4325-b642-1f327ef86a40:
+    uuid: 2f6b35e2-ef80-4325-b642-1f327ef86a40
+    id: image_scale
+    weight: 1
+    data:
+      width: 1300
+      height: 860
+      upscale: false

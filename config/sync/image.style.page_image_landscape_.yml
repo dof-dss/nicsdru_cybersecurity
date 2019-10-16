@@ -1,0 +1,15 @@
+uuid: 13a24635-30d8-4241-bc5c-e8a74875cf28
+langcode: en
+status: true
+dependencies: {  }
+name: page_image_landscape_
+label: 'page image (landscape)'
+effects:
+  9164bb0c-44c7-48ea-9f34-7fdef246efa2:
+    uuid: 9164bb0c-44c7-48ea-9f34-7fdef246efa2
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 252
+      height: 168
+      anchor: center-center

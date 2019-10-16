@@ -1,0 +1,15 @@
+uuid: 36362dbd-352f-4418-989c-09f7764a3dd5
+langcode: en
+status: true
+dependencies: {  }
+name: inline_expandable_x2_
+label: 'Inline expandable (x2)'
+effects:
+  6e7ae43d-153a-4f90-95d5-ad2c09098aeb:
+    uuid: 6e7ae43d-153a-4f90-95d5-ad2c09098aeb
+    id: image_scale
+    weight: 1
+    data:
+      width: 1340
+      height: null
+      upscale: true
