@@ -32,9 +32,9 @@ visibility:
   node_type:
     id: node_type
     bundles:
-      news: news
       basic_page: basic_page
       contact: contact
+      news: news
       publication: publication
     negate: false
     context_mapping:
