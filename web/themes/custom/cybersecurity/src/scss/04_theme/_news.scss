@@ -1,0 +1,15 @@
+.node_news {
+  .news-date {
+    @apply tw-font-bold tw-pb-4;
+  }
+
+  img {
+    @apply tw-float-right tw-my-8 tw-ml-8;
+  }
+}
+
+.news_sidebar_latest {
+  .news-date {
+    @apply tw-text-xs;
+  }
+}
