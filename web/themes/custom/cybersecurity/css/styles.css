@@ -14429,6 +14429,22 @@ button {
   border-radius: 0.25rem;
 }
 
+.node_news .news-date {
+  font-weight: 700;
+  padding-bottom: 1rem;
+}
+
+.node_news img {
+  float: right;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-left: 2rem;
+}
+
+.news_sidebar_latest .news-date {
+  font-size: 1.4rem;
+}
+
 .icon::before {
   display: none;
 }
