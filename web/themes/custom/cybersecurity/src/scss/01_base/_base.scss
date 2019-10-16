@@ -40,6 +40,10 @@ body {
 h1 {
   @apply tw-text-heading tw-text-xxl tw-font-bold tw-mb-10 tw-mx-0;
   line-height: 2.8rem;
+
+  @screen md {
+    line-height: 4.5rem;
+  }
 }
 
 h2 {
