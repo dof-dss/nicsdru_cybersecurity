@@ -3,7 +3,7 @@ langcode: en
 status: true
 dependencies: {  }
 name: page_image_resonsive_retina_nocrop
-label: 'page image resonsive retina nocrop'
+label: 'page image responsive retina nocrop'
 effects:
   2f6b35e2-ef80-4325-b642-1f327ef86a40:
     uuid: 2f6b35e2-ef80-4325-b642-1f327ef86a40
