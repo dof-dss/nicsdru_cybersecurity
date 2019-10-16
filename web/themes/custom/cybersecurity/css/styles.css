@@ -13888,6 +13888,12 @@ h1 {
   line-height: 2.8rem;
 }
 
+@media (min-width: 765px) {
+  h1 {
+    line-height: 4.5rem;
+  }
+}
+
 h2 {
   color: #010247;
   font-size: 1.8rem;
@@ -14246,6 +14252,7 @@ button {
 .front-bg {
   background-image: linear-gradient(#090a1e, #070945 20%, #0b165c, #143270 70%);
   background-size: cover;
+  background-position: bottom;
   background-image: url("../assets/header.png");
 }
 
@@ -14426,8 +14433,7 @@ button {
   max-width: 100%;
   border-width: 1px;
   border-color: #718096;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+  padding: 0.5rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
