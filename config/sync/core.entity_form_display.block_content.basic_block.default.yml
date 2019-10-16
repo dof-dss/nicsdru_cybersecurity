@@ -10,8 +10,8 @@ dependencies:
     - field.field.block_content.basic_block.field_link_button
     - image.style.thumbnail
   module:
-    - image
     - link
+    - svg_image
     - text
 id: block_content.basic_block.default
 targetEntityType: block_content
@@ -36,12 +36,12 @@ content:
     type: image_image
     region: content
   field_block_title:
-    weight: 3
+    weight: 26
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-    type: text_textfield
+    type: string_textfield
     region: content
   field_link_button:
     weight: 2
