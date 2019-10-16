@@ -14093,6 +14093,12 @@ button {
   color: #000;
 }
 
+.view-display-id-latest_news_block p,
+.ag_body p {
+  margin-bottom: 0;
+  margin-top: 0.5rem;
+}
+
 .disappear {
   visibility: hidden;
   height: 0;
