@@ -14497,6 +14497,12 @@ button {
   font-size: 1.4rem;
 }
 
+.news_sidebar_latest .more-link {
+  font-size: 1.8rem;
+  width: auto;
+  height: auto;
+}
+
 .icon::before {
   display: none;
 }
