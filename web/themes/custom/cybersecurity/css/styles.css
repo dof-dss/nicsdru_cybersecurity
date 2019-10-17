@@ -14084,6 +14084,25 @@ button {
   }
 }
 
+.ag_wrapper {
+  left: calc(-50vw + 50%);
+}
+
+.block_ag h2 {
+  width: 100%;
+  flex: none;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+@media (min-width: 765px) {
+  .block_ag > div {
+    width: 33.333333%;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+}
+
 .ag_image,
 .news-image {
   max-height: 140px;

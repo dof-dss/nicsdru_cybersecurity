@@ -1,14 +1,23 @@
-{% extends "@origins_layouts/origins-layouts-base.html.twig" %}
-
+{% if content %}
+  <div class="ag_wrapper tw-bg-highlight tw-w-full tw-my-12 tw-pt-16 tw-pb-8">
+    <div class="container">
+      <div {{ attributes.addClass(settings.extra_classes) }}>
+        {% if content.title %}
+          {{ content.title }}
+        {% endif %}
+        <div class="layout__region--left">
+          {{ content.left }}
+        </div>
+        <div class="layout__region--center">
+          {{ content.center }}
+        </div>
+        <div class="layout__region--right">
+          {{ content.right }}
+        </div>
+      </div>
+    </div>
+  </div>
+{%  endif %}
 {% block regions %}
-  <div class="layout__region--left">
-    {{ content.left }}
-  </div>
-  <div class="layout__region--center">
-    {{ content.center }}
-  </div>
-  <div class="layout__region--right">
-    {{ content.right }}
-  </div>
-</div>
+
 {% endblock %}
