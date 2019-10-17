@@ -1,0 +1,14 @@
+{% extends "@origins_layouts/origins-layouts-base.html.twig" %}
+
+{% block regions %}
+  <div class="layout__region--left">
+    {{ content.left }}
+  </div>
+  <div class="layout__region--center">
+    {{ content.center }}
+  </div>
+  <div class="layout__region--right">
+    {{ content.right }}
+  </div>
+</div>
+{% endblock %}
