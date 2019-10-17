@@ -21,6 +21,7 @@
         "cweagans/composer-patches": "^1.6.5",
         "dof-dss/nicsdru_origins_profile": "^0.1",
         "drupal-composer/drupal-scaffold": "^2.5",
+        "drupal/backup_migrate": "^4.0",
         "drupal/console": "^1.0.2",
         "drupal/core": "^8.7.0",
         "drupal/easy_breadcrumb": "^1.12",
@@ -44,7 +45,6 @@
         "zaporylie/composer-drupal-optimizations": "^1.0"
     },
     "require-dev": {
-        "drupal/backup_migrate": "^4.0",
         "drupal/coder": "~8.0",
         "drupal/devel": "^2.1",
         "mglaman/drupal-check": "^1.0",
