@@ -1,0 +1,22 @@
+.block_search {
+  .form-item-search-api-fulltext {
+    label {
+      @apply tw-font-bold;
+    }
+
+    input {
+      @apply tw-max-w-full tw-border tw-border-gray-600 tw-py-2 tw-my-4;
+    }
+  }
+
+  .form-actions {
+    input {
+      @apply btn btn--heading tw-p-2 tw-text-sm tw-font-bold tw-mt-8;
+      width: 10rem;
+    }
+  }
+}
+
+.facets-widget-links {
+  @apply tw-p-4;
+}
