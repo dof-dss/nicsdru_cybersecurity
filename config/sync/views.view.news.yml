@@ -31,7 +31,7 @@ display:
         type: none
         options: {  }
       cache:
-        type: tag
+        type: search_api_tag
         options: {  }
       query:
         type: views_query
@@ -369,6 +369,7 @@ display:
         use_more_always: false
         use_more_text: false
         title: false
+        cache: true
       row:
         type: fields
         options: {  }
@@ -705,10 +706,8 @@ display:
     display_options:
       display_extenders: {  }
       path: news
-      cache:
-        type: none
       defaults:
-        cache: false
+        cache: true
         style: false
         row: false
         pager: false
