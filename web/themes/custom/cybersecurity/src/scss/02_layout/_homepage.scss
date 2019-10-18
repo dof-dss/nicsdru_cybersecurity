@@ -2,7 +2,7 @@
   left: calc(-50vw + 50%);
 }
 
-.block_ag {
+.ag_block {
   h2 {
     @apply tw-w-full tw-flex-none tw-mx-20p;
   }
@@ -11,6 +11,10 @@
     @screen md {
       @apply tw-w-1/3 tw-px-20p;
     }
+  }
+
+  .layout-builder-block {
+    @apply tw-p-0;
   }
 }
 

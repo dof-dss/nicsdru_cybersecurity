@@ -14088,7 +14088,7 @@ button {
   left: calc(-50vw + 50%);
 }
 
-.block_ag h2 {
+.ag_block h2 {
   width: 100%;
   flex: none;
   margin-left: 2%;
@@ -14096,11 +14096,15 @@ button {
 }
 
 @media (min-width: 765px) {
-  .block_ag > div {
+  .ag_block > div {
     width: 33.333333%;
     padding-left: 2%;
     padding-right: 2%;
   }
+}
+
+.ag_block .layout-builder-block {
+  padding: 0;
 }
 
 .ag_image,
