@@ -14276,6 +14276,7 @@ button {
   background-image: linear-gradient(#090a1e, #070945 20%, #0b165c, #143270 70%);
   background-size: cover;
   background-position: bottom;
+  background-position: center;
   background-image: url("../assets/header.png");
 }
 

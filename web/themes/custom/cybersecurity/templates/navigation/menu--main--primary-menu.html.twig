@@ -30,7 +30,7 @@
   {% import _self as menus %}
   {% if items %}
     {% if menu_level == 0 %}
-      <ul{{ attributes.addClass('list_heading list_white-md tw-font-bold md-tw-font-normal md-tw-mt-16 menu_main tw-flex tw-flex-wrap md-tw-flex-no-wrap tw-justify-between') }}>
+      <ul{{ attributes.addClass('list_heading list_white-md tw-font-bold md-tw-mt-16 menu_main tw-flex tw-flex-wrap md-tw-flex-no-wrap tw-justify-between') }}>
     {% else %}
         {% include '@cybersecurity/partials/submenu_wrapper.html.twig' %}
     {% endif %}
