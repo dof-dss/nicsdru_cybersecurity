@@ -2,9 +2,10 @@
   // Show main navigation sub-menu on click of parent
   $(".menu_main--item").click(function() {
     $(this).find(".menu_main--sub").toggleClass("tw-invisible");
-    $(this).siblings().children(".menu_main--sub").addClass("tw-invisible")
+    $(this).siblings().children(".menu_main--sub").addClass("tw-invisible");
   });
 
+  // When click anywhere but the menu link or its children, set submenu to invisible
   $(document).click(function(e) {
     $('.menu_main--item')
       .not($('.menu_main--item').has($(e.target)))
