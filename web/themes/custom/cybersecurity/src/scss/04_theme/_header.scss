@@ -103,8 +103,13 @@
   }
 
   &--sub {
-    left: calc(-50vw + 50%);
-    top: 100%;
+    @apply tw-top-0 tw-left-0;
+
+    @screen md {
+      left: calc(-50vw + 50%);
+      top: 100%;
+    }
+
 
     &--item {
       @apply tw-text-heading tw--m-2 tw-pt-6 tw-text-left;

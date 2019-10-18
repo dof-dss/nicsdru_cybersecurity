@@ -14383,8 +14383,15 @@ button {
 }
 
 .menu_main--sub {
-  left: calc(-50vw + 50%);
-  top: 100%;
+  top: 0;
+  left: 0;
+}
+
+@media (min-width: 765px) {
+  .menu_main--sub {
+    left: calc(-50vw + 50%);
+    top: 100%;
+  }
 }
 
 .menu_main--sub--item {
