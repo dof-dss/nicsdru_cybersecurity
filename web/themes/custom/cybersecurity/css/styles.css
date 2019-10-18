@@ -14076,6 +14076,7 @@ button {
 .region_hero .burger-nav p {
   padding-left: 1rem;
   padding-right: 1rem;
+  margin: 0;
 }
 
 @media (min-width: 640px) {
@@ -14362,24 +14363,16 @@ button {
     align-items: flex-end;
   }
 
-  .menu_main--item a {
-    padding-bottom: 0.8rem;
+  .menu_main--item h2, .menu_main--item a {
+    padding-bottom: .8rem;
+    line-height: 2.4rem;
   }
 
-  .menu_main--item .is-active,
-  .menu_main--item a:hover,
-  .menu_main--item a:focus {
+  .menu_main--item .is-active, .menu_main--item:hover, .menu_main--item:focus {
     border-bottom-width: 3px;
     border-style: solid;
     border-color: #fff;
-    padding-bottom: 0.5rem;
-    transition: all 0.1s ease;
-  }
-
-  .menu_main--item:hover .menu_main--sub,
-  .menu_main--item:focus .menu_main--sub {
-    visibility: visible;
-    transition: all 0.3s ease;
+    margin-bottom: -0.28rem;
   }
 }
 
@@ -14387,16 +14380,6 @@ button {
   background-image: linear-gradient(rgba(52, 53, 108, 0.8), rgba(255, 255, 255, 0));
   top: 100%;
   height: 75rem;
-}
-
-.menu_main--grad:hover {
-  visibility: hidden;
-  height: 0;
-  padding: 0;
-  margin: 0;
-  width: 0;
-  opacity: 0;
-  transition: opacity 0.2s ease;
 }
 
 .menu_main--sub {
@@ -14409,6 +14392,10 @@ button {
   margin: -0.5rem;
   padding-top: 1.5rem;
   text-align: left;
+}
+
+.menu_main--sub--item:hover, .menu_main--sub--item:focus {
+  text-decoration: underline;
 }
 
 .menu_main--sub a {
