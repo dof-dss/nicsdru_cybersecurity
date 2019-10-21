@@ -114,3 +114,83 @@ function cybersecurity_theme_suggestions_page_alter(array &$suggestions, array $
     $suggestions[] = 'page__content_type__' . $node->bundle();
   }
 }
+
+/**
+ * Implements hook_preprocess_file_link() for file link.
+ * @file
+ * Functions to support theming and add the formatted file size.
+ */
+
+function cybersecurity_preprocess_file_link(&$variables){
+  $file = $variables['file'];
+  $file_entity = $file instanceof \Drupal\file\Entity\File ? $file :
+    \Drupal\file\Entity\File::load($file->fid);
+
+  // Get file size
+  $file_size = $file->getSize();
+  // Get mime type
+  $mime_type = $file->getMimeType();
+  // Create file URL
+  $url = $file->createFileUrl(FALSE);
+  // Format the file size
+  $format_file_size = format_size($file_size);
+
+  // User friendly MIME types:
+  switch($mime_type) {
+    case 'application/pdf':
+      $file_type = 'PDF';
+      break;
+    case 'application/vnd.oasis.opendocument.text':
+      $file_type = 'OpenDocument_Text';
+      break;
+    case 'application/vnd.oasis.opendocument.spreadsheet':
+      $file_type = 'OpenDocument_Spreadsheet';
+      break;
+    case 'application/vnd.oasis.opendocument.presentation':
+      $file_type = 'OpenDocument_Presentation';
+      break;
+    case 'application/vnd.openxmlformats-officedocument.wordprocessingml.document':
+    case 'application/msword':
+      $file_type = 'Word';
+      break;
+    case 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet':
+    case 'application/vnd.ms-excel':
+    case 'application/vnd.ms-excel.addin.macroEnabled.12':
+    case 'application/vnd.ms-excel.sheet.binary.macroEnabled.12':
+    case 'application/vnd.ms-excel.sheet.macroEnabled.12':
+    case 'application/vnd.ms-excel.template.macroEnabled.12':
+      $file_type = 'Excel';
+      break;
+    case 'application/vnd.openxmlformats-officedocument.presentationml.presentation':
+    case 'application/vnd.ms-powerpoint':
+      $file_type = 'PowerPoint';
+      break;
+    case 'application/zip':
+      $file_type = 'Zip';
+      break;
+    case 'text/csv':
+      $file_type = 'csv';
+      break;
+    default:
+      $file_type = $mime_type;
+  }
+
+  // Add a mime type class to the link for styling and open file in a new window.
+  $link_options = [ 'attributes' => [
+    'class' => $file_type,
+    'target' => '_blank',
+    ]
+  ];
+
+  $file_description = $variables['description'];
+  // Use the description as the link text if available.
+  if (empty($file_description)) {
+    $file_description = $file_entity
+      ->getFilename() . ' ' . $format_file_size;
+  }
+  else {
+    $file_description = $variables['description'] . ' ' . $format_file_size;
+  }
+  // Set the link with the file size added to the description and with the mime type class.
+  $variables['link'] = \Drupal\Core\Link::fromTextAndUrl($file_description, Drupal\core\Url::fromUri($url, $link_options));
+}
