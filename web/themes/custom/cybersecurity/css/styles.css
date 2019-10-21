@@ -14048,11 +14048,13 @@ input {
 .region_hero .search-block-form .form-search {
   width: 100%;
   height: 100%;
+  border-width: 0;
 }
 
 .region_hero .search-block-form .form-submit {
   font-size: 0;
   height: 100%;
+  border-width: 0;
   width: 52px;
 }
 
@@ -14554,14 +14556,26 @@ input {
 
 .entity-moderation-form {
   background-color: #e5e5ec;
+  margin-left: 0;
+  margin-right: 0;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .entity-moderation-form__item {
-  margin-right: 3rem;
+  margin-right: 2rem;
+  max-width: 100%;
 }
 
 .entity-moderation-form__item:last-of-type {
   margin-right: 0;
+}
+
+.entity-moderation-form .form-item {
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .entity-moderation-form label {
@@ -14579,6 +14593,12 @@ input {
 
 .entity-moderation-form input {
   border-radius: 0.25rem;
+  max-width: 100%;
+}
+
+.entity-moderation-form input[type="submit"] {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .entity-moderation-form .form-submit {
@@ -14588,14 +14608,6 @@ input {
   padding-left: 1rem;
   padding-right: 1rem;
   border-width: 0;
-}
-
-.node_news .entity-moderation-form .form-text {
-  max-width: 28rem;
-}
-
-.node_publication .entity-moderation-form .form-text {
-  max-width: 20rem;
 }
 
 .icon::before {

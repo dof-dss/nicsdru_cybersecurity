@@ -5,14 +5,18 @@
 }
 
 .entity-moderation-form {
-  @apply tw-bg-highlight;
+  @apply tw-bg-highlight tw-mx-0 tw-py-8;
 
   &__item {
-    @apply tw-mr-12;
+    @apply tw-mr-8 tw-max-w-full;
 
     &:last-of-type {
       @apply tw-mr-0;
     }
+  }
+
+  .form-item {
+    @apply tw-mx-0 tw-my-2;
   }
 
   label {
@@ -24,7 +28,11 @@
   }
 
   input {
-    @apply tw-rounded;
+    @apply tw-rounded tw-max-w-full;
+
+    &[type="submit"] {
+      @apply tw-my-2;
+    }
   }
 
   .form-submit {
@@ -32,18 +40,3 @@
   }
 }
 
-.node_news {
-  .entity-moderation-form {
-    .form-text {
-      max-width: 28rem;
-    }
-  }
-}
-
-.node_publication {
-  .entity-moderation-form {
-    .form-text {
-      max-width: 20rem;
-    }
-  }
-}
