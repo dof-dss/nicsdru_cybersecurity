@@ -13885,13 +13885,7 @@ h1 {
   margin-bottom: 2.5rem;
   margin-left: 0;
   margin-right: 0;
-  line-height: 2.8rem;
-}
-
-@media (min-width: 765px) {
-  h1 {
-    line-height: 4.5rem;
-  }
+  line-height: 4.5rem;
 }
 
 h2 {
@@ -13966,6 +13960,12 @@ ul {
 
 button {
   border-width: 0;
+}
+
+input {
+  border-width: 1px;
+  border-color: #718096;
+  padding: 0.5rem;
 }
 
 .container {
@@ -14546,6 +14546,56 @@ button {
   font-size: 1.8rem;
   width: auto;
   height: auto;
+}
+
+.content-moderation-entity-moderation-form ul {
+  margin-left: 0;
+}
+
+.entity-moderation-form {
+  background-color: #e5e5ec;
+}
+
+.entity-moderation-form__item {
+  margin-right: 3rem;
+}
+
+.entity-moderation-form__item:last-of-type {
+  margin-right: 0;
+}
+
+.entity-moderation-form label {
+  font-weight: 700;
+}
+
+.entity-moderation-form select {
+  background-color: #fff;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  border-width: 1px;
+  border-color: #718096;
+  border-radius: 0.25rem;
+}
+
+.entity-moderation-form input {
+  border-radius: 0.25rem;
+}
+
+.entity-moderation-form .form-submit {
+  background-color: #010247;
+  color: #fff;
+  font-weight: 700;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-width: 0;
+}
+
+.node_news .entity-moderation-form .form-text {
+  max-width: 28rem;
+}
+
+.node_publication .entity-moderation-form .form-text {
+  max-width: 20rem;
 }
 
 .icon::before {

@@ -1,0 +1,49 @@
+.content-moderation-entity-moderation-form {
+  ul {
+    @apply tw-ml-0;
+  }
+}
+
+.entity-moderation-form {
+  @apply tw-bg-highlight;
+
+  &__item {
+    @apply tw-mr-12;
+
+    &:last-of-type {
+      @apply tw-mr-0;
+    }
+  }
+
+  label {
+    @apply tw-font-bold;
+  }
+
+  select {
+    @apply tw-bg-white tw-py-1 tw-border tw-border-gray-600 tw-rounded;
+  }
+
+  input {
+    @apply tw-rounded;
+  }
+
+  .form-submit {
+    @apply tw-bg-heading tw-text-white tw-font-bold tw-px-4 tw-border-0;
+  }
+}
+
+.node_news {
+  .entity-moderation-form {
+    .form-text {
+      max-width: 28rem;
+    }
+  }
+}
+
+.node_publication {
+  .entity-moderation-form {
+    .form-text {
+      max-width: 20rem;
+    }
+  }
+}
