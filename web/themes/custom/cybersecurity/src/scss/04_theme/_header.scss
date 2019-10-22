@@ -103,15 +103,34 @@
   }
 
   &--sub {
-    left: calc(-50vw + 50%);
-    top: 100%;
+    @apply tw-top-0 tw-left-0;
+
+    @screen md {
+      left: calc(-50vw + 50%);
+      top: 100%;
+    }
+
 
     &--item {
-      @apply tw-text-heading tw--m-2 tw-pt-6 tw-text-left;
+      @apply tw-text-heading tw-py-4 tw-text-left tw-border-b tw-font-normal;
 
       &:hover,
       &:focus {
-        text-decoration: underline;
+        text-decoration: none;
+      }
+
+      &:last-of-type {
+        @apply tw-border-b-0;
+      }
+
+      @screen md {
+        @apply tw--m-2 tw-border-b-0 tw-font-bold tw-pt-6 tw-pb-0;
+
+        &:hover,
+        &:focus {
+          text-decoration: underline;
+        }
+
       }
     }
 
