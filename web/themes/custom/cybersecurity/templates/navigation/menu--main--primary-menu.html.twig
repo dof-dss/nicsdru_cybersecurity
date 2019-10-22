@@ -30,30 +30,34 @@
   {% import _self as menus %}
   {% if items %}
     {% if menu_level == 0 %}
-      <ul{{ attributes.addClass('list_heading list_white-md tw-font-bold md-tw-font-normal md-tw-mt-16 menu_main tw-flex tw-flex-wrap md-tw-flex-no-wrap tw-justify-between') }}>
+      <ul{{ attributes.addClass('list_heading list_white-md tw-font-bold md-tw-mt-16 menu_main tw-flex tw-flex-wrap md-tw-flex-no-wrap tw-justify-between') }}>
     {% else %}
-        {% include '@cybersecurity/partials/submenu_wrapper.html.twig' %}
+      {% include '@cybersecurity/partials/submenu_wrapper.html.twig' %}
     {% endif %}
     {% for item in items %}
-      <li{{ item.attributes.addClass(menu_level == 0 ? 'menu_main--item', menu_level != 0 ? 'menu_main--sub--item') }}>
-        {% if menu_level == 0 %}
-          {{ link(item.title, item.url, { class: ['md-tw-text-center md-tw-py-8 md-tw-p-2 md-tw-w-full md-tw-self-end md-tw-visible disappear md-tw-h-auto'] }) }}
+      <li{{ item.attributes.addClass(menu_level == 0 ? 'menu_main--item tw-cursor-pointer' : 'menu_main--sub--item', item.in_active_trail ? 'is-active') }}>
+        {% if menu_level == 0 and item.title != 'Home' %}
+          <h2 class="tw-self-center tw-text-base tw-text-heading sm-tw-text-md md-tw-text-center md-tw-pt-8 md-tw-px-2 md-tw-w-full md-tw-h-auto md-tw-self-end md-tw-visible md-tw-text-white md-tw-text-base">{{ item.title }}</h2>
+          <span class="disappear-md md-tw-p-0 md-tw-text-lg sm-tw-text-xl tw-flex tw-justify-end tw-content-center tw-text-heading tw-pt-10 tw-pb-8 sm-tw-py-8 tw-w-1/12">
+            <i class="fas fa-chevron-right"></i>
+          </span>
+        {% elseif menu_level == 0 and item.title == 'Home' %}
+          {{ link(item.title, item.url, { class: ['tw-self-center tw-text-base tw-text-heading tw-py-8 sm-tw-text-md md-tw-text-center tw-pb-md-tw-px-2 md-tw-w-full md-tw-h-auto md-tw-self-end md-tw-visible md-tw-text-white md-tw-text-base'] }) }}
         {% else %}
           {{ link(item.title, item.url) }}
         {% endif %}
-        {% include '@cybersecurity/partials/submenu_mobile-item.html.twig' %}
         {% if item.below %}
           {{ menus.menu_links(item.below, attributes, menu_level + 1, item.title, item.original_link.pluginDefinition.description) }}
         {% endif %}
-
       </li>
     {% endfor %}
     </ul>
     {% if menu_level != 0 %}
-    </div>
-    </div>
-          <div class="menu_main--grad tw-self-end tw-w-full tw-max-h-screen tw-absolute tw-z-20"></div>
-        </div>
+      </div>
+      </div>
+      <div class="menu_main--grad tw-self-end tw-w-full tw-max-h-screen tw-absolute tw-z-20"></div>
+      </div>
     {% endif %}
   {% endif %}
 {% endmacro %}
+
