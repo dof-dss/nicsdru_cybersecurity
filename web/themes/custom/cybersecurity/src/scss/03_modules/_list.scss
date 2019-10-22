@@ -10,6 +10,12 @@
 
   &--bullet {
     @apply tw-list-disc tw-pl-9;
+
+    &--md {
+      @screen md {
+        @apply list--bullet;
+      }
+    }
   }
 
 
