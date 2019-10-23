@@ -1,0 +1,29 @@
+uuid: ed98e471-cd29-4ff1-9c2c-117d1afad347
+langcode: en
+status: false
+dependencies:
+  config:
+    - views.view.site_search_api
+  module:
+    - system
+    - views
+  theme:
+    - cybersecurity
+id: exposedformsite_search_api
+theme: cybersecurity
+region: sidebar_left
+weight: -10
+provider: null
+plugin: 'views_exposed_filter_block:site_search_api-site_search_api'
+settings:
+  id: 'views_exposed_filter_block:site_search_api-site_search_api'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+visibility:
+  request_path:
+    id: request_path
+    pages: /search
+    negate: false
+    context_mapping: {  }

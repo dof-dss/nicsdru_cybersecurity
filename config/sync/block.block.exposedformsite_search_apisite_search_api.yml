@@ -1,0 +1,23 @@
+uuid: 13199b10-a50a-4074-8326-f024148430a1
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.site_search_api
+  module:
+    - views
+  theme:
+    - cybersecurity
+id: exposedformsite_search_apisite_search_api
+theme: cybersecurity
+region: hero
+weight: -11
+provider: null
+plugin: 'views_exposed_filter_block:site_search_api-site_search_api'
+settings:
+  id: 'views_exposed_filter_block:site_search_api-site_search_api'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+visibility: {  }
