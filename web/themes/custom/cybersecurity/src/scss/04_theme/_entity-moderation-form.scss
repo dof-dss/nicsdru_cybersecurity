@@ -1,0 +1,42 @@
+.content-moderation-entity-moderation-form {
+  ul {
+    @apply tw-ml-0;
+  }
+}
+
+.entity-moderation-form {
+  @apply tw-bg-highlight tw-mx-0 tw-py-8;
+
+  &__item {
+    @apply tw-mr-8 tw-max-w-full;
+
+    &:last-of-type {
+      @apply tw-mr-0;
+    }
+  }
+
+  .form-item {
+    @apply tw-mx-0 tw-my-2;
+  }
+
+  label {
+    @apply tw-font-bold;
+  }
+
+  select {
+    @apply tw-bg-white tw-py-1 tw-border tw-border-gray-600 tw-rounded;
+  }
+
+  input {
+    @apply tw-rounded tw-max-w-full;
+
+    &[type="submit"] {
+      @apply tw-my-2;
+    }
+  }
+
+  .form-submit {
+    @apply tw-bg-heading tw-text-white tw-font-bold tw-px-4 tw-border-0;
+  }
+}
+

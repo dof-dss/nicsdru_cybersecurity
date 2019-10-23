@@ -35,11 +35,11 @@
     }
 
     .form-search {
-      @apply tw-w-full tw-h-full;
+      @apply tw-w-full tw-h-full tw-border-0;
     }
 
     .form-submit {
-      @apply tw-text-0 tw-h-full;
+      @apply tw-text-0 tw-h-full tw-border-0;
       width: 52px;
     }
   }
