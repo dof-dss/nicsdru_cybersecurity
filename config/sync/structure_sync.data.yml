@@ -142,7 +142,6 @@ blocks:
         height: '246'
       field_block_title:
         value: 'What is cyber security?'
-        format: basic_html
       field_link_button:
         uri: 'internal:/node/1'
         title: More
@@ -167,7 +166,6 @@ blocks:
         height: '255'
       field_block_title:
         value: 'Guidance portals'
-        format: basic_html
       field_link_button:
         uri: 'internal:/node/1'
         title: More
@@ -192,7 +190,6 @@ blocks:
         height: '260'
       field_block_title:
         value: 'How do I?'
-        format: basic_html
       field_link_button:
         uri: 'internal:/node/1'
         title: More
@@ -562,3 +559,15 @@ menus:
     weight: '0'
     langcode: en
     uuid: 6a37a752-1a4a-4afa-80ae-e5811c31ef59
+  -
+    menu_name: main
+    title: Publications
+    parent: 'menu_link_content:db1ddc29-7d29-4719-aa4a-d79394f76725'
+    uri: 'internal:/publications'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '0'
+    langcode: en
+    uuid: cc0b35ee-1f19-4fab-9b7e-33baf8037e1c
