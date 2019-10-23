@@ -38,6 +38,7 @@
         "drupal/structure_sync": "^1.16",
         "drupal/svg_image": "^1.9",
         "drupal/twig_tweak": "^2.4",
+        "drupal/text_summary_options": "^1.0",
         "drupal/webform": "^5.4",
         "drush/drush": "^9.0.0",
         "vlucas/phpdotenv": "^2.4",

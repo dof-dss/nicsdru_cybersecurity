@@ -21,21 +21,26 @@ mode: default
 content:
   body:
     type: text_default
-    weight: 1
+    weight: 2
     region: content
     label: hidden
     settings: {  }
     third_party_settings: {  }
+  content_moderation_control:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
   field_attachment:
     type: file_default
-    weight: 2
+    weight: 3
     region: content
     label: hidden
     settings:
       use_description_as_link_text: true
     third_party_settings: {  }
   field_published_date:
-    weight: 0
+    weight: 1
     label: inline
     settings:
       timezone_override: ''
@@ -44,6 +49,5 @@ content:
     type: datetime_default
     region: content
 hidden:
-  content_moderation_control: true
   links: true
   search_api_excerpt: true
