@@ -1,0 +1,8 @@
+.pub_icon {
+  &:hover {
+    @apply tw-text-primary;
+  }
+  span {
+    @apply tw-text-xs tw-text-text;
+  }
+}

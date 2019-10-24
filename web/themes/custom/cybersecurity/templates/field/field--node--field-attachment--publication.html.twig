@@ -39,8 +39,6 @@
 {%
   set title_classes = [
     label_display == 'visually_hidden' ? 'visually-hidden',
-    'tw-font-bold',
-    'tw-inline-block',
   ]
 %}
 
@@ -48,7 +46,7 @@
   {% if multiple %}
     <div{{ attributes }}>
       {% for item in items %}
-        <div{{ item.attributes }}>{{ item.content }}</div>
+        <div{{ item.attributes.addClass('tw-py-6') }}>{{ item.content }}</div>
       {% endfor %}
     </div>
   {% else %}
@@ -57,13 +55,13 @@
     {% endfor %}
   {% endif %}
 {% else %}
-  <div{{ attributes.addClass('publication-date tw-pb-8') }}>
+  <div{{ attributes }}>
     <div{{ title_attributes.addClass(title_classes) }}>{{ label }}</div>
     {% if multiple %}
       <div>
     {% endif %}
     {% for item in items %}
-      <div{{ item.attributes.addClass('tw-inline-block') }}>{{ item.content }}</div>
+      <div{{ item.attributes }}>{{ item.content }}</div>
     {% endfor %}
     {% if multiple %}
       </div>
