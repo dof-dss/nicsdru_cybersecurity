@@ -1,0 +1,61 @@
+.pub_icon {
+  @apply tw-pl-24 tw-relative tw-block;
+
+  &::before {
+    @apply tw-inline-block tw-bg-no-repeat tw-bg-contain tw-absolute tw-left-0;
+    background-image: url("application-octet-stream.png");
+    width: 5rem;
+    height: 5rem;
+    content: "";
+    top: 0.3rem;
+  }
+}
+
+.PDF {
+  &::before {
+    background-image: url("../assets/application-pdf.png");
+  }
+}
+
+.Word {
+  &::before {
+    background-image: url("../assets/x-office-document.png");
+  }
+}
+
+.Excel {
+  &::before {
+    background-image: url("../assets/x-office-spreadsheet.png");
+  }
+}
+
+.PowerPoint {
+  &::before {
+    background-image: url("../assets/x-office-presentation.png");
+  }
+}
+
+.Zip {
+  &::before {
+    background-image: url("../assets/application-zip.png");
+  }
+}
+
+.OpenDocument_Text {
+  &::before {
+    background-image: url("../assets/odt.png");
+  }
+}
+
+.OpenDocument_Spreadsheet {
+  &::before {
+    background-image: url("../assets/ods.png");
+  }
+}
+
+.OpenDocument_Presentation {
+  &::before {
+    background-image: url("../assets/odp.png");
+  }
+}
+

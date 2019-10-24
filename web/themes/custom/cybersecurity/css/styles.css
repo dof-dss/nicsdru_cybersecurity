@@ -3850,7 +3850,7 @@ video {
 }
 
 .tw-font-fontawesome {
-  font-family: "Font Awesome 5 Free";
+  font-family: "Font Awesome 5 Solid";
 }
 
 .tw-font-hairline {
@@ -13968,6 +13968,13 @@ input {
   padding: 0.5rem;
 }
 
+hr {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
 .container {
   margin-top: 0;
   margin-bottom: 0;
@@ -14336,6 +14343,57 @@ input {
   }
 }
 
+.pub_icon {
+  padding-left: 6rem;
+  position: relative;
+  display: block;
+}
+
+.pub_icon::before {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  left: 0;
+  background-image: url("application-octet-stream.png");
+  width: 5rem;
+  height: 5rem;
+  content: "";
+  top: 0.3rem;
+}
+
+.PDF::before {
+  background-image: url("../assets/application-pdf.png");
+}
+
+.Word::before {
+  background-image: url("../assets/x-office-document.png");
+}
+
+.Excel::before {
+  background-image: url("../assets/x-office-spreadsheet.png");
+}
+
+.PowerPoint::before {
+  background-image: url("../assets/x-office-presentation.png");
+}
+
+.Zip::before {
+  background-image: url("../assets/application-zip.png");
+}
+
+.OpenDocument_Text::before {
+  background-image: url("../assets/odt.png");
+}
+
+.OpenDocument_Spreadsheet::before {
+  background-image: url("../assets/ods.png");
+}
+
+.OpenDocument_Presentation::before {
+  background-image: url("../assets/odp.png");
+}
+
 .main-bg {
   background-image: linear-gradient(#090a1e, #070945 20%, #0b165c, #143270 70%);
   background-size: cover;
@@ -14670,14 +14728,13 @@ input {
   border-width: 0;
 }
 
-.icon::before {
-  display: none;
+.pub_icon:hover {
+  color: #361c82;
 }
 
-.icon_menu::before {
-  font-family: "Font Awesome 5 Free";
-  font-weight: 700;
-  content: "\F0C9";
+.pub_icon span {
+  font-size: 1.4rem;
+  color: #333;
 }
 
 @media (min-width: 440px) {
@@ -17928,7 +17985,7 @@ input {
   }
 
   .xs-tw-font-fontawesome {
-    font-family: "Font Awesome 5 Free";
+    font-family: "Font Awesome 5 Solid";
   }
 
   .xs-tw-font-hairline {
@@ -31166,7 +31223,7 @@ input {
   }
 
   .sm-tw-font-fontawesome {
-    font-family: "Font Awesome 5 Free";
+    font-family: "Font Awesome 5 Solid";
   }
 
   .sm-tw-font-hairline {
@@ -44404,7 +44461,7 @@ input {
   }
 
   .md-tw-font-fontawesome {
-    font-family: "Font Awesome 5 Free";
+    font-family: "Font Awesome 5 Solid";
   }
 
   .md-tw-font-hairline {
@@ -57642,7 +57699,7 @@ input {
   }
 
   .lg-tw-font-fontawesome {
-    font-family: "Font Awesome 5 Free";
+    font-family: "Font Awesome 5 Solid";
   }
 
   .lg-tw-font-hairline {
@@ -70880,7 +70937,7 @@ input {
   }
 
   .max-tw-font-fontawesome {
-    font-family: "Font Awesome 5 Free";
+    font-family: "Font Awesome 5 Solid";
   }
 
   .max-tw-font-hairline {
