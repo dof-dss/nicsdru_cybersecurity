@@ -34,13 +34,17 @@
       }
     }
 
-    .form-search {
-      @apply tw-w-full tw-h-full tw-border-0;
+    .form-item-search-api-fulltext {
+      .form-text {
+        @apply tw-w-full tw-h-full tw-border-0;
+      }
     }
 
-    .form-submit {
-      @apply tw-text-0 tw-h-full tw-border-0;
-      width: 52px;
+    .form-actions {
+      .form-submit {
+        @apply tw-text-0 tw-h-full tw-border-0;
+        width: 52px;
+      }
     }
   }
 
@@ -48,7 +52,7 @@
     @apply tw-flex tw-flex-row tw-items-center tw-text-white tw-font-bold tw-mr-4 tw-justify-between;
 
     @screen md {
-      @apply tw-invisible tw-w-0;
+      @apply tw-invisible tw-w-0 tw-mr-0;
     }
 
     p {
