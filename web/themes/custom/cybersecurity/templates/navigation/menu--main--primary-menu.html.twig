@@ -37,7 +37,7 @@
     {% for item in items %}
       <li{{ item.attributes.addClass(menu_level == 0 ? 'menu_main--item' : 'menu_main--sub--item', item.in_active_trail ? 'is-active') }}>
         {% if menu_level == 0 and item.title != 'Home' %}
-          <h2 class="tw-self-center tw-text-base tw-text-heading tw-w-full md-tw-w-auto sm-tw-text-md md-tw-text-center md-tw-pt-8 md-tw-px-2 md-tw-w-full md-tw-h-auto md-tw-self-end md-tw-visible md-tw-text-white md-tw-text-base tw-cursor-pointer">{{ item.title }}</h2>
+          <span class="menu_main--item-text tw-self-center tw-text-base tw-text-heading tw-w-full md-tw-w-auto sm-tw-text-md md-tw-text-center md-tw-pt-8 md-tw-px-2 md-tw-w-full md-tw-h-auto md-tw-self-end md-tw-visible md-tw-text-white md-tw-text-base tw-cursor-pointer">{{ item.title }}</span>
           <span class="next tw-cursor-pointer disappear-md md-tw-p-0 md-tw-text-lg sm-tw-text-xl tw-flex tw-justify-end tw-content-center tw-text-heading tw-pt-10 tw-pb-8 sm-tw-py-8 tw-w-1/12">
             <i class="fas fa-chevron-right"></i>
           </span>
