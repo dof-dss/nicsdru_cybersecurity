@@ -14052,13 +14052,13 @@ hr {
   width: 100%;
 }
 
-.region_hero .search-block-form .form-item-search-api-fulltext .form-text {
+.region_hero .search-block-form .form-text {
   width: 100%;
   height: 100%;
   border-width: 0;
 }
 
-.region_hero .search-block-form .form-actions .form-submit {
+.region_hero .search-block-form .form-submit {
   font-size: 0;
   height: 100%;
   border-width: 0;

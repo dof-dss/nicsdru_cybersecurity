@@ -34,17 +34,13 @@
       }
     }
 
-    .form-item-search-api-fulltext {
-      .form-text {
-        @apply tw-w-full tw-h-full tw-border-0;
-      }
+    .form-text {
+      @apply tw-w-full tw-h-full tw-border-0;
     }
 
-    .form-actions {
-      .form-submit {
-        @apply tw-text-0 tw-h-full tw-border-0;
-        width: 52px;
-      }
+    .form-submit {
+      @apply tw-text-0 tw-h-full tw-border-0;
+      width: 52px;
     }
   }
 
