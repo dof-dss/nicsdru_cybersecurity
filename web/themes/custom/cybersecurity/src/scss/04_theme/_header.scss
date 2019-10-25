@@ -71,7 +71,8 @@
     @screen md {
       @apply tw-text-base tw-w-auto tw-border-0 tw-items-end;
 
-      h2, a {
+      &-text,
+      a {
         padding-bottom: .8rem;
         line-height: 2.4rem;
       }
