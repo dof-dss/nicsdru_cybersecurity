@@ -3,8 +3,12 @@
 }
 
 .ag_block {
+  .ag_layout {
+    @apply tw-px-20p;
+  }
+
   h2 {
-    @apply tw-w-full tw-flex-none tw-mx-20p;
+    @apply tw-text-xl tw-my-8 tw-text-primary tw-w-full tw-flex-none tw-px-20p;
   }
 
   & > div {
@@ -15,6 +19,25 @@
 
   .layout-builder-block {
     @apply tw-p-0;
+  }
+
+  .ag_image {
+    img {
+      @apply tw-w-full tw-object-cover;
+    }
+
+    @screen sm {
+      @apply tw-w-full tw-pt-6;
+      max-height: 165px;
+      max-width: 250px;
+    }
+
+    @screen md {
+      @apply tw-max-w-full tw-pt-0;
+      max-height: 140px;
+      height: unset;
+      width: unset;
+    }
   }
 }
 
