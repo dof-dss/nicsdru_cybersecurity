@@ -14099,11 +14099,20 @@ hr {
   left: calc(-50vw + 50%);
 }
 
+.ag_block .ag_layout {
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
 .ag_block h2 {
+  font-size: 3rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  color: #361c82;
   width: 100%;
   flex: none;
-  margin-left: 2%;
-  margin-right: 2%;
+  padding-left: 2%;
+  padding-right: 2%;
 }
 
 @media (min-width: 765px) {
@@ -14116,6 +14125,31 @@ hr {
 
 .ag_block .layout-builder-block {
   padding: 0;
+}
+
+.ag_block .ag_image img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media (min-width: 640px) {
+  .ag_block .ag_image {
+    width: 100%;
+    padding-top: 1.5rem;
+    max-height: 165px;
+    max-width: 250px;
+  }
+}
+
+@media (min-width: 765px) {
+  .ag_block .ag_image {
+    max-width: 100%;
+    padding-top: 0;
+    max-height: 140px;
+    height: unset;
+    width: unset;
+  }
 }
 
 .ag_image,
