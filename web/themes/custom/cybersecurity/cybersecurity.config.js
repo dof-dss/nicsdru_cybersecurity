@@ -36,6 +36,7 @@ module.exports = {
       'md': '765px',
       'lg': '960px',
       'max': '1024px',
+      'max-container': '1064px',
     },
     borderWidth: {
       default: '1px',
