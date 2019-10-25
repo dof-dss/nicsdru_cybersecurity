@@ -11,7 +11,7 @@ dependencies:
 id: mainmenuburgernav
 theme: cybersecurity
 region: hero
-weight: -10
+weight: -11
 provider: null
 plugin: 'block_content:38fa1bda-d607-4838-a31b-b2455fdd7b58'
 settings:

@@ -34,7 +34,7 @@
       }
     }
 
-    .form-search {
+    .form-text {
       @apply tw-w-full tw-h-full tw-border-0;
     }
 
@@ -48,7 +48,7 @@
     @apply tw-flex tw-flex-row tw-items-center tw-text-white tw-font-bold tw-mr-4 tw-justify-between;
 
     @screen md {
-      @apply tw-invisible tw-w-0;
+      @apply tw-invisible tw-w-0 tw-mr-0;
     }
 
     p {

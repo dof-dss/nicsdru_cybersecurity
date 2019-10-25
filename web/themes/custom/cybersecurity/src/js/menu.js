@@ -1,6 +1,6 @@
 (function ($) {
   // Show main navigation sub-menu on click of parent
-  $(".menu_main--item h2, .menu_main--item .next").click(function() {
+  $(".menu_main--item-text, .menu_main--item .next").click(function() {
     $(this).siblings(".menu_main--sub").toggleClass("tw-invisible");
 
     // Hide any open main navigation sibling sub-menu on click of parent
