@@ -14052,7 +14052,7 @@ hr {
   width: 100%;
 }
 
-.region_hero .search-block-form .form-search {
+.region_hero .search-block-form .form-text {
   width: 100%;
   height: 100%;
   border-width: 0;
@@ -14079,6 +14079,7 @@ hr {
   .region_hero .burger-nav {
     visibility: hidden;
     width: 0;
+    margin-right: 0;
   }
 }
 
