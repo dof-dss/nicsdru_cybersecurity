@@ -25,7 +25,7 @@
  * @see template_preprocess_block()
  */
 #}
-<div{{ attributes.addClass('sm-tw-flex md-tw-flex-wrap tw-my-8') }}>
+<article {{ attributes.addClass('sm-tw-flex md-tw-flex-wrap tw-my-8') }}>
   {{ title_prefix }}
   {% if label %}
     <h2{{ title_attributes }}>{{ label }}</h2>
@@ -37,4 +37,4 @@
     {{ content.body }}
     {{ content.field_link_button }}
   </div>
-</div>
+</article>
