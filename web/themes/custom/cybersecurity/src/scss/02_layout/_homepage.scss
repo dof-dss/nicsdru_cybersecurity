@@ -62,7 +62,7 @@
 
 .views-field-field-photo {
   @screen sm {
-    @apply tw-order-last tw-px-20p;
+    @apply tw-order-last;
   }
 
   @screen md {
@@ -75,7 +75,7 @@
 
 .views-field-nothing {
   @screen sm {
-    @apply tw-px-20p tw-w-full;
+    @apply tw-pr-20p tw-w-full;
   }
 
   @screen md {

@@ -23,7 +23,6 @@
     set row_classes = [
     default_row_class ? 'views-row',
     'sm-tw-flex',
-    'sm-tw--mx-20p',
     'sm-tw-justify-between',
     'md-tw-mx-0',
     'md-tw-block',
@@ -34,7 +33,7 @@
     'tw-my-8',
   ]
   %}
-  <div{{ row.attributes.addClass(row_classes) }}>
+  <article{{ row.attributes.addClass(row_classes) }}>
     {{- row.content -}}
-  </div>
+  </article>
 {% endfor %}

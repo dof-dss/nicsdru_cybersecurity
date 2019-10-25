@@ -1,0 +1,11 @@
+{% if content %}
+  <section {{ attributes.addClass(settings.extra_classes) }}>
+    {% if content.title %}
+      {{ content.title }}
+    {% endif %}
+    <div class="layout__region--center">
+      {{ content.center }}
+    </div>
+  </section>
+{%  endif %}
+

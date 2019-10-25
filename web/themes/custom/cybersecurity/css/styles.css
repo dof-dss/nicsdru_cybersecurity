@@ -14176,8 +14176,6 @@ hr {
 @media (min-width: 640px) {
   .views-field-field-photo {
     order: 9999;
-    padding-left: 2%;
-    padding-right: 2%;
   }
 }
 
@@ -14193,7 +14191,6 @@ hr {
 
 @media (min-width: 640px) {
   .views-field-nothing {
-    padding-left: 2%;
     padding-right: 2%;
     width: 100%;
   }
