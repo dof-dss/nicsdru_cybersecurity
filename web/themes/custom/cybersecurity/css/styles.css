@@ -14490,7 +14490,8 @@ hr {
     align-items: flex-end;
   }
 
-  .menu_main--item h2, .menu_main--item a {
+  .menu_main--item-text,
+  .menu_main--item a {
     padding-bottom: .8rem;
     line-height: 2.4rem;
   }
