@@ -14634,6 +14634,7 @@ hr {
   padding: 0.5rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
+  display: block;
 }
 
 .block_search .form-actions input {
@@ -14651,6 +14652,13 @@ hr {
 
 .facets-widget-links {
   padding: 1rem;
+}
+
+.facets-widget-links .facet-item {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
 }
 
 .user-login-form .form-item {
