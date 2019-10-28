@@ -25,10 +25,10 @@
  * @see template_preprocess_block()
  */
 #}
-<div{{ attributes.addClass('published-date tw-mt-8 tw-bg-gray-200 tw-border tw-border-gray-400 tw-mr-8') }}>
+<div{{ attributes.addClass('published-date tw-mt-8 tw-bg-gray-200 tw-border tw-border-gray-400') }}>
   {{ title_prefix }}
   {% if label %}
-    <h3{{ title_attributes.addClass('tw-m-0 tw-p-4 tw-bg-heading tw-text-white') }}>{{ label }}</h3>
+    <h3{{ title_attributes.addClass('tw-m-0 tw-p-4 tw-bg-heading tw-text-white tw-relative tw-cursor-pointer') }}>{{ label }}<i class="fas fa-chevron-down tw-absolute tw-right-0 tw-mr-4 tw-mt-2"></i></h3>
   {% endif %}
   {{ title_suffix }}
   {% block content %}
