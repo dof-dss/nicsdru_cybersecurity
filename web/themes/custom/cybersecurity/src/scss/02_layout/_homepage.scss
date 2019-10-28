@@ -91,6 +91,13 @@
   }
 }
 
+.views-field-field-taxonomy-icon {
+  .field-content {
+    @apply tw-mx-auto;
+    max-width: 15rem;
+  }
+}
+
 .views-field-name {
   @apply tw-text-center tw-py-8;
 

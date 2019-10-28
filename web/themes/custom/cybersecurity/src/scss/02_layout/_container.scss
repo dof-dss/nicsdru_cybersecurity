@@ -2,7 +2,7 @@
   @apply tw-my-0 tw-mx-auto tw-p-8;
   max-width: 1024px;
 
-  @screen max {
+  @screen max-container {
     @apply tw-px-0;
   }
 
