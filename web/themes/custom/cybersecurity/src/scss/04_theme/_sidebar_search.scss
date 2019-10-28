@@ -5,7 +5,7 @@
     }
 
     input {
-      @apply tw-max-w-full tw-border tw-border-gray-600 tw-p-2 tw-my-4;
+      @apply tw-max-w-full tw-border tw-border-gray-600 tw-p-2 tw-my-4 tw-block;
     }
   }
 
@@ -19,4 +19,8 @@
 
 .facets-widget-links {
   @apply tw-p-4;
+
+  .facet-item {
+    @apply tw-px-2 tw-py-3;
+  }
 }

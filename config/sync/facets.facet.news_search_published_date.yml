@@ -6,7 +6,11 @@ dependencies:
     - search_api.index.news_index
     - views.view.news
   module:
+    - facets_pretty_paths
     - search_api
+third_party_settings:
+  facets_pretty_paths:
+    coder: default_coder
 id: news_search_published_date
 name: 'News Published date'
 url_alias: date
@@ -18,7 +22,7 @@ facet_source_id: 'search_api:views_page__news__news_search_api'
 widget:
   type: links
   config:
-    show_numbers: false
+    show_numbers: true
     soft_limit: 0
     soft_limit_settings:
       show_less_label: 'Show less'
