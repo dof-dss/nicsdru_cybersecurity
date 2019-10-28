@@ -14715,6 +14715,15 @@ hr {
   height: auto;
 }
 
+.pager__item {
+  font-size: 1.8rem;
+}
+
+.pager__item.is-active {
+  color: #163772;
+  font-weight: 700;
+}
+
 .content-moderation-entity-moderation-form ul {
   margin-left: 0;
 }

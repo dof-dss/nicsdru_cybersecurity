@@ -1,0 +1,8 @@
+.pager__item {
+  @apply tw-text-sm;
+  
+  &.is-active {
+    @apply tw-text-sidebar tw-font-bold;
+  }
+}
+
