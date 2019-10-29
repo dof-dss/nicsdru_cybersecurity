@@ -28,6 +28,7 @@ module.exports = {
         'white': '#fff',
         'black': '#000',
         'text': '#333',
+        'breadcrumb': '#090921',
       },
     },
     screens: {
