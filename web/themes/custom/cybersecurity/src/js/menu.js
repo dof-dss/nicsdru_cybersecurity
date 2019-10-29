@@ -15,6 +15,11 @@
       .addClass("tw-invisible");
   });
 
+  // When you click the gradient under the main menu submenu, the submenu is set to invisible
+  $(".menu_main--grad").click(function () {
+    $(this).parent(".menu_main--sub").addClass("tw-invisible");
+  });
+
   // Add class open to menu-mob on click of burger nav icon
   $(".burger-nav").on("click", function() {
     if (!$(".menu-mob").hasClass("open")) {
@@ -30,7 +35,9 @@
   });
 
   $(".menu_main--sub--buttons .back").click(function () {
-    $(this).parents(".menu_main--sub").toggleClass("tw-invisible");
+    if ($(window).width() < 765) {
+      $(this).parents(".menu_main--sub").toggleClass("tw-invisible");
+    }
   })
 })(jQuery);
 
