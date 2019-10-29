@@ -53,10 +53,10 @@ display:
           id: 0
           total_pages: null
           tags:
-            previous: ‹‹
-            next: ››
-            first: '« First'
-            last: 'Last »'
+            previous: '‹ previous'
+            next: 'next ›'
+            first: '« first'
+            last: 'last »'
           expose:
             items_per_page: false
             items_per_page_label: 'Items per page'
@@ -68,6 +68,10 @@ display:
           quantity: 9
       style:
         type: default
+        options:
+          grouping: {  }
+          row_class: ''
+          default_row_class: true
       row:
         type: fields
       fields:
@@ -107,7 +111,7 @@ display:
             trim: false
             preserve_tags: ''
             html: false
-          element_type: ''
+          element_type: h3
           element_class: ''
           element_label_type: ''
           element_label_class: ''
@@ -178,7 +182,7 @@ display:
             trim: false
             preserve_tags: ''
             html: false
-          element_type: ''
+          element_type: p
           element_class: ''
           element_label_type: ''
           element_label_class: ''
@@ -231,7 +235,7 @@ display:
             trim: false
             preserve_tags: ''
             html: false
-          element_type: ''
+          element_type: p
           element_class: ''
           element_label_type: ''
           element_label_class: ''
