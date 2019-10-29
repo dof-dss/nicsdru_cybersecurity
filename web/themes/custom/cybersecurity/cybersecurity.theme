@@ -218,14 +218,15 @@ function cybersecurity_preprocess_file_link(&$variables) {
 /**
  * Adds Image Style machine name as class on images
  *
- * @param $variables
+ * @param  mixed $variables
+ *   Image Variables.
  */
 function cybersecurity_preprocess_image(&$variables) {
 
-  // Check Style Name is set
+  // Check Style Name is set.
   if ($variables['style_name']) {
 
-    // Sets Image style as class with prefix for distinction
+    // Sets Image style as class with prefix for distinction.
     $variables['attributes']['class'][] = 'img_style_' . $variables['style_name'];
 
   }
