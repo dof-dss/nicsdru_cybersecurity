@@ -197,18 +197,15 @@ function cybersecurity_preprocess_file_link(&$variables) {
 
   // Replace underscores in $file_type used for class, with a space for display.
   $file_type = str_replace('_', ' ', $file_type);
-
+  // Set variable for the description.
   $file_description = $variables['description'];
+  // Default file name if description field is empty.
+  $file_default = $file_entity->getFilename();
+  // Set the file type and size as a variable.
+  $file_information = "<br><span>" . $file_type . ' ' . $format_file_size . "</span>";
 
-  // Use the description as the link text if available.
-  if (empty($file_description)) {
-    $file_description = $file_entity
-      ->getFilename() . "<br><span>" . $file_type . ' ' . $format_file_size . "</span>";
-  }
-  else {
-    $file_description = $variables['description'] . "<br><span>" . $file_type . ' ' . $format_file_size .
-      "</span>";
-  }
+  // Set the file name based on description field being populated.
+  $file_description = empty($file_description) ? $file_default . $file_information : $file_description . $file_information;
 
   $file_description = Markup::create($file_description);
   // Set the link with the file size added to the description and with the mime type class.

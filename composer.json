@@ -21,7 +21,7 @@
         "cweagans/composer-patches": "^1.6.5",
         "dof-dss/nicsdru_origins_profile": "^0.1",
         "drupal-composer/drupal-scaffold": "^2.5",
-        "drupal/backup_migrate": "^4.0",
+        "drupal/config_split": "^1.4",
         "drupal/console": "^1.0.2",
         "drupal/core": "^8.7.0",
         "drupal/easy_breadcrumb": "^1.12",
@@ -37,8 +37,8 @@
         "drupal/search_api": "^1.14",
         "drupal/structure_sync": "^1.16",
         "drupal/svg_image": "^1.9",
-        "drupal/twig_tweak": "^2.4",
         "drupal/text_summary_options": "^1.0",
+        "drupal/twig_tweak": "^2.4",
         "drupal/webform": "^5.4",
         "drush/drush": "^9.0.0",
         "vlucas/phpdotenv": "^2.4",
@@ -47,6 +47,7 @@
         "zaporylie/composer-drupal-optimizations": "^1.0"
     },
     "require-dev": {
+        "drupal/backup_migrate": "^4.0",
         "drupal/coder": "~8.0",
         "drupal/devel": "^2.1",
         "mglaman/drupal-check": "^1.0",
