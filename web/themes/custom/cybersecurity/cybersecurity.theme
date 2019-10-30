@@ -201,7 +201,7 @@ function cybersecurity_preprocess_file_link(&$variables) {
   $file_description = $variables['description'];
   // Default file name if description field is empty.
   $file_default = $file_entity->getFilename();
-  // Use the description as the link text if available.
+  // Set the file type and size as a variable.
   $file_information = "<br><span>" . $file_type . ' ' . $format_file_size . "</span>";
 
   // Set the file name based on description field being populated.
