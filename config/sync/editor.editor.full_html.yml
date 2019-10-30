@@ -21,12 +21,15 @@ settings:
             - '-'
             - Blockquote
             - Superscript
-            - RemoveFormat
         -
           name: 'Block Formatting'
           items:
             - Format
             - Table
+        -
+          name: 'Remove formatting'
+          items:
+            - RemoveFormat
         -
           name: Linking
           items:

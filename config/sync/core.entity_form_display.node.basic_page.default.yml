@@ -4,8 +4,9 @@ status: true
 dependencies:
   config:
     - field.field.node.basic_page.body
-    - field.field.node.basic_page.field_checkbox
+    - field.field.node.basic_page.field_toc_enable
     - node.type.basic_page
+    - workflows.workflow.nics_editorial_workflow
   module:
     - content_moderation
     - path
@@ -32,12 +33,13 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-  field_checkbox:
-    weight: 122
+  field_toc_enable:
+    type: boolean_checkbox
+    label: above
     settings:
       display_label: true
+    weight: 126
     third_party_settings: {  }
-    type: boolean_checkbox
     region: content
   moderation_state:
     type: moderation_state_default
