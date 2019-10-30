@@ -14534,11 +14534,20 @@ hr {
 }
 
 .region_hero .search-block-form .form-submit {
-  background-color: #5787c7;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url("../assets/icon_search.svg");
+  background-color: #fff;
+  background-image: url("../assets/icon_search-blue");
+  background-size: 25px 20px;
   content: "";
+}
+
+@media (min-width: 440px) {
+  .region_hero .search-block-form .form-submit {
+    background-color: #5787c7;
+    background-image: url("../assets/icon_search.svg");
+    background-size: auto;
+  }
 }
 
 .block--nicsc-highlight h2 {
