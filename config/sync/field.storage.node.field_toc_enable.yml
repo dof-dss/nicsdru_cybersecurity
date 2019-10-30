@@ -1,16 +1,16 @@
-uuid: f32d8d7f-39d1-489e-af0a-4d7699e326f0
+uuid: 9282efea-18eb-4a36-902f-2b6593337e84
 langcode: en
 status: true
 dependencies:
   module:
     - node
-id: node.field_checkbox
-field_name: field_checkbox
+id: node.field_toc_enable
+field_name: field_toc_enable
 entity_type: node
 type: boolean
 settings: {  }
 module: core
-locked: false
+locked: true
 cardinality: 1
 translatable: true
 indexes: {  }
