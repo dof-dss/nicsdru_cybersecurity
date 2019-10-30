@@ -14071,6 +14071,11 @@ hr {
   padding: 0;
 }
 
+.container--tabs {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
 .tabs a {
   padding-top: 1rem;
   padding-bottom: 1rem;
