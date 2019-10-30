@@ -1,4 +1,13 @@
 .img_style_inline,
 .img_style_inline_expandable {
-  @apply tw-float-right tw-my-8 tw-ml-8;
+  @apply tw-w-full tw-my-8 tw-h-auto;
+
+  @screen xs {
+    @apply tw-float-right tw-ml-8;
+    width: 300px;
+  }
+}
+
+.inline-xl {
+  @apply tw-w-full tw-h-auto tw-float-none tw-m-0;
 }

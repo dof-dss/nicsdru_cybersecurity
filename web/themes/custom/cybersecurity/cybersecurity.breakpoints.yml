@@ -28,3 +28,8 @@ theme.large:
   weight: 4
   multipliers:
     - 2x
+theme.max:
+  label: max
+  mediaQuery: 'media only screen and (min-width: 1024px)'
+  multipliers:
+    - 2x
