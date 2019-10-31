@@ -14537,7 +14537,7 @@ hr {
   background-repeat: no-repeat;
   background-position: center;
   background-color: #fff;
-  background-image: url("../assets/icon_search-blue");
+  background-image: url("../assets/icon_search-blue.svg");
   background-size: 25px 20px;
   content: "";
 }
