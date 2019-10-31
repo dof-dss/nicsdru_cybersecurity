@@ -39,3 +39,15 @@ Then, upload the .tar.gz under 'Upload a Backup File'. Choose Restore To Public 
 and then click Restore now.
 
 Now set the homepage to `\home` in `Manage > Configuration > System Site Settings > Front Page`.
+
+### Configuration split 
+This site uses "config split" to allow configurations to be defined per environment. Ie: local development modules like "devel"
+will be enabled for local development and remain disabled for other environments.
+
+The config split settings are found in the ../config folder.
+
+In the settings.php you will need to add these lines:
+
+$config['config_split.config_split.local_dev']['status'] = TRUE;
+$config['config_split.config_split.development']['status'] = FALSE;
+$config['config_split.config_split.pre-production']['status'] = FALSE;
