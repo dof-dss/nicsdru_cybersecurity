@@ -1,0 +1,15 @@
+uuid: cadde9b1-cd7d-4b30-ac14-e0bc06c6df56
+langcode: en
+status: true
+dependencies: {  }
+name: home_765px_
+label: 'Home (765px)'
+effects:
+  5411e496-0241-43ef-94ea-718aecd35f76:
+    uuid: 5411e496-0241-43ef-94ea-718aecd35f76
+    id: image_scale
+    weight: 1
+    data:
+      width: 250
+      height: null
+      upscale: true

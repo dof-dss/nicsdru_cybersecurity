@@ -1,0 +1,48 @@
+uuid: 850320e7-2938-4dd0-be4e-885f153f4ab6
+langcode: en
+status: true
+dependencies:
+  config:
+    - image.style.home_1024px_
+    - image.style.home_1024px_z
+    - image.style.home_640px_
+    - image.style.home_640px_x2
+    - image.style.home_765px_
+    - image.style.home_765px_x2
+  theme:
+    - cybersecurity
+id: homepage
+label: Homepage
+image_style_mappings:
+  -
+    breakpoint_id: theme.medium
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: home_1024px_
+  -
+    breakpoint_id: theme.medium
+    multiplier: 2x
+    image_mapping_type: image_style
+    image_mapping: home_1024px_z
+  -
+    breakpoint_id: theme.small
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: home_765px_
+  -
+    breakpoint_id: theme.small
+    multiplier: 2x
+    image_mapping_type: image_style
+    image_mapping: home_765px_x2
+  -
+    breakpoint_id: theme.mobile
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: home_640px_
+  -
+    breakpoint_id: theme.mobile
+    multiplier: 2x
+    image_mapping_type: image_style
+    image_mapping: home_640px_x2
+breakpoint_group: cybersecurity
+fallback_image_style: home_1024px_

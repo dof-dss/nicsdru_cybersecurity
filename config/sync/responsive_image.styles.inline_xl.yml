@@ -1,0 +1,24 @@
+uuid: c609af7a-e299-4d1b-96e1-a5f51b4138fd
+langcode: en
+status: true
+dependencies:
+  config:
+    - image.style.inline_xl_expandable
+    - image.style.inline_xl_expandable_x2_
+  theme:
+    - cybersecurity
+id: inline_xl
+label: 'Inline XL'
+image_style_mappings:
+  -
+    breakpoint_id: theme.mobile
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: inline_xl_expandable
+  -
+    breakpoint_id: theme.mobile
+    multiplier: 2x
+    image_mapping_type: image_style
+    image_mapping: inline_xl_expandable_x2_
+breakpoint_group: cybersecurity
+fallback_image_style: inline_xl_expandable

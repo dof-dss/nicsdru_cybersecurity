@@ -8,7 +8,7 @@ libraries:
   - cybersecurity/global-js
 
 # Information added by Drupal.org packaging script on 2019-06-18
-version: '8.x-0.1'
+version: '8.x-2.4'
 core: '8.x'
 project: 'tailwindcss'
 datestamp: 1560861196lando
