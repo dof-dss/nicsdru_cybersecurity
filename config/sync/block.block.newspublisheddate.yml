@@ -12,7 +12,7 @@ dependencies:
 id: newspublisheddate
 theme: cybersecurity
 region: sidebar_left
-weight: -6
+weight: 0
 provider: null
 plugin: 'facet_block:news_search_published_date'
 settings:
