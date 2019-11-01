@@ -120,6 +120,22 @@ function cybersecurity_theme_suggestions_page_alter(array &$suggestions, array $
 }
 
 /**
+ * Implements hook_theme_suggestions_page_alter().
+ *
+ * Provide item list suggestion based on whether it has a class attribute of 'list-origins-toc'.
+ *
+ * @param array $suggestions
+ * @param array $variables
+ */
+function cybersecurity_theme_suggestions_item_list_alter(array &$suggestions, array $variables) {
+  $class = $variables['attributes']['class'];
+
+  if ($class == 'list-origins-toc') {
+    $suggestions[] = 'item_list__list_origins_toc';
+  }
+}
+
+/**
  * Implements hook_preprocess_file_link() for file link.
  *
  * Functions to support theming and add the formatted file type and size.

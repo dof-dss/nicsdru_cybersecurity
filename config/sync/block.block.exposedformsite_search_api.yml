@@ -12,7 +12,7 @@ dependencies:
 id: exposedformsite_search_api
 theme: cybersecurity
 region: sidebar_left
-weight: -10
+weight: -5
 provider: null
 plugin: 'views_exposed_filter_block:site_search_api-site_search_api'
 settings:
