@@ -8,7 +8,7 @@ id: front
 label: 'Front page'
 tags:
   shortlink: '[site:url]'
-  title: '[site:name] | [current-page]'
+  title: '[current-page:title] | [site:name]'
   canonical_url: '[site:url]'
   og_type: Website
   og_url: '[site:url]'
