@@ -1,0 +1,21 @@
+uuid: b7f0a0d4-b1b5-4820-b3a0-effb3f0d5c52
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 70bSXdfg3nlJ_VvJ6BdyAONpvgMBG9FgnlkiIaihgxU
+id: front
+label: 'Front page'
+tags:
+  shortlink: '[site:url]'
+  title: '[site:name] | [current-page]'
+  canonical_url: '[site:url]'
+  og_type: Website
+  og_url: '[site:url]'
+  og_description: '[site:slogan]'
+  og_site_name: '[site:name]'
+  og_title: '[site:name]'
+  twitter_cards_page_url: '[site:url]'
+  twitter_cards_description: '[site:slogan]'
+  twitter_cards_type: summary
+  twitter_cards_title: '[site:name]'

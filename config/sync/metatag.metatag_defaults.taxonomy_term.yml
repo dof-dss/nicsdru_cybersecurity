@@ -1,0 +1,22 @@
+uuid: 51f9a1a6-180a-49f7-a942-e046a77b6ca6
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: t6n-Kp2r7AEurWJwMZWMGP48HbWUHHNCvueI-7yg5Os
+id: taxonomy_term
+label: 'Taxonomy term'
+tags:
+  shortlink: '[current-page:url:unaliased]'
+  title: '[term:name] | [site:name]'
+  canonical_url: '[current-page:url:absolute]'
+  description: '[term:description]'
+  og_type: Article
+  og_url: '[current-page:url:absolute]'
+  og_description: '[term:description]'
+  og_site_name: '[site:name]'
+  og_title: '[term:name]'
+  twitter_cards_page_url: '[current-page:url:absolute]'
+  twitter_cards_description: '[term:description]'
+  twitter_cards_type: summary
+  twitter_cards_title: '[term:name]'
