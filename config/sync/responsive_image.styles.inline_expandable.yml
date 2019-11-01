@@ -1,0 +1,24 @@
+uuid: f0ea3af1-c828-4505-be36-a431c1ae16da
+langcode: en
+status: true
+dependencies:
+  config:
+    - image.style.inline_expandable
+    - image.style.inline_expandable_x2_
+  theme:
+    - cybersecurity
+id: inline_expandable
+label: 'Inline Expandable'
+image_style_mappings:
+  -
+    breakpoint_id: theme.mobile
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: inline_expandable
+  -
+    breakpoint_id: theme.mobile
+    multiplier: 2x
+    image_mapping_type: image_style
+    image_mapping: inline_expandable_x2_
+breakpoint_group: cybersecurity
+fallback_image_style: inline_expandable

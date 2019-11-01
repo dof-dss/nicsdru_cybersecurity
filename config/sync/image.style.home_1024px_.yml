@@ -1,0 +1,15 @@
+uuid: c6728f52-930e-4b4d-b9bb-f1425c5dc0f1
+langcode: en
+status: true
+dependencies: {  }
+name: home_1024px_
+label: 'Home (1024px)'
+effects:
+  00c95d2b-c09d-451d-9e6e-5328a2c29814:
+    uuid: 00c95d2b-c09d-451d-9e6e-5328a2c29814
+    id: image_scale
+    weight: 1
+    data:
+      width: 312
+      height: null
+      upscale: true

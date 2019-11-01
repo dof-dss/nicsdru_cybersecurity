@@ -1,0 +1,15 @@
+uuid: a1642084-31ba-473c-aa63-c08d31f85aca
+langcode: en
+status: true
+dependencies: {  }
+name: inline_440px_
+label: 'Inline (440px)'
+effects:
+  3e96e211-24a4-42f3-aab2-3cab13f70595:
+    uuid: 3e96e211-24a4-42f3-aab2-3cab13f70595
+    id: image_scale
+    weight: 1
+    data:
+      width: 440
+      height: null
+      upscale: true

@@ -8,9 +8,10 @@ dependencies:
     - field.field.block_content.basic_block.field_block_image
     - field.field.block_content.basic_block.field_block_title
     - field.field.block_content.basic_block.field_link_button
+    - responsive_image.styles.homepage
   module:
     - link
-    - svg_image
+    - responsive_image
     - text
 id: block_content.basic_block.default
 targetEntityType: block_content
@@ -28,14 +29,10 @@ content:
     weight: 0
     label: hidden
     settings:
-      image_style: ''
+      responsive_image_style: homepage
       image_link: ''
-      svg_attributes:
-        width: ''
-        height: ''
-      svg_render_as_image: true
     third_party_settings: {  }
-    type: image
+    type: responsive_image
     region: content
   field_block_title:
     weight: 1

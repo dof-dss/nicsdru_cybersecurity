@@ -1,0 +1,15 @@
+uuid: 38385ce0-1acc-4a5a-b58a-c2fc570c3e91
+langcode: en
+status: true
+dependencies: {  }
+name: home_765px_x2
+label: 'Home (765px) x2'
+effects:
+  4f9b34bb-224e-4b87-96b1-2896ae4737e5:
+    uuid: 4f9b34bb-224e-4b87-96b1-2896ae4737e5
+    id: image_scale
+    weight: 1
+    data:
+      width: 500
+      height: null
+      upscale: true

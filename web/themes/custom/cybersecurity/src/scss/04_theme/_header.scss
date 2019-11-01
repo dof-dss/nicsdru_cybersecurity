@@ -22,9 +22,16 @@
     }
 
     .form-submit {
-      @apply tw-bg-light tw-bg-no-repeat tw-bg-center;
-      background-image: url("../assets/icon_search.svg");
+      @apply tw-bg-no-repeat tw-bg-center tw-bg-white;
+      background-image: url("../assets/icon_search-blue.svg");
+      background-size: 25px 20px;
       content: "";
+
+      @screen xs {
+        @apply tw-bg-light;
+        background-image: url("../assets/icon_search.svg");
+        background-size: auto;
+      }
     }
   }
 }
