@@ -128,7 +128,7 @@ function cybersecurity_theme_suggestions_page_alter(array &$suggestions, array $
  *    The list of theme suggestions for item-list.
  *
  * @param array $variables
- *    The class variable.
+ *    The class attributes variable.
  */
 function cybersecurity_theme_suggestions_item_list_alter(array &$suggestions, array $variables) {
   $class = $variables['attributes']['class'];
