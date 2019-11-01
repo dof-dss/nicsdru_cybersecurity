@@ -6,11 +6,11 @@ dependencies:
     - field.field.node.news.body
     - field.field.node.news.field_photo
     - field.field.node.news.field_published_date
-    - image.style.inline
     - node.type.news
+    - responsive_image.styles.inline
   module:
     - datetime
-    - svg_image
+    - responsive_image
     - text
     - user
 _core:
@@ -33,17 +33,13 @@ content:
     settings: {  }
     third_party_settings: {  }
   field_photo:
-    type: image
+    type: responsive_image
     weight: 3
     region: content
     label: hidden
     settings:
-      image_style: inline
+      responsive_image_style: inline
       image_link: ''
-      svg_render_as_image: '1'
-      svg_attributes:
-        width: ''
-        height: ''
     third_party_settings: {  }
   field_published_date:
     weight: 2

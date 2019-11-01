@@ -56,11 +56,9 @@
   <main role="main" class="tw-mx-auto">
     <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
 
-    <div class="md:tw-flex tw--mx-4">
-      <div class="md:tw-flex-1 tw-p-4">
-        {{ page.content }}
-      </div>{# /.layout-content #}
-    </div>
+    <div>
+      {{ page.content }}
+    </div>{# /.layout-content #}
   </main>
 
   {% if page.footer_first or page.footer_second or page.footer_third %}

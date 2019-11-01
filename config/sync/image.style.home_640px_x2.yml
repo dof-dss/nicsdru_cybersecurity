@@ -1,0 +1,15 @@
+uuid: fe967be3-b096-4abb-8f06-02f8803f6f91
+langcode: en
+status: true
+dependencies: {  }
+name: home_640px_x2
+label: 'Home (640px) x2'
+effects:
+  3785ae89-7ceb-4042-a5ba-a0088557b68f:
+    uuid: 3785ae89-7ceb-4042-a5ba-a0088557b68f
+    id: image_scale
+    weight: 1
+    data:
+      width: 1200
+      height: null
+      upscale: true
