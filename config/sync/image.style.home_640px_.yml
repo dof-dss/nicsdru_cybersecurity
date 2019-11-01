@@ -1,0 +1,15 @@
+uuid: 76fab475-2580-45d0-82cb-e6557fe7f93c
+langcode: en
+status: true
+dependencies: {  }
+name: home_640px_
+label: 'Home (640px)'
+effects:
+  de697f3a-fc76-41af-8fbd-9f461bccc71d:
+    uuid: de697f3a-fc76-41af-8fbd-9f461bccc71d
+    id: image_scale
+    weight: 1
+    data:
+      width: 600
+      height: null
+      upscale: true

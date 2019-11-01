@@ -1,0 +1,15 @@
+uuid: 75eba4ab-0f0e-4999-9057-85cb9afaf040
+langcode: en
+status: true
+dependencies: {  }
+name: inline_440px_x2
+label: 'Inline (440px) x2'
+effects:
+  c2224881-57db-41ad-a391-ac123d680499:
+    uuid: c2224881-57db-41ad-a391-ac123d680499
+    id: image_scale
+    weight: 1
+    data:
+      width: 880
+      height: null
+      upscale: true

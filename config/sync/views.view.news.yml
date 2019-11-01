@@ -6,9 +6,11 @@ dependencies:
     - field.storage.node.body
     - field.storage.node.field_photo
     - field.storage.node.field_published_date
+    - responsive_image.styles.homepage
     - search_api.index.news_index
   module:
     - datetime
+    - responsive_image
     - search_api
     - svg_image
     - text
@@ -456,14 +458,10 @@ display:
           empty_zero: false
           hide_alter_empty: true
           click_sort_column: target_id
-          type: image
+          type: responsive_image
           settings:
-            image_style: ''
+            responsive_image_style: homepage
             image_link: content
-            svg_render_as_image: 1
-            svg_attributes:
-              width: ''
-              height: ''
           group_column: ''
           group_columns: {  }
           group_rows: true

@@ -1,0 +1,36 @@
+uuid: bbcafc82-f28c-430c-abc0-7206971b1f67
+langcode: en
+status: true
+dependencies:
+  config:
+    - image.style.inline
+    - image.style.inline_440px_
+    - image.style.inline_440px_x2
+    - image.style.inline_x2_
+  theme:
+    - cybersecurity
+id: inline
+label: Inline
+image_style_mappings:
+  -
+    breakpoint_id: theme.xsmall
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: inline
+  -
+    breakpoint_id: theme.xsmall
+    multiplier: 2x
+    image_mapping_type: image_style
+    image_mapping: inline_x2_
+  -
+    breakpoint_id: theme.mobile
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: inline_440px_
+  -
+    breakpoint_id: theme.mobile
+    multiplier: 2x
+    image_mapping_type: image_style
+    image_mapping: inline_440px_x2
+breakpoint_group: cybersecurity
+fallback_image_style: inline
