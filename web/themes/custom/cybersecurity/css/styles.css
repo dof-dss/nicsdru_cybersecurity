@@ -14909,6 +14909,28 @@ hr {
   padding-bottom: 0.5rem;
 }
 
+.page-toc {
+  margin-bottom: 4rem;
+}
+
+.page-toc ul {
+  list-style-type: none;
+  margin-left: 0;
+}
+
+.page-toc li {
+  list-style-type: none;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+.page-toc li:before {
+  display: inline-block;
+  padding-right: 1.5rem;
+  content: "-";
+  width: 1rem;
+}
+
 .menu_left--sub a:before {
   display: inline-block;
   content: "-";
