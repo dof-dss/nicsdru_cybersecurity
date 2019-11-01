@@ -12,10 +12,10 @@
   }
 
   .description {
-    @apply tw-italic;
+    @apply tw-text-base;
   }
 
   .button {
-    @apply tw-border-0 tw-p-4 tw-bg-gray-200 tw-rounded;
+    @apply tw-border-0 tw-p-4 btn tw-bg-heading tw-text-white tw-font-bold;
   }
 }

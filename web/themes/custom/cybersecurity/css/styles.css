@@ -14263,6 +14263,10 @@ hr {
   background-color: #e5e5ec;
 }
 
+.toolbar-menu li {
+  font-size: 1.3rem;
+}
+
 @media (min-width: 765px) {
   .header-hero {
     max-height: 5rem;
@@ -14978,14 +14982,18 @@ hr {
 }
 
 .user-login-form .description {
-  font-style: italic;
+  font-size: 1.6rem;
 }
 
 .user-login-form .button {
   border-width: 0;
   padding: 1rem;
-  background-color: #edf2f7;
-  border-radius: 0.25rem;
+  border-radius: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: #010247;
+  color: #fff;
+  font-weight: 700;
 }
 
 .node_news .news-date {
