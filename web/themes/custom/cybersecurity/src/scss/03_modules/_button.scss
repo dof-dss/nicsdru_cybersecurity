@@ -6,8 +6,7 @@
   @apply tw-rounded-lg tw-px-4;
 
   &--more {
-    @apply tw-w-60 tw-h-16 tw-text-md tw-font-bold tw-text-center;
-    line-height: 4rem;
+    @apply tw-w-60 tw-h-16 tw-text-md tw-font-bold tw-text-center tw-leading-xl;
   }
 
   &--primary {
