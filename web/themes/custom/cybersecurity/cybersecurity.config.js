@@ -31,6 +31,7 @@ module.exports = {
         'black': '#000',
         'text': '#333',
         'breadcrumb': '#090921',
+        'warning': '#FF0000',
       },
     },
     screens: {

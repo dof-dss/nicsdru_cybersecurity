@@ -264,3 +264,22 @@ function cybersecurity_preprocess_responsive_image(array &$variables) {
     $variables['attributes']['class'][] = $image_style;
   }
 }
+
+/**
+ * Implements hook_preprocess().
+ *
+ * Add is_front as a variable available in all templates.
+ *
+ * @param array $variables
+ *   Variable is_front.
+ */
+function cybersecurity_preprocess(array &$variables) {
+  try {
+    $variables['is_front'] = \Drupal::service('path.matcher')->isFrontPage();
+  }
+  catch (Exception $e) {
+    $variables['is_front'] = FALSE;
+  }
+
+  $variables['#cache']['contexts'][] = 'url.path.is_front';
+}
