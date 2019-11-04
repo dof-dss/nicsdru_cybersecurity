@@ -14964,13 +14964,17 @@ hr {
   color: #fff;
 }
 
-.page-content ul {
+.node-news ul,
+.node-publication ul,
+.node-basic-page ul {
   margin-left: 2rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
 
-.page-content li {
+.node-news li,
+.node-publication li,
+.node-basic-page li {
   list-style-type: disc;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
@@ -15042,26 +15046,31 @@ hr {
   padding-bottom: 0.75rem;
 }
 
-.user-login-form .form-item {
+.user-login-form .form-item,
+.user-pass .form-item {
   margin-bottom: 2rem;
 }
 
-.user-login-form label {
+.user-login-form label,
+.user-pass label {
   font-weight: 700;
   display: block;
 }
 
-.user-login-form input {
+.user-login-form input,
+.user-pass input {
   border-width: 1px;
   border-color: #333;
   display: block;
 }
 
-.user-login-form .description {
+.user-login-form .description,
+.user-pass .description {
   font-size: 1.6rem;
 }
 
-.user-login-form .button {
+.user-login-form .button,
+.user-pass .button {
   border-width: 0;
   padding: 1rem;
   border-radius: 0.5rem;
