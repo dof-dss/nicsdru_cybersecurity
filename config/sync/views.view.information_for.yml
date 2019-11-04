@@ -62,7 +62,7 @@ display:
           default_row_class: true
           type: ul
           wrapper_class: ''
-          class: 'tw-flex tw-flex-wrap tw-justify-between tw--mx-30p'
+          class: 'tw-flex tw-flex-wrap tw-justify-between tw--mx-20p'
       row:
         type: fields
       fields:

@@ -62,7 +62,15 @@ module.exports = {
       'lg': '2.4rem',
       'xl': '3rem',
       'xxl': '3.6rem',
-    }
+    },
+    lineHeight: {
+      'sm': '2.4rem',
+      'md': '2.8rem',
+      'lg': '3rem',
+      'xl-tight': '3.5rem',
+      'xl': '4rem',
+      'xxl': '4.5rem',
+    },
   },
   variants: {},
   plugins: [

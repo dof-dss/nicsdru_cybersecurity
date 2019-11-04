@@ -59,3 +59,11 @@
   }
 }
 
+.icon-home {
+  @apply tw-inline-block tw-align-bottom bg-center bg-no-repeat;
+  background-image: url("../assets/home.svg");
+  width: 18px;
+  height: 24px;
+}
+
+
