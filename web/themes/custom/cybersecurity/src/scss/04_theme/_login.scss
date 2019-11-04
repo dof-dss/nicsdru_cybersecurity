@@ -19,3 +19,10 @@
     @apply tw-border-0 tw-p-4 btn tw-bg-heading tw-text-white tw-font-bold;
   }
 }
+
+.form-required {
+  &::after {
+    @apply tw-pl-2 tw-text-warning;
+    content: "*";
+  }
+}
