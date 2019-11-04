@@ -254,10 +254,10 @@ function cybersecurity_preprocess_image(&$variables) {
  *
  * Add responsive image style id as a class in the attributes array for a responsive image.
  *
- * @param $variables
- *    Responsive image style variables.
+ * @param array $variables
+ *   Responsive image style variables.
  */
-function cybersecurity_preprocess_responsive_image(&$variables) {
+function cybersecurity_preprocess_responsive_image(array &$variables) {
   $image_style = 'img_style_' . $variables['responsive_image_style_id'];
 
   if ($variables['responsive_image_style_id']) {
