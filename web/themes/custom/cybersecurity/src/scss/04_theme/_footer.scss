@@ -1,4 +1,18 @@
 .footer {
+  @apply tw-w-1/3 tw-float-left;
+
+  @supports (display: flex) {
+    @apply tw-float-none tw-w-full;
+
+    @screen sm {
+      @apply tw-w-1/2;
+    }
+
+    @screen md {
+      @apply tw-w-1/3;
+    }
+  }
+
   h2 {
     @apply tw-text-white tw-text-sm tw-leading-sm;
   }
@@ -12,5 +26,11 @@
 .footer_second {
   a {
     @apply tw-text-white;
+  }
+}
+
+.footer_third {
+  fa-facebook {
+    content: 'f';
   }
 }
