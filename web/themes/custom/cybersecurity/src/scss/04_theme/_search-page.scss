@@ -5,6 +5,16 @@
     form {
       @apply tw-flex tw-w-full;
 
+      &::after {
+        content: '';
+        clear: both;
+        display: table;
+
+        @supports (display: flex) {
+          content: unset;
+        }
+      }
+
       .form-item {
         @apply tw-w-full;
         max-width: 300px;
@@ -30,6 +40,15 @@
             @apply tw-bg-heading tw-text-white tw-border tw-font-bold tw-text-base tw-w-auto;
             background-image: unset;
           }
+        }
+      }
+
+      .form-item,
+      .form-actions {
+        @apply tw-float-left;
+
+        @supports (display: flex) {
+          @apply tw-float-none;
         }
       }
     }

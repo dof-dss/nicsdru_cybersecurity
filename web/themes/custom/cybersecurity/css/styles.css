@@ -14385,8 +14385,40 @@ hr {
   height: 100%;
 }
 
+.region_hero .search-block-form form::after {
+  content: '';
+  clear: both;
+  display: table;
+}
+
+@supports (display: flex) {
+  .region_hero .search-block-form form::after {
+    content: unset;
+  }
+}
+
 .region_hero .search-block-form form .form-item {
-  width: 100%;
+  height: 100%;
+  float: left;
+  width: calc(100% - 52px);
+}
+
+@supports (display: flex) {
+  .region_hero .search-block-form form .form-item {
+    width: 100%;
+    float: none;
+  }
+}
+
+.region_hero .search-block-form form .form-actions {
+  height: 100%;
+  float: left;
+}
+
+@supports (display: flex) {
+  .region_hero .search-block-form form .form-actions {
+    float: none;
+  }
 }
 
 .region_hero .search-block-form .form-text {
@@ -14457,13 +14489,6 @@ hr {
     width: 33.333333%;
     padding-left: 2%;
     padding-right: 2%;
-    float: left;
-  }
-
-  @supports (display: flex) {
-    .ag_block > div {
-      float: none;
-    }
   }
 }
 
@@ -14579,26 +14604,6 @@ hr {
   margin-top: 0.5rem;
 }
 
-.view-display-id-latest_news_block .views-row {
-  float: left;
-}
-
-@supports (display: flex) {
-  .view-display-id-latest_news_block .views-row {
-    float: none;
-  }
-}
-
-.block_information-for li {
-  float: left;
-}
-
-@supports (display: flex) {
-  .block_information-for li {
-    float: none;
-  }
-}
-
 .disappear {
   display: none;
   height: 0;
@@ -14644,6 +14649,38 @@ hr {
     height: auto;
     z-index: auto;
     display: flex;
+  }
+}
+
+.left {
+  float: left;
+}
+
+@supports (display: flex) {
+  .left {
+    float: none;
+  }
+}
+
+.right {
+  float: right;
+}
+
+@supports (display: flex) {
+  .right {
+    float: none;
+  }
+}
+
+.clearfix::after {
+  content: '';
+  clear: both;
+  display: table;
+}
+
+@supports (display: flex) {
+  .clearfix::after {
+    content: unset;
   }
 }
 
@@ -14804,11 +14841,13 @@ hr {
 }
 
 .main-bg {
+  background-color: #0b165c;
   background-image: linear-gradient(#090a1e, #070945 20%, #0b165c, #143270 70%);
   background-size: cover;
 }
 
 .front-bg {
+  background-color: #0b165c;
   background-image: linear-gradient(#090a1e, #070945 20%, #0b165c, #143270 70%);
   background-size: cover;
   background-position: bottom;
@@ -14875,17 +14914,52 @@ hr {
 
 .menu_cisp li {
   line-height: 2.4rem;
+  display: inline-block;
+}
+
+@supports (display: flex) {
+  .menu_cisp li {
+    display: flex;
+  }
+}
+
+.menu_main {
+  text-align: justify;
+}
+
+.menu_main::after {
+  width: 100%;
+  display: inline-block;
+  content: '';
+}
+
+@supports (display: flex) {
+  .menu_main::after {
+    content: unset;
+  }
+}
+
+@supports (display: flex) {
+  .menu_main {
+    text-align: unset;
+  }
 }
 
 .menu_main--item {
   font-size: 1.6rem;
   position: static;
   width: 100%;
-  display: flex;
+  display: inline-block;
   justify-content: space-between;
   align-content: center;
   border-bottom-width: 1px;
   flex: 1 1 auto;
+}
+
+@supports (display: flex) {
+  .menu_main--item {
+    display: flex;
+  }
 }
 
 .menu_main--item a:hover,
@@ -14930,6 +15004,7 @@ hr {
 .menu_main--sub {
   top: 0;
   left: 0;
+  text-align: left;
 }
 
 @media (min-width: 765px) {
@@ -14972,16 +15047,6 @@ hr {
 
 .menu_main--sub a {
   color: #010247;
-}
-
-.footer {
-  float: left;
-}
-
-@supports (display: flex) {
-  .footer {
-    float: none;
-  }
 }
 
 .footer h2 {
@@ -15250,6 +15315,18 @@ hr {
   width: 100%;
 }
 
+.search-page-search .search-block-form form::after {
+  content: '';
+  clear: both;
+  display: table;
+}
+
+@supports (display: flex) {
+  .search-page-search .search-block-form form::after {
+    content: unset;
+  }
+}
+
 .search-page-search .search-block-form form .form-item {
   width: 100%;
   max-width: 300px;
@@ -15287,6 +15364,18 @@ hr {
     font-size: 1.6rem;
     width: auto;
     background-image: unset;
+  }
+}
+
+.search-page-search .search-block-form form .form-item,
+.search-page-search .search-block-form form .form-actions {
+  float: left;
+}
+
+@supports (display: flex) {
+  .search-page-search .search-block-form form .form-item,
+  .search-page-search .search-block-form form .form-actions {
+    float: none;
   }
 }
 

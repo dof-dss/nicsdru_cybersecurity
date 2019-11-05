@@ -1,4 +1,5 @@
 .main-bg {
+  background-color: #0b165c;
   background-image: linear-gradient(#090a1e, #070945 20%, #0b165c, #143270 70%);
   @apply tw-bg-cover;
 }
@@ -53,13 +54,36 @@
 
 .menu_cisp {
   li {
-    @apply tw-leading-sm;
+    @apply tw-leading-sm tw-inline-block;
+
+    @supports (display: flex) {
+      @apply tw-flex;
+    }
   }
 }
 
 .menu_main {
+  @apply tw-text-justify;
+
+  &::after {
+    @apply tw-w-full tw-inline-block;
+    content: '';
+
+    @supports (display: flex) {
+      content: unset;
+    }
+  }
+
+  @supports (display: flex) {
+    text-align: unset;
+  }
+
   &--item {
-    @apply tw-text-base tw-static tw-w-full tw-flex tw-justify-between tw-content-center tw-border-b tw-flex-auto;
+    @apply tw-text-base tw-static tw-w-full tw-inline-block tw-justify-between tw-content-center tw-border-b tw-flex-auto;
+
+    @supports (display: flex) {
+      @apply tw-flex;
+    }
 
     a:hover,
     a:focus {
@@ -95,13 +119,12 @@
   }
 
   &--sub {
-    @apply tw-top-0 tw-left-0;
+    @apply tw-top-0 tw-left-0 tw-text-left;
 
     @screen md {
       left: calc(-50vw + 50%);
       top: 100%;
     }
-
 
     &--item {
       @apply tw-text-heading tw-py-4 tw-text-left tw-border-b tw-font-normal;
