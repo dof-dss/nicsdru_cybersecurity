@@ -46,8 +46,8 @@ will be enabled for local development and remain disabled for other environments
 
 The config split settings are found in the ../config folder.
 
-In the settings.php you will need to add these lines:
+In the settings.php for local development you will need to add these lines:
 
 $config['config_split.config_split.local_dev']['status'] = TRUE;
-$config['config_split.config_split.development']['status'] = FALSE;
-$config['config_split.config_split.pre-production']['status'] = FALSE;
+
+

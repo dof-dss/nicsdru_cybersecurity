@@ -2,8 +2,8 @@ uuid: 2a593f0e-563a-42fd-a721-454b11d89b0e
 langcode: en
 status: true
 dependencies: {  }
-id: development_config
-label: 'Development config'
+id: local_dev
+label: 'Local config'
 description: 'A list of modules only needed for development purposes.'
 folder: ../config/local_dev
 module:
