@@ -6,3 +6,21 @@
     @apply tw-list-disc tw-py-2;
   }
 }
+
+.page-toc {
+  @apply tw-mb-16;
+
+  ul {
+    @apply tw-list-none tw-ml-0;
+  }
+
+  li {
+    @apply tw-list-none tw-py-1;
+
+    &:before {
+      @apply tw-inline-block tw-pr-6;
+      content: "-";
+      width: 1rem;
+    }
+  }
+}
