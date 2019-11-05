@@ -28,33 +28,19 @@
 }
 
 body {
-  @apply tw-text-text tw-font-lato tw-text-base tw-antialiased;
-  line-height: 2.4rem;
-
-  @screen md {
-    @apply tw-text-sm;
-    //line-height: 2.7rem;
-  }
+  @apply tw-text-text tw-font-lato tw-text-sm tw-antialiased tw-leading-sm;
 }
 
 h1 {
-  @apply tw-text-heading tw-text-xxl tw-font-bold tw-mb-10 tw-mx-0;
-  line-height: 4.5rem;
+  @apply tw-text-heading tw-text-xxl tw-font-bold tw-mb-10 tw-mx-0 tw-leading-xxl;
 }
 
 h2 {
-  @apply tw-text-heading tw-text-sm tw-font-bold;
-  line-height: 2.4rem;
-
-  @screen sm {
-    @apply tw-text-lg;
-    line-height: 3rem;
-  }
+  @apply tw-text-heading tw-text-lg tw-font-bold tw-leading-lg;
 }
 
 h3 {
-  @apply tw-text-md tw-font-bold tw-my-5 tw-mx-0;
-  line-height: 2.8rem;
+  @apply tw-text-md tw-font-bold tw-my-5 tw-mx-0 tw-leading-md;
 }
 
 h1,
@@ -71,13 +57,7 @@ p {
 
 p,
 li {
-  @apply tw-text-base;
-  line-height: 2.4rem;
-
-  @screen md {
-    @apply tw-text-sm;
-    //line-height: 2.7rem;
-  }
+  @apply tw-text-sm tw-leading-sm;
 }
 
 a {

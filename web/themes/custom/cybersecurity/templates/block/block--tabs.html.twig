@@ -25,7 +25,7 @@
  * @see template_preprocess_block()
  */
 #}
-<div{{ attributes.addClass('container container--tabs') }}>
+<div{{ attributes.addClass( is_front ? 'container container--tabs') }}>
   {{ title_prefix }}
   {% if label %}
     <h2{{ title_attributes }}>{{ label }}</h2>

@@ -1,7 +1,6 @@
 .footer {
   h2 {
-    @apply tw-text-white tw-text-sm;
-    line-height: 2.4rem;
+    @apply tw-text-white tw-text-sm tw-leading-sm;
   }
 
   li {

@@ -1,10 +1,15 @@
 .tabs {
   a {
-    @apply tw-py-4;
-    @apply tw-px-8;
+    @apply tw-py-4 tw-px-8;
 
     &.is-active {
       @apply tw-bg-highlight;
     }
+  }
+}
+
+.toolbar-menu {
+  li {
+    @apply tw-text-xxs;
   }
 }

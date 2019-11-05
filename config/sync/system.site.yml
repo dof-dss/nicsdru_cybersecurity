@@ -12,3 +12,4 @@ default_langcode: en
 _core:
   default_config_hash: IqFDJOUXgoqYSm39bzsb0BVMDSkw3b4-KD4YSUgMw7U
 uuid: 55da8ecb-a446-49d7-9c85-df0c7228066e
+mail_notification: ''

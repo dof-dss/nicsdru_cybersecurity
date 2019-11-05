@@ -48,7 +48,7 @@
     @apply tw-flex tw-flex-row tw-items-center tw-text-white tw-font-bold tw-mr-4 tw-justify-between;
 
     @screen md {
-      @apply tw-invisible tw-w-0 tw-mr-0;
+      @apply tw-hidden tw-w-0 tw-mr-0;
     }
 
     p {
