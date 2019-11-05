@@ -282,6 +282,7 @@ function cybersecurity_preprocess(array &$variables) {
   }
 
   $variables['#cache']['contexts'][] = 'url.path.is_front';
+}
 
 /**
  * Implements hook_preprocess_html.
