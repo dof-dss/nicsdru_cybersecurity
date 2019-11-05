@@ -15001,6 +15001,30 @@ hr {
   color: #fff;
 }
 
+.social-icon {
+  background-size: 21px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+@supports (display: flex) {
+  .social-icon {
+    background: unset;
+  }
+}
+
+.footer_third i.fa-facebook-f {
+  background-image: url("../assets/facebook-blue.svg");
+}
+
+.footer_third i.fa-twitter {
+  background-image: url("../assets/twitter-blue.svg");
+}
+
+.footer_third i.fa-linkedin-in {
+  background-image: url("../assets/linkedin-blue.svg");
+}
+
 .node-news ul,
 .node-publication ul,
 .node-basic-page ul {

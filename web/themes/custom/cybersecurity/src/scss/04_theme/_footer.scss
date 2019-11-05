@@ -20,3 +20,30 @@
     @apply tw-text-white;
   }
 }
+
+.social-icon {
+  background-size: 21px;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  @supports (display: flex) {
+    background: unset;
+  }
+}
+
+.footer_third {
+  i {
+    &.fa-facebook-f {
+      background-image: url("../assets/facebook-blue.svg");
+    }
+
+    &.fa-twitter {
+      background-image: url("../assets/twitter-blue.svg");
+    }
+
+    &.fa-linkedin-in {
+      background-image: url("../assets/linkedin-blue.svg");
+    }
+  }
+
+}
