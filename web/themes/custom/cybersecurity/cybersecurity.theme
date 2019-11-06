@@ -262,6 +262,7 @@ function cybersecurity_preprocess_responsive_image(array &$variables) {
 
   if ($variables['responsive_image_style_id']) {
     $variables['attributes']['class'][] = $image_style;
+    $variables['attributes']['data-responsive-image-style'] = $variables['responsive_image_style_id'];
   }
 }
 
