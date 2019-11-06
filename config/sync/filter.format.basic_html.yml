@@ -5,6 +5,7 @@ dependencies:
   module:
     - editor
     - entity_embed
+    - origins_responsive_images
 _core:
   default_config_hash: P8ddpAIKtawJDi5SzOwCzVnnNYqONewSTJ6Xn0dW_aQ
 name: 'Basic HTML'
@@ -75,3 +76,15 @@ filters:
     status: true
     weight: 100
     settings: {  }
+  filter_responsive_image_style:
+    id: filter_responsive_image_style
+    provider: origins_responsive_images
+    status: true
+    weight: 0
+    settings:
+      responsive_style_homepage: '0'
+      responsive_style_inline: '1'
+      responsive_style_inline_expandable: '1'
+      responsive_style_inline_xl: '1'
+      responsive_style_narrow: '0'
+      responsive_style_wide: '0'
