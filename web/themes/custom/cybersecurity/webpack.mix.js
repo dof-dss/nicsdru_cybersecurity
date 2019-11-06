@@ -17,5 +17,6 @@ mix.sass('src/scss/styles.scss', 'css')
     ],
 
     extensions: ['html.twig', 'html', 'php', 'scss', 'theme'],
+
   });
 
