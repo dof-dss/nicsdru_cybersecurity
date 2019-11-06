@@ -30,23 +30,21 @@
   {% import _self as menus %}
   {% if items %}
     {% if menu_level == 0 %}
-      <ul{{ attributes.addClass('tw-pt-8') }}>
+      <ul{{ attributes.addClass('tw-pt-8 list--inline') }}>
     {% else %}
       <ul>
     {% endif %}
-        <span>
     {% for item in items %}
-      <a class="tw-text-secondary tw-bg-white tw-rounded-full tw-h-16 tw-w-16 tw-inline-block tw-mr-4" href="{{ item.url }}">
+      <li><a class="tw-text-secondary tw-bg-white tw-rounded-full tw-h-16 tw-w-16 tw-inline-block tw-mr-4" href="{{ item.url }}">
       {% if item.title == 'Facebook' %}
-        <i class="fab fa-facebook-f tw-text-md tw-mx-auto tw-block tw-h-16"></i>
+        <i class="fab fa-facebook-f social-icon tw-text-md tw-mx-auto tw-block tw-h-16"></i>
       {% elseif item.title == 'Twitter' %}
-        <i class="fab fa-twitter tw-text-md tw-mx-auto tw-block tw-h-16"></i>
+        <i class="fab fa-twitter social-icon tw-text-md tw-mx-auto tw-block tw-h-16"></i>
       {% elseif item.title == 'LinkedIn' %}
-        <i class="fab fa-linkedin-in tw-text-md tw-mx-auto tw-block tw-h-16"></i>
+        <i class="fab fa-linkedin-in social-icon tw-text-md tw-mx-auto tw-block tw-h-16"></i>
       {% endif %}
-      </a>
+        </a></li>
     {% endfor %}
-          </span>
     </ul>
   {% endif %}
 {% endmacro %}
