@@ -13,8 +13,9 @@ mix.sass('src/scss/styles.scss', 'css')
     globs: [
       path.join(__dirname, 'templates/*/*.html.twig'),
       path.join(__dirname, 'src/scss/*/*.scss'),
+      path.join(__dirname, '/*.theme'),
     ],
 
-    extensions: ['html.twig', 'html', 'php', 'scss'],
+    extensions: ['html.twig', 'html', 'php', 'scss', 'theme'],
   });
 
