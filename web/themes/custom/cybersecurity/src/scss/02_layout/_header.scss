@@ -29,8 +29,31 @@
     form {
       @apply tw-flex tw-w-full tw-h-full;
 
+      &::after {
+        content: '';
+        clear: both;
+        display: table;
+
+        @supports (display: flex) {
+          content: unset;
+        }
+      }
+
       .form-item {
-        @apply tw-w-full;
+        @apply tw-h-full tw-float-left;
+        width: calc(100% - 52px);
+
+        @supports (display: flex) {
+          @apply tw-w-full tw-float-none;
+        }
+      }
+
+      .form-actions {
+        @apply tw-h-full tw-float-left;
+
+        @supports (display: flex) {
+          @apply tw-float-none;
+        }
       }
     }
 

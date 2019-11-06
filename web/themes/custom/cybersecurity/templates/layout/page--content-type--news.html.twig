@@ -57,13 +57,13 @@
     {{ page.breadcrumb }}
     <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
 
-    <div class="md-tw-flex md-tw-flex-row tw--mx-4">
-      <div id="content" class="page-content md-tw-w-3/4 tw-p-4">
+    <div class="md-tw-flex md-tw-flex-row tw--mx-4 clearfix">
+      <div id="content" class="page-content md-tw-w-3/4 tw-p-4 left">
         {{ page.content }}
       </div>{# /.layout-content #}
 
       {% if page.sidebar_right %}
-        <aside class="md-tw-w-1/4 tw-p-4 md-tw-pl-12" role="complementary">
+        <aside class="md-tw-w-1/4 tw-p-4 md-tw-pl-12 right" role="complementary">
           {{ page.sidebar_right }}
         </aside>
       {% endif %}

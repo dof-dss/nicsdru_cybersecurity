@@ -57,14 +57,14 @@
     {{ page.breadcrumb }}
     <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
     <h1 class="tw-pt-8">{{ 'Publications'|t }}</h1>
-    <div class="md-tw-flex tw--mx-4">
+    <div class="md-tw-flex tw--mx-4 clearfix">
       {% if page.sidebar_left %}
-      <aside class="md-tw-w-1/3 tw-p-4" role="complementary">
+      <aside class="md-tw-w-1/3 tw-p-4 left" role="complementary">
         {{ page.sidebar_left }}
       </aside>
       {% endif %}
 
-      <div id="content" class="page-content md-tw-w-2/3 tw-p-4">
+      <div id="content" class="page-content md-tw-w-2/3 tw-p-4 right">
         {{ page.content }}
       </div>{# /.layout-content #}
     </div>
