@@ -16,7 +16,11 @@
   }
 
   @screen md {
-    @apply tw-relative tw-inset-auto tw-w-auto tw-h-auto tw-z-auto tw-flex;
+    @apply tw-relative tw-inset-auto tw-w-auto tw-h-auto tw-z-auto tw-block;
+
+    @supports (display: flex) {
+      @apply tw-flex;
+    }
   }
 }
 

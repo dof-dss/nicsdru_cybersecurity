@@ -469,6 +469,7 @@ input {
  */
 
 img,
+svg,
 video,
 canvas,
 object {
@@ -1159,6 +1160,10 @@ hr {
   }
 }
 
+.header-hero header img {
+  max-height: 50px;
+}
+
 @media (min-width: 765px) {
   .region_hero {
     max-width: 375px;
@@ -1445,7 +1450,13 @@ hr {
     width: auto;
     height: auto;
     z-index: auto;
-    display: flex;
+    display: block;
+  }
+
+  @supports (display: flex) {
+    .menu-mob {
+      display: flex;
+    }
   }
 }
 
