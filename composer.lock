@@ -2121,16 +2121,16 @@
         },
         {
             "name": "dof-dss/nicsdru_origins_modules",
-            "version": "0.1.3",
+            "version": "0.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dof-dss/nicsdru_origins_modules.git",
-                "reference": "dbaa94e4ce671c37c6a7f2e45ee36ce98e6d0c01"
+                "reference": "98550c4c1f62d556f46a2d049a257735359c42c8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dof-dss/nicsdru_origins_modules/zipball/dbaa94e4ce671c37c6a7f2e45ee36ce98e6d0c01",
-                "reference": "dbaa94e4ce671c37c6a7f2e45ee36ce98e6d0c01",
+                "url": "https://api.github.com/repos/dof-dss/nicsdru_origins_modules/zipball/98550c4c1f62d556f46a2d049a257735359c42c8",
+                "reference": "98550c4c1f62d556f46a2d049a257735359c42c8",
                 "shasum": ""
             },
             "require": {
@@ -2139,7 +2139,7 @@
             "type": "drupal-module",
             "notification-url": "https://packagist.org/downloads/",
             "description": "Generic modules for DOF-DSS Drupal sites",
-            "time": "2019-10-29T14:51:55+00:00"
+            "time": "2019-11-06T14:18:46+00:00"
         },
         {
             "name": "dof-dss/nicsdru_origins_profile",
@@ -6151,8 +6151,8 @@
             "authors": [
                 {
                     "name": "Christian Weiske",
-                    "role": "Lead",
-                    "email": "cweiske@php.net"
+                    "email": "cweiske@php.net",
+                    "role": "Lead"
                 }
             ],
             "description": "Minimal set of PEAR core files to be used as composer dependency",

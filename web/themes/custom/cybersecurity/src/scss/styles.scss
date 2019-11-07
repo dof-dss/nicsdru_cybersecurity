@@ -1,9 +1,11 @@
 @import 'tailwind';
+/*! purgecss start ignore */
 @import '01_base/base';
 @import '02_layout/layout';
 @import '03_modules/modules';
 @import '04_theme/theme';
 
+/*! purgecss end ignore */
 
 
 
