@@ -4,7 +4,7 @@
   "description": "A package of utilities used to compile scss and js",
   "main": "index.js",
   "devDependencies": {
-    "autoprefixer": "^9.1.0",
+    "autoprefixer": "^9.7.1",
     "cross-env": "^5.2.0",
     "laravel-mix": "^5.0.0",
     "laravel-mix-purgecss": "^4.2.0",

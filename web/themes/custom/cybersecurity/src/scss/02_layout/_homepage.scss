@@ -27,7 +27,7 @@
     }
 
     @screen sm {
-      @apply tw-w-full tw-pt-6;
+      @apply tw-pt-6;
       max-height: 165px;
       max-width: 250px;
     }
@@ -55,8 +55,12 @@
   @screen md {
     @apply tw-max-w-full;
     max-height: 140px;
-    height: unset;
-    width: unset;
+    height: 140px;
+    width: 100%;
+  }
+
+  img {
+    @apply tw-w-full tw-object-cover;
   }
 }
 
