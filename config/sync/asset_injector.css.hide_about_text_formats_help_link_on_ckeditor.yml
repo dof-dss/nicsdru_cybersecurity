@@ -1,0 +1,18 @@
+uuid: 32346d62-70f2-4b68-8fa2-ad3f6453cd59
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+id: hide_about_text_formats_help_link_on_ckeditor
+label: 'Hide ''About text formats'' help link on CKEditor'
+code: ".filter-help {\r\n  display: none;\r\n}"
+media: all
+preprocess: true
+conditions:
+  current_theme:
+    id: current_theme
+    theme:
+      adminimal_theme: adminimal_theme
+    negate: false
+conditions_require_all: true
