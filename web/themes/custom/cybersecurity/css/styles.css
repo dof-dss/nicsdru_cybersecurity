@@ -1349,6 +1349,11 @@ hr {
   max-height: 140px;
 }
 
+.ag_image img,
+.news-image img {
+  max-height: none;
+}
+
 @media (min-width: 640px) {
   .news-image {
     height: 165px;
