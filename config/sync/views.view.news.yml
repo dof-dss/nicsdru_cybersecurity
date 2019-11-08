@@ -446,7 +446,7 @@ display:
             preserve_tags: ''
             html: false
           element_type: ''
-          element_class: 'tw-overflow-hidden tw-flex tw-items-center news-image tw-mb-6 sm-tw-mb-0 md-tw-mb-12'
+          element_class: 'tw-overflow-hidden tw-block tw-flex tw-items-center news-image tw-mb-6 sm-tw-mb-0 md-tw-mb-12'
           element_label_type: ''
           element_label_class: ''
           element_label_colon: false
