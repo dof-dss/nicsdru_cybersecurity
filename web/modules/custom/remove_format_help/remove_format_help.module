@@ -1,0 +1,14 @@
+<?php
+
+use Drupal\Core\Form\FormStateInterface;
+
+function remove_format_help_element_info_alter(array &$types) {
+  $types['text_format']['#process'][] = 'remove_format_help_process_text_format_element';
+}
+
+
+function remove_format_help_process_text_format_element (&$element, FormStateInterface $form_state, &$complete_form) {
+  $element['format']['guidelines']['#access'] = FALSE;
+  $element['format']['help']['#access'] = FALSE;
+  return $element;
+}
