@@ -2649,6 +2649,11 @@ _:-ms-fullscreen .menu_main::after, :root .menu_main::after {
 
 @media (min-width: 1064px) {
 
+  .max-container-tw-mx-0 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
   .max-container-tw-px-8 {
     padding-left: 2rem;
     padding-right: 2rem;
