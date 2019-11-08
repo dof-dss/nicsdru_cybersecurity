@@ -1,10 +1,10 @@
 (function ($) {
   // Show main navigation sub-menu on click of parent
   $(".menu_main--item-text, .menu_main--item .next").click(function() {
-    $(this).siblings(".menu_main--sub").toggleClass("tw-hidden");
+    $(this).siblings(".menu_main--sub").toggleClass("tw-hidden md-tw-block");
 
     // Hide any open main navigation sibling sub-menu on click of parent
-    $(this).parent(".menu_main--item").siblings().children(".menu_main--sub").addClass("tw-hidden");
+    $(this).parent(".menu_main--item").siblings().children(".menu_main--sub").addClass("tw-hidden").removeClass("md-tw-block");
   });
 
   // When click anywhere but the menu link or its children, set submenu to invisible
@@ -12,12 +12,13 @@
     $(".menu_main--item")
       .not($(".menu_main--item").has($(e.target)))
       .children(".menu_main--sub")
-      .addClass("tw-hidden");
+      .addClass("tw-hidden")
+      .removeClass("md-tw-block");
   });
 
   // When you click the gradient under the main menu submenu, the submenu is set to invisible
   $(".menu_main--grad").click(function () {
-    $(this).parent(".menu_main--sub").addClass("tw-hidden");
+    $(this).parent(".menu_main--sub").addClass("tw-hidden").removeClass("md-tw-block");
   });
 
   // Add class open to menu-mob on click of burger nav icon

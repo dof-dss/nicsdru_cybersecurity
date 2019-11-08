@@ -1,0 +1,45 @@
+_:-ms-fullscreen, :root {
+  .left,
+  .right {
+    @apply tw-float-none;
+  }
+
+  .clearfix::after {
+    content: none;
+  }
+
+  .search-block-form {
+    form {
+      &::after {
+        content: none;
+      }
+
+      .form-item,
+      .form-actions {
+        @apply tw-float-none;
+      }
+    }
+  }
+
+  .region_hero {
+    .search-block-form {
+      form {
+        .form-item {
+          @apply tw-w-full;
+        }
+      }
+    }
+  }
+
+  .social-icon {
+    background: none;
+  }
+
+  .menu_main {
+    text-align: auto;
+
+    &::after {
+      content: none;
+    }
+  }
+}
