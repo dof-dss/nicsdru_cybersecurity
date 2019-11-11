@@ -1,0 +1,5 @@
+name: 'Remove format-help'
+type: module
+description: 'A module to hide the format-help section on CKEditor'
+core: 8.x
+package: custom
