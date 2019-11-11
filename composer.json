@@ -120,6 +120,11 @@
                 ".editorconfig": "../.editorconfig",
                 ".gitattributes": "../.gitattributes"
             }
+        },
+        "patches": {
+            "drupal/core": {
+                "Add contextual link to blocks in layout builder": "https://www.drupal.org/files/issues/2019-09-06/contextual_links_with_LB-3020876-18_0.patch"
+            }
         }
     }
 }
