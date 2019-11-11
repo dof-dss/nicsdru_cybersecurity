@@ -50,4 +50,16 @@ In the settings.php for local development you will need to add these lines:
 
 $config['config_split.config_split.local_dev']['status'] = TRUE;
 
+## Patches
+There is a patch applied to the Layout Builder module in core. It allows contextual icons to appear on blocks that have been inserted using layout builder, where they did not before. 
+
+The lines of code applying this patch can be found in composer.json under `extra > patches`:
+
+```json
+"drupal/core": {
+                "Add contextual link to blocks in layout builder": "https://www.drupal.org/files/issues/2019-09-06/contextual_links_with_LB-3020876-18_0.patch"
+            }
+```
+
+
 
