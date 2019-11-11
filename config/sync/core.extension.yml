@@ -59,6 +59,7 @@ module:
   path: 0
   rdf: 0
   redirect_after_login: 0
+  remove_format_help: 0
   responsive_image: 0
   search_api: 0
   search_api_db: 0
