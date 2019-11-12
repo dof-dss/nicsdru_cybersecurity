@@ -4,7 +4,6 @@ status: true
 dependencies:
   config:
     - node.type.basic_page
-    - node.type.contact
     - node.type.news
     - node.type.publication
   module:
@@ -71,7 +70,6 @@ type_settings:
   entity_types:
     node:
       - basic_page
-      - contact
       - news
       - publication
   default_moderation_state: draft
