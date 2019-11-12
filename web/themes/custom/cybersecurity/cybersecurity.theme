@@ -68,7 +68,7 @@ function cybersecurity_preprocess_views_view(array &$variables) {
       $number_of_publications = count($variables['rows'][0]['#rows']);
 
       // Singular expression if only 1, if more pluralise.
-      $header_text = ($number_of_publications == 1) ? 'publication' : 'publications';
+      $header_text = ($number_of_publications == 1) ? 'result' : 'results';
 
       // Output the result.
       $variables['header']['result'] = [
@@ -79,6 +79,13 @@ function cybersecurity_preprocess_views_view(array &$variables) {
             '@item_count' => $number_of_publications,
             '@header_text' => $header_text,
           ]),
+      ];
+    }
+    else {
+      $variables['header']['result'] = [
+        '#type' => 'html_tag',
+        '#tag' => 'h3',
+        '#value' => t('0 results'),
       ];
     }
   }
