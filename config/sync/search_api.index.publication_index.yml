@@ -94,6 +94,7 @@ processor_settings:
     weights:
       preprocess_index: -20
       preprocess_query: -20
+  language_with_fallback: {  }
   rendered_item: {  }
   tokenizer:
     all_fields: true
@@ -102,7 +103,7 @@ processor_settings:
       - title
     spaces: '[^[:alnum:]]'
     overlap_cjk: 1
-    minimum_word_size: '3'
+    minimum_word_size: '2'
     weights:
       preprocess_index: -6
       preprocess_query: -6
