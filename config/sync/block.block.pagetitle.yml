@@ -20,6 +20,6 @@ settings:
 visibility:
   request_path:
     id: request_path
-    pages: "<front>\r\n/news\r\n/publications"
+    pages: "<front>\r\n/news\r\n/news/date/*\r\n/publications\r\n/publications/date/*"
     negate: true
     context_mapping: {  }
