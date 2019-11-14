@@ -1,5 +1,7 @@
 <?php
+
 namespace Drupal\cyber_breadcrumbs;
+
 /**
  * @file
  * Generates the breadcrumb trail for content including:
@@ -8,9 +10,11 @@ namespace Drupal\cyber_breadcrumbs;
  * In the format:
  * > Home
  * > News
+ * > current-page-title
  *
  * > <front>
  * > /news
+ * > /current-page-title
  */
 use Drupal\Core\Breadcrumb\Breadcrumb;
 use Drupal\Core\Breadcrumb\BreadcrumbBuilderInterface;
@@ -21,7 +25,9 @@ use Drupal\Core\Link;
 use Drupal\Core\Url;
 use Drupal\node\NodeInterface;
 use Symfony\Component\DependencyInjection\ContainerInterface;
+
 class NewsBreadcrumb implements BreadcrumbBuilderInterface {
+
   /**
    * @var \Drupal\Core\Entity\EntityTypeManagerInterface
    */
@@ -38,6 +44,7 @@ class NewsBreadcrumb implements BreadcrumbBuilderInterface {
    * @var \Drupal\Core\Controller\TitleResolverInterface
    */
   protected $titleResolver;
+
   /**
    * Class constructor.
    */
@@ -45,6 +52,7 @@ class NewsBreadcrumb implements BreadcrumbBuilderInterface {
     $this->entityTypeManager = $entity_type_manager;
     $this->titleResolver = $title_resolver;
   }
+
   /**
    * {@inheritdoc}
    */
@@ -54,6 +62,7 @@ class NewsBreadcrumb implements BreadcrumbBuilderInterface {
       $container->get('title_resolver')
     );
   }
+
   /**
    * {@inheritdoc}
    */
@@ -75,6 +84,7 @@ class NewsBreadcrumb implements BreadcrumbBuilderInterface {
     }
     return $match;
   }
+
   /**
    * {@inheritdoc}
    */
@@ -90,4 +100,5 @@ class NewsBreadcrumb implements BreadcrumbBuilderInterface {
     $breadcrumb->addCacheContexts(['url.path']);
     return $breadcrumb;
   }
+
 }
