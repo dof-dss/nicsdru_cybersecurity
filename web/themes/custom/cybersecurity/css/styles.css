@@ -2280,6 +2280,135 @@ _:-ms-fullscreen .menu_main::after, :root .menu_main::after {
   content: none;
 }
 
+.sliding-popup-top {
+  border-bottom-width: 6px;
+  border-color: #5787c7;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  z-index: 10;
+}
+
+.eu-cookie-compliance-content {
+  max-width: 1024px;
+  width: 90%;
+}
+
+.eu-cookie-compliance-message {
+  width: 100%;
+  max-width: 100%;
+  float: none;
+}
+
+@media (min-width: 765px) {
+  .eu-cookie-compliance-message {
+    float: left;
+    max-width: 70%;
+  }
+}
+
+.eu-cookie-compliance-buttons {
+  margin-top: 2rem;
+  max-width: 100%;
+  float: none;
+  width: 100%;
+}
+
+@media (min-width: 765px) {
+  .eu-cookie-compliance-buttons {
+    float: right;
+    text-align: right;
+    width: 27%;
+  }
+}
+
+.cookie_title {
+  font-size: 2.4rem;
+  line-height: 3rem;
+}
+
+.find-more-button {
+  color: #0066ff;
+}
+
+.cookie-button {
+  display: block;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  background-color: #5787c7;
+  color: #fff;
+}
+
+.agree-button {
+  display: block;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  background-color: #5787c7;
+  color: #fff;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  font-size: 2.4rem;
+  position: relative;
+  font-weight: 700;
+  width: 100%;
+  background-color: #3fa940;
+  max-width: 220px;
+}
+
+.agree-button::after {
+  font-family: "Font Awesome 5 Solid";
+  display: none;
+  padding: 4rem;
+  content: "\F054";
+}
+
+.agree-button .fa-chevron-right {
+  position: absolute;
+  font-size: 3rem;
+  vertical-align: middle;
+  right: 10px;
+}
+
+@media (min-width: 440px) {
+  .agree-button {
+    float: left;
+  }
+}
+
+.decline-button {
+  display: block;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  background-color: #5787c7;
+  color: #fff;
+}
+
+@media (min-width: 440px) {
+  .decline-button {
+    float: left;
+    margin-left: 2rem;
+    margin-top: 1.5rem;
+  }
+}
+
+@media (min-width: 765px) {
+  .decline-button {
+    margin-left: 0;
+    margin-top: 0.5rem;
+  }
+}
+
 @media (min-width: 640px) {
 
   .sm-tw-flex {
