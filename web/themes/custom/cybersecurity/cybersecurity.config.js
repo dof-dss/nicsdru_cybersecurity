@@ -48,6 +48,7 @@ module.exports = {
       '2': '2px',
       '3': '3px',
       '4': '4px',
+      '6': '6px',
     },
     fontFamily: {
       'lato': ['Lato', 'sans-serif'],

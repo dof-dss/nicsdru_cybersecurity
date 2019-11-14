@@ -1,0 +1,74 @@
+.sliding-popup-top {
+  @apply tw-border-b-6 tw-border-light tw-py-8;
+  z-index: 10;
+}
+
+.eu-cookie-compliance {
+  &-content {
+    max-width: 1024px;
+    width: 90%;
+  }
+
+  &-message {
+    @apply tw-w-full tw-max-w-full tw-float-none;
+
+    @screen md {
+      @apply tw-float-left;
+      max-width: 70%;
+    }
+  }
+
+  &-buttons {
+    @apply tw-mt-8 tw-max-w-full tw-float-none;
+    width: 100%;
+
+    @screen md {
+      @apply tw-float-right tw-text-right;
+      width: 27%;
+    }
+  }
+}
+
+.cookie_title {
+  @apply tw-text-lg tw-leading-lg;
+}
+
+.find-more-button {
+  @apply tw-text-link;
+}
+
+.cookie-button {
+  @apply tw-block tw-px-8 tw-py-4 tw-my-2 tw-bg-light tw-text-white;
+}
+
+.agree-button {
+  @apply cookie-button tw-py-6 tw-text-lg tw-relative tw-font-bold tw-w-full;
+  background-color: #3fa940;
+  max-width: 220px;
+
+  &::after {
+    @apply tw-font-fontawesome tw-hidden tw-p-16;
+    content: "\f054";
+  }
+
+  .fa-chevron-right {
+    @apply tw-absolute tw-text-xl tw-align-middle;
+    right: 10px;
+  }
+
+  @screen xs {
+    @apply tw-float-left;
+  }
+}
+
+.decline-button {
+  @apply cookie-button;
+
+  @screen xs {
+    @apply tw-float-left tw-ml-8 tw-mt-6;
+  }
+
+  @screen md {
+    @apply tw-ml-0 tw-mt-2;
+  }
+}
