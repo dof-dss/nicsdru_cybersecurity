@@ -25,6 +25,7 @@ use Drupal\Core\Link;
 use Drupal\Core\Url;
 use Drupal\node\NodeInterface;
 use Symfony\Component\DependencyInjection\ContainerInterface;
+use Symfony\Component\HttpFoundation\RequestStack;
 
 class NewsBreadcrumb implements BreadcrumbBuilderInterface {
 
@@ -32,12 +33,14 @@ class NewsBreadcrumb implements BreadcrumbBuilderInterface {
    * @var \Drupal\Core\Entity\EntityTypeManagerInterface
    */
   protected $entityTypeManager;
+
   /**
    * Node object, or null if on a non-node page.
    *
    * @var \Drupal\node\Entity\Node
    */
   protected $node;
+
   /**
    * The title resolver.
    *
@@ -46,11 +49,19 @@ class NewsBreadcrumb implements BreadcrumbBuilderInterface {
   protected $titleResolver;
 
   /**
+   * Symfony\Component\HttpFoundation\RequestStack definition.
+   *
+   * @var Symfony\Component\HttpFoundation\RequestStack
+   */
+  protected $request;
+
+  /**
    * Class constructor.
    */
-  public function __construct(EntityTypeManagerInterface $entity_type_manager, TitleResolverInterface $title_resolver) {
+  public function __construct(EntityTypeManagerInterface $entity_type_manager, TitleResolverInterface $title_resolver, RequestStack $request) {
     $this->entityTypeManager = $entity_type_manager;
     $this->titleResolver = $title_resolver;
+    $this->request = $request;
   }
 
   /**
@@ -59,7 +70,8 @@ class NewsBreadcrumb implements BreadcrumbBuilderInterface {
   public static function create(ContainerInterface $container) {
     return new static(
       $container->get('entity_type.manager'),
-      $container->get('title_resolver')
+      $container->get('title_resolver'),
+      $container->get('request_stack')
     );
   }
 
@@ -90,7 +102,7 @@ class NewsBreadcrumb implements BreadcrumbBuilderInterface {
    */
   public function build(RouteMatchInterface $route_match) {
     $breadcrumb = new Breadcrumb();
-    $title_resolver = $this->titleResolver->getTitle(\Drupal::request(), $route_match->getRouteObject());
+    $title_resolver = $this->titleResolver->getTitle($this->request->getCurrentRequest(), $route_match->getRouteObject());
     if ($this->node) {
       $links[] = Link::createFromRoute(t('Home'), '<front>');
       $links[] = Link::fromTextandUrl(t('News'), Url::fromRoute('view.news.news_search_api'));

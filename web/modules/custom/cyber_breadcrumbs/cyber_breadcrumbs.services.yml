@@ -1,16 +1,16 @@
 services:
   cyber_breadcrumbs.breadcrumb.news:
     class: Drupal\cyber_breadcrumbs\NewsBreadcrumb
-    arguments: ['@entity_type.manager', '@title_resolver']
+    arguments: ['@entity_type.manager', '@title_resolver', '@request_stack']
     tags:
       - { name: breadcrumb_builder }
   cyber_breadcrumbs.breadcrumb.publication:
     class: Drupal\cyber_breadcrumbs\PublicationBreadcrumb
-    arguments: ['@entity_type.manager', '@title_resolver']
+    arguments: ['@entity_type.manager', '@title_resolver', '@request_stack']
     tags:
       - { name: breadcrumb_builder }
   cyber_breadcrumbs.breadcrumb.basic:
     class: Drupal\cyber_breadcrumbs\BasicBreadcrumb
-    arguments: ['@entity_type.manager', '@title_resolver']
+    arguments: ['@entity_type.manager', '@title_resolver', '@request_stack']
     tags:
       - { name: breadcrumb_builder }
