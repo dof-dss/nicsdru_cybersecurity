@@ -41,6 +41,8 @@ module:
   layout_builder: 0
   layout_discovery: 0
   link: 0
+  linkit: 0
+  linkit_description: 0
   media: 0
   media_entity_browser: 0
   menu_breadcrumb: 0
@@ -50,6 +52,7 @@ module:
   metatag_open_graph: 0
   metatag_twitter_cards: 0
   node: 0
+  noreferrer: 0
   options: 0
   origins_common: 0
   origins_layouts: 0

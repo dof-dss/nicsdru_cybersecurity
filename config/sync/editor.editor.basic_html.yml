@@ -32,7 +32,7 @@ settings:
         -
           name: Linking
           items:
-            - DrupalLink
+            - Linkit
             - DrupalUnlink
         -
           name: Lists
@@ -62,6 +62,8 @@ settings:
       styles: ''
     language:
       language_list: un
+    linkit:
+      linkit_profile: cyber_security_profile
 image_upload:
   status: true
   scheme: public
