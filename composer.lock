@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bf50d3d05140f8af5062f0f6261a283e",
+    "content-hash": "49aea88b3113fd8b112e17626cd8eafd",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -1213,6 +1213,7 @@
             ],
             "description": "Promoting the interoperability of container objects (DIC, SL, etc.)",
             "homepage": "https://github.com/container-interop/container-interop",
+            "abandoned": "psr/container",
             "time": "2017-02-14T19:40:03+00:00"
         },
         {
