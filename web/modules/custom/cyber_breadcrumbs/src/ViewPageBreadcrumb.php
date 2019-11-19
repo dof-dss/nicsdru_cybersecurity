@@ -55,8 +55,15 @@ class ViewPageBreadcrumb implements BreadcrumbBuilderInterface {
   public function applies(RouteMatchInterface $route_match) {
     $match = FALSE;
     $route_name = $route_match->getRouteName();
-    if ($route_name == 'view.news.news_search_api' || 'view.publication_search_api.publication_search_api') {
-      $match = TRUE;
+    $view_names = [
+      'view.news.news_search_api',
+      'view.publication_search_api.publication_search_api'
+    ];
+
+    foreach ($view_names as $view_name) {
+      if ($route_name == $view_name) {
+        $match = TRUE;
+      }
     }
     return $match;
   }
