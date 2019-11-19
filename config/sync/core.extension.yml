@@ -17,6 +17,7 @@ module:
   contextual: 0
   ctools: 0
   cyber_breadcrumbs: 0
+  cybersecurity_common: 0
   datetime: 0
   datetime_range: 0
   dblog: 0
@@ -42,7 +43,6 @@ module:
   layout_discovery: 0
   link: 0
   linkit: 0
-  linkit_description: 0
   media: 0
   media_entity_browser: 0
   menu_breadcrumb: 0
