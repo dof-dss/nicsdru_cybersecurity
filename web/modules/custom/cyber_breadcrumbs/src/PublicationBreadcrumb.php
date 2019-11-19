@@ -91,10 +91,6 @@ class PublicationBreadcrumb implements BreadcrumbBuilderInterface {
         $match = $this->node->bundle() == 'publication';
       }
     }
-    if ($route_name == 'view.publication_search_api.publication_search_api') {
-      // Also match on news listing page.
-      $match = TRUE;
-    }
     return $match;
   }
 

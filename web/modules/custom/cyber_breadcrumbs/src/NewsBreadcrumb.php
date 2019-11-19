@@ -90,10 +90,6 @@ class NewsBreadcrumb implements BreadcrumbBuilderInterface {
         $match = $this->node->bundle() == 'news';
       }
     }
-    if ($route_name == 'view.news.news_search_api') {
-      // Also match on news listing page.
-      $match = TRUE;
-    }
     return $match;
   }
 
