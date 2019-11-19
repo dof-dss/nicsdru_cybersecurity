@@ -9,7 +9,6 @@ namespace Drupal\cyber_breadcrumbs;
 use Drupal\Core\Breadcrumb\Breadcrumb;
 use Drupal\Core\Breadcrumb\BreadcrumbBuilderInterface;
 use Drupal\Core\Controller\TitleResolverInterface;
-use Drupal\Core\Entity\EntityTypeManager;
 use Drupal\Core\Link;
 use Drupal\Core\Routing\RouteMatchInterface;
 use Symfony\Component\DependencyInjection\ContainerInterface;
@@ -36,9 +35,10 @@ class ViewPageBreadcrumb implements BreadcrumbBuilderInterface {
    * Class constructor.
    */
   public function __construct(RequestStack $request, TitleResolverInterface $title_resolver) {
-    $this->request  = $request;
+    $this->request = $request;
     $this->titleResolver = $title_resolver;
   }
+
   /**
    * {@inheritdoc}
    */
@@ -48,11 +48,11 @@ class ViewPageBreadcrumb implements BreadcrumbBuilderInterface {
       $container->get('title_resolver')
     );
   }
+
   /**
    * {@inheritdoc}
    */
   public function applies(RouteMatchInterface $route_match) {
-//    kint($route_match);
     $match = FALSE;
     $route_name = $route_match->getRouteName();
     if ($route_name == 'view.news.news_search_api' || 'view.publication_search_api.publication_search_api') {
@@ -60,6 +60,7 @@ class ViewPageBreadcrumb implements BreadcrumbBuilderInterface {
     }
     return $match;
   }
+
   /**
    * {@inheritdoc}
    */
@@ -72,4 +73,5 @@ class ViewPageBreadcrumb implements BreadcrumbBuilderInterface {
     $breadcrumb->addCacheContexts(['url.path']);
     return $breadcrumb;
   }
+
 }
