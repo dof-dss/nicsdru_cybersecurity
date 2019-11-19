@@ -2,7 +2,7 @@
 
 /**
  * @file
- * Contains linkit_description.module.
+ * Contains cybersecurity_common.module.
  */
 
 use Drupal\Core\Form\FormStateInterface;
@@ -12,7 +12,7 @@ use Drupal\Core\Form\FormStateInterface;
  *
  * Edits the description on the linkit_editor_dialog_form.
  */
-function linkit_description_form_alter(&$form, FormStateInterface $form_state, $form_id) {
+function cybersecurity_common_form_alter(&$form, FormStateInterface $form_state, $form_id) {
   $description = "Start typing to find internal content or to insert an email address. To add an external link paste the full URL (e.g. http://www.example.com).";
 
   if ($form_id == "linkit_editor_dialog_form") {

@@ -1,7 +1,0 @@
-name: 'Change Linkit description'
-type: module
-description: 'A module to change the link description'
-core: 8.x
-package: custom
-dependencies:
-  - linkit
