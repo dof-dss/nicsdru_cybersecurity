@@ -77,6 +77,12 @@ filters:
     status: true
     weight: 100
     settings: {  }
+  noreferrer:
+    id: noreferrer
+    provider: noreferrer
+    status: true
+    weight: 10
+    settings: {  }
   filter_responsive_image_style:
     id: filter_responsive_image_style
     provider: origins_responsive_images
@@ -89,9 +95,3 @@ filters:
       responsive_style_inline_xl: '1'
       responsive_style_narrow: '0'
       responsive_style_wide: '0'
-  noreferrer:
-    id: noreferrer
-    provider: noreferrer
-    status: true
-    weight: 10
-    settings: {  }
