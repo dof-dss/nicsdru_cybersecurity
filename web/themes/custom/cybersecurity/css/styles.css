@@ -1679,6 +1679,29 @@ hr {
   height: 24px;
 }
 
+.ico-elink {
+  display: inline;
+  margin-left: 0.25rem;
+  margin-bottom: 0.25rem;
+  fill: #0c1e63;
+  height: 1.1rem;
+  width: 1.4rem;
+}
+
+.ico-elink--white {
+  fill: #fff;
+}
+
+@media (min-width: 765px) {
+  .container--header .ico-elink {
+    fill: #fff;
+  }
+}
+
+footer .ico-elink {
+  fill: #fff;
+}
+
 .main-bg {
   background-color: #0b165c;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#090a1e), color-stop(20%, #070945), color-stop(#0b165c), color-stop(70%, #143270));
