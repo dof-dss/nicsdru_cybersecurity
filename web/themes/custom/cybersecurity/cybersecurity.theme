@@ -311,4 +311,3 @@ function cybersecurity_preprocess_html(array &$variables) {
 
   $variables['page']['#attached']['html_head'][] = [$xuacompatible, 'x-ua-compatible'];
 }
-
