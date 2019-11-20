@@ -1,6 +1,6 @@
 uuid: 16640f49-fd2a-494d-bd82-985cc5cfa482
 langcode: en
-status: false
+status: true
 dependencies:
   config:
     - user.role.admin_user
@@ -8,6 +8,7 @@ dependencies:
     - user.role.author_user
     - user.role.editor_user
     - user.role.supervisor_user
+    - workflows.workflow.editorial
     - workflows.workflow.nics_editorial_workflow
   module:
     - content_moderation
@@ -1225,6 +1226,59 @@ display:
           entity_type: node
           entity_field: type
           plugin_id: bundle
+        moderation_state_1:
+          id: moderation_state_1
+          table: node_field_revision
+          field: moderation_state
+          relationship: none
+          group_type: group
+          admin_label: ''
+          operator: in
+          value:
+            editorial-draft: editorial-draft
+            editorial-needs_review: editorial-needs_review
+          group: 1
+          exposed: true
+          expose:
+            operator_id: moderation_state_1_op
+            label: State
+            description: ''
+            use_operator: false
+            operator: moderation_state_1_op
+            identifier: moderation_state_1
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+              anonymous: '0'
+              administrator: '0'
+              gp_author_user: '0'
+              author_user: '0'
+              gp_supervisor_user: '0'
+              news_supervisor: '0'
+              supervisor_user: '0'
+              editor_user: '0'
+              admin_user: '0'
+              apps_user: '0'
+              health_condition_author_user: '0'
+              health_condition_supervisor_user: '0'
+              driving_instructor_supervisor_user: '0'
+            reduce: true
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
+          entity_type: node
+          plugin_id: moderation_state_filter
         uid:
           id: uid
           table: users_field_data
@@ -2171,6 +2225,59 @@ display:
           entity_type: node
           entity_field: type
           plugin_id: bundle
+        moderation_state_1:
+          id: moderation_state_1
+          table: node_field_revision
+          field: moderation_state
+          relationship: none
+          group_type: group
+          admin_label: ''
+          operator: in
+          value:
+            editorial-draft: editorial-draft
+            editorial-needs_review: editorial-needs_review
+          group: 1
+          exposed: true
+          expose:
+            operator_id: moderation_state_1_op
+            label: 'Moderation state'
+            description: ''
+            use_operator: false
+            operator: moderation_state_1_op
+            identifier: moderation_state_1
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+              anonymous: '0'
+              administrator: '0'
+              gp_author_user: '0'
+              author_user: '0'
+              gp_supervisor_user: '0'
+              news_supervisor: '0'
+              supervisor_user: '0'
+              editor_user: '0'
+              admin_user: '0'
+              apps_user: '0'
+              health_condition_author_user: '0'
+              health_condition_supervisor_user: '0'
+              driving_instructor_supervisor_user: '0'
+            reduce: true
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
+          entity_type: node
+          plugin_id: moderation_state_filter
       filter_groups:
         operator: AND
         groups:
