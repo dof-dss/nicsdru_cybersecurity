@@ -14,6 +14,9 @@ use Drupal\Core\Routing\RouteMatchInterface;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 use Symfony\Component\HttpFoundation\RequestStack;
 
+/**
+ * {@inheritdoc}
+ */
 class ViewPageBreadcrumb implements BreadcrumbBuilderInterface {
 
 
