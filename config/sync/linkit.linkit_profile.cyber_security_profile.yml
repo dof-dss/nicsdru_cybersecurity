@@ -1,0 +1,43 @@
+uuid: cbd30a5f-9c38-4488-8676-7332ba039c18
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: cyber_security_profile
+label: 'Cyber Security Profile'
+description: ''
+attributes:
+  target:
+    id: target
+    weight: 0
+    settings:
+      widget_type: simple_checkbox
+  title:
+    id: title
+    weight: 0
+    settings:
+      automatic_title: true
+matchers:
+  594d1a02-4a6a-4adc-b1a3-96862bb34d03:
+    uuid: 594d1a02-4a6a-4adc-b1a3-96862bb34d03
+    id: 'entity:node'
+    weight: 0
+    settings:
+      result_description: ''
+      bundles:
+        basic_page: basic_page
+        layout_page: layout_page
+        news: news
+        publication: publication
+      group_by_bundle: true
+      include_unpublished: false
+  b019fa55-f75d-47ca-926a-3ff3ee6b73c7:
+    uuid: b019fa55-f75d-47ca-926a-3ff3ee6b73c7
+    id: 'entity:taxonomy_term'
+    weight: 0
+    settings:
+      result_description: ''
+      bundles: {  }
+      group_by_bundle: false
