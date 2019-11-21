@@ -33,7 +33,6 @@
         "drupal/inline_entity_form": "^1.0@RC",
         "drupal/linkit": "^4.3",
         "drupal/media_entity_browser": "^2.0",
-        "drupal/noreferrer": "^1.7",
         "drupal/menu_breadcrumb": "^1.11",
         "drupal/pathauto": "^1.4",
         "drupal/redirect_after_login": "^2.5",

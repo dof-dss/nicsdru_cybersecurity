@@ -32,6 +32,7 @@
     <js-placeholder token="{{ placeholder_token|raw }}">
   </head>
   <body{{ attributes }}>
+  {% include active_theme_path() ~ '/assets/external.svg' %}
     {#
       Keyboard navigation/accessibility link to main content section in
       page.html.twig.
