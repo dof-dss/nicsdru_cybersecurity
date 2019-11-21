@@ -12,7 +12,6 @@
           .attr("rel", "noopener noreferrer");
 
         $(this).filter(".social-links a").filter(function () {
-          console.log('social');
           return this.hostname && this.hostname !== location.hostname
         }).append('<span class="visually-hidden">(' + $extLinkText + ')</span>')
           .attr("title", $extLinkText)
