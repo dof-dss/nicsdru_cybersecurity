@@ -77,7 +77,7 @@
         "drupal-composer/drupal-scaffold": "^2.5",
         "drupal/ckeditor_find": "^1.0@beta",
         "drupal/config_split": "^1.4",
-        "drupal/console": "master",
+        "drupal/console": "^1.9",
         "drupal/core": "^8.7.0",
         "drupal/entity_embed": "^1.0",
         "drupal/eu_cookie_compliance": "^1.8",
@@ -186,6 +186,9 @@
         "patches": {
             "drupal/core": {
                 "Add contextual link to blocks in layout builder": "https://www.drupal.org/files/issues/2019-09-06/contextual_links_with_LB-3020876-18_0.patch"
+            },
+            "drupal/console": {
+                "Fix spelling error in plugin.php.twig": "https://github.com/ooneill547/drupal-console/commit/ef82d2548c34d21f5288ee59b322bc10dbdf753c.patch"
             }
         }
     }

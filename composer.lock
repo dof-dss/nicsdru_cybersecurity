@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "25e116c22daac6ece84bf714ebefb3c6",
+    "content-hash": "3d98bb6b88e3c339a7dc16cd802b2dca",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -2670,7 +2670,7 @@
         },
         {
             "name": "drupal/console",
-            "version": "dev-master",
+            "version": "1.9.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/hechoendrupal/drupal-console.git",
@@ -2703,6 +2703,11 @@
                 "bin/drupal"
             ],
             "type": "library",
+            "extra": {
+                "patches_applied": {
+                    "Fix spelling error in plugin.php.twig": "https://github.com/ooneill547/drupal-console/commit/ef82d2548c34d21f5288ee59b322bc10dbdf753c.patch"
+                }
+            },
             "autoload": {
                 "psr-4": {
                     "Drupal\\Console\\": "src"
@@ -6345,8 +6350,8 @@
             "authors": [
                 {
                     "name": "Christian Weiske",
-                    "email": "cweiske@php.net",
-                    "role": "Lead"
+                    "role": "Lead",
+                    "email": "cweiske@php.net"
                 }
             ],
             "description": "Minimal set of PEAR core files to be used as composer dependency",
@@ -12487,9 +12492,9 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "drupal/ckeditor_find": 10,
         "drupal/inline_entity_form": 5,
-        "drupal/media_browser_responsive_images": 20,
-        "drupal/ckeditor_find": 10
+        "drupal/media_browser_responsive_images": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
