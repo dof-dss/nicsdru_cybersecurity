@@ -5,7 +5,7 @@ dependencies:
   module:
     - editor
     - entity_embed
-    - origins_responsive_images
+    - media_browser_responsive_images
 _core:
   default_config_hash: WNeK5FbcY8pXgEpbD_KgRzlF1-5PL3BJXwqaBctPTqw
 name: 'Full HTML'
@@ -76,9 +76,9 @@ filters:
     status: true
     weight: 100
     settings: {  }
-  filter_responsive_image_style:
-    id: filter_responsive_image_style
-    provider: origins_responsive_images
+  filter_media_responsive_image_style:
+    id: filter_media_responsive_image_style
+    provider: media_browser_responsive_images
     status: true
     weight: 0
     settings:
