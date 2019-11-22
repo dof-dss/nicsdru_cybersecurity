@@ -25,6 +25,9 @@ use Drupal\node\NodeInterface;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 use Symfony\Component\HttpFoundation\RequestStack;
 
+/**
+ * {@inheritdoc}
+ */
 class BasicBreadcrumb implements BreadcrumbBuilderInterface {
 
   /**

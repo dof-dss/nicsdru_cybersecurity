@@ -27,6 +27,9 @@ use Drupal\node\NodeInterface;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 use Symfony\Component\HttpFoundation\RequestStack;
 
+/**
+ * {@inheritdoc}
+ */
 class PublicationBreadcrumb implements BreadcrumbBuilderInterface {
 
   /**
@@ -90,10 +93,6 @@ class PublicationBreadcrumb implements BreadcrumbBuilderInterface {
       if (!empty($this->node)) {
         $match = $this->node->bundle() == 'publication';
       }
-    }
-    if ($route_name == 'view.publication_search_api.publication_search_api') {
-      // Also match on news listing page.
-      $match = TRUE;
     }
     return $match;
   }
