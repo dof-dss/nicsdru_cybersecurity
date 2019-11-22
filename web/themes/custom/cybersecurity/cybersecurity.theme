@@ -58,35 +58,40 @@ function cybersecurity_preprocess_field(&$variables) {
  */
 function cybersecurity_preprocess_views_view(array &$variables) {
 
+  $view_names = ['publication_search_api', 'news_search_api'];
   // Check the view name.
-  if ($variables['id'] == 'publication_search_api') {
+  foreach ($view_names as $view_name) {
+    if ($variables['display_id'] == $view_name) {
 
-    // Ensure the search has items in an array.
-    if (!empty($variables['rows'])) {
+      // Ensure the search has items in an array.
+      if (!empty($variables['rows'])) {
 
-      // Count the number of publications in the array.
-      $number_of_publications = count($variables['rows'][0]['#rows']);
+        // Count the number of publications in the array.
+        $number_of_publications = count($variables['rows'][0]['#rows']);
 
-      // Singular expression if only 1, if more pluralise.
-      $header_text = ($number_of_publications == 1) ? 'result' : 'results';
+        // Singular expression if only 1, if more pluralise.
+        $header_text = ($number_of_publications == 1) ? 'result' : 'results';
 
-      // Output the result.
-      $variables['header']['result'] = [
-        '#type' => 'html_tag',
-        '#tag' => 'h3',
-        '#value' => t('@item_count @header_text',
-          [
-            '@item_count' => $number_of_publications,
-            '@header_text' => $header_text,
-          ]),
-      ];
-    }
-    else {
-      $variables['header']['result'] = [
-        '#type' => 'html_tag',
-        '#tag' => 'h3',
-        '#value' => t('0 results'),
-      ];
+        // Output the result.
+        $variables['header']['result'] = [
+          '#type' => 'html_tag',
+          '#tag' => 'h3',
+          '#attributes' => ['class' => 'current-search-item-results-count'],
+          '#value' => t('@item_count @header_text',
+            [
+              '@item_count' => $number_of_publications,
+              '@header_text' => $header_text,
+            ]),
+        ];
+      }
+      else {
+        $variables['header']['result'] = [
+          '#type' => 'html_tag',
+          '#tag' => 'h3',
+          '#attributes' => ['class' => 'current-search-item-results-count'],
+          '#value' => t('0 results'),
+        ];
+      }
     }
   }
 }
