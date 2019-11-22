@@ -5,7 +5,6 @@ dependencies:
   module:
     - editor
     - entity_embed
-    - noreferrer
     - origins_responsive_images
 _core:
   default_config_hash: P8ddpAIKtawJDi5SzOwCzVnnNYqONewSTJ6Xn0dW_aQ
@@ -76,12 +75,6 @@ filters:
     provider: entity_embed
     status: true
     weight: 100
-    settings: {  }
-  noreferrer:
-    id: noreferrer
-    provider: noreferrer
-    status: true
-    weight: 10
     settings: {  }
   filter_responsive_image_style:
     id: filter_responsive_image_style
