@@ -26,5 +26,37 @@
         }
       }
     });
+
+    // Adding the active facet to the results counter on view pages.
+    var $facetsWrap = $('<div class="active-facets-wrap"></div>');
+    var $facets = $('<ul class="active-facets" />');
+    var facetsHeader = "";
+
+    if ($(".facet-item").children("a").hasClass("is-active")) {
+      $('.js-facet-deactivate').replaceWith("<span class='remove' title='remove'>&times;</span>");
+      $('.is-active .facet-item__count').remove();
+      $(".facet-item").children('a').not('.is-active').closest('li.facet-item').remove();
+
+    }
+
+    var $facetLabel = '';
+    if (facetsHeader == "") {
+      facetsHeader = "";
+    }
+
+    if ($("li.facet-item").closest("ul").hasClass("Published")) {
+      $facetLabel = ' published in ';
+    }
+
+    var $activeFacet = $(".facet-item a.is-active").clone();
+
+    $activeFacet.wrapInner('<span class="facetwrap" />').prepend($facetLabel);
+    $activeFacet.appendTo($facets);
+
+
+    $facetsWrap.append(facetsHeader);
+    $facets.appendTo($facetsWrap);
+    $facetsWrap.appendTo('.current-search-item-results-count');
+
   });
 })(jQuery);

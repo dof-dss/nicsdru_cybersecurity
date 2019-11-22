@@ -9,6 +9,10 @@
     }
   }
 
+  .form-submit:hover {
+    background-color: #333;
+  }
+
   .form-actions {
     input {
       @apply btn btn--heading tw-p-2 tw-text-sm tw-font-bold tw-mt-8;
@@ -23,4 +27,38 @@
   .facet-item {
     @apply tw-px-2 tw-py-3;
   }
+
+  a.is-active {
+    .facet-item__value {
+      @apply tw-text-text;
+    }
+
+    &:hover {
+      //text-decoration: none;
+      @apply no-underline cursor-default;
+    }
+  }
 }
+
+.active-facets-wrap {
+  a.is-active {
+    @apply tw-text-sm font-normal;
+
+    &:hover {
+      @apply no-underline cursor-default;
+    }
+
+    .facetwrap {
+      @apply tw-bg-gray-200 tw-p-2;
+    }
+  }
+}
+
+span.remove {
+  @apply tw-bg-gray-700 tw-px-2 tw-text-white;
+
+  &:hover {
+    @apply tw-bg-orange-400 cursor-pointer;
+  }
+}
+
