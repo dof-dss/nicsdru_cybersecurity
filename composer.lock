@@ -12488,8 +12488,8 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "drupal/inline_entity_form": 5,
-        "drupal/media_browser_responsive_images": 20
-        "drupal/ckeditor_find": 10,
+        "drupal/media_browser_responsive_images": 20,
+        "drupal/ckeditor_find": 10
     },
     "prefer-stable": true,
     "prefer-lowest": false,
