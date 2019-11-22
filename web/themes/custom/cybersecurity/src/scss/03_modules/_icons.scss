@@ -66,4 +66,23 @@
   height: 24px;
 }
 
+.ico-elink {
+  @apply tw-inline tw-ml-1 tw-mb-1 tw-fill-external;
+  height: 1.1rem;
+  width: 1.4rem;
+
+  &--white {
+    @apply tw-fill-white;
+  }
+
+  .container--header & {
+    @screen md {
+      @apply ico-elink--white;
+    }
+  }
+
+  footer & {
+    @apply ico-elink--white;
+  }
+}
 

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "49aea88b3113fd8b112e17626cd8eafd",
+    "content-hash": "25e116c22daac6ece84bf714ebefb3c6",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -4116,6 +4116,52 @@
             }
         },
         {
+            "name": "drupal/media_browser_responsive_images",
+            "version": "dev-1.x",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/media_browser_responsive_images.git",
+                "reference": "7a5d4a71a5c0cd2e4a927840b8c1d60916eeb1c6"
+            },
+            "require": {
+                "drupal/core": "*",
+                "drupal/embed": "*",
+                "drupal/entity_embed": "*",
+                "drupal/media": "*",
+                "drupal/media_entity_browser": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.x-dev",
+                    "datestamp": "1573202584",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "DuttonMa",
+                    "homepage": "https://www.drupal.org/user/2250396"
+                }
+            ],
+            "description": "Allows you to use responsive images in the media entity browser.",
+            "homepage": "https://www.drupal.org/project/media_browser_responsive_images",
+            "support": {
+                "source": "https://git.drupalcode.org/project/media_browser_responsive_images"
+            },
+            "time": "2019-11-07T15:30:12+00:00"
+        },
+        {
             "name": "drupal/media_entity_browser",
             "version": "2.0.0-alpha2",
             "source": {
@@ -4317,53 +4363,6 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/metatag",
                 "issues": "http://drupal.org/project/issues/metatag"
-            }
-        },
-        {
-            "name": "drupal/noreferrer",
-            "version": "1.7.0",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupalcode.org/project/noreferrer.git",
-                "reference": "8.x-1.7"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/noreferrer-8.x-1.7.zip",
-                "reference": "8.x-1.7",
-                "shasum": "7979115d26e30b59cc6bd9c3b389ef23d6e0dc92"
-            },
-            "require": {
-                "drupal/core": "~8.0"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "branch-alias": {
-                    "dev-1.x": "1.x-dev"
-                },
-                "drupal": {
-                    "version": "8.x-1.7",
-                    "datestamp": "1546781280",
-                    "security-coverage": {
-                        "status": "covered",
-                        "message": "Covered by Drupal's security advisory policy"
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "mfb",
-                    "homepage": "https://www.drupal.org/user/12302"
-                }
-            ],
-            "description": "Adds the <code>rel=\"noopener\"</code> and/or <code>rel=\"noreferrer\"</code> link types to links.",
-            "homepage": "https://www.drupal.org/project/noreferrer",
-            "support": {
-                "source": "https://git.drupalcode.org/project/noreferrer"
             }
         },
         {
@@ -6256,8 +6255,8 @@
             "authors": [
                 {
                     "name": "Christian Weiske",
-                    "role": "Lead",
-                    "email": "cweiske@php.net"
+                    "email": "cweiske@php.net",
+                    "role": "Lead"
                 }
             ],
             "description": "Minimal set of PEAR core files to be used as composer dependency",
@@ -12389,7 +12388,8 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "drupal/inline_entity_form": 5
+        "drupal/inline_entity_form": 5,
+        "drupal/media_browser_responsive_images": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,

@@ -32,6 +32,7 @@ module.exports = {
         'text': '#333',
         'breadcrumb': '#090921',
         'warning': '#FF0000',
+        'external': '#0c1e63',
       },
     },
     screens: {
@@ -73,6 +74,10 @@ module.exports = {
       'xl': '4rem',
       'xxl': '4.5rem',
     },
+    fill: theme =>({
+      'external': theme('colors.external'),
+      'white': theme('colors.white'),
+    }),
   },
   variants: {},
   plugins: [
