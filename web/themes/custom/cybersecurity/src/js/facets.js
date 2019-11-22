@@ -36,7 +36,6 @@
       $('.js-facet-deactivate').replaceWith("<span class='remove' title='remove'>&times;</span>");
       $('.is-active .facet-item__count').remove();
       $(".facet-item").children('a').not('.is-active').closest('li.facet-item').remove();
-
     }
 
     var $facetLabel = '';
@@ -52,7 +51,6 @@
 
     $activeFacet.wrapInner('<span class="facetwrap" />').prepend($facetLabel);
     $activeFacet.appendTo($facets);
-
 
     $facetsWrap.append(facetsHeader);
     $facets.appendTo($facetsWrap);
