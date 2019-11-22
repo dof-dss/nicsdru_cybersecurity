@@ -5,8 +5,7 @@ dependencies:
   module:
     - editor
     - entity_embed
-    - noreferrer
-    - origins_responsive_images
+    - media_browser_responsive_images
 _core:
   default_config_hash: P8ddpAIKtawJDi5SzOwCzVnnNYqONewSTJ6Xn0dW_aQ
 name: 'Basic HTML'
@@ -77,15 +76,9 @@ filters:
     status: true
     weight: 100
     settings: {  }
-  noreferrer:
-    id: noreferrer
-    provider: noreferrer
-    status: true
-    weight: 10
-    settings: {  }
-  filter_responsive_image_style:
-    id: filter_responsive_image_style
-    provider: origins_responsive_images
+  filter_media_responsive_image_style:
+    id: filter_media_responsive_image_style
+    provider: media_browser_responsive_images
     status: true
     weight: 0
     settings:
