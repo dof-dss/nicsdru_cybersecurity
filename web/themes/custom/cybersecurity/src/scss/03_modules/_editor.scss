@@ -1,0 +1,17 @@
+.info-notice {
+  border: 1px solid #2f5995;
+  padding: 14px 14px 14px 60px;
+  background: #fff 1.4rem 1.2rem no-repeat url("../assets/i.png");
+  background: #fff 1.4rem 1.2rem no-repeat url("../assets/i.svg"),linear-gradient(transparent, transparent);
+  //background-position: rhythm(2.3334) rhythm(2.3334);
+  //background-repeat: no-repeat;
+  background-size: 30px auto;
+}
+
+.info-notice *:last-child {
+  margin-bottom: 4px;
+}
+
+ul.info-notice {
+  padding: 14px 14px 14px 70px;
+}

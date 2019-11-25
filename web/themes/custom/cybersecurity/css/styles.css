@@ -1702,6 +1702,23 @@ footer .ico-elink {
   fill: #fff;
 }
 
+.info-notice {
+  border: 1px solid #2f5995;
+  padding: 14px 14px 14px 60px;
+  background: #fff 1.4rem 1.2rem no-repeat url("../assets/i.png");
+  background: #fff 1.4rem 1.2rem no-repeat url("../assets/i.svg"), -webkit-gradient(linear, left top, left bottom, from(transparent), to(transparent));
+  background: #fff 1.4rem 1.2rem no-repeat url("../assets/i.svg"), linear-gradient(transparent, transparent);
+  background-size: 30px auto;
+}
+
+.info-notice *:last-child {
+  margin-bottom: 4px;
+}
+
+ul.info-notice {
+  padding: 14px 14px 14px 70px;
+}
+
 .main-bg {
   background-color: #0b165c;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#090a1e), color-stop(20%, #070945), color-stop(#0b165c), color-stop(70%, #143270));
