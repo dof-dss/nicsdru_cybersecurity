@@ -1719,6 +1719,33 @@ ul.info-notice {
   padding: 14px 14px 14px 70px;
 }
 
+body.cke_editable {
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 1.25rem;
+  max-width: 1024px;
+}
+
+body.cke_editable::after {
+  display: block;
+  height: 100%;
+  padding: 1rem;
+  border-style: dashed;
+  border-left-width: 3px;
+  border-right-width: 3px;
+  border-color: #000;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  z-index: 20;
+  opacity: 0.25;
+  color: #000;
+  content: "Content crossing into this area will not be visible.";
+  width: 150px;
+  left: 1064px;
+  background-color: darkkhaki;
+}
+
 .main-bg {
   background-color: #0b165c;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#090a1e), color-stop(20%, #070945), color-stop(#0b165c), color-stop(70%, #143270));

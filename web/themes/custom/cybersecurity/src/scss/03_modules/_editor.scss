@@ -15,3 +15,16 @@
 ul.info-notice {
   padding: 14px 14px 14px 70px;
 }
+
+body.cke_editable {
+  @apply tw-pr-8 tw-pb-8 tw-pl-5;
+  max-width: 1024px;
+
+  &::after {
+    @apply tw-block tw-h-full tw-p-4 tw-border-dashed tw-border-l-3 tw-border-r-3 tw-border-black tw-text-center tw-fixed tw-top-0 tw-z-20 tw-opacity-25 tw-text-black;
+    content: "Content crossing into this area will not be visible.";
+    width: 150px;
+    left: 1064px;
+    background-color: darkkhaki;
+  }
+}
