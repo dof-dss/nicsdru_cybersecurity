@@ -28,13 +28,14 @@ settings:
             - NumberedList
             - Blockquote
         -
-          name: Tools
+          name: Edit
           items:
             - Undo
             - Redo
             - Cut
             - Copy
             - Paste
+            - PasteFromWord
         -
           name: Linking
           items:
@@ -75,7 +76,7 @@ settings:
             - image_embed
   plugins:
     stylescombo:
-      styles: ''
+      styles: 'p.info-notice|Information notice'
     language:
       language_list: un
     linkit:

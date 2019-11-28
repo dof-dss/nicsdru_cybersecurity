@@ -1998,19 +1998,53 @@ body.cke_editable::after {
 }
 
 .node-news ul,
+.node-news ol,
 .node-publication ul,
-.node-basic-page ul {
+.node-publication ol,
+.node-basic-page ul,
+.node-basic-page ol,
+.cke_editable ul,
+.cke_editable ol {
   margin-left: 2rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
 
-.node-news li,
-.node-publication li,
-.node-basic-page li {
+.node-news ul li,
+.node-publication ul li,
+.node-basic-page ul li,
+.cke_editable ul li {
   list-style-type: disc;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+}
+
+.node-news ol,
+.node-publication ol,
+.node-basic-page ol,
+.cke_editable ol {
+  list-style-type: decimal;
+}
+
+.node-news ol ol,
+.node-publication ol ol,
+.node-basic-page ol ol,
+.cke_editable ol ol {
+  list-style-type: upper-alpha;
+}
+
+.node-news ol ol ol,
+.node-publication ol ol ol,
+.node-basic-page ol ol ol,
+.cke_editable ol ol ol {
+  list-style-type: lower-roman;
+}
+
+.node-news ol ol ol ol,
+.node-publication ol ol ol ol,
+.node-basic-page ol ol ol ol,
+.cke_editable ol ol ol ol {
+  list-style-type: lower-alpha;
 }
 
 .page-toc {

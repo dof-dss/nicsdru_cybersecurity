@@ -1,13 +1,35 @@
 .node-news,
 .node-publication,
-.node-basic-page {
-  ul {
+.node-basic-page,
+.cke_editable {
+  ul,
+  ol {
     @apply tw-ml-8 tw-my-8;
   }
-  li {
-    @apply tw-list-disc tw-py-2;
+
+  ul {
+    li {
+      @apply tw-list-disc tw-py-2;
+    }
+  }
+
+  ol {
+    @apply tw-list-decimal;
+
+    ol {
+      list-style-type: upper-alpha;
+
+      ol {
+        list-style-type: lower-roman;
+
+        ol {
+          list-style-type: lower-alpha;
+        }
+      }
+    }
   }
 }
+
 
 .page-toc {
   @apply tw-mb-16;
