@@ -956,17 +956,7 @@ display:
             value: 'Sorry, there is no news to view at this time.'
             format: basic_html
           plugin_id: text
-      header:
-        result:
-          id: result
-          table: views
-          field: result
-          relationship: none
-          group_type: group
-          admin_label: ''
-          empty: false
-          content: '<h3>@total news</h3>'
-          plugin_id: result
+      header: {  }
     cache_metadata:
       max-age: -1
       contexts:
