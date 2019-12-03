@@ -13,6 +13,7 @@ permissions:
   - 'access administration pages'
   - 'access all webform results'
   - 'access ckeditor link'
+  - 'access content overview'
   - 'access draggableviews'
   - 'access library reports'
   - 'access media_entity_browser entity browser pages'
