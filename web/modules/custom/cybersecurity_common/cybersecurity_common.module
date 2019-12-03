@@ -38,9 +38,9 @@ function cybersecurity_common_js_settings_alter(array &$settings) {
 /**
  * Generates a string representation for the given byte count.
  *
- * @param $size
+ * @param int $size
  *   A size in bytes.
- * @param $langcode
+ * @param string $langcode
  *   Optional language code to translate to a language other than what is used
  *   to display the page.
  *
