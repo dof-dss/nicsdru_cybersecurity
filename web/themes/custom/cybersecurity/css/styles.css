@@ -1702,6 +1702,50 @@ footer .ico-elink {
   fill: #fff;
 }
 
+.info-notice {
+  border: 1px solid #2f5995;
+  padding: 14px 14px 14px 60px;
+  background: #fff 1.4rem 1.2rem no-repeat url("../assets/i.png");
+  background: #fff 1.4rem 1.2rem no-repeat url("../assets/i.svg"), -webkit-gradient(linear, left top, left bottom, from(transparent), to(transparent));
+  background: #fff 1.4rem 1.2rem no-repeat url("../assets/i.svg"), linear-gradient(transparent, transparent);
+  background-size: 30px auto;
+}
+
+.info-notice *:last-child {
+  margin-bottom: 4px;
+}
+
+ul.info-notice {
+  padding: 14px 14px 14px 70px;
+}
+
+body.cke_editable {
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 1.25rem;
+  max-width: 1024px;
+}
+
+body.cke_editable::after {
+  display: block;
+  height: 100%;
+  padding: 1rem;
+  border-style: dashed;
+  border-left-width: 3px;
+  border-right-width: 3px;
+  border-color: #000;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  z-index: 20;
+  opacity: 0.25;
+  color: #000;
+  content: "Content crossing into this area will not be visible.";
+  width: 150px;
+  left: 1064px;
+  background-color: darkkhaki;
+}
+
 .main-bg {
   background-color: #0b165c;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#090a1e), color-stop(20%, #070945), color-stop(#0b165c), color-stop(70%, #143270));
@@ -1954,19 +1998,53 @@ footer .ico-elink {
 }
 
 .node-news ul,
+.node-news ol,
 .node-publication ul,
-.node-basic-page ul {
+.node-publication ol,
+.node-basic-page ul,
+.node-basic-page ol,
+.cke_editable ul,
+.cke_editable ol {
   margin-left: 2rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
 
-.node-news li,
-.node-publication li,
-.node-basic-page li {
+.node-news ul li,
+.node-publication ul li,
+.node-basic-page ul li,
+.cke_editable ul li {
   list-style-type: disc;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+}
+
+.node-news ol,
+.node-publication ol,
+.node-basic-page ol,
+.cke_editable ol {
+  list-style-type: decimal;
+}
+
+.node-news ol ol,
+.node-publication ol ol,
+.node-basic-page ol ol,
+.cke_editable ol ol {
+  list-style-type: upper-alpha;
+}
+
+.node-news ol ol ol,
+.node-publication ol ol ol,
+.node-basic-page ol ol ol,
+.cke_editable ol ol ol {
+  list-style-type: lower-roman;
+}
+
+.node-news ol ol ol ol,
+.node-publication ol ol ol ol,
+.node-basic-page ol ol ol ol,
+.cke_editable ol ol ol ol {
+  list-style-type: lower-alpha;
 }
 
 .page-toc {

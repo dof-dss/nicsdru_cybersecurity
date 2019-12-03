@@ -19,3 +19,16 @@ function cybersecurity_common_form_alter(&$form, FormStateInterface $form_state,
     $form['attributes']['href']['#description'] = t($description);
   }
 }
+
+/**
+ * Implements hook_js_settings_alter().
+ *
+ * Edits format tags in CKEditor to remove the option to include Heading 1.
+ */
+function cybersecurity_common_js_settings_alter(array &$settings) {
+  if (isset($settings['editor']['formats'])) :
+    foreach ($settings['editor']['formats'] as $index => $text_filter) {
+      $settings['editor']['formats'][$index]['editorSettings']['format_tags'] = "p;h2;h3;h4;h5;h6;pre";
+    }
+  endif;
+}
