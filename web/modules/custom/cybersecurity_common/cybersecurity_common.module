@@ -38,6 +38,11 @@ function cybersecurity_common_js_settings_alter(array &$settings) {
 /**
  * Generates a string representation for the given byte count.
  *
+ * This is a duplicate of format_size() I needed to alter the precision of
+ * the output file size. There are tickets in for a resolution to this
+ * https://www.drupal.org/project/drupal/issues/2837979 but this is a workaround
+ * for now.
+ *
  * @param int $size
  *   A size in bytes.
  * @param string $langcode
@@ -56,6 +61,7 @@ function cyber_format_size($size, $langcode = NULL) {
   $sign = $absolute_size / $size;
   foreach (['KB', 'MB', 'GB', 'TB', 'PB', 'EB', 'ZB', 'YB'] as $unit) {
     $absolute_size /= Bytes::KILOBYTE;
+    // Changing precision from 2 to 1 so that a whole number is output.
     $rounded_size = round($absolute_size, 1);
     if ($rounded_size < Bytes::KILOBYTE) {
       break;
