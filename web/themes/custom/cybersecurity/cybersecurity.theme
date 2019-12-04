@@ -167,7 +167,7 @@ function cybersecurity_preprocess_file_link(&$variables) {
   // Create file URL.
   $url = $file->createFileUrl(FALSE);
   // Format the file size.
-  $format_file_size = format_size($file_size);
+  $format_file_size = cyber_format_size($file_size);
 
   // User friendly MIME types:
   switch ($mime_type) {

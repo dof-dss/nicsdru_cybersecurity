@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "25e116c22daac6ece84bf714ebefb3c6",
+    "content-hash": "3d98bb6b88e3c339a7dc16cd802b2dca",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -202,6 +202,45 @@
             ],
             "description": "Drupal code generator",
             "time": "2019-10-27T14:27:26+00:00"
+        },
+        {
+            "name": "ckeditor-plugin/scayt",
+            "version": "4.11.4",
+            "dist": {
+                "type": "zip",
+                "url": "https://download.ckeditor.com/scayt/releases/scayt_4.11.4.zip"
+            },
+            "type": "drupal-library"
+        },
+        {
+            "name": "ckeditor-plugin/selectall",
+            "version": "4.11.4",
+            "dist": {
+                "type": "zip",
+                "url": "https://download.ckeditor.com/selectall/releases/selectall_4.11.4.zip"
+            },
+            "type": "drupal-library"
+        },
+        {
+            "name": "ckeditor-plugin/wsc",
+            "version": "4.11.4",
+            "dist": {
+                "type": "zip",
+                "url": "https://download.ckeditor.com/wsc/releases/wsc_4.11.4.zip"
+            },
+            "type": "drupal-library"
+        },
+        {
+            "name": "ckeditor/find",
+            "version": "4.8.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://download.ckeditor.com/find/releases/find_4.8.0.zip"
+            },
+            "type": "drupal-library",
+            "extra": {
+                "installer-name": "find"
+            }
         },
         {
             "name": "commerceguys/addressing",
@@ -2438,6 +2477,57 @@
             }
         },
         {
+            "name": "drupal/ckeditor_find",
+            "version": "1.0.0-beta1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/ckeditor_find.git",
+                "reference": "8.x-1.0-beta1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/ckeditor_find-8.x-1.0-beta1.zip",
+                "reference": "8.x-1.0-beta1",
+                "shasum": "7c0565f56b0aed735a907147fbfc8ab54e42a18c"
+            },
+            "require": {
+                "ckeditor/find": "*",
+                "composer/installers": "^1.0.24",
+                "drupal/core": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0-beta1",
+                    "datestamp": "1516393385",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Dan Hansen (dhansen)",
+                    "homepage": "https://www.drupal.org/u/dhansen",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "This plugin module adds the find and replace dialog to CKEditor in Drupal 8",
+            "homepage": "https://drupal.org/project/ckeditor_find",
+            "support": {
+                "source": "http://cgit.drupalcode.org/ckeditor_find",
+                "issues": "https://drupal.org/project/issues/ckeditor_find"
+            }
+        },
+        {
             "name": "drupal/config_filter",
             "version": "1.5.0",
             "source": {
@@ -2613,6 +2703,11 @@
                 "bin/drupal"
             ],
             "type": "library",
+            "extra": {
+                "patches_applied": {
+                    "Fix spelling error in plugin.php.twig": "https://github.com/ooneill547/drupal-console/commit/ef82d2548c34d21f5288ee59b322bc10dbdf753c.patch"
+                }
+            },
             "autoload": {
                 "psr-4": {
                     "Drupal\\Console\\": "src"
@@ -6255,8 +6350,8 @@
             "authors": [
                 {
                     "name": "Christian Weiske",
-                    "email": "cweiske@php.net",
-                    "role": "Lead"
+                    "role": "Lead",
+                    "email": "cweiske@php.net"
                 }
             ],
             "description": "Minimal set of PEAR core files to be used as composer dependency",
@@ -9213,6 +9308,15 @@
                 "webdriver"
             ],
             "time": "2019-09-02T09:46:54+00:00"
+        },
+        {
+            "name": "ckeditor-plugin/find",
+            "version": "4.11.4",
+            "dist": {
+                "type": "zip",
+                "url": "https://download.ckeditor.com/find/releases/find_4.11.4.zip"
+            },
+            "type": "drupal-library"
         },
         {
             "name": "composer/xdebug-handler",
@@ -12388,6 +12492,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "drupal/ckeditor_find": 10,
         "drupal/inline_entity_form": 5,
         "drupal/media_browser_responsive_images": 20
     },

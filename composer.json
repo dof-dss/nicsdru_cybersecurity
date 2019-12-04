@@ -13,16 +13,71 @@
         {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "ckeditor/find",
+                "version": "4.8.0",
+                "type": "drupal-library",
+                "extra": {
+                    "installer-name": "find"
+                },
+                "dist": {
+                    "url": "https://download.ckeditor.com/find/releases/find_4.8.0.zip",
+                    "type": "zip"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "ckeditor-plugin/selectall",
+                "version": "4.11.4",
+                "type": "drupal-library",
+                "dist": {
+                    "url": "https://download.ckeditor.com/selectall/releases/selectall_4.11.4.zip",
+                    "type": "zip"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "ckeditor-plugin/scayt",
+                "version": "4.11.4",
+                "type": "drupal-library",
+                "dist": {
+                    "url": "https://download.ckeditor.com/scayt/releases/scayt_4.11.4.zip",
+                    "type": "zip"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "ckeditor-plugin/wsc",
+                "version": "4.11.4",
+                "type": "drupal-library",
+                "dist": {
+                    "url": "https://download.ckeditor.com/wsc/releases/wsc_4.11.4.zip",
+                    "type": "zip"
+                }
+            }
         }
     ],
     "require": {
         "php": ">=7.0.8",
+        "ckeditor-plugin/scayt": "^4.11.4",
+        "ckeditor-plugin/selectall": "^4.11.4",
+        "ckeditor-plugin/wsc": "^4.11.4",
         "composer/installers": "^1.2",
         "cweagans/composer-patches": "^1.6.5",
         "dof-dss/nicsdru_origins_profile": "^0.1",
         "drupal-composer/drupal-scaffold": "^2.5",
+        "drupal/ckeditor_find": "^1.0@beta",
         "drupal/config_split": "^1.4",
-        "drupal/console": "^1.0.2",
+        "drupal/console": "^1.9",
         "drupal/core": "^8.7.0",
         "drupal/entity_embed": "^1.0",
         "drupal/eu_cookie_compliance": "^1.8",
@@ -96,6 +151,10 @@
             "web/core": [
                 "type:drupal-core"
             ],
+            "web/libraries/ckeditor/plugins/{$name}": [
+                "ckeditor/find",
+                "vendor:ckeditor-plugin"
+            ],
             "web/libraries/{$name}": [
                 "type:drupal-library"
             ],
@@ -127,6 +186,9 @@
         "patches": {
             "drupal/core": {
                 "Add contextual link to blocks in layout builder": "https://www.drupal.org/files/issues/2019-09-06/contextual_links_with_LB-3020876-18_0.patch"
+            },
+            "drupal/console": {
+                "Fix spelling error in plugin.php.twig": "https://github.com/ooneill547/drupal-console/commit/ef82d2548c34d21f5288ee59b322bc10dbdf753c.patch"
             }
         }
     }
