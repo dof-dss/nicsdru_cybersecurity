@@ -18,15 +18,12 @@ settings:
           name: Formatting
           items:
             - Bold
-            - Italic
             - Superscript
-            - Subscript
         -
           name: Lists
           items:
             - BulletedList
             - NumberedList
-            - Blockquote
         -
           name: Edit
           items:
@@ -41,7 +38,6 @@ settings:
           items:
             - Linkit
             - DrupalUnlink
-            - DrupalFontAwesome
         -
           name: 'Remove formatting'
           items:
@@ -55,17 +51,6 @@ settings:
           name: 'Block Formatting'
           items:
             - Format
-        -
-          name: Styles
-          items:
-            - Styles
-        -
-          name: Text
-          items:
-            - SelectAll
-            - Find
-            - Replace
-            - Scayt
         -
           name: Maximise
           items:
