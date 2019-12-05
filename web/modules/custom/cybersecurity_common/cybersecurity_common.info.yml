@@ -1,6 +1,6 @@
 name: 'Cyber Security Common'
 type: module
-description: 'A module to include small changes to the Cyber Security site'
+description: 'OBSOLETE - to be deleted once all configs updated - MSD'
 core: 8.x
 package: custom
 dependencies:
