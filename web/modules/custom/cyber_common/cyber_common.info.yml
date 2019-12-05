@@ -1,0 +1,7 @@
+name: 'Cyber Common'
+type: module
+description: 'A module to include small changes to the Cyber Security site'
+core: 8.x
+package: 'Custom'
+dependencies:
+  - linkit
