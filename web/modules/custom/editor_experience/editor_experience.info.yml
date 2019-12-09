@@ -1,6 +1,6 @@
 name: Editor Experience
 type: module
-description: Extends CKEditor toolbar
+description: OBSOLETE - to be deleted once all configs updated - MSD
 core: 8.x
 package: CKEditor
 dependencies:

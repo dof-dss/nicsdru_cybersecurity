@@ -2171,16 +2171,16 @@
         },
         {
             "name": "dof-dss/nicsdru_origins_modules",
-            "version": "0.1.4",
+            "version": "0.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dof-dss/nicsdru_origins_modules.git",
-                "reference": "98550c4c1f62d556f46a2d049a257735359c42c8"
+                "reference": "1b640a573747cd703a536659e0518029a84f60f8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dof-dss/nicsdru_origins_modules/zipball/98550c4c1f62d556f46a2d049a257735359c42c8",
-                "reference": "98550c4c1f62d556f46a2d049a257735359c42c8",
+                "url": "https://api.github.com/repos/dof-dss/nicsdru_origins_modules/zipball/1b640a573747cd703a536659e0518029a84f60f8",
+                "reference": "1b640a573747cd703a536659e0518029a84f60f8",
                 "shasum": ""
             },
             "require": {
@@ -2189,24 +2189,24 @@
             "type": "drupal-module",
             "notification-url": "https://packagist.org/downloads/",
             "description": "Generic modules for DOF-DSS Drupal sites",
-            "time": "2019-11-06T14:18:46+00:00"
+            "time": "2019-12-06T10:26:59+00:00"
         },
         {
             "name": "dof-dss/nicsdru_origins_profile",
-            "version": "0.1.1",
+            "version": "0.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dof-dss/nicsdru_origins_profile.git",
-                "reference": "676d6f41489227e3218033cf37f761cbf35b9427"
+                "reference": "83bec444d38b81bbec6c0679ee210d5578ba7454"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dof-dss/nicsdru_origins_profile/zipball/676d6f41489227e3218033cf37f761cbf35b9427",
-                "reference": "676d6f41489227e3218033cf37f761cbf35b9427",
+                "url": "https://api.github.com/repos/dof-dss/nicsdru_origins_profile/zipball/83bec444d38b81bbec6c0679ee210d5578ba7454",
+                "reference": "83bec444d38b81bbec6c0679ee210d5578ba7454",
                 "shasum": ""
             },
             "require": {
-                "dof-dss/nicsdru_origins_modules": "^0.1",
+                "dof-dss/nicsdru_origins_modules": "^0.2",
                 "drupal/address": "^1.7",
                 "drupal/admin_toolbar": "^1.2",
                 "drupal/adminimal_theme": "^1.5",
@@ -2223,10 +2223,10 @@
                 "drupal/token_filter": "^1.1",
                 "drupal/views_custom_cache_tag": "^1.1"
             },
-            "type": "drupal-module",
+            "type": "drupal-profile",
             "notification-url": "https://packagist.org/downloads/",
             "description": "Drupal install profile to provide common functionality for NICS websites",
-            "time": "2019-09-20T09:58:20+00:00"
+            "time": "2019-12-09T11:53:24+00:00"
         },
         {
             "name": "drupal-composer/drupal-scaffold",
@@ -12486,6 +12486,7 @@
                 "GPL-2.0-or-later"
             ],
             "description": "require-dev dependencies from drupal/core",
+            "abandoned": "drupal/core-dev",
             "time": "2019-11-06T18:31:43+00:00"
         }
     ],

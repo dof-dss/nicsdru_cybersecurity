@@ -18,13 +18,12 @@ module:
   contextual: 0
   ctools: 0
   cyber_breadcrumbs: 0
-  cybersecurity_common: 0
+  cyber_common: 0
   datetime: 0
   datetime_range: 0
   dblog: 0
   dynamic_page_cache: 0
   editor: 0
-  editor_experience: 0
   embed: 0
   entity_browser: 0
   entity_browser_entity_form: 0
@@ -56,6 +55,7 @@ module:
   metatag_twitter_cards: 0
   node: 0
   options: 0
+  origins_ckeditor_enhancements: 0
   origins_common: 0
   origins_layouts: 0
   origins_toc: 0
@@ -64,7 +64,6 @@ module:
   path: 0
   rdf: 0
   redirect_after_login: 0
-  remove_format_help: 0
   responsive_image: 0
   search_api: 0
   search_api_db: 0

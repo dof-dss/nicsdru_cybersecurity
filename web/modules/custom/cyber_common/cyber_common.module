@@ -2,7 +2,7 @@
 
 /**
  * @file
- * Contains cybersecurity_common.module.
+ * Contains cyber_common.module.
  */
 
 use Drupal\Core\Form\FormStateInterface;
@@ -14,7 +14,7 @@ use Drupal\Core\StringTranslation\TranslatableMarkup;
  *
  * Edits the description on the linkit_editor_dialog_form.
  */
-function cybersecurity_common_form_alter(&$form, FormStateInterface $form_state, $form_id) {
+function cyber_common_form_alter(&$form, FormStateInterface $form_state, $form_id) {
   $description = "Start typing to find internal content or to insert an email address. To add an external link paste the full URL (e.g. http://www.example.com).";
 
   if ($form_id == "linkit_editor_dialog_form") {
@@ -27,7 +27,7 @@ function cybersecurity_common_form_alter(&$form, FormStateInterface $form_state,
  *
  * Edits format tags in CKEditor to remove the option to include Heading 1.
  */
-function cybersecurity_common_js_settings_alter(array &$settings) {
+function cyber_common_js_settings_alter(array &$settings) {
   if (isset($settings['editor']['formats'])) :
     foreach ($settings['editor']['formats'] as $index => $text_filter) {
       $settings['editor']['formats'][$index]['editorSettings']['format_tags'] = "p;h2;h3;h4;h5;h6;pre";
