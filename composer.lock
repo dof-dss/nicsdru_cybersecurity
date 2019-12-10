@@ -2171,16 +2171,16 @@
         },
         {
             "name": "dof-dss/nicsdru_origins_modules",
-            "version": "0.2.1",
+            "version": "0.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dof-dss/nicsdru_origins_modules.git",
-                "reference": "1b640a573747cd703a536659e0518029a84f60f8"
+                "reference": "d650e4b78981b071094df8cf068f8396ab975904"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dof-dss/nicsdru_origins_modules/zipball/1b640a573747cd703a536659e0518029a84f60f8",
-                "reference": "1b640a573747cd703a536659e0518029a84f60f8",
+                "url": "https://api.github.com/repos/dof-dss/nicsdru_origins_modules/zipball/d650e4b78981b071094df8cf068f8396ab975904",
+                "reference": "d650e4b78981b071094df8cf068f8396ab975904",
                 "shasum": ""
             },
             "require": {
@@ -2189,7 +2189,7 @@
             "type": "drupal-module",
             "notification-url": "https://packagist.org/downloads/",
             "description": "Generic modules for DOF-DSS Drupal sites",
-            "time": "2019-12-06T10:26:59+00:00"
+            "time": "2019-12-10T09:13:29+00:00"
         },
         {
             "name": "dof-dss/nicsdru_origins_profile",
