@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3d98bb6b88e3c339a7dc16cd802b2dca",
+    "content-hash": "d21cf1eb348580564681fc352248a538",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -3273,17 +3273,17 @@
         },
         {
             "name": "drupal/embed",
-            "version": "1.0.0",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/embed.git",
-                "reference": "8.x-1.0"
+                "reference": "8.x-1.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/embed-8.x-1.0.zip",
-                "reference": "8.x-1.0",
-                "shasum": "cc746ad807260e01c7788dd82110dcebbb4d678a"
+                "url": "https://ftp.drupal.org/files/projects/embed-8.x-1.1.zip",
+                "reference": "8.x-1.1",
+                "shasum": "d1c1dbd5eb8f82ce635b1abab40837c2c7e0ff9f"
             },
             "require": {
                 "drupal/core": "~8.0"
@@ -3294,8 +3294,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.0",
-                    "datestamp": "1490755685",
+                    "version": "8.x-1.1",
+                    "datestamp": "1575666184",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -4212,11 +4212,11 @@
         },
         {
             "name": "drupal/media_browser_responsive_images",
-            "version": "dev-1.x",
+            "version": "dev-2.x",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/media_browser_responsive_images.git",
-                "reference": "7a5d4a71a5c0cd2e4a927840b8c1d60916eeb1c6"
+                "reference": "c9c5addfe5a20098c674a0541fd3e4bd6f957a64"
             },
             "require": {
                 "drupal/core": "*",
@@ -4228,11 +4228,11 @@
             "type": "drupal-module",
             "extra": {
                 "branch-alias": {
-                    "dev-1.x": "1.x-dev"
+                    "dev-2.x": "2.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.x-dev",
-                    "datestamp": "1573202584",
+                    "version": "8.x-2.x-dev",
+                    "datestamp": "1575990780",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Project has not opted into security advisory coverage!"
@@ -4254,7 +4254,7 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/media_browser_responsive_images"
             },
-            "time": "2019-11-07T15:30:12+00:00"
+            "time": "2019-12-10T14:42:27+00:00"
         },
         {
             "name": "drupal/media_entity_browser",
