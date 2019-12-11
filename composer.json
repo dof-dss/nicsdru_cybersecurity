@@ -90,7 +90,7 @@
         "drupal/media_browser_responsive_images": "1.x-dev",
         "drupal/media_entity_browser": "^2.0",
         "drupal/menu_breadcrumb": "^1.11",
-        "drupal/pathauto": "^1.4",
+        "drupal/pathauto": "^1.6",
         "drupal/redirect_after_login": "^2.5",
         "drupal/search_api": "^1.14",
         "drupal/structure_sync": "^1.16",
@@ -107,10 +107,11 @@
     "require-dev": {
         "drupal/backup_migrate": "^4.0",
         "drupal/coder": "~8.0",
+        "drupal/core-dev": "^8.8@beta",
         "drupal/devel": "^2.1",
         "mglaman/drupal-check": "^1.0",
         "phpstan/phpstan": "0.11.16",
-        "webflo/drupal-core-require-dev": "^8.7.0"
+        "symfony/debug": "^3.4"
     },
     "conflict": {
         "drupal/drupal": "*"
@@ -184,9 +185,6 @@
             }
         },
         "patches": {
-            "drupal/core": {
-                "Add contextual link to blocks in layout builder": "https://www.drupal.org/files/issues/2019-09-06/contextual_links_with_LB-3020876-18_0.patch"
-            },
             "drupal/console": {
                 "Fix spelling error in plugin.php.twig": "https://github.com/ooneill547/drupal-console/commit/ef82d2548c34d21f5288ee59b322bc10dbdf753c.patch"
             }

@@ -18,65 +18,48 @@ settings:
           name: Formatting
           items:
             - Bold
-            - Italic
-            - Superscript
-            - Subscript
-        -
-          name: Lists
-          items:
-            - BulletedList
-            - NumberedList
             - Blockquote
+            - Superscript
         -
-          name: Edit
+          name: 'Block Formatting'
           items:
-            - Undo
-            - Redo
-            - Cut
-            - Copy
-            - Paste
-            - PasteFromWord
-        -
-          name: Linking
-          items:
-            - Linkit
-            - DrupalUnlink
-            - DrupalFontAwesome
+            - Format
+            - Table
         -
           name: 'Remove formatting'
           items:
             - RemoveFormat
         -
-          name: Special
+          name: Linking
           items:
-            - SpecialChar
-            - Table
+            - Linkit
+            - DrupalUnlink
         -
-          name: 'Block Formatting'
+          name: Lists
           items:
-            - Format
-        -
-          name: Styles
-          items:
-            - Styles
-        -
-          name: Text
-          items:
-            - SelectAll
-            - Find
-            - Replace
-            - Scayt
-        -
-          name: Maximise
-          items:
-            - Maximize
+            - BulletedList
+            - NumberedList
         -
           name: Embed
           items:
             - image_embed
+        -
+          name: Media
+          items:
+            - Undo
+            - Redo
+        -
+          name: Tools
+          items:
+            - Cut
+            - Copy
+            - PasteText
+            - PasteFromWord
+            - SpecialChar
+            - Maximize
   plugins:
     stylescombo:
-      styles: 'p.info-notice|Information notice'
+      styles: ''
     language:
       language_list: un
     linkit:
