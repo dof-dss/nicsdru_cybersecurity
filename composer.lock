@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d21cf1eb348580564681fc352248a538",
+    "content-hash": "186aecd58977fdcb5db6d6a131f73812",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -4212,11 +4212,11 @@
         },
         {
             "name": "drupal/media_browser_responsive_images",
-            "version": "dev-2.x",
+            "version": "dev-3.x",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/media_browser_responsive_images.git",
-                "reference": "c9c5addfe5a20098c674a0541fd3e4bd6f957a64"
+                "reference": "128c082b35c2180acab9487b983e0a7cc9425b24"
             },
             "require": {
                 "drupal/core": "*",
@@ -4228,11 +4228,11 @@
             "type": "drupal-module",
             "extra": {
                 "branch-alias": {
-                    "dev-2.x": "2.x-dev"
+                    "dev-3.x": "3.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-2.x-dev",
-                    "datestamp": "1575990780",
+                    "version": "8.x-3.x-dev",
+                    "datestamp": "1576078680",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Project has not opted into security advisory coverage!"
@@ -4254,7 +4254,7 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/media_browser_responsive_images"
             },
-            "time": "2019-12-10T14:42:27+00:00"
+            "time": "2019-12-11T15:24:56+00:00"
         },
         {
             "name": "drupal/media_entity_browser",
