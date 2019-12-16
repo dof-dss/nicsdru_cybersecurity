@@ -122,9 +122,9 @@
         "sort-packages": true
     },
     "autoload": {
-        "classmap": [
-            "scripts/composer/ScriptHandler.php"
-        ],
+        "psr-4": {
+            "Drupal\\Core\\Composer\\": "core/lib/Drupal/Core/Composer"
+        },
         "files": [
             "load.environment.php"
         ]
