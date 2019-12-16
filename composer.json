@@ -77,7 +77,7 @@
         "drupal/ckeditor_find": "^1.0@beta",
         "drupal/config_split": "^1.4",
         "drupal/console": "^1.9",
-        "drupal/core": "^8.7.0",
+        "drupal/core": "^8.8",
         "drupal/core-composer-scaffold": "^8.8",
         "drupal/core-recommended": "^8.8",
         "drupal/entity_embed": "^1.0",
@@ -91,7 +91,7 @@
         "drupal/media_browser_responsive_images": ">1.x-dev",
         "drupal/media_entity_browser": "^2.0",
         "drupal/menu_breadcrumb": "^1.11",
-        "drupal/pathauto": "^1.4",
+        "drupal/pathauto": "^1.6",
         "drupal/redirect_after_login": "^2.5",
         "drupal/search_api": "^1.14",
         "drupal/structure_sync": "^1.16",
@@ -101,7 +101,6 @@
         "drupal/webform": "^5.4",
         "drush/drush": "^9.0.0",
         "vlucas/phpdotenv": "^2.4",
-        "webflo/drupal-finder": "^1.0.0",
         "webmozart/path-util": "^2.3",
         "zaporylie/composer-drupal-optimizations": "^1.0"
     },
@@ -110,8 +109,7 @@
         "drupal/coder": "~8.0",
         "drupal/devel": "^2.1",
         "mglaman/drupal-check": "^1.0",
-        "phpstan/phpstan": "0.11.16",
-        "webflo/drupal-core-require-dev": "^8.7.0"
+        "phpstan/phpstan": "0.11.16"
     },
     "conflict": {
         "drupal/drupal": "*"
@@ -170,9 +168,6 @@
             }
         },
         "patches": {
-            "drupal/core": {
-                "Add contextual link to blocks in layout builder": "https://www.drupal.org/files/issues/2019-09-06/contextual_links_with_LB-3020876-18_0.patch"
-            },
             "drupal/console": {
                 "Fix spelling error in plugin.php.twig": "https://github.com/ooneill547/drupal-console/commit/ef82d2548c34d21f5288ee59b322bc10dbdf753c.patch"
             }
